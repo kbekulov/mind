@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "researchedAt": "2026-09-23",
-  "scope": "European and Asian RPA and related automation roles; all seniority levels and arrangements.",
+  "scope": "Profile-led job research across Europe and Asia: automation, C#/.NET, applied AI integration, solution design, technical leadership, business analysis and adjacent delivery roles.",
   "methodology": [
     "Purposive sample from employer careers pages and official ATS feeds, supplemented by named recruitment agencies. Not a census or statistically representative market estimate.",
     "One distinct advertisement per employer, title and country. Multiple cities and advertised headcount do not multiply counts.",
@@ -11,7 +11,9 @@
     "Unknown salary, work arrangement and experience remain unknown. Remote options do not imply work-from-anywhere or visa sponsorship.",
     "Country and region are based on advertised work location. UAE is grouped in Western Asia. Counts describe this collected sample only; zero collected ads does not mean zero jobs.",
     "No currency conversion or salary averaging. Each figure retains its advertised currency, period and basis.",
-    "This is a dated manual snapshot, not an automatically refreshed feed. Sources can change or close after checking."
+    "This is a dated manual snapshot, not an automatically refreshed feed. Sources can change or close after checking.",
+    "Profile fit is manually assessed against user-provided professional screenshots dated 23 September 2026. Strong technical fit and Potential fit form the default review shortlist; Stretch and Lower priority remain available for transparency. All work arrangements stay in scope.",
+    "The supplied screenshots do not establish language proficiency or work authorization. No vacancy is treated as fully eligible until its requirements are confirmed. This review does not guarantee coverage of every possible vacancy."
   ],
   "excluded": [
     {
@@ -91,7 +93,19 @@
       "evidenceUrl": "https://karjera.registrucentras.lt/jobs/8267881-vyriausias-rpa-sprendimu-vystytojas-a",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "RPA delivery, process analysis and Power Automate-related integration overlap."
+        ],
+        "checks": [
+          "Fluent Lithuanian and English B1 are required but proficiency was not supplied; Power Apps depth also needs checking."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "kesko",
@@ -128,7 +142,19 @@
       "evidenceUrl": "https://keskosenukailithuania.teamtailor.com/en/jobs/8244747-rpa-developer",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath, SQL, C# and stakeholder-facing automation overlap."
+        ],
+        "checks": [
+          "Confirm 2–4 years of UiPath-specific depth; the profile does not allocate years per platform."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "coherent",
@@ -159,7 +185,19 @@
       "evidenceUrl": "https://job-boards.eu.greenhouse.io/coherentsolutions/jobs/4969509101",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Strong technical fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Blue Prism is an accepted platform; C#/.NET, SQL, integrations and full-cycle automation are evidenced."
+        ],
+        "checks": [
+          "Confirm EST overlap, Azure/MuleSoft ecosystem requirements and location eligibility."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "adesso",
@@ -186,7 +224,19 @@
       "evidenceUrl": "https://www.adesso.ch/de_ch/jobs-karriere/unsere-stellenangebote/UiPath-Automation-Consultant-all-genders-de-j2959.html",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Automation delivery, solution design and mentoring support consulting work."
+        ],
+        "checks": [
+          "German is required and not evidenced; confirm UiPath-specific depth and Swiss work eligibility."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "isolutions",
@@ -216,7 +266,19 @@
       "evidenceUrl": "https://www.isolutions.ch/en/career/senior-power-platform-consultant/",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Solution design, mentoring and Power Automate experience transfer."
+        ],
+        "checks": [
+          "Deep Power Apps, Dataverse, Copilot Studio, governance and German are unverified."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "inpost",
@@ -245,7 +307,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/InPost/postings/744000137441230",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Intelligent automation / AI integration",
+        "strengths": [
+          "RPA plus LLM integration is directly aligned with the senior-role description."
+        ],
+        "checks": [
+          "Polish fluency and English B2 are unverified; confirm UiPath depth and SAP exposure."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "tieto",
@@ -281,7 +355,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Tieto2/postings/744000142094669",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Power Automate, C# and solution development provide a foundation."
+        ],
+        "checks": [
+          "Three years across Power Apps/Pages/BI and Azure are not established; German and English need checking."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "devoteam-pt",
@@ -309,7 +395,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000113688413",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "RPA development, requirements analysis and solution-design experience overlap."
+        ],
+        "checks": [
+          "Portuguese and English required; UiPath certifications are not supplied."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "devoteam-fr",
@@ -339,7 +437,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000095703193",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Automation and software engineering are transferable."
+        ],
+        "checks": [
+          "Three years of the broader Power Platform stack, Dataverse and Azure are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "conet",
@@ -369,7 +479,19 @@
       "evidenceUrl": "https://www.conet.de/de/karriere/jobs/2024-196-software-developer-microsoft-dynamics-senior/",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "C#/.NET, integrations and Power Automate are relevant."
+        ],
+        "checks": [
+          "Dynamics 365 depth and German C2 are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "version1",
@@ -398,7 +520,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000115388077",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "C#/.NET and enterprise integrations overlap."
+        ],
+        "checks": [
+          "Dynamics CRM expertise and managed-services/ITIL experience are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "nhs",
@@ -433,7 +567,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/PortsmouthHospitalsUniversityNHSTrust/postings/744000140426410",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Strong technical fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Blue Prism, Power Automate, complex delivery, quality standards and mentoring directly align."
+        ],
+        "checks": [
+          "Confirm Power Apps depth, UK eligibility, fixed-term arrangement and cross-site travel."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "tsystems",
@@ -463,7 +609,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/T-SystemsIberia/postings/744000141727388",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Power Automate and solution development are relevant."
+        ],
+        "checks": [
+          "Power Apps and Dataverse depth are not shown; confirm language requirements."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "eurofins",
@@ -491,7 +649,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000127024159",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Power Automate, APIs and business-process automation overlap."
+        ],
+        "checks": [
+          "Python and PowerShell experience are not evidenced; clarify how central they are."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "bunge",
@@ -521,7 +691,19 @@
       "evidenceUrl": "https://jobs.bunge.com/job/Bhurai-In-Senior-Process-Associate-RPA-Development-PB-160059/1429042233/",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Shared-services automation, SQL and VBA are relevant."
+        ],
+        "checks": [
+          "Early-career requirements and Automation Anywhere specialization offer weaker alignment to the senior Blue Prism profile."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "hpe",
@@ -550,7 +732,19 @@
       "evidenceUrl": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Intelligent automation / AI integration",
+        "strengths": [
+          "LLM-enabled RPA and internal platform development directly overlap."
+        ],
+        "checks": [
+          "WorkFusion, LangChain/LangGraph and specific production agent frameworks are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "bosch-ai",
@@ -580,7 +774,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000138889069",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Intelligent automation / AI integration",
+        "strengths": [
+          "RPA, Power Automate, SQL and applied AI integration are relevant."
+        ],
+        "checks": [
+          "Python, Automation Anywhere A360 and hands-on ML/OCR depth are material unverified requirements."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "totalebiz",
@@ -608,7 +814,19 @@
       "evidenceUrl": "https://www.totalebizsolutions.com/job/rpa-developer/",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath, Power Automate and SQL overlap."
+        ],
+        "checks": [
+          "Advertised experience is early-career; confirm whether scope and compensation suit a senior developer."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "symprio",
@@ -635,7 +853,19 @@
       "evidenceUrl": "https://www.symprio.com/careers/",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Senior RPA, UiPath and Power Automate delivery overlap."
+        ],
+        "checks": [
+          "Confirm required platform-specific depth, Malaysian eligibility and actual arrangement."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "bosch-my",
@@ -664,7 +894,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140600669",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "SQL reporting / data operations",
+        "strengths": [
+          "SQL, process automation and business analysis overlap."
+        ],
+        "checks": [
+          "Fresh-graduate/up-to-two-year target and Automation Anywhere/Catalytic differ from the profile’s strongest senior direction."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "continental",
@@ -692,7 +934,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Continental/postings/744000103642605",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation business analysis / process improvement",
+        "strengths": [
+          "RPA delivery, business analysis and cross-team improvements align."
+        ],
+        "checks": [
+          "ERP expertise and exact UiPath depth are unverified; English must be confirmed."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "recruitis",
@@ -718,7 +972,19 @@
       "evidenceUrl": "https://job-boards.greenhouse.io/recruitis/jobs/8527819002",
       "sourceType": "Recruitment agency ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath delivery and full-cycle automation are relevant."
+        ],
+        "checks": [
+          "Strong Thai is required but not evidenced; confirm client, senior scope and work rights."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "dautom",
@@ -747,7 +1013,19 @@
       "evidenceUrl": "https://www.careers-page.com/dautom/job/L57RRY95",
       "sourceType": "Recruitment agency ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Enterprise RPA, C# and SQL are transferable."
+        ],
+        "checks": [
+          "Three years of Automation Anywhere and A360/IQ Bot specialization are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "arch",
@@ -775,7 +1053,19 @@
       "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/ArchGlobalServicesPhilippinesInc/postings/744000126730919",
       "sourceType": "Employer ATS",
       "status": "Listed at check",
-      "verification": "Role description and application route present; no closure notice observed."
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Agile delivery / automation transformation",
+        "strengths": [
+          "Process improvement, stakeholder work and coordination overlap."
+        ],
+        "checks": [
+          "Seven years of optimization leadership, Lean/Six Sigma and BI tooling need evidence; no formal management tenure was supplied."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "digitalbricks-lowcode",
@@ -805,7 +1095,19 @@
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed."
+      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Power Automate and AI integration are relevant."
+        ],
+        "checks": [
+          "Power Apps, Dataverse and Copilot Studio are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     },
     {
       "id": "digitalbricks-lead",
@@ -835,7 +1137,595 @@
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Listed at check",
-      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed."
+      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Internal platforms, AI integration and engineering standards provide a foundation."
+        ],
+        "checks": [
+          "Organization-wide engineering management and deep Azure/cloud architecture are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "capgemini-pl",
+      "company": "Capgemini",
+      "title": "RPA Senior Automation Developer — Blue Prism & UiPath",
+      "country": "Poland",
+      "region": "Europe",
+      "location": "Kraków / Warsaw / Wrocław / other Polish offices",
+      "level": "Senior",
+      "experience": "Around 2–3 years RPA",
+      "field": "RPA",
+      "tools": [
+        "Blue Prism",
+        "UiPath",
+        "Object-oriented programming"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent",
+      "summary": "Develop enterprise automations and guide quality, design, mentoring and recruitment.",
+      "notes": "Very good English and IT-related higher education requested. UiPath Document Understanding is an advantage.",
+      "salary": null,
+      "postedAt": "2026-09-07",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-RPA-Senior-Automation-Developer-Blue-Prism-%26-UiPath/1111776601/",
+      "evidenceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-RPA-Senior-Automation-Developer-Blue-Prism-%26-UiPath/1111776601/",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Strong technical fit",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Blue Prism/UiPath, solution design, standards, mentoring and recruitment closely mirror the profile."
+        ],
+        "checks": [
+          "IT-related higher education requested; the supplied degree is International Relations and Politics. Confirm equivalent-experience acceptance and English."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "natixis-wpf",
+      "company": "Natixis in Portugal",
+      "title": "Senior WPF C# .NET Developer | IT CIB",
+      "country": "Portugal",
+      "region": "Europe",
+      "location": "Porto",
+      "level": "Senior",
+      "experience": "Not specified",
+      "field": "C#/.NET engineering",
+      "tools": [
+        "C#",
+        ".NET",
+        "WPF",
+        "Windows Forms",
+        "SQL Server",
+        "NUnit"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Build banking applications with reusable C# code and desktop interfaces.",
+      "notes": "English B2 minimum. CI/CD, testing and code-quality tooling feature in the stack.",
+      "salary": null,
+      "postedAt": "2026-04-30",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/NatixisInPortugal/744000123882109-senior-wpf-c-net-developer-it-cib",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/NatixisInPortugal/postings/744000123882109",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Strong technical fit",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "C#/.NET desktop tools, WPF/WinForms exposure, SQL and code-quality work align."
+        ],
+        "checks": [
+          "Confirm WPF production depth, NUnit/CI-CD tooling and English B2; finance experience is not necessarily capital-markets experience."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "sutherland-wpf",
+      "company": "Sutherland",
+      "title": "C# Developer",
+      "country": "India",
+      "region": "Asia",
+      "location": "Bengaluru",
+      "level": "Senior",
+      "experience": "3+ years",
+      "field": "C#/.NET engineering",
+      "tools": [
+        "C#",
+        ".NET",
+        "WPF",
+        "MVVM"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Develop Windows desktop applications and mentor developers through delivery.",
+      "notes": "Computing/IT degree preferred. Healthcare IT context.",
+      "salary": null,
+      "postedAt": "2026-09-08",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Sutherland/744000148072630-c-developer",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Sutherland/postings/744000148072630",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "C#/.NET desktop development and mentoring overlap."
+        ],
+        "checks": [
+          "Confirm WPF/MVVM-specific depth, healthcare-domain expectations and preferred computing degree equivalence."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "anton-net",
+      "company": "Anton Paar",
+      "title": "Software Developer C#/.NET — international assignment",
+      "country": "Austria",
+      "region": "Europe",
+      "location": "Graz, then overseas assignment",
+      "level": "Multiple levels",
+      "experience": "Practical experience accepted",
+      "field": "C#/.NET engineering",
+      "tools": [
+        "C#",
+        ".NET",
+        "WPF",
+        "MVVM",
+        "Blazor",
+        "Git"
+      ],
+      "mode": "Flexible options",
+      "employment": "Full-time",
+      "summary": "Develop desktop and web software for laboratory instruments.",
+      "notes": "Mandatory 1–3-year overseas assignment after roughly a year in Graz, to Germany, Switzerland or USA. English C1/C2; German advantageous. Occasional work outside the office.",
+      "salary": {
+        "currency": "EUR",
+        "min": 3000,
+        "max": null,
+        "period": "month",
+        "basis": "gross minimum"
+      },
+      "postedAt": "2026-04-22",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/AntonPaar1/744000122174822-software-developer-c-net-f-m-x-with-willingness-to-work-abroad",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/AntonPaar1/postings/744000122174822",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "Desktop .NET work, code reviews and practical-experience entry route align."
+        ],
+        "checks": [
+          "Mandatory overseas assignment and English C1/C2 are unconfirmed; MVVM/Blazor depth needs checking."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "citech-wpf",
+      "company": "CITECH",
+      "title": "Analyste Développeur confirmé WPF / C# (H/F)",
+      "country": "France",
+      "region": "Europe",
+      "location": "Strasbourg",
+      "level": "Senior",
+      "experience": "Several years in a similar role",
+      "field": "Developer productivity",
+      "tools": [
+        "C#",
+        ".NET",
+        "WPF",
+        "Git",
+        "Visual Studio"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Develop internal Visual Studio extensions supporting AI-assisted code generation.",
+      "notes": "Higher education in computing requested. Visual Studio extension experience is advantageous. Working-language expectations need confirmation.",
+      "salary": {
+        "currency": "EUR",
+        "min": 35000,
+        "max": 50000,
+        "period": "year",
+        "basis": "gross"
+      },
+      "postedAt": "2026-03-26",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/CITECH/744000116923908-analyste-developpeur-confirme-wpf-c-h-f-",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/CITECH/postings/744000116923908",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Developer productivity / engineering enablement",
+        "strengths": [
+          "Internal C# developer tools, technical problem-solving and applied AI context closely overlap."
+        ],
+        "checks": [
+          "Computing education requested; confirm equivalence, Git/WPF depth and working French. Prior language courses do not establish fluency."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "singtel-transform",
+      "company": "Singtel Group",
+      "title": "Business and Digital Transformation Mgr",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Lead / management",
+      "experience": "3+ years transformation / automation",
+      "field": "Automation transformation",
+      "tools": [
+        "Power Automate",
+        "Power Apps",
+        "RPA"
+      ],
+      "mode": "Flexible options",
+      "employment": "Not stated",
+      "summary": "Coordinate process automation, solution delivery, adoption and business improvement.",
+      "notes": "Vendor contracts, procurement and licence management are part of the role.",
+      "salary": null,
+      "postedAt": "2026-08-27",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://groupcareers.singtel.com/job/Business-and-Digital-Transformation-Mgr-Sing/1356769166/",
+      "evidenceUrl": "https://groupcareers.singtel.com/job/Business-and-Digital-Transformation-Mgr-Sing/1356769166/",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Agile delivery / automation transformation",
+        "strengths": [
+          "Business-process automation, requirements translation, training and standards overlap."
+        ],
+        "checks": [
+          "Vendor contracts, procurement and end-to-end transformation ownership are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "sggc-lead",
+      "company": "SG Growth Capital",
+      "title": "Technical Lead, AI & Digital Products",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Lead / management",
+      "experience": "7+ years software engineering",
+      "field": "Technical leadership",
+      "tools": [
+        "APIs",
+        "Cloud platforms",
+        "AI integration"
+      ],
+      "mode": "On-site",
+      "employment": "Full-time",
+      "summary": "Lead a small engineering team building internal digital products and AI-enabled workflows.",
+      "notes": "Requires technical-team or complex-workstream leadership and security/risk judgement. No particular programming language specified.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.eu.lever.co/sggc/fee02beb-cb97-454a-a439-4bc485cecf2a",
+      "evidenceUrl": "https://jobs.eu.lever.co/sggc/fee02beb-cb97-454a-a439-4bc485cecf2a",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Internal platforms, AI workflows, reviews, mentoring and hiring participation align."
+        ],
+        "checks": [
+          "Seven years specifically in software engineering, formal team-building scope, cloud and security ownership need verification."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "temus-ai",
+      "company": "Temus",
+      "title": "AI Engineering Lead",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Lead / management",
+      "experience": "Not specified",
+      "field": "Applied AI engineering",
+      "tools": [
+        "LangChain",
+        "LangGraph",
+        "Azure ML",
+        "AWS",
+        "Kubernetes"
+      ],
+      "mode": "Not stated",
+      "employment": "Not stated",
+      "summary": "Lead enterprise AI engineering from prototypes through production delivery.",
+      "notes": "Cloud-native architecture, evaluation, fine-tuning, MLOps and cross-functional leadership feature in the requirements.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://job-boards.greenhouse.io/temus/jobs/5428034008",
+      "evidenceUrl": "https://job-boards.greenhouse.io/temus/jobs/5428034008",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Intelligent automation / AI integration",
+        "strengths": [
+          "Applied LLM integration and technical mentoring are relevant."
+        ],
+        "checks": [
+          "Production ML lifecycle, fine-tuning, evaluation, cloud-native platforms, Kubernetes and named agent frameworks are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "datacareers-ba",
+      "company": "Data Careers",
+      "title": "RPA Business Analyst",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "location": "South West / Fradley — source conflict",
+      "level": "Mid-level",
+      "experience": "5+ automation initiatives preferred",
+      "field": "Automation business analysis",
+      "tools": [
+        "Blue Prism",
+        "Process mapping"
+      ],
+      "mode": "Hybrid",
+      "employment": "Fixed-term",
+      "summary": "Assess automation opportunities and translate stakeholder needs into delivery requirements.",
+      "notes": "Description says 2-year fixed-term and South West; page header says permanent and Fradley. Clarify both. Enhanced background-check eligibility required.",
+      "salary": null,
+      "postedAt": "2026-05-27",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://vacancies.datacareers.co.uk/job/53331/rpa-business-analyst",
+      "evidenceUrl": "https://vacancies.datacareers.co.uk/job/53331/rpa-business-analyst",
+      "sourceType": "Recruitment agency careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation business analysis / process improvement",
+        "strengths": [
+          "Blue Prism, requirements translation, process improvement and delivery bridge work align."
+        ],
+        "checks": [
+          "Confirm formal BA/process-mapping depth, background-check eligibility and conflicting location/contract details."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "te-automation",
+      "company": "TE Connectivity",
+      "title": "Automation Developer",
+      "country": "China",
+      "region": "Asia",
+      "location": "Suzhou",
+      "level": "Mid-level",
+      "experience": "2–3 years UiPath",
+      "field": "RPA",
+      "tools": [
+        "UiPath",
+        "C#",
+        "SQL",
+        "APIs",
+        "Blue Prism",
+        "Power Automate"
+      ],
+      "mode": "On-site",
+      "employment": "Not stated",
+      "summary": "Deliver enterprise automation and business-system integrations for shared services.",
+      "notes": "English required; role-specific UiPath depth, relevant degree and ERP integration requirements need checking. Blue Prism and Power Automate are additional platforms.",
+      "salary": null,
+      "postedAt": "2026-08-06",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://careers.te.com/job/AUTOMATION-DEVELOPER/156309-en_US/",
+      "evidenceUrl": "https://careers.te.com/job/AUTOMATION-DEVELOPER/156309-en_US/",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath, C#, SQL, APIs and fintech automation overlap."
+        ],
+        "checks": [
+          "Confirm 2–3 years specifically in UiPath, SAP/ERP depth, relevant-degree acceptance, English and China work eligibility."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     }
-  ]
+  ],
+  "profile": {
+    "id": "kiril711",
+    "reviewedAt": "2026-09-23",
+    "sourceUrl": "https://www.linkedin.com/in/kiril711/",
+    "source": "User-provided LinkedIn screenshots (8 images; the last two duplicate the visible Skills section). Professional claims are self-reported, not independently verified with employers or issuers.",
+    "headline": "Senior automation engineer with C#/.NET platform experience and applied AI integration",
+    "summary": "The strongest positioning combines enterprise automation, software development and solution design. Blue Prism is the deepest evidenced RPA platform; C#/.NET internal platforms and developer tools support a wider software-engineering search. Technical mentoring, standards and recruitment participation support lead-level exploration, while formal people management remains unverified.",
+    "timeline": [
+      {
+        "title": "Senior Developer, Robotic Process Automation",
+        "employer": "Western Union",
+        "dates": "September 2021–present, as shown",
+        "evidence": "Multi-bot Blue Prism systems; C#/.NET automation platforms and desktop tools; LLM/GenAI integration; API, JavaScript, VB/VBA, Power Automate and UiPath solutions. Code standards, reviews, mentoring, interviews, Agile improvements and business requirements translation.",
+        "source": "Screenshot 2"
+      },
+      {
+        "title": "Developer, Robotic Process Automation",
+        "employer": "Western Union",
+        "dates": "March 2020–September 2021",
+        "evidence": "Blue Prism delivery; AD01 and ASD01 certification claims; WU Star team award for two urgent projects. C#/.NET Core, XAML/WPF learning and VBA support.",
+        "source": "Screenshot 3"
+      },
+      {
+        "title": "Database Administrator 2",
+        "employer": "Western Union",
+        "dates": "May 2019–March 2020",
+        "evidence": "50+ task/procedure automations with VBA/WinForms across Office, mainframe and web systems; SQL/Access reporting; technical training and cross-team standards.",
+        "source": "Screenshot 3"
+      },
+      {
+        "title": "Database Administrator 1",
+        "employer": "Western Union",
+        "dates": "May 2018–May 2019",
+        "evidence": "Fintech application data management, SQL reports, business-team cooperation and VBA learning. Database infrastructure administration is not established by the title alone.",
+        "source": "Screenshot 4"
+      }
+    ],
+    "strengths": [
+      {
+        "title": "Enterprise RPA and solution design",
+        "detail": "Blue Prism multi-bot delivery, certified solution-design claim, troubleshooting and end-to-end automation.",
+        "source": "Screenshots 2–3"
+      },
+      {
+        "title": "C#/.NET and internal platforms",
+        "detail": "Built automation platforms, desktop applications, reusable components and developer-productivity tools.",
+        "source": "Screenshots 1–3"
+      },
+      {
+        "title": "Applied AI and integrations",
+        "detail": "Integrated LLM/GenAI capabilities into RPA workflows; delivered API and cross-platform solutions. Specific AI frameworks and cloud platforms are not named.",
+        "source": "Screenshots 1–2"
+      },
+      {
+        "title": "Technical leadership and delivery",
+        "detail": "Mentoring, hiring interviews, code standards, quality-control coordination, Scrum ceremonies and Lean–Agile workflow improvements.",
+        "source": "Screenshots 2 and 7"
+      },
+      {
+        "title": "Business analysis and data operations",
+        "detail": "Translated operational needs into technical solutions, automated tasks, produced SQL reports and delivered technical training.",
+        "source": "Screenshots 2–4"
+      }
+    ],
+    "education": [
+      {
+        "title": "Bachelor’s degree, International Relations and Politics",
+        "detail": "Cardiff University, 2014–2017. The visible excerpt mentions International Security & Law; the remaining description is collapsed.",
+        "source": "Screenshot 5"
+      },
+      {
+        "title": "French language coursework",
+        "detail": "Institut français de Norvège, 2018–2019; 100+ hours across A2/B1/B2 coursework. This is not evidence of current B2 fluency.",
+        "source": "Screenshot 5"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Blue Prism Certified Solution Designer",
+        "detail": "Issued June 2021; no expiry visible. Employment text names ASD01. Current issuer status not checked.",
+        "source": "Screenshots 3 and 6"
+      },
+      {
+        "title": "Blue Prism Developer (AD01)",
+        "detail": "Claimed in the 2020–2021 role description; issue date and current credential status not visible.",
+        "source": "Screenshot 3"
+      },
+      {
+        "title": "SAFe 5 Practitioner",
+        "detail": "Issued June 2022; explicitly expired June 2023. Do not present as a current certification.",
+        "source": "Screenshot 6"
+      }
+    ],
+    "unknowns": [
+      "Languages section not supplied: current English, Lithuanian, Russian, French and other proficiency levels remain unverified.",
+      "Work authorization, sponsorship needs, relocation willingness, remote-country eligibility, salary expectations and notice period are not supplied.",
+      "Python, Azure/AWS/GCP, LangChain/LangGraph, Kubernetes, MLOps and model training are not evidenced in these screenshots.",
+      "Power Automate experience is visible; deep Power Apps, Dataverse, Dynamics 365 and Copilot Studio expertise is not established.",
+      "Formal direct reports, budget ownership, vendor contracts and organization-wide engineering management are not established by mentoring or recruitment participation.",
+      "The screenshots show only part of 31 skills and 6 certifications. Hidden entries are unknown; the duplicated Skills image adds no evidence.",
+      "Employment tenure is not equivalent to tenure in every tool. RPA starts in March 2020 in the visible chronology; senior RPA starts in September 2021."
+    ],
+    "tracks": [
+      {
+        "name": "Senior RPA / automation engineering",
+        "priority": "Core",
+        "why": "Direct Blue Prism, UiPath, Power Automate, design and support evidence."
+      },
+      {
+        "name": "C#/.NET desktop and internal platforms",
+        "priority": "Core",
+        "why": "Desktop tools, reusable components and platforms; inspect WPF/MVVM, testing and web-stack depth."
+      },
+      {
+        "name": "Intelligent automation / AI integration",
+        "priority": "Core",
+        "why": "LLM integration and PoCs; cloud, Python and production agent frameworks need confirmation."
+      },
+      {
+        "name": "Automation solution design / technical lead",
+        "priority": "Core / progression",
+        "why": "Solution-design credentials, reviews, mentoring and hiring; verify formal scope and architecture requirements."
+      },
+      {
+        "name": "Automation business analysis / process improvement",
+        "priority": "Adjacent",
+        "why": "Requirements translation, process improvements, stakeholder work and delivery experience."
+      },
+      {
+        "name": "Developer productivity / engineering enablement",
+        "priority": "Adjacent",
+        "why": "Internal tooling, code standards and technical training fit enablement-focused engineering roles."
+      },
+      {
+        "name": "Power Platform / integration consulting",
+        "priority": "Conditional",
+        "why": "Power Automate is supported; broader Microsoft platform depth is not assumed."
+      },
+      {
+        "name": "SQL reporting / data operations",
+        "priority": "Adjacent",
+        "why": "SQL/Access reporting and fintech operations; not automatic evidence for senior database infrastructure roles."
+      },
+      {
+        "name": "Agile delivery / automation transformation",
+        "priority": "Conditional",
+        "why": "Scrum support and team improvements; formal delivery ownership and current certifications must be checked."
+      }
+    ],
+    "methodology": "Manual evidence-based comparison of each published role with the supplied professional screenshots. Strong technical fit means direct skills overlap, not confirmed eligibility or likelihood of an offer. Potential fit needs additional checks; Stretch has material unverified requirements; Lower priority reflects level or role mismatch. Unknown language and work rights are not assumed satisfied. No percentages or fabricated automated match scores."
+  }
 }

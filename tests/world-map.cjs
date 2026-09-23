@@ -18,13 +18,16 @@ const counts=Object.fromEntries([...new Set(data.jobs.map(j=>j.country))].map(na
     await page.goto('http://127.0.0.1:4176/#view=market');
     await page.locator('.world-map-count').first().waitFor();
     const map=page.locator('mind-world-map');
+    assert.equal(await map.locator('.world-map-count').evaluateAll(nodes=>nodes.reduce((sum,n)=>sum+Number(n.dataset.count),0)),data.jobs.filter(j=>['Strong technical fit','Potential fit'].includes(j.fit.band)).length,'Default map follows recommended fit');
+    await page.getByLabel('Profile fit',{exact:true}).selectOption('');
+    await map.locator('.world-map-count').first().waitFor();
     assert.equal(await map.locator('.world-map-country').count(),geometry.countries.length);
     assert.equal(await map.locator('.has-vacancies').count(),Object.keys(counts).length);
     assert.equal(await map.locator('.world-map-count').count(),Object.keys(counts).length);
     assert.equal(await map.locator('.world-map-count').evaluateAll(nodes=>nodes.reduce((sum,n)=>sum+Number(n.dataset.count),0)),data.jobs.length);
     for(const [country,n] of Object.entries(counts))assert.equal(await map.locator(`.world-map-country[data-map-country="${country}"]`).getAttribute('data-count'),String(n));
     const colors=await map.locator('.has-vacancies').evaluateAll(nodes=>Object.fromEntries(nodes.map(n=>[n.dataset.count,getComputedStyle(n).fill])));
-    assert.equal(new Set(Object.values(colors)).size,3,'Three distinct density shades');
+    assert.equal(new Set(Object.values(colors)).size,new Set(Object.values(counts)).size,'Distinct density shades follow country totals');
     const overlaps=await map.locator('.world-map-count').evaluateAll(nodes=>{
       const boxes=nodes.map(n=>n.getBoundingClientRect());return boxes.some((a,i)=>boxes.some((b,j)=>i<j&&Math.hypot((a.left+a.right-b.left-b.right)/2,(a.top+a.bottom-b.top-b.bottom)/2)<24));
     });assert.equal(overlaps,false,'World count labels must not overlap');
