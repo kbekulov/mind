@@ -8,7 +8,7 @@ Content is maintained in this repository, then committed and pushed to GitHub Pa
 
 The landing page is the **Job observatory**, currently the site's published collection. A persistent side menu provides Jobs, Politics, Philosophy and Religion. Sections awaiting content clearly state that no research is published yet. On mobile, the menu opens from the header.
 
-Politics contains Russia vs Ukraine war and Gender war. Religion contains Eastern Orthodoxy, Catholicism, Islam, Buddhism and Shinto. Philosophy contains Realism and Idealism, both in international relations. Subsections appear under the active topic and have bookmarkable URLs.
+Politics contains Russia vs Ukraine war and Gender war. Religion contains Eastern Orthodoxy, Catholicism, Islam, Buddhism and Shinto. Philosophy contains Realism and Idealism, both in international relations. The sidebar uses collapsible Discord-style categories and compact hash-prefixed subsection links, all visible by default. Subsections have bookmarkable URLs; this is navigation, not a chat or content editor.
 
 ## Job observatory
 

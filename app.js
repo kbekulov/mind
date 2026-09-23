@@ -8,15 +8,26 @@
     {id:'religion',name:'Religion',description:'Religious research',topics:[{id:'eastern-orthodoxy',name:'Eastern Orthodoxy'},{id:'catholicism',name:'Catholicism'},{id:'islam',name:'Islam'},{id:'buddhism',name:'Buddhism'},{id:'shinto',name:'Shinto'}]}
   ];
   const href=(section,topic)=>`#view=${section.id}${topic?'&topic='+topic.id:''}`;
+  const collapsed=new Set();
+  const channelName=name=>name.toLowerCase().replace(/[()]/g,'').replace(/\s+/g,'-');
   let menuOpen=false;
   function render(){
     const params=new URLSearchParams(location.hash.slice(1));
     const section=sections.find(s=>s.id===params.get('view'))||sections[0];
     const topic=section.topics?.find(t=>t.id===params.get('topic'));
     document.title=`${topic?.name||section.description} — Mind castle`;
-    const navigation=sections.map(s=>`<div class="section-nav"><a href="${href(s)}" ${s.id===section.id&&!topic?'aria-current="page"':''} class="${s.id===section.id?'active-section':''}">${s.name}</a>${s.id===section.id&&s.topics?`<div class="topic-nav">${s.topics.map(t=>`<a href="${href(s,t)}" ${topic?.id===t.id?'aria-current="page"':''}>${t.name}</a>`).join('')}</div>`:''}</div>`).join('');
+    const navigation=sections.map(s=>{
+      const topics=s.topics||[{name:'Job observatory'}];
+      return `<div class="section-nav"><div class="category-heading"><button class="category-toggle" data-category="${s.id}" aria-label="Toggle ${s.name} category" aria-expanded="${!collapsed.has(s.id)}" aria-controls="channels-${s.id}"><span aria-hidden="true">⌄</span></button><a href="${href(s)}" ${s.id===section.id&&!topic&&s.topics?'aria-current="page"':''}>${s.name}</a></div><div class="topic-nav" id="channels-${s.id}" ${collapsed.has(s.id)?'hidden':''}>${topics.map(t=>`<a href="${href(s,t.id?t:undefined)}" aria-label="${t.name}" title="${t.name}" ${s.id===section.id&&(t.id?topic?.id===t.id:!topic)?'aria-current="page"':''}><span class="channel-hash" aria-hidden="true">#</span><span class="channel-name">${channelName(t.name)}</span></a>`).join('')}</div></div>`;
+    }).join('');
     const content=section.id==='market'?MindMarket.render():`<section class="topic-page"><div class="eyebrow">${topic?section.name.toUpperCase():'RESEARCH LIBRARY'}</div><h1>${topic?.name||section.name}</h1>${topic?'<div class="topic-empty">No research published in this section yet.</div>':`<p class="subtitle">${section.description}</p><div class="topic-grid">${section.topics.map(t=>`<a class="topic-card" href="${href(section,t)}"><h2>${t.name}</h2><span>View section →</span></a>`).join('')}</div>`}</section>`;
-    document.querySelector('#app').innerHTML=`<div class="app-shell ${menuOpen?'menu-open':''}"><aside class="sidebar" aria-label="Research sections"><a class="site-brand" href="#view=market">Mind castle</a><span class="sidebar-label">RESEARCH LIBRARY</span><nav>${navigation}</nav></aside><button class="menu-scrim" aria-label="Close navigation"></button><main class="main"><header class="topbar"><button class="menu-toggle" aria-label="Open navigation" aria-expanded="${menuOpen}">☰</button><a href="${href(section)}">${section.name}</a>${topic?`<span aria-hidden="true">/</span><span class="topic-breadcrumb">${topic.name}</span>`:''}</header><div class="workspace-content market-view"><div class="content-scroll" tabindex="-1"><div class="page-wrap">${content}</div></div></div></main></div>`;
+    document.querySelector('#app').innerHTML=`<div class="app-shell ${menuOpen?'menu-open':''}"><aside class="sidebar" aria-label="Research sections"><a class="site-brand" href="#view=market">Mind castle</a><nav>${navigation}</nav></aside><button class="menu-scrim" aria-label="Close navigation"></button><main class="main"><header class="topbar"><button class="menu-toggle" aria-label="Open navigation" aria-expanded="${menuOpen}">☰</button><span class="channel-hash" aria-hidden="true">#</span><span class="topic-breadcrumb">${channelName(topic?.name||(section.id==='market'?'Job observatory':section.name))}</span></header><div class="workspace-content market-view"><div class="content-scroll" tabindex="-1"><div class="page-wrap">${content}</div></div></div></main></div>`;
+    document.querySelectorAll('[data-category]').forEach(button=>button.onclick=()=>{
+      const id=button.dataset.category;
+      if(collapsed.has(id))collapsed.delete(id);else collapsed.add(id);
+      button.setAttribute('aria-expanded',String(!collapsed.has(id)));
+      document.querySelector('#channels-'+id).hidden=collapsed.has(id);
+    });
     document.querySelector('.menu-toggle').onclick=()=>{menuOpen=!menuOpen;render();};
     document.querySelector('.menu-scrim').onclick=()=>{menuOpen=false;render();};
   }
