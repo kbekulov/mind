@@ -8,6 +8,8 @@ Content is maintained in this repository, then committed and pushed to GitHub Pa
 
 The landing page is the **Job observatory**, currently the site's published collection. A persistent side menu provides Jobs, Politics, Philosophy and Religion. Sections awaiting content clearly state that no research is published yet. On mobile, the menu opens from the header.
 
+Politics contains Russia vs Ukraine war and Gender war. Religion contains Eastern Orthodoxy, Catholicism, Islam, Buddhism and Shinto. Philosophy contains Realism and Idealism, both in international relations. Subsections appear under the active topic and have bookmarkable URLs.
+
 ## Job observatory
 
 `data/rpa-vacancies.json` contains 47 sourced advertisements across 18 countries, checked on 23 September 2026. The latest search added 11 listings and rechecked 36 existing source pages. By default, 24 direct or plausible fits are shown; stretch and lower-priority roles remain available through the filters. Counts describe this research sample, not total market demand or guaranteed availability.

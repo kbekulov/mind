@@ -19,20 +19,33 @@ const path=require('node:path');
       assert.equal(await page.evaluate(()=>localStorage.getItem('mind.workspace.v1')),'legacy-user-data');
     }
     for(const name of ['Politics','Philosophy','Religion']){
-      await page.getByRole('link',{name,exact:true}).click();
+      await page.locator('.sidebar').getByRole('link',{name,exact:true}).click();
       await page.getByRole('heading',{name,exact:true}).waitFor();
-      assert.equal(await page.getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
+      assert.equal(await page.locator('.sidebar').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
     }
-    await page.getByRole('link',{name:'Jobs',exact:true}).click();
+    for(const [parent,names] of Object.entries({Politics:['Russia vs Ukraine war','Gender war'],Religion:['Eastern Orthodoxy','Catholicism','Islam','Buddhism','Shinto'],Philosophy:['Realism (international relations)','Idealism (international relations)']})){
+      await page.locator('.sidebar').getByRole('link',{name:parent,exact:true}).click();
+      await page.getByRole('heading',{name:parent,exact:true}).waitFor();
+      assert.equal(await page.locator('.topic-card').count(),names.length);
+      for(const name of names){
+        await page.locator('.topic-nav').getByRole('link',{name,exact:true}).click();
+        await page.getByRole('heading',{name,exact:true}).waitFor();
+        await page.reload();
+        await page.getByRole('heading',{name,exact:true}).waitFor();
+        assert.equal(await page.locator('.topic-nav').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
+      }
+    }
+    await page.screenshot({path:'test-results/subsections.png'});
+    await page.locator('.sidebar').getByRole('link',{name:'Jobs',exact:true}).click();
     await page.locator('.market-kpis').waitFor();
     await page.screenshot({path:'test-results/published-desktop.png'});
     await page.setViewportSize({width:390,height:844});
     await page.getByRole('button',{name:'Open navigation',exact:true}).click();
-    await page.getByRole('link',{name:'Politics',exact:true}).click();
+    await page.locator('.sidebar').getByRole('link',{name:'Politics',exact:true}).click();
     await page.getByRole('heading',{name:'Politics',exact:true}).waitFor();
     assert.equal(await page.locator('.menu-open').count(),0);
     await page.getByRole('button',{name:'Open navigation',exact:true}).click();
-    await page.getByRole('link',{name:'Jobs',exact:true}).click();
+    await page.locator('.sidebar').getByRole('link',{name:'Jobs',exact:true}).click();
     await page.locator('.market-kpis').waitFor();
     await page.getByRole('tab',{name:/Vacancies/}).click();
     await page.screenshot({path:'test-results/published-mobile.png'});
