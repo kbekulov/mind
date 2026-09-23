@@ -21,6 +21,12 @@ This is a purposive, manually checked snapshot, not a census or a live job feed.
 
 To refresh, verify the employer or agency source, update each record's evidence and check date, remove closed ads, and update the collection date and snapshot labels together. Never infer remote eligibility, salary or sponsorship. Deduplicate by employer/title/country, preserving multi-city roles as one ad. Public research loads separately from local notes, so existing workspaces receive updates without resetting personal documents. Public research is exported separately from personal workspace backups.
 
+### World map
+
+The observatory map follows the current filters, shades countries by collected vacancy count and opens matching listings when a country or count is selected. Zoom controls, World/Europe/Asia views, drag-to-pan, keyboard navigation and a text list of country totals support desktop and mobile. Ordinary wheel scrolling remains page scrolling. Small countries have connected count labels to prevent overlapping numbers. The color domain stays anchored to the largest country total in the full snapshot, making filtered views comparable.
+
+`world-map.js` defines the reusable `<mind-world-map>` component. All site maps should reuse its `world-map.css` palette and interaction patterns. The self-hosted `data/world-map.json` contains Natural Earth I projected country geometry (Natural Earth 4.1.0 via world-atlas 2.0.2); there are no remote tiles, API keys or mapping libraries in the browser. Rebuild the checked-in geometry with `npm run build:map`. Mapping dependencies are build-time only. Attribution and redistribution terms are in `data/world-map-LICENSE.txt`. The map shows countries and territories at illustrative scale, with Antarctica omitted.
+
 ## Storage and privacy
 
 This first version is static and served by GitHub Pages. Notes are stored in `localStorage` under `mind.workspace.v1` on the current browser/device. They are **not** written to the repository and do not sync across devices. Browser data deletion removes local notes. Use **Workspace settings → Export** for backups; import a backup to transfer a workspace. Imported backups replace local content only after confirmation.
