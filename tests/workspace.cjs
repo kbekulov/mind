@@ -14,12 +14,26 @@ const path=require('node:path');
       await page.goto('http://127.0.0.1:4174/'+route);
       await page.locator('.market-kpis').waitFor();
       assert.equal(await page.getByRole('heading',{name:'Job observatory',exact:true}).count(),1);
-      assert.equal(await page.locator('.sidebar,.inspector,.spaces-grid,textarea,[contenteditable],input[type=file]').count(),0);
+      assert.equal(await page.locator('.inspector,.spaces-grid,textarea,[contenteditable],input[type=file]').count(),0);
       assert.equal(await page.getByRole('button',{name:/New document|Add a space|Add channel|Inbox|Workspace settings|Import/i}).count(),0);
       assert.equal(await page.evaluate(()=>localStorage.getItem('mind.workspace.v1')),'legacy-user-data');
     }
+    for(const name of ['Politics','Philosophy','Religion']){
+      await page.getByRole('link',{name,exact:true}).click();
+      await page.getByRole('heading',{name,exact:true}).waitFor();
+      assert.equal(await page.getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
+    }
+    await page.getByRole('link',{name:'Jobs',exact:true}).click();
+    await page.locator('.market-kpis').waitFor();
     await page.screenshot({path:'test-results/published-desktop.png'});
     await page.setViewportSize({width:390,height:844});
+    await page.getByRole('button',{name:'Open navigation',exact:true}).click();
+    await page.getByRole('link',{name:'Politics',exact:true}).click();
+    await page.getByRole('heading',{name:'Politics',exact:true}).waitFor();
+    assert.equal(await page.locator('.menu-open').count(),0);
+    await page.getByRole('button',{name:'Open navigation',exact:true}).click();
+    await page.getByRole('link',{name:'Jobs',exact:true}).click();
+    await page.locator('.market-kpis').waitFor();
     await page.getByRole('tab',{name:/Vacancies/}).click();
     await page.screenshot({path:'test-results/published-mobile.png'});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

@@ -6,7 +6,7 @@ A published research library at **https://mind.bekulov.com**, hosted on GitHub P
 
 Content is maintained in this repository, then committed and pushed to GitHub Pages. There is no content creation through the site, browser-local workspace, inbox, channels, editor, or import flow. Existing browser storage from earlier versions is neither read nor erased. Old workspace bookmarks open the published observatory.
 
-The landing page is the **Job observatory**, currently the site's published collection. Add navigation for other subjects when real research is published, rather than creating empty sections or editable examples.
+The landing page is the **Job observatory**, currently the site's published collection. A persistent side menu provides Jobs, Politics, Philosophy and Religion. Sections awaiting content clearly state that no research is published yet. On mobile, the menu opens from the header.
 
 ## Job observatory
 
