@@ -36,6 +36,21 @@ const path=require('node:path');
       }
     }
     await page.screenshot({path:'test-results/subsections.png'});
+    for(const [section,topic] of [['politics','russia-ukraine-war'],['politics','gender-war'],['philosophy','realism-ir'],['philosophy','idealism-ir']]){
+      await page.goto('http://127.0.0.1:4174/#view='+section+'&topic='+topic);
+      await page.locator('.research-page').waitFor();
+      assert.equal(await page.locator('.topic-empty').count(),0);
+      assert.equal(await page.locator('.research-diagram').count(),1);
+      assert.ok(await page.locator('.research-sources a').count()>=2);
+      if(section==='politics')assert.equal(await page.locator('.research-chart').count(),2);
+      await page.screenshot({path:'test-results/research-'+topic+'.png'});
+      await page.setViewportSize({width:390,height:844});
+      assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth));
+      await page.screenshot({path:'test-results/research-'+topic+'-mobile.png'});
+      const scroll=page.locator('.content-scroll');await scroll.evaluate(el=>el.scrollTop=el.scrollHeight);
+      assert.ok(await scroll.evaluate(el=>el.scrollTop>0&&Math.abs(el.scrollHeight-el.clientHeight-el.scrollTop)<2));
+      await page.setViewportSize({width:1536,height:1080});
+    }
     await page.goto('http://127.0.0.1:4174/#view=religion');
     await page.locator('#religion-question').selectOption('2');
     assert.equal(await page.locator('.religion-compare-row').count(),5);
