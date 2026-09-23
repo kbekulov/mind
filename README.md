@@ -1,62 +1,38 @@
 # Mind castle
 
-A Discord-inspired personal research workspace at **https://mind.bekulov.com**.
+A published research library at **https://mind.bekulov.com**, hosted on GitHub Pages with Discord-inspired colors.
 
-## What it does
+## Publishing model
 
-- Topic spaces and expandable channel navigation; create your own spaces and channels.
-- Documents with Markdown headings, emphasis, quotes, lists, checklists, tables, code, safe external links, bar charts, and process diagrams.
-- `[[Exact document title]]` links, backlinks, and a document relationship graph.
-- Full-content search, pins, filters, sorting, list/card views, and a research board grouped by stage.
-- Browser-local persistence, Markdown export, and validated JSON workspace backup/restore.
-- Responsive mobile navigation, keyboard shortcuts, and accessible dialogs.
+Content is maintained in this repository, then committed and pushed to GitHub Pages. There is no content creation through the site, browser-local workspace, inbox, channels, editor, or import flow. Existing browser storage from earlier versions is neither read nor erased. Old workspace bookmarks open the published observatory.
 
-The home page focuses on spaces and documents. Repeated welcome banners, decorative footers, the extra pinned-document list and generic right-hand panel have been removed. The document-only details panel retains backlinks; the full knowledge graph, guide, search and backup controls remain available.
+The landing page is the **Job observatory**, currently the site's published collection. Add navigation for other subjects when real research is published, rather than creating empty sections or editable examples.
 
-The initial personal documents are editable examples and research frameworks. The separate **Job observatory** (`#view=market`) contains real sourced research: 47 vacancy advertisements across 18 European and Asian countries, checked on 23 September 2026. All seniority levels and work arrangements are in scope.
+## Job observatory
 
-## Published job research
+`data/rpa-vacancies.json` contains 47 sourced advertisements across 18 countries, checked on 23 September 2026. The latest search added 11 listings and rechecked 36 existing source pages. By default, 24 direct or plausible fits are shown; stretch and lower-priority roles remain available through the filters. Counts describe this research sample, not total market demand or guaranteed availability.
 
-Search preferences include developer, manager, team lead, analyst and product owner roles. User-confirmed languages are Russian, English, Lithuanian and French, plus a little Japanese. Specific proficiency thresholds remain to be checked; management and product-ownership requirements are assessed separately from role preferences.
+The profile assessment uses user-supplied professional screenshots and language/role clarifications. Target roles include developer, manager, team lead, analyst and product owner. Confirmed languages are Russian, English, Lithuanian and French, plus a little Japanese. Each listing distinguishes relevant experience from requirements still to confirm. See `AGENTS.md` for future research criteria.
 
-The **Job observatory** uses the supplied LinkedIn screenshots to cover automation, C#/.NET engineering, developer tools, applied AI integration, technical leadership, business analysis and transformation. The **Career fit** view records professional evidence, career tracks, credentials and unknown requirements. The collection includes 11 new roles from the latest search plus 36 rechecked advertisements. By default, 24 direct or plausible fits are shown; filters also expose stretch and lower-priority roles. Each listing explains overlap and requirements to check. Fit is a manual assessment, not a hiring probability or confirmation of eligibility. The original RPA dataset URL is preserved for compatibility. See `AGENTS.md` for ongoing research criteria.
+Visitors can search and filter vacancies, open employer links, review the career assessment and source methodology, and download research JSON. Filters are temporary; downloads do not publish or modify site content.
 
-`data/rpa-vacancies.json` is the versioned source of truth for the public research collection and profile evidence. `market.js` renders fit/career-track filters, linked vacancies, country/tool/field/seniority/arrangement dashboards, a country–tool matrix, filtered JSON exports with profile context, and a source register. `market.css` and `profile.css` style the collection in the compact-sidebar layout.
+## Charts and map
 
-This is a purposive, manually checked snapshot, not a census or a live job feed. Counts represent distinct collected advertisements, not openings or total market demand. Platform mentions include optional and alternative tools. Unknown values remain explicit. Salary figures retain their original currency and period. Published roles with application routes are labeled “Listed at check”; continued availability is not guaranteed. The Sources & method view records methodology and selected rejected leads, including closed ads and talent campaigns.
+The country pie chart shows filtered counts and percentages with stable colors and a clickable legend. Other charts summarize tools, fields, seniority and arrangements. The country–tool matrix supports drill-down.
 
-To refresh, verify the employer or agency source, update each record's evidence and check date, remove closed ads, and update the collection date and snapshot labels together. Never infer remote eligibility, salary or sponsorship. Deduplicate by employer/title/country, preserving multi-city roles as one ad. Public research loads separately from local notes, so existing workspaces receive updates without resetting personal documents. Public research is exported separately from personal workspace backups.
+The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrolling over the map zooms at the cursor without modifier keys; scrolling outside moves the page. Dragging, keyboard controls and country labels provide alternate interactions. Counts follow the vacancy filters.
 
-### World map
+`data/world-map.json` uses Natural Earth I geometry (Natural Earth 4.1.0 via world-atlas 2.0.2). Attribution and terms are in `data/world-map-LICENSE.txt`. Rebuild geometry with `npm run build:map`.
 
-The country pie chart follows the same vacancy filters as the map, with stable country colors, counts and percentages. Its accessible legend opens matching listings while preserving other filters. It replaces the redundant country bar chart; totals describe the collected sample, not the whole job market.
-
-The observatory map follows the current filters, shades countries by collected vacancy count and opens matching listings when a country or count is selected. Zoom controls, World/Europe/Asia views, drag-to-pan, keyboard navigation and a text list of country totals support desktop and mobile. The mouse wheel zooms directly over the map, anchored to the cursor, without clicking or holding a modifier key. Scrolling outside the map moves the page. Small countries have connected count labels to prevent overlapping numbers. The color domain stays anchored to the largest country total in the full snapshot, making filtered views comparable.
-
-`world-map.js` defines the reusable `<mind-world-map>` component. All site maps should reuse its `world-map.css` palette and interaction patterns. The self-hosted `data/world-map.json` contains Natural Earth I projected country geometry (Natural Earth 4.1.0 via world-atlas 2.0.2); there are no remote tiles, API keys or mapping libraries in the browser. Rebuild the checked-in geometry with `npm run build:map`. Mapping dependencies are build-time only. Attribution and redistribution terms are in `data/world-map-LICENSE.txt`. The map shows countries and territories at illustrative scale, with Antarctica omitted.
-
-## Storage and privacy
-
-This first version is static and served by GitHub Pages. Notes are stored in `localStorage` under `mind.workspace.v1` on the current browser/device. They are **not** written to the repository and do not sync across devices. Browser data deletion removes local notes. Use **Workspace settings → Export** for backups; import a backup to transfer a workspace. Imported backups replace local content only after confirmation.
-
-There is no account, server-side database, collaborative editing, or authentication. Do not assume the browser is an encrypted vault. Google Fonts is the only externally loaded page resource; system fonts work as a fallback.
-
-## Develop
+## Development
 
 ```sh
 npm install
 npx playwright install chromium
 npm start
+npm test
 ```
 
-Then visit `http://127.0.0.1:4173`. Run `npm test` in another terminal. Tests use an isolated browser context, not the user's stored notes. The live site requires no build or runtime dependencies.
+Preview at `http://127.0.0.1:4173`. Tests cover read-only behavior, filters, counts, exports, profile details, maps, keyboard access, responsive layout and scrolling. No build is required for publication.
 
-## Content formats
-
-Normal Markdown is supported with a deliberately small, HTML-escaped renderer. Raw HTML and script links are not rendered. Use a `chart` fenced block with `Label | 12` rows for non-negative bar charts. Use a `diagram` fenced block with `Question -> Evidence -> Synthesis` for flow diagrams. General Mermaid diagrams, arbitrary rich-text pasting, attachments, and formulas are not supported yet.
-
-## Architecture and growth
-
-`app.js` separates the versioned workspace model, validated storage, Markdown rendering, navigation, and editor actions. Documents have stable IDs, space/channel placement, a format, stage, tags, and created/updated timestamps. A future database adapter can replace browser storage without changing this core record shape. The graph currently displays up to 80 documents, while search, collections, and exports include all records. Browser storage capacity is finite; large datasets and multi-device use will need a backend.
-
-`styles.css` contains shared design tokens and responsive layouts. `CNAME` preserves the existing GitHub Pages custom domain. Changes pushed to `main` are published by the repository's existing Pages setup. See `AGENTS.md` for the required automatic commit-and-push workflow.
+`app.js` renders the minimal published-site shell; `market.js` renders the observatory. Styles are in `styles.css`, `market.css`, `profile.css` and `world-map.css`. Preserve the root `CNAME`. Verify, commit and push each change as described in `AGENTS.md`.

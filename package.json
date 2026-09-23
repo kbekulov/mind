@@ -2,7 +2,7 @@
   "name": "mind-castle",
   "version": "1.0.0",
   "private": true,
-  "description": "A browser-local research workspace, hosted on GitHub Pages.",
+  "description": "A published research library hosted on GitHub Pages.",
   "scripts": {
     "start": "node scripts/serve.cjs",
     "test": "node tests/workspace.cjs && node tests/market.cjs && node tests/world-map.cjs",
