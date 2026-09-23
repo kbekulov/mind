@@ -27,7 +27,7 @@ const data=require('../data/rpa-vacancies.json');
     await page.goto('http://127.0.0.1:4175');
     await page.locator('.research-entry').waitFor();
     const notes=await page.evaluate(()=>localStorage.getItem('mind.workspace.v1'));
-    await page.getByRole('button',{name:'RPA observatory',exact:true}).click();
+    await page.getByRole('button',{name:'Job observatory',exact:true}).click();
     await page.locator('.market-kpis').waitFor();
     assert.equal(await page.locator('.rail').count(),0);
     assert.equal(await page.locator('.inspector').count(),0);

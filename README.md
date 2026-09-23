@@ -11,9 +11,11 @@ A Discord-inspired personal research workspace at **https://mind.bekulov.com**.
 - Browser-local persistence, Markdown export, and validated JSON workspace backup/restore.
 - Responsive mobile navigation, keyboard shortcuts, and accessible dialogs.
 
-The initial personal documents are editable examples and research frameworks. The separate **RPA observatory** (`#view=market`) contains real sourced research: 26 vacancy advertisements across 16 European and Asian countries, checked on 23 September 2026. All seniority levels and work arrangements are in scope.
+The initial personal documents are editable examples and research frameworks. The separate **Job observatory** (`#view=market`) contains real sourced research: 26 vacancy advertisements across 16 European and Asian countries, checked on 23 September 2026. All seniority levels and work arrangements are in scope.
 
 ## Published job research
+
+The section is now named **Job observatory** to support profile-led research beyond RPA. Personalization to the supplied LinkedIn profile is pending access to its professional content; the existing listings have not been assessed as personal matches. The original RPA dataset URL is preserved for compatibility. See `AGENTS.md` for the ongoing research criteria and current profile-access limitation.
 
 `data/rpa-vacancies.json` is the versioned source of truth for the public research collection. `market.js` renders filters, linked vacancies, country/tool/field/seniority/arrangement dashboards, a country–tool matrix, filtered JSON exports, and a source register. `market.css` styles the collection and removes the former large-icon rail in favor of one compact sidebar.
 
