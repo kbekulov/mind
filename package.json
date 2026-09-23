@@ -5,7 +5,7 @@
   "description": "A published research library hosted on GitHub Pages.",
   "scripts": {
     "start": "node scripts/serve.cjs",
-    "test": "node tests/workspace.cjs && node tests/market.cjs && node tests/world-map.cjs",
+    "test": "node tests/workspace.cjs && node tests/market.cjs && node tests/world-map.cjs && node tests/insights.cjs",
     "build:map": "node scripts/build-world-map.mjs"
   },
   "devDependencies": {
