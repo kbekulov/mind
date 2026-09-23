@@ -37,7 +37,7 @@ const counts=Object.fromEntries([...new Set(data.jobs.map(j=>j.country))].map(na
     assert.equal(await map.locator('.world-map-scale').textContent(),'4×');
     const lithuania=map.locator('.world-map-count[data-map-country="Lithuania"]');
     await lithuania.focus();
-    assert.match(await map.locator('.world-map-inspection').textContent(),/Lithuania · 3/);
+    assert.ok((await map.locator('.world-map-inspection').textContent()).includes('Lithuania · '+counts.Lithuania));
     await page.locator('.world-map-section').screenshot({path:'test-results/world-map-europe.png'});
     await lithuania.press('Enter');
     assert.equal(await page.locator('.vacancy-card').count(),counts.Lithuania);
@@ -65,6 +65,16 @@ const counts=Object.fromEntries([...new Set(data.jobs.map(j=>j.country))].map(na
     assert.equal(await map.locator('.world-map-scale').textContent(),'1.5×');
     await map.locator('svg').press('Home');
     assert.equal(await map.locator('.world-map-scale').textContent(),'1×');
+    await map.locator('svg').hover();
+    const scrollBeforeZoom=await page.locator('.content-scroll').evaluate(el=>el.scrollTop);
+    await page.mouse.wheel(0,-200);
+    await page.waitForFunction(()=>document.querySelector('mind-world-map').view.zoom>1);
+    assert.equal(await page.locator('.content-scroll').evaluate(el=>el.scrollTop),scrollBeforeZoom,'Wheel over map does not scroll page');
+    await page.mouse.wheel(0,200);
+    await page.waitForFunction(()=>Math.abs(document.querySelector('mind-world-map').view.zoom-1)<.001);
+    await map.locator('svg').dispatchEvent('wheel',{deltaY:-5000,deltaMode:1});
+    assert.ok(await map.evaluate(el=>el.view.zoom<=10));
+    await map.getByRole('button',{name:'Reset world map'}).click();
     await page.setViewportSize({width:390,height:844});
     await page.locator('.world-map-section').scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>document.querySelector('mind-world-map svg').viewBox.baseVal.width<400);
@@ -72,7 +82,10 @@ const counts=Object.fromEntries([...new Set(data.jobs.map(j=>j.country))].map(na
     await page.locator('.world-map-section').screenshot({path:'test-results/world-map-mobile.png'});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
     const priorScroll=await page.locator('.content-scroll').evaluate(el=>el.scrollTop);
-    await map.locator('svg').hover();await page.mouse.wheel(0,200);
+    await map.locator('svg').hover();await page.mouse.wheel(0,-200);
+    await page.waitForFunction(()=>document.querySelector('mind-world-map').view.zoom>1);
+    assert.equal(await page.locator('.content-scroll').evaluate(el=>el.scrollTop),priorScroll);
+    await page.locator('.world-map-heading').hover();await page.mouse.wheel(0,200);
     await page.waitForFunction(before=>document.querySelector('.content-scroll').scrollTop>before,priorScroll);
     await map.getByRole('button',{name:'Asia',exact:true}).click();
     await map.locator('.world-map-count[data-map-country="Singapore"]').click();
@@ -86,6 +99,6 @@ const counts=Object.fromEntries([...new Set(data.jobs.map(j=>j.country))].map(na
     await offline.getByRole('button',{name:'Retry map',exact:true}).click();
     await offline.locator('.world-map-count').first().waitFor();
     assert.deepEqual(errors,[]);
-    console.log('PASS: map geography, counts, density, non-overlapping labels, filters, keyboard, zoom/pan, mobile, ordinary page scrolling and load recovery.');
+    console.log('PASS: map geography, counts, density, non-overlapping labels, filters, keyboard, direct wheel zoom, outside-map scrolling, mobile and load recovery.');
   }finally{await browser.close();server.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1});

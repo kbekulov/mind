@@ -13,7 +13,8 @@
     "No currency conversion or salary averaging. Each figure retains its advertised currency, period and basis.",
     "This is a dated manual snapshot, not an automatically refreshed feed. Sources can change or close after checking.",
     "Profile fit is manually assessed against user-provided professional screenshots dated 23 September 2026. Strong technical fit and Potential fit form the default review shortlist; Stretch and Lower priority remain available for transparency. All work arrangements stay in scope.",
-    "The user confirms Russian, English, Lithuanian and French, plus a little Japanese, and seeks developer, manager, team lead, analyst and product owner roles. Exact language levels and work authorization remain to be checked. This review does not guarantee coverage of every possible vacancy."
+    "The user confirms Russian, English, Lithuanian and French, plus a little Japanese, and seeks developer, manager, team lead, analyst and product owner roles. Exact language levels and work authorization remain to be checked. This review does not guarantee coverage of every possible vacancy.",
+    "Refreshed the 36 existing source pages and added 11 employer-linked roles across developer, manager, team lead, analyst and product owner searches. Known languages informed fit review; Japanese fluency was not assumed."
   ],
   "excluded": [
     {
@@ -56,6 +57,34 @@
       "reason": "Closed",
       "detail": "Application listing says it no longer accepts applications, although an employer careers reference remains.",
       "url": "https://vn.linkedin.com/jobs/view/robotic-process-automation-rpa-consultant-at-abeam-consulting-4366588069",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "nexos.ai · Product Owner | Mid | Web",
+      "url": "https://jobs.lever.co/Nexos/a4dcc2dc-6177-4647-87d9-bcafd65ab76a",
+      "reason": "Unavailable at refresh",
+      "detail": "Employer ATS returned HTTP 404 despite an indexed application page.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Arondor · Business Analyst RPA",
+      "url": "https://www.arondor.com/carrieres/business-analyst-rpa-h-f/",
+      "reason": "Application route unverified",
+      "detail": "Role description remains published, but the Postuler section exposed no working application form or route during this check. Not counted as a verified vacancy.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Razer · Product Owner – AI Digital Wallet",
+      "url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Razer-Gold-Product-Owner---AI-Digital-Wallet_JR2026007273",
+      "reason": "Verification blocked",
+      "detail": "Employer ATS returned HTTP 403; search snippets alone were not sufficient to include the role.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Dyson · Lead Product Owner – AI & Automation",
+      "url": "https://dyson.wd3.myworkdayjobs.com/dyson_careers/job/Singapore---St-James-Power-Station-Headquarters/Lead-Product-Owner---AI---Automation_JR35051",
+      "reason": "Past application deadline",
+      "detail": "Indexed employer listing states an application deadline of 3 July 2026, before this research date.",
       "checkedAt": "2026-09-23"
     }
   ],
@@ -1575,6 +1604,485 @@
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
       }
+    },
+    {
+      "id": "lastminute-po",
+      "company": "lastminute.com",
+      "title": "Product Owner – Customer Operations Platform",
+      "country": "Romania",
+      "region": "Europe",
+      "location": "Remote within Romania",
+      "level": "Mid-level",
+      "experience": "Around 5 years in product ownership, delivery, business analysis or similar",
+      "field": "Product ownership",
+      "tools": [
+        "AI integration",
+        "LLMs",
+        "Process mapping"
+      ],
+      "mode": "Remote",
+      "employment": "Full-time",
+      "summary": "Shape internal customer-operations tools and AI-assisted workflows.",
+      "notes": "36-hour week; occasional travel. Employer explicitly requires existing work authorization and no visa sponsorship.",
+      "salary": null,
+      "postedAt": "2026-09-14",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/lastminutecom/744000149309419-product-owner-customer-operations-platform",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/lastminutecom/postings/744000149309419",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Internal platforms, LLM integration and requirements translation are directly relevant."
+        ],
+        "checks": [
+          "Confirm accepted equivalent delivery experience, discovery/backlog ownership, fluent English and Romanian work eligibility."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "salomon-po",
+      "company": "Salomon",
+      "title": "IT Product Owner, eCom",
+      "country": "France",
+      "region": "Europe",
+      "location": "Annecy",
+      "level": "Senior",
+      "experience": "Around 5 years as product owner",
+      "field": "Product ownership",
+      "tools": [
+        "AI integration",
+        "CI/CD",
+        "Developer tools"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent",
+      "summary": "Prioritize engineering enablement, developer experience and productivity for e-commerce teams.",
+      "notes": "English B2 and good French requested.",
+      "salary": null,
+      "postedAt": "2026-09-18",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Salomon/744000150300998-it-product-owner-ecom",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Salomon/postings/744000150300998",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Developer tools, engineering quality and confirmed French/English provide overlap."
+        ],
+        "checks": [
+          "Five years of product ownership and genuine e-commerce experience are not established; verify language levels."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "ggs-lead",
+      "company": "GGS IT Consulting",
+      "title": "Support Team Leader",
+      "country": "Poland",
+      "region": "Europe",
+      "location": "Kraków",
+      "level": "Lead / management",
+      "experience": "2+ years as support team lead",
+      "field": "Technical leadership",
+      "tools": [
+        "SQL Server",
+        "RPA",
+        "SSRS",
+        "SSIS",
+        "Jira",
+        "Zendesk"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Lead a roughly six-person SQL/RPA support team with coaching, escalations and service metrics.",
+      "notes": "English B2+/C1 requested; formal people management and SLA accountability.",
+      "salary": null,
+      "postedAt": "2026-05-12",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/GGSITConsultingGoGlobalServices/744000126045724-support-team-leader",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/GGSITConsultingGoGlobalServices/postings/744000103672707",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "SQL, RPA, troubleshooting, mentoring and recruitment participation overlap."
+        ],
+        "checks": [
+          "Two years of support-team leadership, performance management and SLA ownership are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "bosch-lead",
+      "company": "Bosch Group",
+      "title": "Team Lead – Hyper Automation (RPA, AI, ML)",
+      "country": "India",
+      "region": "Asia",
+      "location": "Bengaluru",
+      "level": "Lead / management",
+      "experience": "7+ years IT; 5+ years RPA/AI; 2 years leadership (source also specifies 7 years platform experience)",
+      "field": "Technical leadership",
+      "tools": [
+        "Automation Anywhere",
+        "Power Automate",
+        "Python",
+        "SQL",
+        "C#",
+        ".NET"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Lead automation delivery, technical standards, AI integration and developer performance.",
+      "notes": "Mandatory A360 Advanced/Master and PL-500 certifications; inconsistent tenure thresholds require clarification.",
+      "salary": null,
+      "postedAt": "2026-07-23",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000139262030-team-lead-hyper-automation-rpa-ai-ml-",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000139203214",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Automation, AI integration, standards, mentoring and Agile delivery overlap."
+        ],
+        "checks": [
+          "Python, A360 expertise, mandatory certifications and formal leadership duration are unverified; Blue Prism credentials do not substitute."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "ldc-manager",
+      "company": "Louis Dreyfus Company",
+      "title": "Development Manager – AI Delivery Factory",
+      "country": "India",
+      "region": "Asia",
+      "location": "Bengaluru",
+      "level": "Lead / management",
+      "experience": "5+ years software engineering or technical delivery",
+      "field": "Engineering management",
+      "tools": [
+        "LLMs",
+        "AI integration",
+        "Azure",
+        "CI/CD"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Coordinate external GenAI delivery teams and enforce engineering quality and release standards.",
+      "notes": "Computing-related bachelor degree and excellent English requested.",
+      "salary": null,
+      "postedAt": "2026-04-24",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/LouisDreyfusCompany/744000122616801-development-manager-ai-delivery-factory",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/LouisDreyfusCompany/postings/744000122616801",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Engineering / automation manager",
+        "strengths": [
+          "Internal platforms, LLM integration, code standards and removing technical blockers are relevant."
+        ],
+        "checks": [
+          "Cloud, CI/CD and vendor-delivery ownership need evidence; clarify computing-degree equivalence."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "changi-ba",
+      "company": "Changi Airport Group",
+      "title": "Assistant Manager, Digital Finance Business Analyst (AI, Automation)",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Mid-level",
+      "experience": "3+ years BA, transformation, automation or process improvement",
+      "field": "Automation business analysis",
+      "tools": [
+        "UiPath",
+        "Power Platform",
+        "AI integration"
+      ],
+      "mode": "Not stated",
+      "employment": "Fixed-term",
+      "summary": "Map finance workflows, define automation requirements and coordinate AI-enabled improvements.",
+      "notes": "Three-year full-time contract with possible renewal; degree in any discipline accepted. Finance controls knowledge requested.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.changiairport.com/cag/job/Assistant-Manager%2C-Digital-Finance-Business-Analyst-%28AI%2C-Automation%29/1367109166/",
+      "evidenceUrl": "https://jobs.changiairport.com/cag/job/Assistant-Manager%2C-Digital-Finance-Business-Analyst-%28AI%2C-Automation%29/1367109166/",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation business analysis / process improvement",
+        "strengths": [
+          "Automation, stakeholder requirements, process improvement and applied AI overlap; degree discipline is accepted."
+        ],
+        "checks": [
+          "Confirm finance-process/internal-control knowledge, formal BA documentation and broader Power Platform depth."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "sgx-po",
+      "company": "SGX Group",
+      "title": "VP – Technical Product Owner (AI & Automation)",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Lead / management",
+      "experience": "5+ years product, BA or engineering with significant product responsibility",
+      "field": "Product ownership",
+      "tools": [
+        "APIs",
+        "AI integration",
+        "AI agents"
+      ],
+      "mode": "Not stated",
+      "employment": "Permanent",
+      "summary": "Translate business problems into an AI/automation roadmap, product metrics and engineering priorities.",
+      "notes": "Includes leadership of product owners and UX designers; financial-markets domain is an advantage.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://careers.sgx.com/job/Singapore-VP-Technical-Product-Owner-%28AI-&-Automation%29/1366307966/",
+      "evidenceUrl": "https://careers.sgx.com/job/Singapore-VP-Technical-Product-Owner-%28AI-&-Automation%29/1366307966/",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Fintech, internal platforms, API work and business-to-technical translation overlap."
+        ],
+        "checks": [
+          "Significant product ownership, agent-based prototyping, discovery metrics and managing product/UX teams are not demonstrated."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "seb-csharp",
+      "company": "SEB",
+      "title": "Senior C# Developer – Interest Rate Service",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Vilnius",
+      "level": "Senior",
+      "experience": "Strong professional C#/.NET experience; years not stated",
+      "field": "C#/.NET engineering",
+      "tools": [
+        "C#",
+        ".NET",
+        "PostgreSQL",
+        "Entity Framework Core",
+        "Angular",
+        "APIs"
+      ],
+      "mode": "Hybrid",
+      "employment": "Not stated",
+      "summary": "Build banking services and integrations with production support and code-quality responsibilities.",
+      "notes": "Apply by 10 October 2026. Professional English requested; Kafka and OpenShift are advantages.",
+      "salary": {
+        "currency": "EUR",
+        "min": 4400,
+        "max": 6600,
+        "period": "month",
+        "basis": "basis not stated"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
+      "evidenceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
+      "sourceType": "Employer careers page",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Potential fit",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "C#/.NET, APIs, SQL, fintech and production troubleshooting overlap."
+        ],
+        "checks": [
+          "Confirm backend architecture, PostgreSQL/EF Core, CI/CD and Angular depth; desktop experience alone does not establish this stack."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "devoteam-hyper",
+      "company": "Devoteam",
+      "title": "Consultant(e) Hyperautomation / RPA Engineer",
+      "country": "France",
+      "region": "Europe",
+      "location": "Levallois-Perret",
+      "level": "Multiple levels",
+      "experience": "RPA project experience; junior through expert",
+      "field": "RPA",
+      "tools": [
+        "Blue Prism",
+        "UiPath",
+        "AI integration",
+        "IDP"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Design and maintain automation workflows, integrate AI and contribute to code reviews and delivery.",
+      "notes": "Hybrid with 2–3 remote days/week. Optional mentoring, technical leadership and hiring duties depend on experience.",
+      "salary": null,
+      "postedAt": "2026-07-08",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000136415969-consultant-e-hyperautomation-rpa-engineer",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000042338610",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Strong technical fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Blue Prism, AI integrations, reviews, mentoring and recruitment closely match the profile."
+        ],
+        "checks": [
+          "Confirm professional French expectations and IDP/agentic requirements for the assigned project."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "oxylabs-po",
+      "company": "Oxylabs",
+      "title": "Product Owner",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Vilnius",
+      "level": "Mid-level",
+      "experience": "2+ years as product owner or technical product manager",
+      "field": "Product ownership",
+      "tools": [
+        "APIs",
+        "Scrum",
+        "Data analytics"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Translate technical requirements into stories and manage the backlog for scraping products serving AI agents.",
+      "notes": "B2B SaaS experience preferred; salary EUR 3,200–5,500 gross/month.",
+      "salary": {
+        "currency": "EUR",
+        "min": 3200,
+        "max": 5500,
+        "period": "month",
+        "basis": "gross"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
+      "evidenceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "APIs, requirements translation, Scrum facilitation and developer collaboration overlap."
+        ],
+        "checks": [
+          "Two years of formal product ownership, product decisions and backlog accountability are not demonstrated."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
+    },
+    {
+      "id": "oxylabs-commercial",
+      "company": "Oxylabs",
+      "title": "Commercial Product Owner",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Vilnius",
+      "level": "Mid-level",
+      "experience": "Commercial, pricing, product or strategy experience; years not stated",
+      "field": "Product ownership",
+      "tools": [
+        "Data analytics",
+        "Excel"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Own pricing, packaging, commercial experiments and growth for proxy products.",
+      "notes": "Fluent English and Lithuanian required; salary EUR 3,200–5,000 gross/month.",
+      "salary": {
+        "currency": "EUR",
+        "min": 3200,
+        "max": 5000,
+        "period": "month",
+        "basis": "gross"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://jobs.lever.co/oxylabs/101803b6-94a0-4347-9ff1-d89ebabc1b5f",
+      "evidenceUrl": "https://jobs.lever.co/oxylabs/101803b6-94a0-4347-9ff1-d89ebabc1b5f",
+      "sourceType": "Employer ATS",
+      "status": "Listed at check",
+      "verification": "Role requirements and application route present on employer page or public ATS; no closure notice observed.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Confirmed English/Lithuanian and analytical/stakeholder experience offer some overlap."
+        ],
+        "checks": [
+          "Pricing strategy, revenue ownership and commercial experimentation are not established; confirm required language fluency."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      }
     }
   ],
   "profile": {
@@ -1768,5 +2276,13 @@
       "Product owner"
     ],
     "targetRolesSource": "User-stated job-search preferences, 23 September 2026. Target roles express interest; they do not establish prior experience in every role."
+  },
+  "refresh": {
+    "id": "2026-09-23-expanded-roles",
+    "checkedAt": "2026-09-23",
+    "previousRecordsRechecked": 36,
+    "newRecords": 11,
+    "summary": "Refreshed the 36 existing source pages and added 11 employer-linked roles across developer, manager, team lead, analyst and product owner searches. Known languages informed fit review; Japanese fluency was not assumed.",
+    "limitations": "A manually researched sample, not all vacancies. Source availability does not guarantee continued hiring. Unverifiable application routes, blocked sources and removed listings were not added."
   }
 }
