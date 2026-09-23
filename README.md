@@ -11,6 +11,8 @@ A Discord-inspired personal research workspace at **https://mind.bekulov.com**.
 - Browser-local persistence, Markdown export, and validated JSON workspace backup/restore.
 - Responsive mobile navigation, keyboard shortcuts, and accessible dialogs.
 
+The home page focuses on spaces and documents. Repeated welcome banners, decorative footers, the extra pinned-document list and generic right-hand panel have been removed. The document-only details panel retains backlinks; the full knowledge graph, guide, search and backup controls remain available.
+
 The initial personal documents are editable examples and research frameworks. The separate **Job observatory** (`#view=market`) contains real sourced research: 47 vacancy advertisements across 18 European and Asian countries, checked on 23 September 2026. All seniority levels and work arrangements are in scope.
 
 ## Published job research
@@ -26,6 +28,8 @@ This is a purposive, manually checked snapshot, not a census or a live job feed.
 To refresh, verify the employer or agency source, update each record's evidence and check date, remove closed ads, and update the collection date and snapshot labels together. Never infer remote eligibility, salary or sponsorship. Deduplicate by employer/title/country, preserving multi-city roles as one ad. Public research loads separately from local notes, so existing workspaces receive updates without resetting personal documents. Public research is exported separately from personal workspace backups.
 
 ### World map
+
+The country pie chart follows the same vacancy filters as the map, with stable country colors, counts and percentages. Its accessible legend opens matching listings while preserving other filters. It replaces the redundant country bar chart; totals describe the collected sample, not the whole job market.
 
 The observatory map follows the current filters, shades countries by collected vacancy count and opens matching listings when a country or count is selected. Zoom controls, World/Europe/Asia views, drag-to-pan, keyboard navigation and a text list of country totals support desktop and mobile. The mouse wheel zooms directly over the map, anchored to the cursor, without clicking or holding a modifier key. Scrolling outside the map moves the page. Small countries have connected count labels to prevent overlapping numbers. The color domain stays anchored to the largest country total in the full snapshot, making filtered views comparable.
 

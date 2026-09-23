@@ -55,7 +55,8 @@ const fs = require('node:fs');
     await page.getByRole('heading', { name: 'Evidence lab', exact: true }).waitFor();
 
     // Create scalable navigation and verify its empty and populated states.
-    await page.getByRole('button', { name: 'Create a space', exact: true }).click();
+    await page.getByRole('button', { name: 'Home', exact: true }).click();
+    await page.getByRole('button', { name: 'Add a space', exact: true }).click();
     await page.getByLabel('Space name').fill('Science');
     await page.getByLabel('A short description').fill('Careful questions about the world.');
     await page.getByRole('button', { name: 'Create space', exact: true }).click();
