@@ -13,7 +13,7 @@
     "No currency conversion or salary averaging. Each figure retains its advertised currency, period and basis.",
     "This is a dated manual snapshot, not an automatically refreshed feed. Sources can change or close after checking.",
     "Profile fit is manually assessed against user-provided professional screenshots dated 23 September 2026. Strong technical fit and Potential fit form the default review shortlist; Stretch and Lower priority remain available for transparency. All work arrangements stay in scope.",
-    "The supplied screenshots do not establish language proficiency or work authorization. No vacancy is treated as fully eligible until its requirements are confirmed. This review does not guarantee coverage of every possible vacancy."
+    "The user confirms Russian, English, Lithuanian and French, plus a little Japanese, and seeks developer, manager, team lead, analyst and product owner roles. Exact language levels and work authorization remain to be checked. This review does not guarantee coverage of every possible vacancy."
   ],
   "excluded": [
     {
@@ -101,7 +101,7 @@
           "RPA delivery, process analysis and Power Automate-related integration overlap."
         ],
         "checks": [
-          "Fluent Lithuanian and English B1 are required but proficiency was not supplied; Power Apps depth also needs checking."
+          "Lithuanian and English are confirmed languages; verify the requested Lithuanian fluency and English B1 threshold. Power Apps depth also needs checking."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -315,7 +315,7 @@
           "RPA plus LLM integration is directly aligned with the senior-role description."
         ],
         "checks": [
-          "Polish fluency and English B2 are unverified; confirm UiPath depth and SAP exposure."
+          "Polish fluency is not evidenced; English is confirmed but B2 level is unspecified. Confirm UiPath depth and SAP exposure."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -363,7 +363,7 @@
           "Power Automate, C# and solution development provide a foundation."
         ],
         "checks": [
-          "Three years across Power Apps/Pages/BI and Azure are not established; German and English need checking."
+          "Three years across Power Apps/Pages/BI and Azure are not established; German is not evidenced and the required English proficiency needs checking."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -403,7 +403,7 @@
           "RPA development, requirements analysis and solution-design experience overlap."
         ],
         "checks": [
-          "Portuguese and English required; UiPath certifications are not supplied."
+          "English is confirmed; Portuguese and UiPath certifications are not supplied."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -942,7 +942,7 @@
           "RPA delivery, business analysis and cross-team improvements align."
         ],
         "checks": [
-          "ERP expertise and exact UiPath depth are unverified; English must be confirmed."
+          "ERP expertise and exact UiPath depth are unverified; confirm the required business-English proficiency."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -1185,7 +1185,7 @@
           "Blue Prism/UiPath, solution design, standards, mentoring and recruitment closely mirror the profile."
         ],
         "checks": [
-          "IT-related higher education requested; the supplied degree is International Relations and Politics. Confirm equivalent-experience acceptance and English."
+          "IT-related higher education requested; the supplied degree is International Relations and Politics. Confirm equivalent-experience acceptance and the requested very good English level."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -1366,7 +1366,7 @@
           "Internal C# developer tools, technical problem-solving and applied AI context closely overlap."
         ],
         "checks": [
-          "Computing education requested; confirm equivalence, Git/WPF depth and working French. Prior language courses do not establish fluency."
+          "French is confirmed; clarify working-language proficiency. Computing education requested: confirm equivalent-experience acceptance and Git/WPF depth."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -1570,7 +1570,7 @@
           "UiPath, C#, SQL, APIs and fintech automation overlap."
         ],
         "checks": [
-          "Confirm 2–3 years specifically in UiPath, SAP/ERP depth, relevant-degree acceptance, English and China work eligibility."
+          "English is confirmed. Check 2–3 years specifically in UiPath, SAP/ERP depth, relevant-degree acceptance, required English proficiency and China work eligibility."
         ],
         "assessedAt": "2026-09-23",
         "profileId": "kiril711"
@@ -1671,7 +1671,7 @@
       }
     ],
     "unknowns": [
-      "Languages section not supplied: current English, Lithuanian, Russian, French and other proficiency levels remain unverified.",
+      "Russian, English, Lithuanian and French are user-confirmed languages; Japanese is limited. Exact proficiency levels were not supplied. Do not assume professional Japanese or a specific CEFR level.",
       "Work authorization, sponsorship needs, relocation willingness, remote-country eligibility, salary expectations and notice period are not supplied.",
       "Python, Azure/AWS/GCP, LangChain/LangGraph, Kubernetes, MLOps and model training are not evidenced in these screenshots.",
       "Power Automate experience is visible; deep Power Apps, Dataverse, Dynamics 365 and Copilot Studio expertise is not established.",
@@ -1724,8 +1724,49 @@
         "name": "Agile delivery / automation transformation",
         "priority": "Conditional",
         "why": "Scrum support and team improvements; formal delivery ownership and current certifications must be checked."
+      },
+      {
+        "name": "Product owner / technical product ownership",
+        "priority": "Target / adjacent",
+        "why": "Requested career direction. Requirements translation, internal platforms and stakeholder collaboration provide overlap; backlog prioritization, roadmap ownership, product discovery and outcome accountability need confirmation."
+      },
+      {
+        "name": "Engineering / automation manager",
+        "priority": "Target / conditional",
+        "why": "Requested career direction. Mentoring, recruitment participation and quality coordination are relevant; direct reports, performance management, budgets and organizational scope need confirmation."
       }
     ],
-    "methodology": "Manual evidence-based comparison of each published role with the supplied professional screenshots. Strong technical fit means direct skills overlap, not confirmed eligibility or likelihood of an offer. Potential fit needs additional checks; Stretch has material unverified requirements; Lower priority reflects level or role mismatch. Unknown language and work rights are not assumed satisfied. No percentages or fabricated automated match scores."
+    "methodology": "Manual evidence-based comparison of each published role with the supplied professional screenshots and subsequent user clarifications. Strong technical fit means direct skills overlap, not confirmed eligibility or likelihood of an offer. Potential fit needs additional checks; Stretch has material unverified requirements; Lower priority reflects level or role mismatch. Confirmed languages inform matching; specific proficiency thresholds and work rights are not assumed satisfied. No percentages or fabricated automated match scores.",
+    "languages": [
+      {
+        "language": "Russian",
+        "level": "Speaks; exact proficiency level not specified"
+      },
+      {
+        "language": "English",
+        "level": "Speaks; exact proficiency level not specified"
+      },
+      {
+        "language": "Lithuanian",
+        "level": "Speaks; exact proficiency level not specified"
+      },
+      {
+        "language": "French",
+        "level": "Speaks; exact proficiency level not specified"
+      },
+      {
+        "language": "Japanese",
+        "level": "A little Japanese"
+      }
+    ],
+    "languageSource": "User clarification, 23 September 2026. Employer-specific fluency and CEFR requirements still need comparison with actual proficiency.",
+    "targetRoles": [
+      "Developer",
+      "Manager",
+      "Team lead",
+      "Analyst",
+      "Product owner"
+    ],
+    "targetRolesSource": "User-stated job-search preferences, 23 September 2026. Target roles express interest; they do not establish prior experience in every role."
   }
 }

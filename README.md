@@ -15,6 +15,8 @@ The initial personal documents are editable examples and research frameworks. Th
 
 ## Published job research
 
+Search preferences include developer, manager, team lead, analyst and product owner roles. User-confirmed languages are Russian, English, Lithuanian and French, plus a little Japanese. Specific proficiency thresholds remain to be checked; management and product-ownership requirements are assessed separately from role preferences.
+
 The **Job observatory** uses the supplied LinkedIn screenshots to cover automation, C#/.NET engineering, developer tools, applied AI integration, technical leadership, business analysis and transformation. The **Career fit** view records professional evidence, career tracks, credentials and unknown requirements. The collection includes 10 newly researched roles plus fit assessments of the original 26 ads. By default, 20 direct or plausible fits are shown; filters also expose stretch and lower-priority roles. Each listing explains overlap and requirements to check. Fit is a manual assessment, not a hiring probability or confirmation of eligibility. The original RPA dataset URL is preserved for compatibility. See `AGENTS.md` for ongoing research criteria.
 
 `data/rpa-vacancies.json` is the versioned source of truth for the public research collection and profile evidence. `market.js` renders fit/career-track filters, linked vacancies, country/tool/field/seniority/arrangement dashboards, a country–tool matrix, filtered JSON exports with profile context, and a source register. `market.css` and `profile.css` style the collection in the compact-sidebar layout.
