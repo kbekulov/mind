@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "symprio",
+      "company": "Symprio",
+      "title": "Senior RPA Developer",
+      "country": "Malaysia",
+      "region": "Asia",
+      "location": "Kuala Lumpur",
+      "level": "Senior",
+      "experience": "Not specified",
+      "field": "RPA",
+      "tools": [
+        "UiPath",
+        "Power Automate"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Build enterprise RPA solutions using UiPath and Microsoft automation tools.",
+      "notes": "Select this exact role on the careers page. General remote-first benefits do not confirm this role’s arrangement.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://www.symprio.com/careers/",
+      "evidenceUrl": "https://www.symprio.com/careers/",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Role description and application route present; no closure notice observed.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Senior RPA, UiPath and Power Automate delivery overlap."
+        ],
+        "checks": [
+          "Confirm required platform-specific depth, Malaysian eligibility and actual arrangement."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-23T16:31:32.148Z",
+      "lastVerifiedAt": "2026-09-23T16:31:32.148Z",
+      "sourceLastCheckedAt": "2026-09-23T16:31:32.148Z",
+      "previousStatus": "Listed at check",
+      "statusReason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol.",
+      "statusChangedAt": "2026-09-23T16:31:32.148Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:32.148Z",
+          "status": "Unknown",
+          "reason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "digitalbricks-lowcode",
+      "company": "Digital Bricks",
+      "title": "Low-Code AI Developer (Power Platform & Copilot Studio)",
+      "country": "Netherlands",
+      "region": "Europe",
+      "location": "Amsterdam",
+      "level": "Not specified",
+      "experience": "Not specified",
+      "field": "Power Platform",
+      "tools": [
+        "Power Apps",
+        "Power Automate",
+        "Copilot Studio",
+        "Dataverse",
+        "Azure"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Build low-code applications, automation and Copilot agents.",
+      "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
+      "salary": null,
+      "postedAt": "2025-11-18",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://www.digitalbricks.ai/careers",
+      "evidenceUrl": "https://www.digitalbricks.ai/careers",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Power Automate and AI integration are relevant."
+        ],
+        "checks": [
+          "Power Apps, Dataverse and Copilot Studio are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Power Platform / integration consulting"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-23T16:31:31.646Z",
+      "lastVerifiedAt": "2026-09-23T16:31:31.646Z",
+      "sourceLastCheckedAt": "2026-09-23T16:31:31.646Z",
+      "previousStatus": "Listed at check",
+      "statusReason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol.",
+      "statusChangedAt": "2026-09-23T16:31:31.646Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:31.646Z",
+          "status": "Unknown",
+          "reason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "digitalbricks-lead",
+      "company": "Digital Bricks",
+      "title": "Head of Development",
+      "country": "Netherlands",
+      "region": "Europe",
+      "location": "Amsterdam",
+      "level": "Lead / management",
+      "experience": "Not specified",
+      "field": "Intelligent automation",
+      "tools": [
+        "Power Apps",
+        "Power Automate",
+        "Copilot Studio",
+        "Dataverse",
+        "Azure"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Lead engineering across Microsoft low-code solutions, cloud services and AI.",
+      "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
+      "salary": null,
+      "postedAt": "2025-11-17",
+      "checkedAt": "2026-09-23",
+      "sourceUrl": "https://www.digitalbricks.ai/careers",
+      "evidenceUrl": "https://www.digitalbricks.ai/careers",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Internal platforms, AI integration and engineering standards provide a foundation."
+        ],
+        "checks": [
+          "Organization-wide engineering management and deep Azure/cloud architecture are not established."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Automation solution design / technical lead"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-23T16:31:31.688Z",
+      "lastVerifiedAt": "2026-09-23T16:31:31.688Z",
+      "sourceLastCheckedAt": "2026-09-23T16:31:31.688Z",
+      "previousStatus": "Listed at check",
+      "statusReason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol.",
+      "statusChangedAt": "2026-09-23T16:31:31.688Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:31.688Z",
+          "status": "Unknown",
+          "reason": "General careers page contains role text, but a stable role-specific direct vacancy URL was not verified. Hidden under the stricter protocol."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "lead-3",
+      "company": "Spin",
+      "title": "IC3 - RPA Developer",
+      "sourceUrl": "https://job-boards.greenhouse.io/spin/jobs/4699003005",
+      "status": "Unknown",
+      "statusReason": "Redirects to job board; original requisition absent.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "Redirects to job board; original requisition absent."
+        }
+      ]
+    },
+    {
+      "id": "lead-4",
+      "company": "ThreatLocker",
+      "title": "C# Developer (Tools and Installers)",
+      "sourceUrl": "https://job-boards.greenhouse.io/threatlocker/jobs/5853559004",
+      "status": "Unknown",
+      "statusReason": "Redirects to careers board; current role-specific application not available.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "Redirects to careers board; current role-specific application not available."
+        }
+      ]
+    },
+    {
+      "id": "lead-5",
+      "company": "Smarthis",
+      "title": "Desenvolvedor de Automação de Processos Pleno",
+      "sourceUrl": "https://smarthis.gupy.io/jobs/11564932",
+      "status": "Closed/Expired/No longer accepting applications",
+      "statusReason": "Explicit Applications closed notice.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Explicit Applications closed notice."
+        }
+      ]
+    },
+    {
+      "id": "lead-6",
+      "company": "Spread",
+      "title": "Desenvolvedor RPA PL - RHA2488",
+      "sourceUrl": "https://spread.gupy.io/jobs/11516982",
+      "status": "Closed/Expired/No longer accepting applications",
+      "statusReason": "Explicit Applications closed notice.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Explicit Applications closed notice."
+        }
+      ]
+    },
+    {
+      "id": "lead-7",
+      "company": "Nubank",
+      "title": "Senior RPA Developer",
+      "sourceUrl": "https://international.nubank.com.br/job-opportunity/?id=6736797",
+      "status": "Unknown",
+      "statusReason": "Redirects to corporate page.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "Redirects to corporate page."
+        }
+      ]
+    },
+    {
+      "id": "lead-8",
+      "company": "WNS",
+      "title": "RPA Business Analyst - South Africa",
+      "sourceUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/743999907811731-rpa-business-analyst-south-africa",
+      "status": "Unknown",
+      "statusReason": "ATS returns no responsibilities or qualifications; cannot establish substantive fit.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "ATS returns no responsibilities or qualifications; cannot establish substantive fit."
+        }
+      ]
+    },
+    {
+      "id": "lead-9",
+      "company": "TCS",
+      "title": "Senior Automation Developer with Blue Prism",
+      "sourceUrl": "https://www.jobs.ca/tata-consultancy-services/jobs/senior-automation-developer-with-blue-prism-toronto-on-a7e09cb55f65",
+      "status": "Unknown",
+      "statusReason": "Job-board lead found; direct employer application route unresolved and live access blocked.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "Job-board lead found; direct employer application route unresolved and live access blocked."
+        }
+      ]
+    },
+    {
+      "id": "lead-10",
+      "company": "ZenaTech",
+      "title": "Automation Team Lead",
+      "sourceUrl": "https://ca.linkedin.com/jobs/view/automation-team-lead-at-zenatech-inc-4446196939",
+      "status": "Unknown",
+      "statusReason": "Redirects to general LinkedIn search; no verified replacement.",
+      "lastVerifiedAt": "2026-09-23T16:39:18.865Z",
+      "sourceLastCheckedAt": "2026-09-23T16:39:18.865Z",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": null,
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Unknown",
+          "reason": "Redirects to general LinkedIn search; no verified replacement."
+        }
+      ]
+    }
+  ],
+  "legacyExclusions": [
+    {
+      "title": "Randstad · UiPath RPA Specialist/Developer",
+      "reason": "Closed / unavailable",
+      "detail": "Expired listing; HTTP 410 at check.",
+      "url": "https://www.randstad.co.uk/jobs/uipath-rpa-specialistdeveloper_city-of-london_46913581/",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Inetum · Low-code Apps Developer",
+      "reason": "Outside scope",
+      "detail": "Official ATS location is Colombia, not Europe or Asia.",
+      "url": "https://jobs.smartrecruiters.com/Inetum2/744000080646350-low-code-apps-developer",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "EEU Software · RPA Developer",
+      "reason": "Needs reconfirmation",
+      "detail": "Official posting date is October 2018; excluded despite a published page.",
+      "url": "https://jobs.smartrecruiters.com/EEUSoftware/743999677507297-rpa-developer",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Talan · Power Platform Consultant",
+      "reason": "Needs reconfirmation",
+      "detail": "Posting older than one year; excluded from this initial sample.",
+      "url": "https://jobs.smartrecruiters.com/Talan/744000047630455-power-platform-consultant",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "EY · AI & Automation Careers",
+      "reason": "Multi-role campaign",
+      "detail": "Broad careers campaign rather than a single vacancy; not counted as three jobs.",
+      "url": "https://careers.ey.com/ey/job/Wroc%C5%82aw-AI-%26-Automation-Careers-at-EY-GDS-Poland-Power-Platform%2C-Copilot-Studio-and-FDE-DS-50-086/1418827333/",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "ABeam Vietnam · RPA Consultant",
+      "reason": "Closed",
+      "detail": "Application listing says it no longer accepts applications, although an employer careers reference remains.",
+      "url": "https://vn.linkedin.com/jobs/view/robotic-process-automation-rpa-consultant-at-abeam-consulting-4366588069",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "nexos.ai · Product Owner | Mid | Web",
+      "url": "https://jobs.lever.co/Nexos/a4dcc2dc-6177-4647-87d9-bcafd65ab76a",
+      "reason": "Unavailable at refresh",
+      "detail": "Employer ATS returned HTTP 404 despite an indexed application page.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Arondor · Business Analyst RPA",
+      "url": "https://www.arondor.com/carrieres/business-analyst-rpa-h-f/",
+      "reason": "Application route unverified",
+      "detail": "Role description remains published, but the Postuler section exposed no working application form or route during this check. Not counted as a verified vacancy.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Razer · Product Owner – AI Digital Wallet",
+      "url": "https://razer.wd3.myworkdayjobs.com/Careers/job/Singapore/Razer-Gold-Product-Owner---AI-Digital-Wallet_JR2026007273",
+      "reason": "Verification blocked",
+      "detail": "Employer ATS returned HTTP 403; search snippets alone were not sufficient to include the role.",
+      "checkedAt": "2026-09-23"
+    },
+    {
+      "title": "Dyson · Lead Product Owner – AI & Automation",
+      "url": "https://dyson.wd3.myworkdayjobs.com/dyson_careers/job/Singapore---St-James-Power-Station-Headquarters/Lead-Product-Owner---AI---Automation_JR35051",
+      "reason": "Past application deadline",
+      "detail": "Indexed employer listing states an application deadline of 3 July 2026, before this research date.",
+      "checkedAt": "2026-09-23"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "runs": [
+    {
+      "id": "2026-09-23-expanded-roles",
+      "checkedAt": "2026-09-23",
+      "summary": "Refreshed the 36 existing source pages and added 11 employer-linked roles across developer, manager, team lead, analyst and product owner searches. Known languages informed fit review; Japanese fluency was not assumed.",
+      "legacy": true
+    },
+    {
+      "id": "2026-09-23-global",
+      "startedAt": null,
+      "completedAt": "2026-09-23T16:39:18.865Z",
+      "scope": "Worldwide",
+      "coverage": "Bounded discovery; full previously active recheck",
+      "existingRechecked": 47,
+      "existingStillOpen": 44,
+      "existingUnknown": 3,
+      "newlyFound": 15,
+      "explicitlyClosedNewLeads": 2,
+      "activeTotal": 59,
+      "roleFocusCounts": {
+        "developer": 34,
+        "analyst": 6,
+        "teamlead": 5,
+        "manager": 5,
+        "productowner": 9
+      },
+      "regions": [
+        "Europe",
+        "Asia",
+        "Oceania",
+        "Africa",
+        "North America",
+        "South America"
+      ],
+      "discoveryLanes": [
+        "RPA/Blue Prism/UiPath engineering",
+        "C#/.NET desktop and internal tools",
+        "Manager and team lead",
+        "Analyst/consultant and process mining",
+        "Product/platform ownership",
+        "Applied AI/agentic workflows",
+        "Official ATS and employer pages",
+        "Lithuanian/Swiss local boards",
+        "Portuguese, French, Russian, Chinese and English discovery variants",
+        "Historical Citco and Western Union discovery"
+      ],
+      "marketsSearched": [
+        "Lithuania",
+        "Switzerland",
+        "United Kingdom",
+        "Portugal",
+        "Spain",
+        "Austria",
+        "Hungary",
+        "United States",
+        "Canada",
+        "Mexico",
+        "Colombia",
+        "Brazil",
+        "Argentina",
+        "Australia",
+        "New Zealand",
+        "South Africa",
+        "Morocco",
+        "Egypt",
+        "Kenya",
+        "India",
+        "Singapore",
+        "Japan",
+        "China"
+      ],
+      "blockers": [
+        "Indexed Spin and ThreatLocker advertisements redirect to general boards.",
+        "Smarthis and Spread explicitly closed.",
+        "TCS direct application unresolved; some local boards blocked.",
+        "No verified Canada/Mexico vacancy added; regional searches are not country-complete."
+      ],
+      "remainingCoverage": [
+        "Exhaustive inherited priority-employer and historical-family sweep",
+        "Additional local-language boards across Africa, Latin America and East Asia",
+        "Full five-role coverage within every country"
+      ],
+      "rechecks": [
+        {
+          "id": "registru",
+          "checkedAt": "2026-09-23T16:31:30.897Z",
+          "source": "https://karjera.registrucentras.lt/jobs/8267881-vyriausias-rpa-sprendimu-vystytojas-a",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "devoteam-pt",
+          "checkedAt": "2026-09-23T16:31:31.048Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000113688413",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "devoteam-fr",
+          "checkedAt": "2026-09-23T16:31:31.051Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000095703193",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "coherent",
+          "checkedAt": "2026-09-23T16:31:31.080Z",
+          "source": "https://job-boards.eu.greenhouse.io/coherentsolutions/jobs/4969509101",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "inpost",
+          "checkedAt": "2026-09-23T16:31:31.083Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/InPost/postings/744000137441230",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "isolutions",
+          "checkedAt": "2026-09-23T16:31:31.117Z",
+          "source": "https://www.isolutions.ch/en/career/senior-power-platform-consultant/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "tieto",
+          "checkedAt": "2026-09-23T16:31:31.126Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Tieto2/postings/744000142094669",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "adesso",
+          "checkedAt": "2026-09-23T16:31:31.172Z",
+          "source": "https://www.adesso.ch/de_ch/jobs-karriere/unsere-stellenangebote/UiPath-Automation-Consultant-all-genders-de-j2959.html",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "version1",
+          "checkedAt": "2026-09-23T16:31:31.197Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Version1/postings/744000115388077",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "nhs",
+          "checkedAt": "2026-09-23T16:31:31.253Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/PortsmouthHospitalsUniversityNHSTrust/postings/744000140426410",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "kesko",
+          "checkedAt": "2026-09-23T16:31:31.273Z",
+          "source": "https://keskosenukailithuania.teamtailor.com/en/jobs/8244747-rpa-developer",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "eurofins",
+          "checkedAt": "2026-09-23T16:31:31.276Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Eurofins/postings/744000127024159",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "tsystems",
+          "checkedAt": "2026-09-23T16:31:31.277Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/T-SystemsIberia/postings/744000141727388",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "bosch-ai",
+          "checkedAt": "2026-09-23T16:31:31.348Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000138889069",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "conet",
+          "checkedAt": "2026-09-23T16:31:31.458Z",
+          "source": "https://www.conet.de/de/karriere/jobs/2024-196-software-developer-microsoft-dynamics-senior/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "bosch-my",
+          "checkedAt": "2026-09-23T16:31:31.461Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140600669",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "continental",
+          "checkedAt": "2026-09-23T16:31:31.462Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Continental/postings/744000103642605",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "bunge",
+          "checkedAt": "2026-09-23T16:31:31.528Z",
+          "source": "https://jobs.bunge.com/job/Bhurai-In-Senior-Process-Associate-RPA-Development-PB-160059/1429042233/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "digitalbricks-lowcode",
+          "checkedAt": "2026-09-23T16:31:31.646Z",
+          "source": "https://www.digitalbricks.ai/careers",
+          "httpStatus": 200,
+          "outcome": "Unknown"
+        },
+        {
+          "id": "arch",
+          "checkedAt": "2026-09-23T16:31:31.649Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/ArchGlobalServicesPhilippinesInc/postings/744000126730919",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "digitalbricks-lead",
+          "checkedAt": "2026-09-23T16:31:31.688Z",
+          "source": "https://www.digitalbricks.ai/careers",
+          "httpStatus": 200,
+          "outcome": "Unknown"
+        },
+        {
+          "id": "recruitis",
+          "checkedAt": "2026-09-23T16:31:31.750Z",
+          "source": "https://job-boards.greenhouse.io/recruitis/jobs/8527819002",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "natixis-wpf",
+          "checkedAt": "2026-09-23T16:31:31.766Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/NatixisInPortugal/postings/744000123882109",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "dautom",
+          "checkedAt": "2026-09-23T16:31:31.795Z",
+          "source": "https://www.careers-page.com/dautom/job/L57RRY95",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "sutherland-wpf",
+          "checkedAt": "2026-09-23T16:31:31.832Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Sutherland/postings/744000148072630",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "citech-wpf",
+          "checkedAt": "2026-09-23T16:31:31.926Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/CITECH/postings/744000116923908",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "anton-net",
+          "checkedAt": "2026-09-23T16:31:31.936Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/AntonPaar1/postings/744000122174822",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "capgemini-pl",
+          "checkedAt": "2026-09-23T16:31:31.982Z",
+          "source": "https://careers.capgemini.com/job/Krak%C3%B3w-RPA-Senior-Automation-Developer-Blue-Prism-%26-UiPath/1111776601/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "symprio",
+          "checkedAt": "2026-09-23T16:31:32.148Z",
+          "source": "https://www.symprio.com/careers/",
+          "httpStatus": 200,
+          "outcome": "Unknown"
+        },
+        {
+          "id": "temus-ai",
+          "checkedAt": "2026-09-23T16:31:32.177Z",
+          "source": "https://job-boards.greenhouse.io/temus/jobs/5428034008",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "hpe",
+          "checkedAt": "2026-09-23T16:31:32.196Z",
+          "source": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "sggc-lead",
+          "checkedAt": "2026-09-23T16:31:32.527Z",
+          "source": "https://jobs.eu.lever.co/sggc/fee02beb-cb97-454a-a439-4bc485cecf2a",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "ggs-lead",
+          "checkedAt": "2026-09-23T16:31:32.531Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/GGSITConsultingGoGlobalServices/postings/744000103672707",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "lastminute-po",
+          "checkedAt": "2026-09-23T16:31:32.532Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/lastminutecom/postings/744000149309419",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "salomon-po",
+          "checkedAt": "2026-09-23T16:31:32.533Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Salomon/postings/744000150300998",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "ldc-manager",
+          "checkedAt": "2026-09-23T16:31:32.665Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/LouisDreyfusCompany/postings/744000122616801",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "bosch-lead",
+          "checkedAt": "2026-09-23T16:31:32.679Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000139203214",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "seb-csharp",
+          "checkedAt": "2026-09-23T16:31:32.763Z",
+          "source": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "totalebiz",
+          "checkedAt": "2026-09-23T16:31:32.864Z",
+          "source": "https://www.totalebizsolutions.com/job/rpa-developer/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "devoteam-hyper",
+          "checkedAt": "2026-09-23T16:31:32.866Z",
+          "source": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000042338610",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "te-automation",
+          "checkedAt": "2026-09-23T16:31:32.946Z",
+          "source": "https://careers.te.com/job/AUTOMATION-DEVELOPER/156309-en_US/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "oxylabs-po",
+          "checkedAt": "2026-09-23T16:31:33.364Z",
+          "source": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "datacareers-ba",
+          "checkedAt": "2026-09-23T16:31:33.374Z",
+          "source": "https://vacancies.datacareers.co.uk/job/53331/rpa-business-analyst",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "singtel-transform",
+          "checkedAt": "2026-09-23T16:31:33.394Z",
+          "source": "https://groupcareers.singtel.com/job/Business-and-Digital-Transformation-Mgr-Sing/1356769166/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "sgx-po",
+          "checkedAt": "2026-09-23T16:31:33.780Z",
+          "source": "https://careers.sgx.com/job/Singapore-VP-Technical-Product-Owner-%28AI-&-Automation%29/1366307966/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "changi-ba",
+          "checkedAt": "2026-09-23T16:31:34.718Z",
+          "source": "https://jobs.changiairport.com/cag/job/Assistant-Manager%2C-Digital-Finance-Business-Analyst-%28AI%2C-Automation%29/1367109166/",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        },
+        {
+          "id": "oxylabs-commercial",
+          "checkedAt": "2026-09-23T16:31:35.080Z",
+          "source": "https://jobs.lever.co/oxylabs/101803b6-94a0-4347-9ff1-d89ebabc1b5f",
+          "httpStatus": 200,
+          "outcome": "Still open"
+        }
+      ],
+      "sourcesReviewed": [
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/NCSAustralia/postings/6000000001245646",
+          "status": 200,
+          "title": "RPA Automation Engineer"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000122618974",
+          "status": 200,
+          "title": "Deputy Manager - RPA"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/743999907811731",
+          "status": 200,
+          "title": "RPA Business Analyst - South Africa"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/ContactEnergy/postings/744000127346679",
+          "status": 200,
+          "title": "Product Owner"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/ALTEN/postings/744000136505589",
+          "status": 200,
+          "title": "Développeur UiPath – RPA"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/Experian/postings/744000138859709",
+          "status": 200,
+          "title": "AI & Automation Solution Consultant"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000150637610",
+          "status": 200,
+          "title": "Product Owner and Data Professional "
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/Sia/postings/744000061339856",
+          "status": 200,
+          "title": "Product Manager"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/I360technologies/postings/744000063584595",
+          "status": 404,
+          "title": null
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/prosidianconsulting/postings/744000119029377",
+          "status": 200,
+          "title": "RPA Developer"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/AntonPaar1/postings/744000116198867",
+          "status": 200,
+          "title": "Product Owner (f/m/x)"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/T-SystemsIberia/postings/744000140015049",
+          "status": 200,
+          "title": "Arquitecto/a Automatización y Process Mining (m/f/d)"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/AlterSolutions/postings/744000053982207",
+          "status": 200,
+          "title": "RPA Analyst/Developer"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/PortsmouthHospitalsUniversityNHSTrust/postings/744000131183262",
+          "status": 200,
+          "title": "Automation Analyst"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/Lesaffre/postings/744000138051600",
+          "status": 200,
+          "title": "Senior Manager, Applications and Digital Solutions"
+        },
+        {
+          "url": "https://api.smartrecruiters.com/v1/companies/DeutscheTelekomITSolutions/postings/744000138251095",
+          "status": 200,
+          "title": "Technical Process Manager (AI Driven BCM & Security Process Optimization & Automation)"
+        }
+      ],
+      "earliestRecordedCheckAt": "2026-09-23T16:31:30.897Z",
+      "timingNote": "Search start was not recorded before discovery. EarliestRecordedCheckAt is the first preserved recheck timestamp, not a fabricated start time.",
+      "directSourceChecks": [
+        {
+          "id": "ncs-au",
+          "url": "https://jobs.smartrecruiters.com/NCSAustralia/6000000001245646-rpa-automation-engineer",
+          "status": 200,
+          "title": "NCS Australia RPA Automation Engineer | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "wns-za",
+          "url": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000122618974-deputy-manager-rpa",
+          "status": 200,
+          "title": "WNS Global Services Deputy Manager - RPA | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "contact-nz",
+          "url": "https://jobs.smartrecruiters.com/ContactEnergy/744000127346679-product-owner",
+          "status": 200,
+          "title": "Contact Energy Product Owner | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "alten-ma",
+          "url": "https://jobs.smartrecruiters.com/ALTEN/744000136505589-developpeur-uipath-rpa",
+          "status": 200,
+          "title": "ALTEN Développeur UiPath – RPA | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "experian-ai",
+          "url": "https://jobs.smartrecruiters.com/Experian/744000151088864-ai-automation-solution-consultant",
+          "status": 200,
+          "title": "Experian AI &amp; Automation Solution Consultant | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "bosch-hu-po",
+          "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150637610-product-owner-and-data-professional-",
+          "status": 200,
+          "title": "Bosch Group Product Owner and Data Professional  | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "sia-product",
+          "url": "https://jobs.smartrecruiters.com/Sia/744000131375539-product-manager",
+          "status": 200,
+          "title": "Sia Product Manager | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "prosidian-us",
+          "url": "https://jobs.smartrecruiters.com/prosidianconsulting/744000119029377-rpa-developer",
+          "status": 200,
+          "title": "ProSidian Consulting, LLC RPA Developer | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "anton-po",
+          "url": "https://jobs.smartrecruiters.com/AntonPaar1/744000130781699-product-owner-f-m-x-",
+          "status": 200,
+          "title": "Anton Paar Product Owner (f/m/x) | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "tsystems-process",
+          "url": "https://jobs.smartrecruiters.com/T-SystemsIberia/744000140015049-arquitecto-a-automatizacion-y-process-mining-m-f-d-",
+          "status": 200,
+          "title": "T-Systems Iberia Arquitecto/a Automatización y Process Mining (m/f/d) | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "act-rpa",
+          "url": "https://jobs.smartrecruiters.com/AlterSolutions/744000053982207-rpa-analyst-developer",
+          "status": 200,
+          "title": "act digital RPA Analyst/Developer | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "nhs-analyst",
+          "url": "https://jobs.smartrecruiters.com/PortsmouthHospitalsUniversityNHSTrust/744000134189750-automation-analyst",
+          "status": 200,
+          "title": "Portsmouth Hospitals University NHS Trust Automation Analyst | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "lesaffre-manager",
+          "url": "https://jobs.smartrecruiters.com/Lesaffre/744000138051600-senior-manager-applications-and-digital-solutions",
+          "status": 200,
+          "title": "Lesaffre Senior Manager, Applications and Digital Solutions | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "telekom-process",
+          "url": "https://jobs.smartrecruiters.com/DeutscheTelekomITSolutions/744000138251095-technical-process-manager-ai-driven-bcm-security-process-optimization-automation-",
+          "status": 200,
+          "title": "Deutsche Telekom IT Solutions Technical Process Manager (AI Driven BCM &amp; Security Process Optimization &amp; Automation) | SmartRecruiters",
+          "closed": null,
+          "apply": true
+        },
+        {
+          "id": "innolevels-br",
+          "url": "https://www.innolevels.com.br/vagas-innolevels/desenvolvedor-de-automacao-rpa/",
+          "status": 200,
+          "title": "Desenvolvedor de Automação (RPA) - innolevels",
+          "closed": null,
+          "apply": true
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,11 @@ const data=require('../data/rpa-vacancies.json');
   assert.equal(new Set(data.jobs.map(j=>j.id)).size,data.jobs.length);
   assert.equal(new Set(data.jobs.map(j=>[j.company,j.title,j.country].join('|'))).size,data.jobs.length);
   for(const job of data.jobs){
+    assert.ok(['Newly found','Still open'].includes(job.status));
+    assert.ok(['developer','manager','teamlead','analyst','productowner'].includes(job.roleFocus));
+    assert.ok(job.lastVerifiedAt && job.sourceLastCheckedAt && job.statusHistory.length);
     for(const field of ['title','company','country','region','mode','level','sourceType','verification'])assert.ok(job[field],`${job.id}: ${field}`);
-    assert.ok(['Europe','Asia'].includes(job.region));
+    assert.ok(['Europe','Asia','Africa','North America','South America','Oceania'].includes(job.region));
     assert.ok(job.tools.length&&new Set(job.tools).size===job.tools.length);
     for(const url of [job.sourceUrl,job.evidenceUrl])assert.equal(new URL(url).protocol,'https:');
     assert.ok(job.checkedAt===data.researchedAt);
@@ -120,6 +123,26 @@ const data=require('../data/rpa-vacancies.json');
     await offline.unroute('**/data/rpa-vacancies.json');
     await offline.getByRole('button',{name:'Retry loading research'}).click();
     await offline.locator('.market-kpis').waitFor();
+    const global=await browser.newPage();
+    await global.route('**/data/rpa-vacancies.json',r=>r.fulfill({json:{...data,jobs:[...data.jobs,{...data.jobs[0],id:'hidden-test',title:'UNVERIFIED TEST ROLE',status:'Unknown'}]}}));
+    await global.goto('http://127.0.0.1:4175');
+    await global.locator('.market-kpis').waitFor();
+    await global.getByRole('button',{name:'Reset filters',exact:true}).click();
+    assert.equal(await global.locator('.market-kpis strong').first().textContent(),String(data.jobs.length));
+    await global.getByRole('tab',{name:/Vacancies/}).click();
+    assert.equal(await global.getByText('UNVERIFIED TEST ROLE',{exact:true}).count(),0);
+    for(const region of ['Africa','North America','South America','Oceania']){
+      await global.getByLabel('Regions',{exact:true}).selectOption(region);
+      assert.equal(await global.locator('.vacancy-card').count(),data.jobs.filter(j=>j.region===region).length);
+    }
+    await global.getByRole('button',{name:'Reset filters',exact:true}).click();
+    for(const role of ['developer','manager','teamlead','analyst','productowner']){
+      await global.getByLabel('Role focus',{exact:true}).selectOption(role);
+      assert.equal(await global.locator('.vacancy-card').count(),data.jobs.filter(j=>j.roleFocus===role).length);
+    }
+    await global.getByRole('tab',{name:'Sources & method',exact:true}).click();
+    assert.equal(await global.getByText('UNVERIFIED TEST ROLE',{exact:true}).count(),0);
+    await global.close();
     await page.setViewportSize({width:1440,height:720});
     await page.getByRole('tab',{name:/Vacancies/}).click();
     const scroll=page.locator('.content-scroll');

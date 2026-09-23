@@ -12,7 +12,9 @@ Politics contains Russia vs Ukraine war and Gender war. Religion contains Easter
 
 ## Job observatory
 
-`data/rpa-vacancies.json` contains 47 sourced advertisements across 18 countries, checked on 23 September 2026. The latest search added 11 listings and rechecked 36 existing source pages. By default, 24 direct or plausible fits are shown; stretch and lower-priority roles remain available through the filters. Counts describe this research sample, not total market demand or guaranteed availability.
+`data/rpa-vacancies.json` contains 59 sourced advertisements across 24 countries and six world regions, checked on 23 September 2026. The worldwide refresh rechecked all 47 existing records, retained 44, archived three lacking role-specific links, and added 15 verified roles. Direct and plausible fits are shown by default; stretch and lower-priority roles remain available. Counts describe this research sample, not total market demand or guaranteed availability.
+
+Follow [the canonical worldwide search protocol](docs/job-search.md) on every refresh. It adapts the former Jobflow prompt to Mind's static publication and evidence-based profile matching. `data/search-runs.json` records actual coverage and unresolved lanes; `data/job-history.json` retains historical and unverified records outside active results. This run is bounded worldwide discovery, not an exhaustive employer or country census. Role-focus and region filters, map, pie chart and exports all use the same verified pool. Location is separate from work authorization and remote-residence eligibility.
 
 The profile assessment uses user-supplied professional screenshots and language/role clarifications. Target roles include developer, manager, team lead, analyst and product owner. Confirmed languages are Russian, English, Lithuanian and French, plus a little Japanese. Each listing distinguishes relevant experience from requirements still to confirm. See `AGENTS.md` for future research criteria.
 
