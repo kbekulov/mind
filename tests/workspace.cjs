@@ -20,7 +20,7 @@ const path=require('node:path');
     }
     for(const name of ['Politics','Philosophy','Religion']){
       await page.locator('.sidebar').getByRole('link',{name,exact:true}).click();
-      await page.getByRole('heading',{name,exact:true}).waitFor();
+      await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
       assert.equal(await page.locator('.sidebar').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
     }
     for(const [parent,names] of Object.entries({Politics:['Russia vs Ukraine war','Gender war'],Religion:['Eastern Orthodoxy','Catholicism','Islam','Buddhism','Shinto'],Philosophy:['Realism (international relations)','Idealism (international relations)']})){
@@ -29,13 +29,34 @@ const path=require('node:path');
       assert.equal(await page.locator('.topic-card').count(),names.length);
       for(const name of names){
         await page.locator('.topic-nav').getByRole('link',{name,exact:true}).click();
-        await page.getByRole('heading',{name,exact:true}).waitFor();
+        await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
         await page.reload();
-        await page.getByRole('heading',{name,exact:true}).waitFor();
+        await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
         assert.equal(await page.locator('.topic-nav').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
       }
     }
     await page.screenshot({path:'test-results/subsections.png'});
+    await page.goto('http://127.0.0.1:4174/#view=religion');
+    await page.locator('#religion-question').selectOption('2');
+    assert.equal(await page.locator('.religion-compare-row').count(),5);
+    assert.ok((await page.locator('#religion-comparison-results').innerText()).includes('Soma'));
+    await page.screenshot({path:'test-results/religion-comparison.png'});
+    for(const id of ['eastern-orthodoxy','catholicism','islam','buddhism','shinto']){
+      await page.goto('http://127.0.0.1:4174/#view=religion&topic='+id);
+      assert.equal(await page.locator('.religion-answer').count(),6);
+      assert.equal(await page.locator('.religion-diagram').count(),2);
+      assert.equal(await page.locator('.religion-answer').filter({has:page.locator('a[href^="https://"]')}).count(),6);
+      await page.getByRole('button',{name:/06 What is the ultimate horizon/}).click();
+      assert.equal(await page.evaluate(()=>document.activeElement.id),'religion-q-5');
+      assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollTop>0));
+      await page.locator('.content-scroll').evaluate(el=>el.scrollTop=0);
+      await page.screenshot({path:'test-results/religion-'+id+'.png'});
+      await page.setViewportSize({width:390,height:844});
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth));
+      await page.screenshot({path:'test-results/religion-'+id+'-mobile.png'});
+      await page.setViewportSize({width:1536,height:1080});
+    }
     await page.locator('.sidebar').getByRole('link',{name:'Jobs',exact:true}).click();
     await page.locator('.market-kpis').waitFor();
     await page.screenshot({path:'test-results/published-desktop.png'});
