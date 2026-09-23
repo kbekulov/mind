@@ -11,7 +11,15 @@ A Discord-inspired personal research workspace at **https://mind.bekulov.com**.
 - Browser-local persistence, Markdown export, and validated JSON workspace backup/restore.
 - Responsive mobile navigation, keyboard shortcuts, and accessible dialogs.
 
-The initial documents are editable examples and research frameworks, not verified findings.
+The initial personal documents are editable examples and research frameworks. The separate **RPA observatory** (`#view=market`) contains real sourced research: 26 vacancy advertisements across 16 European and Asian countries, checked on 23 September 2026. All seniority levels and work arrangements are in scope.
+
+## Published job research
+
+`data/rpa-vacancies.json` is the versioned source of truth for the public research collection. `market.js` renders filters, linked vacancies, country/tool/field/seniority/arrangement dashboards, a country–tool matrix, filtered JSON exports, and a source register. `market.css` styles the collection and removes the former large-icon rail in favor of one compact sidebar.
+
+This is a purposive, manually checked snapshot, not a census or a live job feed. Counts represent distinct collected advertisements, not openings or total market demand. Platform mentions include optional and alternative tools. Unknown values remain explicit. Salary figures retain their original currency and period. Published roles with application routes are labeled “Listed at check”; continued availability is not guaranteed. The Sources & method view records methodology and selected rejected leads, including closed ads and talent campaigns.
+
+To refresh, verify the employer or agency source, update each record's evidence and check date, remove closed ads, and update the collection date and snapshot labels together. Never infer remote eligibility, salary or sponsorship. Deduplicate by employer/title/country, preserving multi-city roles as one ad. Public research loads separately from local notes, so existing workspaces receive updates without resetting personal documents. Public research is exported separately from personal workspace backups.
 
 ## Storage and privacy
 

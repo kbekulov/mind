@@ -8,7 +8,13 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .inspector.user-hidden{display:none}.breadcrumb strong{max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sidebar-bottom .icon{width:14px;height:14px}.channel-row>.icon:last-child:not(:first-child){width:12px;margin-left:auto}.rail{overflow-y:auto;scrollbar-width:none}.rail>.space-button,.rail>.brand,.rail>.avatar{flex-shrink:0}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
 @media(max-width:760px){.breadcrumb strong{max-width:145px}.form-row{flex-wrap:wrap}.form-row>div{flex:1 1 40%}}
-.app-shell,.main{overflow:clip}.content-scroll{overflow-x:hidden}
+/* Keep the viewport grid bounded so its flex child can actually scroll.
+   overflow:clip does not establish the same sizing constraint as hidden. */
+html,body{height:100%;overflow:hidden}
+.app-shell{grid-template-rows:minmax(0,1fr);overflow:hidden}
+.main{min-height:0;overflow:hidden}
+.workspace-content{min-height:0;overflow:hidden}
+.content-scroll{position:relative;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain}
 @media(max-width:760px){.rail,.sidebar{visibility:hidden}.nav-open .rail,.nav-open .sidebar{visibility:visible}.footer-tip{flex-wrap:wrap}.page-heading h1{min-width:0}.space-card-bottom{flex-wrap:wrap}}
 
 /* Discord dark: layered neutral surfaces with blurple reserved for actions. */
