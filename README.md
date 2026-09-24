@@ -24,7 +24,7 @@ Visitors can search and filter vacancies, open employer links, review the career
 
 The country pie chart shows filtered counts and percentages with stable colors and a clickable legend. Other charts summarize tools, fields, seniority and arrangements. The country–tool matrix supports drill-down.
 
-The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrolling over the map zooms at the cursor without modifier keys; scrolling outside moves the page. Dragging, keyboard controls and country labels provide alternate interactions. Counts follow the vacancy filters.
+The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrolling over the map zooms at the cursor without modifier keys; scrolling outside moves the page. Dragging, keyboard controls and country labels provide alternate interactions. Counts follow the vacancy filters. Selecting a country opens a scrollable job popover on the map, listing every matching vacancy with its employer and location. Only selecting a job opens its source in a new tab. Close with Escape, the close button, or a click outside; map selection does not change filters or tabs.
 
 `data/world-map.json` uses Natural Earth I geometry (Natural Earth 4.1.0 via world-atlas 2.0.2). Attribution and terms are in `data/world-map-LICENSE.txt`. Rebuild geometry with `npm run build:map`.
 
