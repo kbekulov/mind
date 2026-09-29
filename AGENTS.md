@@ -1,5 +1,14 @@
 # Project instructions
 
+## Local backlog workflow
+
+- Before other project work, check local `backlog/` for pending `.txt` files. Read `00_what_is_backlog.txt` first when present, then process the other files in filename order. Explicit user instructions can override queue priority.
+- Backlog source files are private working inputs. Never stage, commit, upload or publish `backlog/`, including its archives. Publish only the derived site changes. Keep `/backlog/` ignored and check the staged file list before every commit.
+- Integrate relevant podcast/transcript material into the appropriate research section with concise summaries, comparisons, tables and diagrams. Adapt requests for slides to the site's read-only research format unless the user explicitly requests a slide file.
+- Preserve provenance and distinguish supplied testimony, interpretations, conceptual models and externally verified findings. A supplied analytical brief is not the original transcript. Do not turn an anecdote into a population fact, invent statistics, erase material source context, or present unresolved citation placeholders as sources. Conceptual diagrams must be labelled as such; factual legal, medical or population claims require independent verification before publication as facts.
+- After a file's requested work has been integrated and verified, rename it to `<original-stem>_YYYY-MM-DD_HH-mm-ss.txt` using Europe/Vilnius time and move it into local `backlog/archive/`. Preserve its bytes. Do not archive pending or blocked inputs as completed; record any unresolved source verification in the derived research.
+- Archive the bootstrap `00_what_is_backlog.txt` only after its recurring rules have been captured here. Check the queue again before finishing other project changes. Verify, commit and push derived changes using the existing project publishing workflow.
+
 - Repository: https://github.com/kbekulov/mind
 - Website: https://mind.bekulov.com
 - Hosting: GitHub Pages. Preserve the root `CNAME` pointing to `mind.bekulov.com`.

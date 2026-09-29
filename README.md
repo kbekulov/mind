@@ -30,6 +30,14 @@ The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrol
 
 `data/world-map.json` uses Natural Earth I geometry (Natural Earth 4.1.0 via world-atlas 2.0.2). Attribution and terms are in `data/world-map-LICENSE.txt`. Rebuild geometry with `npm run build:map`.
 
+## Gender research and local backlog
+
+The Gender war section includes two source-derived conceptual briefings: implicit expectations and relational conflict, and moral judgment and gendered trust. Six process diagrams, a qualitative timeline, comparison matrices and an expandable catalogue cover 40 proposed mechanisms. These are hypotheses from supplied analytical briefs, not verified podcast transcripts or population statistics. Legal, clinical and population claims remain in a visible verification queue. Existing fertility timelines retain their separate statistical sources.
+
+`data/gender-research.json` is the reusable derived dataset; `data/gender-research.js` supplies the same data to the static page. Keep them identical (checked by the browser tests). `gender-research.js` renders the research. No raw backlog content is published.
+
+Pending local `backlog/*.txt` inputs take priority under `AGENTS.md`. The entire directory is ignored. After integration and verification, originals are preserved in local `backlog/archive/` with a Europe/Vilnius timestamp. Only derived site content and project rules are committed.
+
 ## Development
 
 ```sh

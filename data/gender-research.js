@@ -1,0 +1,762 @@
+/* Published derived research; raw backlog inputs remain local. */
+window.MindGenderData = {
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-29",
+  "title": "Gender dynamics: mechanisms and open questions",
+  "scope": "Two supplied analytical briefs; 40 proposed mechanisms. This is not an analysis of verified original recordings.",
+  "sources": [
+    {
+      "id": "brief-1",
+      "title": "Implicit expectations and relational conflict",
+      "inputName": "01_gender_info_1.txt",
+      "type": "User-supplied analytical brief about an unavailable podcast",
+      "receivedAt": "2026-09-29",
+      "sha256": "aed54dc49881ec8f0d726d11218bbcbd36dcc2dcda09c6b4b666f5bdc068298b",
+      "originalSpeaker": null,
+      "originalRecordingUrl": null,
+      "originalTranscriptAvailable": false,
+      "limitations": "The brief describes an autistic speaker and an incomplete recording excerpt. That context is retained; extension to other people is a hypothesis, not evidence of prevalence.",
+      "summary": "Proposes that implicit expectations, missed cues and negative motive attribution can turn misunderstandings into conflict and exclusion."
+    },
+    {
+      "id": "brief-2",
+      "title": "Moral judgment, accountability and gendered trust",
+      "inputName": "01_gender_info_2.txt",
+      "type": "User-supplied analytical brief about an unavailable podcast",
+      "receivedAt": "2026-09-29",
+      "sha256": "a777262e36d439a8ccdbe5ec6e655ac0e9e1af5b1503ace101784f5e7f2e5c84",
+      "originalSpeaker": null,
+      "originalRecordingUrl": null,
+      "originalTranscriptAvailable": false,
+      "limitations": "Case descriptions, alleged reactions and legal/medical claims have not been independently verified.",
+      "summary": "Proposes a path from morally salient events through perceived group favoritism to wider distrust and polarization."
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "G1-01",
+      "sourceId": "brief-1",
+      "name": "Invisible relational contracts",
+      "claim": "Unspoken expectations for affirmation, attention and loyalty may be interpreted as agreements.",
+      "alternative": "A missed response may reflect a different convention rather than rejection.",
+      "researchNeeded": "Compare explicitly negotiated and implicit expectations across relationships.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 1: INVISIBLE RELATIONAL CONTRACT THEORY",
+        "line": 42
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-02",
+      "sourceId": "brief-1",
+      "name": "Covert reciprocity",
+      "claim": "Care or compliments may carry an unstated expectation of repayment; a literal thank-you can then be interpreted as insufficient.",
+      "alternative": "The gesture may be generous without any repayment expectation.",
+      "researchNeeded": "Ask both participants what they intended and expected before coding social debt.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 2: COVERT RECIPROCITY / \"GIVING TO GET\"",
+        "line": 91
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-03",
+      "sourceId": "brief-1",
+      "name": "Delayed rupture",
+      "claim": "Unspoken grievances may accumulate while outward friendliness continues, making a later break seem sudden.",
+      "alternative": "A relationship can change for reasons unrelated to accumulated resentment.",
+      "researchNeeded": "Collect repeated reports from both partners rather than infer private feelings from one account.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 3: CONFLICT-AVOIDANCE / DELAYED-RUPTURE MODEL",
+        "line": 148
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-04",
+      "sourceId": "brief-1",
+      "name": "You should have known",
+      "claim": "A person may expect needs or offenses to be inferred without an explicit request.",
+      "alternative": "Relevant expectations may previously have been discussed or misunderstood.",
+      "researchNeeded": "Measure expectation clarity, cue access and opportunities for repair separately.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 4: \"YOU SHOULD HAVE KNOWN\" NORM",
+        "line": 204
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-05",
+      "sourceId": "brief-1",
+      "name": "Opaque sanctions",
+      "claim": "Exclusion without an explanation can leave the recipient unable to identify or correct the alleged violation.",
+      "alternative": "Withdrawal may be a boundary rather than punishment, and its cause may be unrelated.",
+      "researchNeeded": "Document the actual feedback, timing and each participant’s account.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 5: RELATIONAL SANCTION WITHOUT PROCEDURAL WARNING",
+        "line": 246
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-06",
+      "sourceId": "brief-1",
+      "name": "Relational hypervigilance",
+      "claim": "Repeated unexpected rejection is proposed to encourage retrospective analysis and excessive monitoring of future interactions.",
+      "alternative": "Prior anxiety, stress or other experiences could explain monitoring.",
+      "researchNeeded": "Use longitudinal evidence before attributing monitoring to these encounters.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 6: AUTISTIC RELATIONAL HYPERVIGILANCE",
+        "line": 304
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-07",
+      "sourceId": "brief-1",
+      "name": "Identity coordination",
+      "claim": "Differences in interests or appearance may be read as threats to similarity and belonging.",
+      "alternative": "Shared rituals may be voluntary and affirming rather than coercive.",
+      "researchNeeded": "Compare autonomy, consent and reactions to difference across contexts.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 7: ENMESHMENT AND IDENTITY-COORDINATION MODEL",
+        "line": 338
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-08",
+      "sourceId": "brief-1",
+      "name": "Externalized self-evaluation",
+      "claim": "One person’s activity may trigger another’s self-comparison and a demand for reassurance.",
+      "alternative": "A self-comparing remark may be conversation rather than a request for emotional labor.",
+      "researchNeeded": "Distinguish expressed insecurity from an actual demand for reassurance.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 8: SOCIAL COMPARISON AS INTERPERSONAL REGULATION",
+        "line": 387
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-09",
+      "sourceId": "brief-1",
+      "name": "Relational power",
+      "claim": "The brief proposes that alliances, reputation and inclusion can function as informal resources of influence.",
+      "alternative": "Formal power, culture and organizational structure may better explain an episode.",
+      "researchNeeded": "The proposed historical gender explanation needs independent comparative research.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 9: RELATIONAL POWER AND NETWORK SANCTIONS",
+        "line": 425
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-10",
+      "sourceId": "brief-1",
+      "name": "Ritual and intention",
+      "claim": "Failure to mirror, affirm or participate in a ritual may be interpreted as unwillingness instead of a missed cue.",
+      "alternative": "A person can knowingly decline a ritual without hostile intent.",
+      "researchNeeded": "Compare observers’ attributions with participants’ reported intentions.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 10: SOCIAL-RITUAL COMPETENCE AS GROUP MEMBERSHIP SIGNAL",
+        "line": 469
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-11",
+      "sourceId": "brief-1",
+      "name": "Social-competence expectation mismatch",
+      "claim": "The source proposes that perceived attractiveness can raise expected social competence and intensify negative motive attribution.",
+      "alternative": "Attractiveness may have different or no effects in other settings.",
+      "researchNeeded": "Test the proposed moderator; neither its direction nor size is established here.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 11: ATTRACTIVENESS × AUTISM EXPECTATION MISMATCH",
+        "line": 510
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-12",
+      "sourceId": "brief-1",
+      "name": "Intentionality inflation",
+      "claim": "Silence, awkwardness or independence may be assigned a strategic or hostile motive.",
+      "alternative": "Intentional behavior is also possible; interpretation alone establishes neither motive.",
+      "researchNeeded": "Compare fatigue, preference, communication difference and intentional explanations.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 12: INTENTIONALITY INFLATION",
+        "line": 562
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-13",
+      "sourceId": "brief-1",
+      "name": "Outsider cascade",
+      "claim": "A negative interpretation may circulate through a network and consolidate into exclusion.",
+      "alternative": "Others may reach independent judgments or dispute the original account.",
+      "researchNeeded": "Trace who learned what from whom; do not assume consensus or contagion.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 13: COLLECTIVE OUTSIDER CASCADE",
+        "line": 598
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-14",
+      "sourceId": "brief-1",
+      "name": "Asymmetric error costs",
+      "claim": "Someone who expects severe consequences for missed cues may over-monitor even harmless signals.",
+      "alternative": "Perceived risk can differ from actual consequences.",
+      "researchNeeded": "Separate expected costs, observed sanctions and false alarms.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 14: ASYMMETRIC ERROR COSTS",
+        "line": 637
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G1-15",
+      "sourceId": "brief-1",
+      "name": "Autonomy-safe relationships",
+      "claim": "The brief proposes direct requests, tolerated differences and repair as conditions for safer relationships.",
+      "alternative": "Explicit communication can also be coercive; directness alone is insufficient.",
+      "researchNeeded": "Compare consent, autonomy and repair outcomes instead of assuming a universal ideal.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 15: RELATIONAL SAFETY AS AUTONOMY WITHOUT PENALTY",
+        "line": 667
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-01",
+      "sourceId": "brief-2",
+      "name": "Moral shock",
+      "claim": "A salient event may activate old grievances and reorganize a person’s interpretation of earlier events.",
+      "alternative": "A reported shift may be temporary or reflect pre-existing views.",
+      "researchNeeded": "Measure attitudes before and after exposure with a comparison group.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 1: MORAL SHOCK CATALYST MODEL",
+        "line": 100
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-02",
+      "sourceId": "brief-2",
+      "name": "Identity-protective accountability",
+      "claim": "Identification with an accused person may motivate more attention to mitigating explanations.",
+      "alternative": "Evidence, clinical beliefs or legal standards may explain contextualization without group loyalty.",
+      "researchNeeded": "Separate identity, evidence evaluation, empathy and culpability judgments.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 2: IDENTITY-PROTECTIVE ACCOUNTABILITY",
+        "line": 147
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-03",
+      "sourceId": "brief-2",
+      "name": "In-group exoneration",
+      "claim": "The brief proposes more situational explanations for an in-group actor than for an out-group actor.",
+      "alternative": "Similar defenses may occur across sexes and other identities.",
+      "researchNeeded": "Use matched scenarios varying actor identity while holding relevant facts constant.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 3: IN-GROUP EXONERATION BIAS",
+        "line": 198
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-04",
+      "sourceId": "brief-2",
+      "name": "Accountability displacement",
+      "claim": "Unsupported alternative narratives may preserve a favored group’s image when an allegation threatens it.",
+      "alternative": "An alternative account can be justified if supported by evidence.",
+      "researchNeeded": "Check each allegation independently; do not infer conspiracy from discussion of coercion or illness.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 4: CONSPIRACY AS ACCOUNTABILITY-PRESERVATION MECHANISM",
+        "line": 246
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-05",
+      "sourceId": "brief-2",
+      "name": "Empathy and accountability",
+      "claim": "Compassion and responsibility are separate judgments, even when a debate frames them as competing.",
+      "alternative": "Empathy for one person need not exclude empathy for victims.",
+      "researchNeeded": "Code compassion, mitigation and exoneration independently.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 5: EMPATHY-ACCOUNTABILITY DECOUPLING",
+        "line": 288
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-06",
+      "sourceId": "brief-2",
+      "name": "Paternalistic boomerang",
+      "claim": "An argument for reduced responsibility may be generalized by observers into a claim of reduced group competence.",
+      "alternative": "Observers may keep a specific impairment separate from general capability.",
+      "researchNeeded": "Test audience interpretations; no demographic incapacity follows from a particular case.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 6: PATERNALISTIC BOOMERANG",
+        "line": 324
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-07",
+      "sourceId": "brief-2",
+      "name": "Agency and responsibility",
+      "claim": "The brief links perceived control over an act with attributed responsibility.",
+      "alternative": "Different moral and legal frameworks can weigh control differently.",
+      "researchNeeded": "Distinguish causal explanation, moral judgment and legal standards.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 7: AGENCY-ACCOUNTABILITY COUPLING",
+        "line": 371
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-08",
+      "sourceId": "brief-2",
+      "name": "Institutional trust spillover",
+      "claim": "A disputed judgment may be generalized from an individual decision-maker to an institution.",
+      "alternative": "Trust may change because of procedures or evidence rather than demographic identity.",
+      "researchNeeded": "Measure case-specific and institutional trust separately.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 8: INSTITUTIONAL TRUST SPILLOVER",
+        "line": 405
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-09",
+      "sourceId": "brief-2",
+      "name": "Civic competence inference",
+      "claim": "Judgments in one domain may be used to question an entire group’s civic competence.",
+      "alternative": "Domain-specific disagreement does not establish a stable group trait.",
+      "researchNeeded": "Analyze the inference without endorsing restrictions on civic participation.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 9: CIVIC COMPETENCE INFERENCE",
+        "line": 445
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-10",
+      "sourceId": "brief-2",
+      "name": "Parallel moral frames",
+      "claim": "Observers may emphasize victims, suffering, intent, responsibility or fairness differently.",
+      "alternative": "Individuals can hold several priorities simultaneously; these are not fixed male/female camps.",
+      "researchNeeded": "Measure moral priorities rather than assign a framework by sex.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 10: PARALLEL MORAL REALITIES",
+        "line": 485
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-11",
+      "sourceId": "brief-2",
+      "name": "Identity-shaped evidence selection",
+      "claim": "Group identity may shape which accounts feel credible and which explanations receive attention.",
+      "alternative": "Expertise, information access and evidence quality can also explain disagreement.",
+      "researchNeeded": "Compare source exposure and evidence weighting across identities.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 11: GENDERED EPISTEMIC TRIBALISM",
+        "line": 529
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-12",
+      "sourceId": "brief-2",
+      "name": "Role-based moral legitimacy",
+      "claim": "The brief proposes that association with a valued role can confer moral authority.",
+      "alternative": "Role expectations and authority vary across societies and individuals.",
+      "researchNeeded": "Historical claims about motherhood and moral authority need separate evidence.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 12: MORAL AUTHORITY LEGITIMACY MODEL",
+        "line": 576
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-13",
+      "sourceId": "brief-2",
+      "name": "Sacred-role violation",
+      "claim": "An act perceived as violating a valued role may provoke particularly intense moral shock.",
+      "alternative": "The harm itself may explain the reaction without a role-based mechanism.",
+      "researchNeeded": "Compare equally harmful acts while varying role expectations.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 13: SACRED ROLE VIOLATION",
+        "line": 622
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-14",
+      "sourceId": "brief-2",
+      "name": "Symbolic representative error",
+      "claim": "A highly visible subset may be treated as representative of an entire demographic group.",
+      "alternative": "An observer may accurately distinguish the subset from the wider population.",
+      "researchNeeded": "Compare perceived prevalence with representative evidence.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 14: SYMBOLIC REPRESENTATIVE ERROR",
+        "line": 656
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-15",
+      "sourceId": "brief-2",
+      "name": "Availability cascade",
+      "claim": "Repeated exposure to extreme examples may increase perceived frequency and fuel further engagement.",
+      "alternative": "A real change in prevalence could also contribute.",
+      "researchNeeded": "Separate repeated exposure, unique examples and population rates.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 15: AVAILABILITY CASCADE",
+        "line": 711
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-16",
+      "sourceId": "brief-2",
+      "name": "Accumulated grievance",
+      "claim": "A new event may become a last straw that consolidates earlier grievances.",
+      "alternative": "The apparent threshold may be a retrospective narrative rather than a distinct change.",
+      "researchNeeded": "Track prior attitudes and competing explanations over time.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 16: ACCUMULATED-GRIEVANCE THRESHOLD",
+        "line": 737
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-17",
+      "sourceId": "brief-2",
+      "name": "Cross-domain belief cascade",
+      "claim": "An interpretation of one event may spread to beliefs about relationships, parenthood and institutions.",
+      "alternative": "Views across domains may have shared prior causes.",
+      "researchNeeded": "Test whether exposure predicts change beyond baseline ideology.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 17: CROSS-DOMAIN BELIEF CASCADE",
+        "line": 775
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-18",
+      "sourceId": "brief-2",
+      "name": "Relationship moral sorting",
+      "claim": "Discussion of a third-party event may reveal differences in values and trigger trust reassessment.",
+      "alternative": "The discussion may expose rather than create an existing incompatibility.",
+      "researchNeeded": "Distinguish discovery of disagreement from subsequent relationship effects.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 18: RELATIONSHIP MORAL-SORTING MODEL",
+        "line": 815
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-19",
+      "sourceId": "brief-2",
+      "name": "Moral projection correction",
+      "claim": "An idealized view of a partner may be revised after a moral disagreement.",
+      "alternative": "The revised negative view can be as stereotyped as the original idealization.",
+      "researchNeeded": "Assess the individual partner rather than infer virtue from identity.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 19: MORAL PROJECTION CORRECTION",
+        "line": 857
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-20",
+      "sourceId": "brief-2",
+      "name": "Trust revision",
+      "claim": "Observers may update expectations of fairness, care or reliability after salient examples.",
+      "alternative": "A belief update can be biased and need not improve accuracy.",
+      "researchNeeded": "Record both the update and whether its evidence supports its scope.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 20: GENDER TRUST REPRICING",
+        "line": 891
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-21",
+      "sourceId": "brief-2",
+      "name": "Backlash loop",
+      "claim": "Perceived favoritism may produce distrust; defensive solidarity may then be taken as confirmation.",
+      "alternative": "Defensiveness may respond to real hostility rather than confirm the original allegation.",
+      "researchNeeded": "Trace both directions and consider interventions that interrupt escalation.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 21: BACKLASH FEEDBACK LOOP",
+        "line": 925
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-22",
+      "sourceId": "brief-2",
+      "name": "Postpartum stigma boomerang",
+      "claim": "The brief predicts that extreme-case associations could discourage disclosure through fear and scrutiny.",
+      "alternative": "Clinical education or supportive discussion could instead reduce stigma and improve disclosure.",
+      "researchNeeded": "This is an untested communication hypothesis, not a clinical claim about postpartum people.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 22: POSTPARTUM STIGMA BOOMERANG",
+        "line": 963
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-23",
+      "sourceId": "brief-2",
+      "name": "Advocacy backfire",
+      "claim": "A message intended to build compassion may be interpreted as a signal of threat or reduced responsibility.",
+      "alternative": "Advocacy may also improve understanding and support.",
+      "researchNeeded": "Compare message framing and audience responses without assuming a negative effect.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 23: ADVOCACY BACKFIRE MODEL",
+        "line": 1009
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-24",
+      "sourceId": "brief-2",
+      "name": "Perceived accountability asymmetry",
+      "claim": "Different reactions to apparently comparable actors may be perceived as a moral double standard.",
+      "alternative": "The cases may differ in relevant facts, evidence or legal context.",
+      "researchNeeded": "Use genuinely matched cases and separate perception from demonstrated unequal treatment.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 24: MORAL DOUBLE-STANDARD PERCEPTION",
+        "line": 1047
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    },
+    {
+      "id": "G2-25",
+      "sourceId": "brief-2",
+      "name": "Moral delegitimation",
+      "claim": "Disagreement with visible individuals may lead to discounting future claims from their whole group.",
+      "alternative": "An observer may reject a specific argument without rejecting its demographic source.",
+      "researchNeeded": "Test identity-based credibility judgments while holding argument content constant.",
+      "evidenceStatus": "Source-derived hypothesis; not an externally verified finding",
+      "sourceLocation": {
+        "heading": "THEORY 25: OUT-GROUP MORAL DELEGITIMATION",
+        "line": 1090
+      },
+      "populationPrevalence": null,
+      "effectSize": null,
+      "genderSpecificity": "Not established by this brief",
+      "verificationStatus": "Primary source and comparative empirical evidence pending"
+    }
+  ],
+  "verificationQueue": [
+    {
+      "topic": "Original sources",
+      "needed": "Recording URLs, speaker identities, dates and the actual transcript excerpts; resolve the non-functional citation placeholders.",
+      "status": "Pending"
+    },
+    {
+      "topic": "Gender distribution",
+      "needed": "Representative comparative research before claims about most women, most men or sex-specific prevalence.",
+      "status": "Pending"
+    },
+    {
+      "topic": "Lindsay Clancy case",
+      "needed": "Primary legal records for procedural history, verdict or trial claims, jury statements and allegations involving other people. None is established here.",
+      "status": "Pending"
+    },
+    {
+      "topic": "Postpartum mental health",
+      "needed": "Authoritative clinical sources before any factual statement about diagnosis, prevalence, risk or treatment; do not generalize from a criminal case.",
+      "status": "Pending"
+    },
+    {
+      "topic": "Family and custody outcomes",
+      "needed": "Comparable cohorts and confounder controls for parent gender, custody, parental alienation and child outcomes.",
+      "status": "Pending"
+    },
+    {
+      "topic": "Online reactions and social effects",
+      "needed": "Sampling methods and longitudinal measures of opinion, trust, relationships and stigma; visible posts are not representative surveys.",
+      "status": "Pending"
+    }
+  ],
+  "codingFields": [
+    "sourceId",
+    "sourceLocation",
+    "claim",
+    "alternative",
+    "researchNeeded",
+    "evidenceStatus",
+    "verificationStatus",
+    "genderSpecificity",
+    "populationPrevalence",
+    "effectSize"
+  ],
+  "codingRule": "Proposed constructs are organizational labels from the supplied briefs, not validated scales or established named theories. Null means not measured, never zero."
+};
