@@ -5,7 +5,7 @@
     {id:'market',name:'Jobs',description:'RPA jobs'},
     {id:'politics',name:'Politics',description:'Political research',topics:[{id:'russia-ukraine-war',name:'Russia vs Ukraine war'},{id:'gender-war',name:'Gender war'}]},
     {id:'philosophy',name:'Philosophy',description:'Philosophical research',topics:[{id:'realism-ir',name:'Realism (international relations)'},{id:'idealism-ir',name:'Idealism (international relations)'}]},
-    {id:'religion',name:'Religion',description:'Religious research',topics:[{id:'eastern-orthodoxy',name:'Eastern Orthodoxy'},{id:'catholicism',name:'Catholicism'},{id:'islam',name:'Islam'},{id:'buddhism',name:'Buddhism'},{id:'shinto',name:'Shinto'}]}
+    {id:'religion',name:'Religion',description:'Religious research',topics:[{id:'eastern-orthodoxy',name:'Eastern Orthodoxy'},{id:'catholicism',name:'Catholicism'},{id:'orthodoxy-vs-catholicism',name:'Orthodoxy vs Catholicism'},{id:'islam',name:'Islam'},{id:'buddhism',name:'Buddhism'},{id:'shinto',name:'Shinto'}]}
   ];
   const href=(section,topic)=>`#view=${section.id}${topic?'&topic='+topic.id:''}`;
   const collapsed=new Set();
