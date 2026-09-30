@@ -11,6 +11,23 @@ const path=require('node:path');
     page.on('pageerror',e=>errors.push(e.message));
     await page.goto('http://127.0.0.1:4177/#view=politics&topic=gender-war');
     await page.locator('.fertility-card').first().waitFor();
+    const study=page.locator('.reproduction-study');
+    assert.equal(await study.locator('.reproduction-diagram').count(),1);
+    assert.equal(await study.locator('tbody tr').count(),3);
+    assert.ok((await study.innerText()).includes('not independently recalculated'));
+    assert.ok((await study.innerText()).includes('within relationships'));
+    assert.equal(await study.locator('a[href="https://doi.org/10.1017/pls.2026.10020"]').count(),4);
+    for(const width of [1440,390]){
+      await page.setViewportSize({width,height:1000});
+      await page.getByRole('button',{name:'Fertility & solo parenthood ↑',exact:true}).click();
+      assert.equal(await page.evaluate(()=>document.activeElement.id),'reproduction-title');
+      assert.ok(await study.evaluate(el=>el.scrollWidth<=el.clientWidth+1));
+      assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth+1));
+      await page.screenshot({path:`test-results/reproduction-study-${width}.png`});
+    }
+    await page.getByRole('button',{name:'Explore fertility data ↓',exact:true}).click();
+    assert.ok(await page.evaluate(()=>document.activeElement.classList.contains('fertility')));
+    await page.setViewportSize({width:1440,height:1000});
     const derived=require('../data/gender-research.json');
     assert.equal(derived.mechanisms.length,40);
     assert.equal(new Set(derived.mechanisms.map(m=>m.id)).size,40);
@@ -34,7 +51,7 @@ const path=require('node:path');
       await page.setViewportSize({width,height:1000});
       await page.getByRole('button',{name:'Relationships',exact:true}).click();
       assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-      assert.ok(await page.locator('.gender-research').evaluate(el=>el.scrollWidth<=el.clientWidth+1));
+      assert.ok(await page.locator('.gender-research').last().evaluate(el=>el.scrollWidth<=el.clientWidth+1));
       await page.screenshot({path:`test-results/gender-models-${width}.png`});
     }
     await page.getByRole('button',{name:'Fertility timelines ↓',exact:true}).click();
