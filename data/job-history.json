@@ -21,12 +21,12 @@
       "notes": "Select this exact role on the careers page. General remote-first benefits do not confirm this role’s arrangement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "sourceUrl": "https://www.symprio.com/careers/",
       "evidenceUrl": "https://www.symprio.com/careers/",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Role description and application route present; no closure notice observed.",
+      "verification": "Careers request failed; a current role-specific description and application route remain unverified.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -45,10 +45,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:32.148Z",
-      "lastVerifiedAt": "2026-09-26T22:48:55.082Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:55.082Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.044Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.044Z",
       "previousStatus": "Unknown",
-      "statusReason": "General careers page remains; a stable role-specific advertisement was not verified.",
+      "statusReason": "Careers request failed; a current role-specific description and application route remain unverified.",
       "statusChangedAt": "2026-09-23T16:31:32.148Z",
       "statusHistory": [
         {
@@ -65,6 +65,11 @@
           "at": "2026-09-26T22:48:55.082Z",
           "status": "Unknown",
           "reason": "General careers page remains; a stable role-specific advertisement was not verified."
+        },
+        {
+          "at": "2026-10-11T08:51:02.044Z",
+          "status": "Unknown",
+          "reason": "Careers request failed; a current role-specific description and application route remain unverified."
         }
       ],
       "requiredLanguages": null,
@@ -96,12 +101,12 @@
       "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
       "salary": null,
       "postedAt": "2025-11-18",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "sourceUrl": "https://www.digitalbricks.ai/careers",
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "verification": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -120,10 +125,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:31.646Z",
-      "lastVerifiedAt": "2026-09-26T22:48:54.438Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:54.438Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.056Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.056Z",
       "previousStatus": "Unknown",
-      "statusReason": "General careers page remains; a stable role-specific advertisement was not verified.",
+      "statusReason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
       "statusChangedAt": "2026-09-23T16:31:31.646Z",
       "statusHistory": [
         {
@@ -140,6 +145,11 @@
           "at": "2026-09-26T22:48:54.438Z",
           "status": "Unknown",
           "reason": "General careers page remains; a stable role-specific advertisement was not verified."
+        },
+        {
+          "at": "2026-10-11T08:51:02.056Z",
+          "status": "Unknown",
+          "reason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified."
         }
       ],
       "requiredLanguages": null,
@@ -171,12 +181,12 @@
       "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
       "salary": null,
       "postedAt": "2025-11-17",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "sourceUrl": "https://www.digitalbricks.ai/careers",
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Named role under open positions with an Apply for this role control; no closure notice observed.",
+      "verification": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
       "fit": {
         "band": "Stretch",
         "track": "Automation solution design / technical lead",
@@ -195,10 +205,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:31.688Z",
-      "lastVerifiedAt": "2026-09-26T22:48:54.464Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:54.464Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.083Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.083Z",
       "previousStatus": "Unknown",
-      "statusReason": "General careers page remains; a stable role-specific advertisement was not verified.",
+      "statusReason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
       "statusChangedAt": "2026-09-23T16:31:31.688Z",
       "statusHistory": [
         {
@@ -215,6 +225,11 @@
           "at": "2026-09-26T22:48:54.464Z",
           "status": "Unknown",
           "reason": "General careers page remains; a stable role-specific advertisement was not verified."
+        },
+        {
+          "at": "2026-10-11T08:51:02.083Z",
+          "status": "Unknown",
+          "reason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified."
         }
       ],
       "requiredLanguages": null,
@@ -229,9 +244,9 @@
       "title": "IC3 - RPA Developer",
       "sourceUrl": "https://job-boards.greenhouse.io/spin/jobs/4699003005",
       "status": "Unknown",
-      "statusReason": "Role URL is unavailable or redirects without a verified current role/application route.",
-      "lastVerifiedAt": "2026-09-26T22:48:57.769Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:57.769Z",
+      "statusReason": "Original Greenhouse job redirects to a general board; exact opening not verified.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.172Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.172Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -244,9 +259,16 @@
           "at": "2026-09-26T22:48:57.769Z",
           "status": "Unknown",
           "reason": "Role URL is unavailable or redirects without a verified current role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:02.172Z",
+          "status": "Unknown",
+          "reason": "Original Greenhouse job redirects to a general board; exact opening not verified."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Original Greenhouse job redirects to a general board; exact opening not verified."
     },
     {
       "id": "lead-4",
@@ -254,9 +276,9 @@
       "title": "C# Developer (Tools and Installers)",
       "sourceUrl": "https://job-boards.greenhouse.io/threatlocker/jobs/5853559004",
       "status": "Unknown",
-      "statusReason": "Role URL is unavailable or redirects without a verified current role/application route.",
-      "lastVerifiedAt": "2026-09-26T22:48:55.154Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:55.154Z",
+      "statusReason": "Original Greenhouse job redirects to a general board; exact opening not verified.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.183Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.183Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -269,9 +291,16 @@
           "at": "2026-09-26T22:48:55.154Z",
           "status": "Unknown",
           "reason": "Role URL is unavailable or redirects without a verified current role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:02.183Z",
+          "status": "Unknown",
+          "reason": "Original Greenhouse job redirects to a general board; exact opening not verified."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Original Greenhouse job redirects to a general board; exact opening not verified."
     },
     {
       "id": "lead-5",
@@ -329,9 +358,9 @@
       "title": "Senior RPA Developer",
       "sourceUrl": "https://international.nubank.com.br/job-opportunity/?id=6736797",
       "status": "Unknown",
-      "statusReason": "Role URL is unavailable or redirects without a verified current role/application route.",
-      "lastVerifiedAt": "2026-09-26T22:48:55.124Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:55.124Z",
+      "statusReason": "Original vacancy redirects to a general careers page; successor job not verified.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.207Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.207Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -344,9 +373,16 @@
           "at": "2026-09-26T22:48:55.124Z",
           "status": "Unknown",
           "reason": "Role URL is unavailable or redirects without a verified current role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:02.207Z",
+          "status": "Unknown",
+          "reason": "Original vacancy redirects to a general careers page; successor job not verified."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Original vacancy redirects to a general careers page; successor job not verified."
     },
     {
       "id": "lead-8",
@@ -354,9 +390,9 @@
       "title": "RPA Business Analyst - South Africa",
       "sourceUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/743999907811731-rpa-business-analyst-south-africa",
       "status": "Unknown",
-      "statusReason": "Role page still lacks responsibilities and qualifications despite an application control.",
-      "lastVerifiedAt": "2026-09-26T22:48:54.992Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:54.992Z",
+      "statusReason": "SmartRecruiters page contains company information but not a complete current role description and application evidence.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.235Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.235Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -369,9 +405,16 @@
           "at": "2026-09-26T22:48:54.992Z",
           "status": "Unknown",
           "reason": "Role page still lacks responsibilities and qualifications despite an application control."
+        },
+        {
+          "at": "2026-10-11T08:51:02.235Z",
+          "status": "Unknown",
+          "reason": "SmartRecruiters page contains company information but not a complete current role description and application evidence."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "SmartRecruiters page contains company information but not a complete current role description and application evidence."
     },
     {
       "id": "lead-9",
@@ -379,9 +422,9 @@
       "title": "Senior Automation Developer with Blue Prism",
       "sourceUrl": "https://www.jobs.ca/tata-consultancy-services/jobs/senior-automation-developer-with-blue-prism-toronto-on-a7e09cb55f65",
       "status": "Unknown",
-      "statusReason": "Source access blocked (HTTP 403); no current direct employer route verified.",
-      "lastVerifiedAt": "2026-09-26T22:48:55.067Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:55.067Z",
+      "statusReason": "Jobs.ca returned HTTP 403; exact employer posting remains unverified.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.462Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.462Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -394,9 +437,16 @@
           "at": "2026-09-26T22:48:55.067Z",
           "status": "Unknown",
           "reason": "Source access blocked (HTTP 403); no current direct employer route verified."
+        },
+        {
+          "at": "2026-10-11T08:51:02.462Z",
+          "status": "Unknown",
+          "reason": "Jobs.ca returned HTTP 403; exact employer posting remains unverified."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Jobs.ca returned HTTP 403; exact employer posting remains unverified."
     },
     {
       "id": "lead-10",
@@ -404,9 +454,9 @@
       "title": "Automation Team Lead",
       "sourceUrl": "https://ca.linkedin.com/jobs/view/automation-team-lead-at-zenatech-inc-4446196939",
       "status": "Unknown",
-      "statusReason": "Role URL is unavailable or redirects without a verified current role/application route.",
-      "lastVerifiedAt": "2026-09-26T22:48:56.364Z",
-      "sourceLastCheckedAt": "2026-09-26T22:48:56.364Z",
+      "statusReason": "LinkedIn redirects to a generic jobs page; no current role-specific application route.",
+      "lastVerifiedAt": "2026-10-11T08:51:02.522Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.522Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -419,9 +469,16 @@
           "at": "2026-09-26T22:48:56.364Z",
           "status": "Unknown",
           "reason": "Role URL is unavailable or redirects without a verified current role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:02.522Z",
+          "status": "Unknown",
+          "reason": "LinkedIn redirects to a generic jobs page; no current role-specific application route."
         }
       ],
-      "previousStatus": "Unknown"
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "LinkedIn redirects to a generic jobs page; no current role-specific application route."
     },
     {
       "id": "registru",
@@ -1798,81 +1855,6 @@
       "statusReason": "Official ATS explicitly displays Sorry, this job has expired."
     },
     {
-      "id": "innolevels-br",
-      "company": "innolevels",
-      "title": "Desenvolvedor de Automação (RPA)",
-      "country": "Brazil",
-      "region": "South America",
-      "location": "Interlagos, São Paulo",
-      "level": "Not specified",
-      "experience": "RPA delivery experience; years not specified",
-      "field": "RPA",
-      "tools": [
-        "Blue Prism",
-        "UiPath",
-        "Automation Anywhere",
-        "Power Automate",
-        "Python",
-        "SQL",
-        "APIs"
-      ],
-      "mode": "Hybrid",
-      "employment": "CLT / PJ",
-      "summary": "Develop and support process automations, integrating APIs, databases and generative AI.",
-      "notes": "Two office days weekly in Interlagos. Portuguese is the posting language, not a stated proficiency requirement; confirm working language and Brazilian eligibility.",
-      "salary": null,
-      "postedAt": "2026-07-24",
-      "checkedAt": "2026-09-27",
-      "sourceUrl": "https://www.innolevels.com.br/vagas-innolevels/desenvolvedor-de-automacao-rpa/",
-      "evidenceUrl": "https://www.innolevels.com.br/vagas-innolevels/desenvolvedor-de-automacao-rpa/",
-      "sourceType": "Employer careers page",
-      "status": "Unknown",
-      "verification": "Direct source could not be retrieved and no current application route was independently verified. No explicit closure evidence.",
-      "fit": {
-        "band": "Potential fit",
-        "track": "Senior RPA / automation engineering",
-        "strengths": [
-          "Blue Prism, API/SQL integration and LLM-assisted automation overlap."
-        ],
-        "checks": [
-          "Python depth, Oracle and employer working language need confirmation; Portuguese is not a confirmed language. Local work authorization and relocation suitability are unknown."
-        ],
-        "assessedAt": "2026-09-23",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "developer",
-      "roleFamilies": [
-        "RPA",
-        "AI / automation"
-      ],
-      "requisitionId": "V2026-0193",
-      "researchBatch": "2026-09-23-global",
-      "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastVerifiedAt": "2026-09-26T22:49:04.470Z",
-      "sourceLastCheckedAt": "2026-09-26T22:49:04.470Z",
-      "statusHistory": [
-        {
-          "at": "2026-09-23T16:39:18.865Z",
-          "status": "Newly found",
-          "reason": "Direct employer role and application form checked."
-        },
-        {
-          "at": "2026-09-26T22:49:04.470Z",
-          "status": "Unknown",
-          "reason": "Direct source could not be retrieved and no current application route was independently verified. No explicit closure evidence."
-        }
-      ],
-      "requiredLanguages": null,
-      "workAuthorization": "Unknown",
-      "remoteEligibility": "Not remote; two onsite days",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "previousStatus": "Newly found",
-      "statusChangedAt": "2026-09-26T22:49:04.470Z",
-      "statusReason": "Direct source could not be retrieved and no current application route was independently verified. No explicit closure evidence."
-    },
-    {
       "id": "2026-09-27-worldwide-minsait",
       "title": "Página da Vaga | Desenvolvedor automação RPA Sênior",
       "sourceUrl": "https://minsait.gupy.io/jobs/11571569?jobBoardSource=gupy_public_page",
@@ -1896,307 +1878,435 @@
       "title": "Página da Vaga | Desenvolvedor(a) de Automações RPA Pleno",
       "sourceUrl": "https://daycoval-tech.gupy.io/jobs/10878878?jobBoardSource=gupy_public_page",
       "status": "Unknown",
-      "statusReason": "Gupy status frozen conflicts with visible application controls; do not publish until reopened.",
+      "statusReason": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored.",
       "firstSeenAt": "2026-09-26T22:51:27.159Z",
       "lastSeenAt": "2026-09-26T22:51:27.159Z",
-      "lastVerifiedAt": "2026-09-26T22:51:27.159Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:27.159Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.631Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.631Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:27.159Z",
           "status": "Unknown",
           "reason": "Gupy status frozen conflicts with visible application controls; do not publish until reopened."
+        },
+        {
+          "at": "2026-10-11T08:51:02.631Z",
+          "status": "Unknown",
+          "reason": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored."
     },
     {
       "id": "2026-09-27-worldwide-sofrecom",
       "title": "sofrecom",
       "sourceUrl": "https://dimension.rekrute.com/en/offre-emploi-concepteur-developpeur-rpa-recrutement-sofrecom-maroc-casablanca-186566.html",
       "status": "Unknown",
-      "statusReason": "Direct source retrieval failed; no verified application route.",
+      "statusReason": "Source could not be retrieved; retain as Unknown.",
       "lastSeenAt": null,
       "statusHistory": [
         {
           "status": "Unknown",
           "reason": "Direct source retrieval failed; no verified application route.",
           "at": "2026-09-26T22:51:37.624Z"
+        },
+        {
+          "at": "2026-10-11T08:51:02.681Z",
+          "status": "Unknown",
+          "reason": "Source could not be retrieved; retain as Unknown."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:51:37.624Z",
-      "lastVerifiedAt": "2026-09-26T22:51:37.624Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:37.624Z",
-      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained."
+      "lastVerifiedAt": "2026-10-11T08:51:02.681Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.681Z",
+      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source could not be retrieved; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-afd-ma",
       "title": "afd-ma",
       "sourceUrl": "https://dimension.rekrute.com/fr/offre-emploi-developpeur-rpa-hf-recrutement-afd.tech-rabat-179806.html",
       "status": "Unknown",
-      "statusReason": "Direct source retrieval failed; no verified application route.",
+      "statusReason": "Source could not be retrieved; retain as Unknown.",
       "lastSeenAt": null,
       "statusHistory": [
         {
           "status": "Unknown",
           "reason": "Direct source retrieval failed; no verified application route.",
           "at": "2026-09-26T22:51:37.624Z"
+        },
+        {
+          "at": "2026-10-11T08:51:02.856Z",
+          "status": "Unknown",
+          "reason": "Source could not be retrieved; retain as Unknown."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:51:37.624Z",
-      "lastVerifiedAt": "2026-09-26T22:51:37.624Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:37.624Z",
-      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained."
+      "lastVerifiedAt": "2026-10-11T08:51:02.856Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.856Z",
+      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source could not be retrieved; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-sappi",
       "title": "Just a moment...",
       "sourceUrl": "https://www.sappi.com/en-gb/life-sappi/job-listings/rpa-developer-robotic-process-automation",
       "status": "Unknown",
-      "statusReason": "Direct access blocked; no verified fallback role/application route.",
+      "statusReason": "Source blocked access; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:51:27.529Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:51:27.529Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:27.529Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.888Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.888Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:27.529Z",
           "status": "Unknown",
           "reason": "Direct access blocked; no verified fallback role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:02.888Z",
+          "status": "Unknown",
+          "reason": "Source blocked access; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source blocked access; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-post-ch",
       "title": "Careers at Post",
       "sourceUrl": "https://job.post.ch/v2/job-vacancies/automation-business-analyst/9193983f-ea28-437f-a795-e319d30940d1",
       "status": "Unknown",
-      "statusReason": "No positive current role/application verification; retain as unfinished lead.",
+      "statusReason": "Original URL now resolves to a generic Post careers page; cached search description is insufficient.",
       "firstSeenAt": "2026-09-26T22:51:28.249Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:51:28.249Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:28.249Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.973Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.973Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.249Z",
           "status": "Unknown",
           "reason": "No positive current role/application verification; retain as unfinished lead."
+        },
+        {
+          "at": "2026-10-11T08:51:02.973Z",
+          "status": "Unknown",
+          "reason": "Original URL now resolves to a generic Post careers page; cached search description is insufficient."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Original URL now resolves to a generic Post careers page; cached search description is insufficient."
     },
     {
       "id": "2026-09-27-worldwide-cpva",
       "title": "Veiklos analitikas (-ė) (Automatizavimo specialistas) I Procesų valdymo skyrius &#8211; CPVA",
       "sourceUrl": "https://cpva.lt/darbo-pasiulymai/veiklos-analitikas-e-automatizavimo-specialistas-i-procesu-valdymo-skyrius",
       "status": "Unknown",
-      "statusReason": "Page states valid until 3 April 2026; application instructions persist but a reopened application window was not established.",
+      "statusReason": "Old April 2026 deadline remains in the role description. A new application window was not verified.",
       "firstSeenAt": "2026-09-26T22:51:28.391Z",
       "lastSeenAt": "2026-09-26T22:51:28.391Z",
-      "lastVerifiedAt": "2026-09-26T22:51:28.391Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:28.391Z",
+      "lastVerifiedAt": "2026-10-11T08:51:02.975Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:02.975Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.391Z",
           "status": "Unknown",
           "reason": "Page states valid until 3 April 2026; application instructions persist but a reopened application window was not established."
+        },
+        {
+          "at": "2026-10-11T08:51:02.975Z",
+          "status": "Unknown",
+          "reason": "Old April 2026 deadline remains in the role description. A new application window was not verified."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Old April 2026 deadline remains in the role description. A new application window was not verified."
     },
     {
       "id": "2026-09-27-worldwide-ardent",
       "title": "Careers - Ardent MC",
       "sourceUrl": "https://job-boards.greenhouse.io/ardentmc/jobs/6790860?gh_jid=6790860",
       "status": "Unknown",
-      "statusReason": "No positive current role/application verification; retain as unfinished lead.",
+      "statusReason": "Source did not provide independently confirmed current application evidence; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:51:28.399Z",
       "lastSeenAt": "2026-09-26T22:51:28.399Z",
-      "lastVerifiedAt": "2026-09-26T22:51:28.399Z",
-      "sourceLastCheckedAt": "2026-09-26T22:51:28.399Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.094Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.094Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.399Z",
           "status": "Unknown",
           "reason": "No positive current role/application verification; retain as unfinished lead."
+        },
+        {
+          "at": "2026-10-11T08:51:03.094Z",
+          "status": "Unknown",
+          "reason": "Source did not provide independently confirmed current application evidence; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source did not provide independently confirmed current application evidence; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-stedin",
       "title": "Algemene vacature fout",
       "sourceUrl": "https://werkenbij.stedin.net/banen/delft/product-owner-robotic-proces-automation/3297/44213770496",
       "status": "Unknown",
-      "statusReason": "Source missing/unavailable; no explicit employer closure statement established.",
+      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:54:17.477Z",
       "lastSeenAt": "2026-09-26T22:54:17.477Z",
-      "lastVerifiedAt": "2026-09-26T22:54:17.477Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:17.477Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.174Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.174Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.477Z",
           "status": "Unknown",
           "reason": "Source missing/unavailable; no explicit employer closure statement established."
+        },
+        {
+          "at": "2026-10-11T08:51:03.174Z",
+          "status": "Unknown",
+          "reason": "Source is unavailable without explicit role closure; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-cognizant-admin",
       "title": "Just a moment...",
       "sourceUrl": "https://careers.cognizant.com/global-en/jobs/00070176703/blue-prism-admin/",
       "status": "Unknown",
-      "statusReason": "Direct access blocked; no verified fallback role/application route.",
+      "statusReason": "Source blocked access; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:54:17.524Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:54:17.524Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:17.524Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.236Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.236Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.524Z",
           "status": "Unknown",
           "reason": "Direct access blocked; no verified fallback role/application route."
+        },
+        {
+          "at": "2026-10-11T08:51:03.236Z",
+          "status": "Unknown",
+          "reason": "Source blocked access; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source blocked access; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-uipath-mx",
       "title": "Jobs",
       "sourceUrl": "https://jobs.ashbyhq.com/uipath/ecc2ad54-e259-4fe3-a1a7-a0acd484717e/",
       "status": "Unknown",
-      "statusReason": "Ashby browser page says Job not found; no current application route.",
+      "statusReason": "Ashby returned a JavaScript shell without a verifiable current job description or application state.",
       "firstSeenAt": "2026-09-26T22:54:17.718Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:54:17.718Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:17.718Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.283Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.283Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.718Z",
           "status": "Unknown",
           "reason": "Ashby browser page says Job not found; no current application route."
+        },
+        {
+          "at": "2026-10-11T08:51:03.283Z",
+          "status": "Unknown",
+          "reason": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
     },
     {
       "id": "2026-09-27-worldwide-uipath-mx-jr",
       "title": "Jobs",
       "sourceUrl": "https://jobs.ashbyhq.com/uipath/827f7c46-2b82-4703-a1cb-4f29b017811f",
       "status": "Unknown",
-      "statusReason": "Ashby browser page says Job not found; no current application route.",
+      "statusReason": "Ashby returned a JavaScript shell without a verifiable current job description or application state.",
       "firstSeenAt": "2026-09-26T22:54:17.740Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:54:17.740Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:17.740Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.425Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.425Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.740Z",
           "status": "Unknown",
           "reason": "Ashby browser page says Job not found; no current application route."
+        },
+        {
+          "at": "2026-10-11T08:51:03.425Z",
+          "status": "Unknown",
+          "reason": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
     },
     {
       "id": "2026-09-27-worldwide-interstellar",
       "title": "Page not found - Interstellar",
       "sourceUrl": "https://www.interstellar.nl/careers/finance/microsoft-365-product-owner/",
       "status": "Unknown",
-      "statusReason": "Source missing/unavailable; no explicit employer closure statement established.",
+      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:54:17.872Z",
       "lastSeenAt": "2026-09-26T22:54:17.872Z",
-      "lastVerifiedAt": "2026-09-26T22:54:17.872Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:17.872Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.471Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.471Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.872Z",
           "status": "Unknown",
           "reason": "Source missing/unavailable; no explicit employer closure statement established."
+        },
+        {
+          "at": "2026-10-11T08:51:03.471Z",
+          "status": "Unknown",
+          "reason": "Source is unavailable without explicit role closure; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-keysight",
       "title": "Engrg Prog/Proj Manager 4 in Gurgaon, India | Keysight Technologies, Inc.",
       "sourceUrl": "https://jobs.keysight.com/external/jobs/53824",
       "status": "Unknown",
-      "statusReason": "Source blocked in both direct retrieval and Chromium.",
+      "statusReason": "Source returned a JavaScript shell; role and application state not verified.",
       "firstSeenAt": "2026-09-26T22:54:18.196Z",
       "lastSeenAt": "2026-09-26T22:54:18.196Z",
-      "lastVerifiedAt": "2026-09-26T22:54:18.196Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:18.196Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.477Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.477Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:18.196Z",
           "status": "Unknown",
           "reason": "Source blocked in both direct retrieval and Chromium."
+        },
+        {
+          "at": "2026-10-11T08:51:03.477Z",
+          "status": "Unknown",
+          "reason": "Source returned a JavaScript shell; role and application state not verified."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source returned a JavaScript shell; role and application state not verified."
     },
     {
       "id": "2026-09-27-worldwide-boels",
       "title": "Boels Careers",
       "sourceUrl": "https://careers.boels.com/nl-nl/vacatures/product-owner-data-science-ai-17467",
       "status": "Unknown",
-      "statusReason": "Source missing/unavailable; no explicit employer closure statement established.",
+      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
       "firstSeenAt": "2026-09-26T22:54:18.205Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T22:54:18.205Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:18.205Z",
+      "lastVerifiedAt": "2026-10-11T08:51:03.656Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.656Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:18.205Z",
           "status": "Unknown",
           "reason": "Source missing/unavailable; no explicit employer closure statement established."
+        },
+        {
+          "at": "2026-10-11T08:51:03.656Z",
+          "status": "Unknown",
+          "reason": "Source is unavailable without explicit role closure; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-fidel",
       "title": "fidel",
       "sourceUrl": "https://www.fidelconsulting.com/en/index.php/jobs/viewDetails/10257/uipath-engineer-or-lead",
       "status": "Unknown",
-      "statusReason": "Direct source retrieval failed; no verified application route.",
+      "statusReason": "Source could not be retrieved; retain as Unknown.",
       "lastSeenAt": null,
       "statusHistory": [
         {
           "status": "Unknown",
           "reason": "Direct source retrieval failed; no verified application route.",
           "at": "2026-09-26T22:54:19.005Z"
+        },
+        {
+          "at": "2026-10-11T08:51:03.809Z",
+          "status": "Unknown",
+          "reason": "Source could not be retrieved; retain as Unknown."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:54:19.005Z",
-      "lastVerifiedAt": "2026-09-26T22:54:19.005Z",
-      "sourceLastCheckedAt": "2026-09-26T22:54:19.005Z",
-      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained."
+      "lastVerifiedAt": "2026-10-11T08:51:03.809Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:03.809Z",
+      "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source could not be retrieved; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-ati",
       "title": "Not found – 404 error",
       "sourceUrl": "https://jobs.lever.co/atibusinessgroup/f9fb0f53-23b0-40b0-bdf4-546d229afb97",
       "status": "Unknown",
-      "statusReason": "Source missing/unavailable; no explicit employer closure statement established.",
+      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
       "firstSeenAt": "2026-09-26T23:00:36.152Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-09-26T23:00:36.152Z",
-      "sourceLastCheckedAt": "2026-09-26T23:00:36.152Z",
+      "lastVerifiedAt": "2026-10-11T08:51:04.041Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:04.041Z",
       "statusHistory": [
         {
           "at": "2026-09-26T23:00:36.152Z",
           "status": "Unknown",
           "reason": "Source missing/unavailable; no explicit employer closure statement established."
+        },
+        {
+          "at": "2026-10-11T08:51:04.041Z",
+          "status": "Unknown",
+          "reason": "Source is unavailable without explicit role closure; retain as Unknown."
         }
       ],
-      "researchBatch": "2026-09-27-worldwide"
+      "researchBatch": "2026-09-27-worldwide",
+      "previousStatus": "Unknown",
+      "checkedAt": "2026-10-11",
+      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
     },
     {
       "id": "2026-09-27-worldwide-inetum-rpa",
@@ -2234,6 +2344,1340 @@
           "reason": "Official ATS explicitly says the job has expired."
         }
       ],
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "hpe",
+      "company": "Hewlett Packard Enterprise",
+      "title": "Agentic AI & RPA Developer",
+      "country": "India",
+      "region": "Asia",
+      "location": "Bengaluru",
+      "level": "Mid-level",
+      "experience": "2–4 years",
+      "field": "Intelligent automation",
+      "tools": [
+        "WorkFusion",
+        "LangChain",
+        "LangGraph",
+        "Microsoft Copilot"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Combine RPA with AI agents, document processing and governed business workflows.",
+      "notes": "Average two days per week in an HPE office. WorkFusion is the preferred RPA platform.",
+      "salary": null,
+      "postedAt": "2026-08-04",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
+      "evidenceUrl": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
+      "sourceType": "Employer ATS",
+      "status": "Unknown",
+      "verification": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Intelligent automation / AI integration",
+        "strengths": [
+          "LLM-enabled RPA and internal platform development directly overlap."
+        ],
+        "checks": [
+          "WorkFusion, LangChain/LangGraph and specific production agent frameworks are not evidenced."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Intelligent automation / AI integration"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:52:57.736Z",
+      "lastVerifiedAt": "2026-10-11T08:50:58.777Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:58.777Z",
+      "previousStatus": "Still open",
+      "statusReason": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified.",
+      "statusChangedAt": "2026-10-11T08:50:58.777Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:32.196Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:52:57.736Z",
+          "status": "Still open",
+          "reason": "Workday role description, Bengaluru location and Apply control verified in Chromium after empty server response."
+        },
+        {
+          "at": "2026-10-11T08:50:58.777Z",
+          "status": "Unknown",
+          "reason": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "bosch-my",
+      "company": "Bosch",
+      "title": "Business Process Analyst",
+      "country": "Malaysia",
+      "region": "Asia",
+      "location": "Bayan Lepas",
+      "level": "Early career",
+      "experience": "Fresh graduates / up to 2 years",
+      "field": "Process excellence",
+      "tools": [
+        "Automation Anywhere",
+        "Catalytic",
+        "SQL",
+        "SAP"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Improve logistics processes with analytics, business systems and automation.",
+      "notes": "Adjacent analyst role; welcomes fresh graduates.",
+      "salary": null,
+      "postedAt": "2026-07-30",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000140600669-business-process-analyst-",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000140600669",
+      "sourceType": "Employer ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "SmartRecruiters explicitly states that this job has expired.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "SQL reporting / data operations",
+        "strengths": [
+          "SQL, process automation and business analysis overlap."
+        ],
+        "checks": [
+          "Fresh-graduate/up-to-two-year target and Automation Anywhere/Catalytic differ from the profile’s strongest senior direction."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "analyst",
+      "roleFamilies": [
+        "SQL reporting / data operations"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:48:51.689Z",
+      "lastVerifiedAt": "2026-10-11T08:50:58.853Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:58.853Z",
+      "previousStatus": "Still open",
+      "statusReason": "SmartRecruiters explicitly states that this job has expired.",
+      "statusChangedAt": "2026-10-11T08:50:58.853Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:31.461Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:48:51.689Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:50:58.853Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "SmartRecruiters explicitly states that this job has expired."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "REF293012W"
+    },
+    {
+      "id": "lastminute-po",
+      "company": "lastminute.com",
+      "title": "Product Owner – Customer Operations Platform",
+      "country": "Romania",
+      "region": "Europe",
+      "location": "Remote within Romania",
+      "level": "Mid-level",
+      "experience": "Around 5 years in product ownership, delivery, business analysis or similar",
+      "field": "Product ownership",
+      "tools": [
+        "AI integration",
+        "LLMs",
+        "Process mapping"
+      ],
+      "mode": "Remote",
+      "employment": "Full-time",
+      "summary": "Shape internal customer-operations tools and AI-assisted workflows.",
+      "notes": "36-hour week; occasional travel. Employer explicitly requires existing work authorization and no visa sponsorship.",
+      "salary": null,
+      "postedAt": "2026-09-25",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/lastminutecom/744000149309419-product-owner-customer-operations-platform",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/lastminutecom/postings/744000149309419",
+      "sourceType": "Employer ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "SmartRecruiters explicitly states that this job has expired.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Internal platforms, LLM integration and requirements translation are directly relevant."
+        ],
+        "checks": [
+          "Confirm accepted equivalent delivery experience, discovery/backlog ownership, fluent English and Romanian work eligibility."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "productowner",
+      "roleFamilies": [
+        "Product owner / technical product ownership"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:48:52.699Z",
+      "lastVerifiedAt": "2026-10-11T08:50:59.341Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:59.341Z",
+      "previousStatus": "Still open",
+      "statusReason": "SmartRecruiters explicitly states that this job has expired.",
+      "statusChangedAt": "2026-10-11T08:50:59.341Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:32.532Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:48:52.699Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:50:59.341Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "SmartRecruiters explicitly states that this job has expired."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "REF2121G",
+      "previousPostedAt": "2026-09-14"
+    },
+    {
+      "id": "sgx-po",
+      "company": "SGX Group",
+      "title": "VP – Technical Product Owner (AI & Automation)",
+      "country": "Singapore",
+      "region": "Asia",
+      "location": "Singapore",
+      "level": "Lead / management",
+      "experience": "5+ years product, BA or engineering with significant product responsibility",
+      "field": "Product ownership",
+      "tools": [
+        "APIs",
+        "AI integration",
+        "AI agents"
+      ],
+      "mode": "Not stated",
+      "employment": "Permanent",
+      "summary": "Translate business problems into an AI/automation roadmap, product metrics and engineering priorities.",
+      "notes": "Includes leadership of product owners and UX designers; financial-markets domain is an advantage.",
+      "salary": null,
+      "postedAt": "2026-09-22",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://careers.sgx.com/job/Singapore-VP-Technical-Product-Owner-%28AI-&-Automation%29/1366307966/",
+      "evidenceUrl": "https://careers.sgx.com/job/Singapore-VP-Technical-Product-Owner-%28AI-&-Automation%29/1366307966/",
+      "sourceType": "Employer careers page",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "Employer explicitly states: Sorry, this position has been filled. Confirmed in a rendered browser.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "Fintech, internal platforms, API work and business-to-technical translation overlap."
+        ],
+        "checks": [
+          "Significant product ownership, agent-based prototyping, discovery metrics and managing product/UX teams are not demonstrated."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "productowner",
+      "roleFamilies": [
+        "Product owner / technical product ownership"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:48:53.958Z",
+      "lastVerifiedAt": "2026-10-11T08:50:59.667Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:59.667Z",
+      "previousStatus": "Still open",
+      "statusReason": "Employer explicitly states: Sorry, this position has been filled. Confirmed in a rendered browser.",
+      "statusChangedAt": "2026-10-11T08:50:59.667Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:33.780Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:48:53.958Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:50:59.667Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Employer explicitly states: Sorry, this position has been filled. Confirmed in a rendered browser."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "seb-csharp",
+      "company": "SEB",
+      "title": "Senior C# Developer – Interest Rate Service",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Vilnius",
+      "level": "Senior",
+      "experience": "Strong professional C#/.NET experience; years not stated",
+      "field": "C#/.NET engineering",
+      "tools": [
+        "C#",
+        ".NET",
+        "PostgreSQL",
+        "Entity Framework Core",
+        "Angular",
+        "APIs"
+      ],
+      "mode": "Hybrid",
+      "employment": "Not stated",
+      "summary": "Build banking services and integrations with production support and code-quality responsibilities.",
+      "notes": "Apply by 10 October 2026. Professional English requested; Kafka and OpenShift are advantages.",
+      "salary": {
+        "currency": "EUR",
+        "min": 4400,
+        "max": 6600,
+        "period": "month",
+        "basis": "basis not stated"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
+      "evidenceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Potential fit",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "C#/.NET, APIs, SQL, fintech and production troubleshooting overlap."
+        ],
+        "checks": [
+          "Confirm backend architecture, PostgreSQL/EF Core, CI/CD and Angular depth; desktop experience alone does not establish this stack."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "C#/.NET desktop and internal platforms"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:48:53.108Z",
+      "lastVerifiedAt": "2026-10-11T08:50:59.672Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:59.672Z",
+      "previousStatus": "Still open",
+      "statusReason": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown.",
+      "statusChangedAt": "2026-10-11T08:50:59.672Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:32.763Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:48:53.108Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:50:59.672Z",
+          "status": "Unknown",
+          "reason": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown."
+        }
+      ],
+      "requiredLanguages": [
+        "English: professional"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": "2026-10-10"
+    },
+    {
+      "id": "oxylabs-po",
+      "company": "Oxylabs",
+      "title": "Product Owner",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Vilnius",
+      "level": "Mid-level",
+      "experience": "2+ years as product owner or technical product manager",
+      "field": "Product ownership",
+      "tools": [
+        "APIs",
+        "Scrum",
+        "Data analytics"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Translate technical requirements into stories and manage the backlog for scraping products serving AI agents.",
+      "notes": "B2B SaaS experience preferred; salary EUR 3,200–5,500 gross/month.",
+      "salary": {
+        "currency": "EUR",
+        "min": 3200,
+        "max": 5500,
+        "period": "month",
+        "basis": "gross"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
+      "evidenceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
+      "sourceType": "Employer ATS",
+      "status": "Unknown",
+      "verification": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor.",
+      "researchBatch": "2026-09-23-expanded-roles",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product owner / technical product ownership",
+        "strengths": [
+          "APIs, requirements translation, Scrum facilitation and developer collaboration overlap."
+        ],
+        "checks": [
+          "Two years of formal product ownership, product decisions and backlog accountability are not demonstrated."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "productowner",
+      "roleFamilies": [
+        "Product owner / technical product ownership"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": "2026-09-26T22:48:54.817Z",
+      "lastVerifiedAt": "2026-10-11T08:50:59.832Z",
+      "sourceLastCheckedAt": "2026-10-11T08:50:59.832Z",
+      "previousStatus": "Still open",
+      "statusReason": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor.",
+      "statusChangedAt": "2026-10-11T08:50:59.832Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23",
+          "status": "Listed at check",
+          "reason": "Preserved pre-migration snapshot; original discovery time was not recorded."
+        },
+        {
+          "at": "2026-09-23T16:31:33.364Z",
+          "status": "Still open",
+          "reason": "Role description and application route rechecked on employer or ATS source."
+        },
+        {
+          "at": "2026-09-26T22:48:54.817Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:50:59.832Z",
+          "status": "Unknown",
+          "reason": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null
+    },
+    {
+      "id": "bosch-hu-po",
+      "company": "Bosch Group",
+      "title": "Product Owner and Data Professional",
+      "country": "Hungary",
+      "region": "Europe",
+      "location": "Budapest",
+      "level": "Not specified",
+      "experience": "See requirements and fit checks",
+      "field": "Product ownership",
+      "tools": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "AI"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Coordinate process-improvement projects and automated reporting with product-owner responsibilities.",
+      "notes": "Python scientific stack, TensorFlow and data-science foundations are not evidenced. Specified technical/economics degree and fluent English require review. Work authorization and relocation suitability are not established.",
+      "salary": null,
+      "postedAt": "2026-09-21",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000150637610-product-owner-and-data-professional-",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000150637610",
+      "sourceType": "Official ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "SmartRecruiters explicitly states that this job has expired; the shortened URL is the same requisition, not a new opening.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Product ownership",
+        "strengths": [
+          "Process improvement, SQL reporting and stakeholder work provide adjacent overlap."
+        ],
+        "checks": [
+          "Python scientific stack, TensorFlow and data-science foundations are not evidenced. Specified technical/economics degree and fluent English require review.",
+          "Confirm local work authorization, any sponsorship and exact language requirements before applying."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "productowner",
+      "roleFamilies": [
+        "Product ownership"
+      ],
+      "requisitionId": "REF296660A",
+      "researchBatch": "2026-09-23-global",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": "2026-09-26T22:48:53.857Z",
+      "lastVerifiedAt": "2026-10-11T08:51:00.367Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:00.367Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Newly found",
+          "reason": "Discovered and checked official ATS description and application route."
+        },
+        {
+          "at": "2026-09-26T22:48:53.857Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:51:00.367Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "SmartRecruiters explicitly states that this job has expired; the shortened URL is the same requisition, not a new opening."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown",
+      "remoteEligibility": "Unknown",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "previousStatus": "Still open",
+      "statusChangedAt": "2026-10-11T08:51:00.367Z",
+      "statusReason": "SmartRecruiters explicitly states that this job has expired; the shortened URL is the same requisition, not a new opening."
+    },
+    {
+      "id": "tsystems-process",
+      "company": "T-Systems Iberia",
+      "title": "Arquitecto/a Automatización y Process Mining (m/f/d)",
+      "country": "Spain",
+      "region": "Europe",
+      "location": "Reus",
+      "level": "Senior",
+      "experience": "See requirements and fit checks",
+      "field": "Process analysis",
+      "tools": [
+        "Blue Prism",
+        "UiPath",
+        "Power Automate",
+        "Celonis"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time",
+      "summary": "Discover processes and design automation and process-mining improvements with business teams.",
+      "notes": "Celonis/process-mining experience is unverified; professional English required. Confirm any Spanish-language expectations and local work rights. Work authorization and relocation suitability are not established.",
+      "salary": null,
+      "postedAt": "2026-07-27",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/T-SystemsIberia/744000140015049-arquitecto-a-automatizacion-y-process-mining-m-f-d-",
+      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/T-SystemsIberia/postings/744000140015049",
+      "sourceType": "Official ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "The Spanish application area explicitly says the job is no longer available.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Process analysis",
+        "strengths": [
+          "Automation design, business analysis and process improvement overlap directly."
+        ],
+        "checks": [
+          "Celonis/process-mining experience is unverified; professional English required. Confirm any Spanish-language expectations and local work rights.",
+          "Confirm local work authorization, any sponsorship and exact language requirements before applying."
+        ],
+        "assessedAt": "2026-09-23",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "analyst",
+      "roleFamilies": [
+        "Process analysis"
+      ],
+      "requisitionId": "REF1938P",
+      "researchBatch": "2026-09-23-global",
+      "firstSeenAt": "2026-09-23T16:39:18.865Z",
+      "lastSeenAt": "2026-09-26T22:48:54.165Z",
+      "lastVerifiedAt": "2026-10-11T08:51:00.545Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:00.545Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-23T16:39:18.865Z",
+          "status": "Newly found",
+          "reason": "Discovered and checked official ATS description and application route."
+        },
+        {
+          "at": "2026-09-26T22:48:54.165Z",
+          "status": "Still open",
+          "reason": "Role-specific source and application control rechecked; no closure notice observed."
+        },
+        {
+          "at": "2026-10-11T08:51:00.545Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "The Spanish application area explicitly says the job is no longer available."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown",
+      "remoteEligibility": "Unknown",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "previousStatus": "Still open",
+      "statusChangedAt": "2026-10-11T08:51:00.545Z",
+      "statusReason": "The Spanish application area explicitly says the job is no longer available."
+    },
+    {
+      "id": "bnp-blue",
+      "company": "BNP Paribas",
+      "title": "RPA Developer – Blue Prism",
+      "country": "India",
+      "region": "Asia",
+      "location": "Chennai",
+      "level": "Senior",
+      "experience": "5+ years; Blue Prism 7.2+",
+      "field": "Intelligent automation",
+      "tools": [
+        "Blue Prism",
+        "REST API",
+        "Windows Server"
+      ],
+      "mode": "Not stated",
+      "employment": "Permanent",
+      "summary": "Develop and support Blue Prism automations and API integrations within enterprise governance.",
+      "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
+      "salary": null,
+      "postedAt": "2026-09-20",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://group.bnpparibas/en/careers/job-offer/rpa-developer-blue-prism",
+      "evidenceUrl": "https://group.bnpparibas/en/careers/job-offer/rpa-developer-blue-prism",
+      "sourceType": "Employer careers page",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "Employer explicitly states that this position is already filled; surviving description is not evidence of availability.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "Multi-bot Blue Prism delivery, APIs, solution design and code quality directly overlap."
+        ],
+        "checks": [
+          "Blue Prism/API experience overlaps; confirm version 7.2+, infrastructure depth, five relevant years and acceptance of the non-technical degree.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T22:51:26.623Z",
+      "lastSeenAt": "2026-09-26T22:51:26.623Z",
+      "lastVerifiedAt": "2026-10-11T08:51:00.705Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:00.705Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Employer explicitly states that this position is already filled; surviving description is not evidence of availability.",
+      "statusChangedAt": "2026-10-11T08:51:00.705Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:51:26.623Z",
+          "status": "Newly found",
+          "reason": "Specific role and application route verified."
+        },
+        {
+          "at": "2026-10-11T08:51:00.705Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Employer explicitly states that this position is already filled; surviving description is not evidence of availability."
+        }
+      ],
+      "requiredLanguages": [
+        "English: proficient",
+        "French: advantage"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "1234567890100117088",
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "atea",
+      "company": "ATEA grupė",
+      "title": "Automatizavimo sprendimų programuotojas (-a)",
+      "country": "Lithuania",
+      "region": "Europe",
+      "location": "Klaipėda",
+      "level": "Not specified",
+      "experience": "2–3 years automation / business applications",
+      "field": "Intelligent automation",
+      "tools": [
+        "Power Automate",
+        "Power Apps",
+        "Azure",
+        "API integration",
+        "UiPath"
+      ],
+      "mode": "Remote option",
+      "employment": "Full-time",
+      "summary": "Build Power Platform automations, AI integrations and business applications connected through APIs.",
+      "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
+      "salary": {
+        "currency": "EUR",
+        "min": 1900,
+        "max": 4500,
+        "period": "month",
+        "basis": "gross"
+      },
+      "postedAt": "2026-09-04",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-klaipedoje/1-14108151",
+      "evidenceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-klaipedoje/1-14108151",
+      "sourceType": "Local job board — CVbankas",
+      "status": "Unknown",
+      "verification": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Power Platform / integration consulting",
+        "strengths": [
+          "Power Automate, API development, applied AI and business-process analysis overlap."
+        ],
+        "checks": [
+          "Azure, Power Apps and technical education are requirements to confirm; Power Automate experience alone does not prove the full stack.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Power Platform / integration consulting"
+      ],
+      "firstSeenAt": "2026-09-26T22:51:27.556Z",
+      "lastSeenAt": "2026-09-26T22:51:27.556Z",
+      "lastVerifiedAt": "2026-10-11T08:51:00.874Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:00.874Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID.",
+      "statusChangedAt": "2026-10-11T08:51:00.874Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:51:27.556Z",
+          "status": "Newly found",
+          "reason": "Employer-specific CVbankas ad includes full requirements, seven days remaining and Send CV application control."
+        },
+        {
+          "at": "2026-10-11T08:51:00.874Z",
+          "status": "Unknown",
+          "reason": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID."
+        }
+      ],
+      "requiredLanguages": [
+        "Lithuanian: good",
+        "English: good"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "emergent",
+      "company": "Emergent Africa",
+      "title": "Business Process Analyst",
+      "country": "South Africa",
+      "region": "Africa",
+      "location": "South Africa — client visits as required",
+      "level": "Mid / senior",
+      "experience": "3+ years business process analysis",
+      "field": "Intelligent automation",
+      "tools": [
+        "BPMN",
+        "RPA",
+        "SQL",
+        "Process mapping"
+      ],
+      "mode": "Hybrid / remote",
+      "employment": "Full-time",
+      "summary": "Map processes, assess automation opportunities, define requirements and track operational improvements.",
+      "notes": "Older published page remains accessible with a recruitment email application route. Reconfirm the hiring window before investing in an application.",
+      "salary": null,
+      "postedAt": "2025-10-30",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://emergent.africa/careers/business-process-analyst/",
+      "evidenceUrl": "https://emergent.africa/careers/business-process-analyst/",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Original source returned HTTP 404; no explicit closure evidence.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Automation business analysis / process improvement",
+        "strengths": [
+          "Process improvement, requirements translation, SQL reporting and business/engineering collaboration overlap."
+        ],
+        "checks": [
+          "Confirm three years of dedicated process analysis, BPMN depth, client workshops and acceptance of the documented degree; preferred professional certifications are not established.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "analyst",
+      "roleFamilies": [
+        "Automation business analysis / process improvement"
+      ],
+      "firstSeenAt": "2026-09-26T22:51:30.579Z",
+      "lastSeenAt": "2026-09-26T22:51:30.579Z",
+      "lastVerifiedAt": "2026-10-11T08:51:00.883Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:00.883Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Original source returned HTTP 404; no explicit closure evidence.",
+      "statusChangedAt": "2026-10-11T08:51:00.883Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:51:30.579Z",
+          "status": "Newly found",
+          "reason": "Full role description and role-page mailto application route to recruitment@emergent.africa checked."
+        },
+        {
+          "at": "2026-10-11T08:51:00.883Z",
+          "status": "Unknown",
+          "reason": "Original source returned HTTP 404; no explicit closure evidence."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "hub24",
+      "company": "HUB24 Limited",
+      "title": "Team Lead, RPA",
+      "country": "Australia",
+      "region": "Oceania",
+      "location": "Sydney",
+      "level": "Lead / management",
+      "experience": "5+ years RPA; team leadership",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "UiPath Orchestrator",
+        "RPA"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Lead UiPath delivery, production operations, engineering standards and team development.",
+      "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://au.linkedin.com/jobs/view/team-lead-rpa-at-hub24-limited-4460461807",
+      "evidenceUrl": "https://au.linkedin.com/jobs/view/team-lead-rpa-at-hub24-limited-4460461807",
+      "sourceType": "Direct LinkedIn vacancy",
+      "status": "Unknown",
+      "verification": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Automation solution design, coding standards, troubleshooting and developer mentoring support technical leadership."
+        ],
+        "checks": [
+          "Mentoring is evidenced but formal people management and UiPath platform administration are not; confirm the specific tenure and Australian eligibility.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "teamlead",
+      "roleFamilies": [
+        "Automation solution design / technical lead"
+      ],
+      "firstSeenAt": "2026-09-26T22:51:27.694Z",
+      "lastSeenAt": "2026-09-26T22:51:27.694Z",
+      "lastVerifiedAt": "2026-10-11T08:51:01.165Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:01.165Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation.",
+      "statusChangedAt": "2026-10-11T08:51:01.165Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:51:27.694Z",
+          "status": "Newly found",
+          "reason": "Public LinkedIn role description and Apply control verified through web retrieval after direct fetch was rate-limited."
+        },
+        {
+          "at": "2026-10-11T08:51:01.165Z",
+          "status": "Unknown",
+          "reason": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "nz-defence",
+      "company": "New Zealand Defence Force",
+      "title": "Special Operations Software Developer",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "location": "Papakura, Auckland",
+      "level": "Senior",
+      "experience": "5+ years software development",
+      "field": "Intelligent automation",
+      "tools": [
+        "Software integration",
+        "Desktop applications",
+        "Automation"
+      ],
+      "mode": "Not stated",
+      "employment": "Full-time permanent",
+      "summary": "Develop internal applications and integrations for operational users.",
+      "notes": "Ten-year checkable background and high-level security clearance requirements apply. Candidate eligibility is unknown.",
+      "salary": {
+        "currency": "NZD",
+        "min": 104214,
+        "max": 115131,
+        "period": "year",
+        "basis": "includes 4% superannuation"
+      },
+      "postedAt": "2026-09-10",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.govt.nz/jobs/NZ-DF-2609020",
+      "evidenceUrl": "https://jobs.govt.nz/jobs/NZ-DF-2609020",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "C#/.NET desktop and internal platforms",
+        "strengths": [
+          "C#/.NET internal tools, desktop development, integrations and translating operational needs are relevant, subject to the actual stack."
+        ],
+        "checks": [
+          "Security eligibility is a major gate; five software-development years and a computing qualification/equivalent need confirmation. The ad does not name C#.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "C#/.NET desktop and internal platforms"
+      ],
+      "previousStatus": "Newly found",
+      "statusReason": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved.",
+      "statusHistory": [
+        {
+          "status": "Newly found",
+          "reason": "Government vacancy page, full requirements and online application route reviewed.",
+          "at": "2026-09-26T23:10:07.554Z"
+        },
+        {
+          "at": "2026-10-11T09:05:26.929Z",
+          "status": "Unknown",
+          "reason": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "NZ citizen or permanent resident / residence-class visa; non-citizen applicants must also meet specified NZ/Australia/Canada/UK/US citizenship and ten-year residence/clearance conditions. See source.",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": "2026-10-06",
+      "requisitionId": "NZ/DF-2609020",
+      "researchBatch": "2026-09-27-worldwide",
+      "firstSeenAt": "2026-09-26T23:10:07.554Z",
+      "lastSeenAt": "2026-09-26T23:10:07.554Z",
+      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
+      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
+      "statusChangedAt": "2026-10-11T09:05:26.929Z"
+    },
+    {
+      "id": "boskalis",
+      "company": "Boskalis",
+      "title": "Junior RPA Developer",
+      "country": "United Arab Emirates",
+      "region": "Asia",
+      "location": "Abu Dhabi",
+      "level": "Junior",
+      "experience": "5+ years operations, process or IT support; junior RPA title",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "RPA"
+      ],
+      "mode": "On-site",
+      "employment": "Full-time",
+      "summary": "Build and support UiPath workflows while translating operational requirements into process improvements.",
+      "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
+      "salary": null,
+      "postedAt": "2026-09-22",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/Boskalis/744000150990908-junior-rpa-developer?trid=2d92f286-613b-4daf-9dfa-6340ffbecf73",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Boskalis/744000150990908-junior-rpa-developer?trid=2d92f286-613b-4daf-9dfa-6340ffbecf73",
+      "sourceType": "Employer ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "Job description survives, but the application area explicitly states that this job has expired.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "RPA development, operations support, process analysis and troubleshooting overlap strongly."
+        ],
+        "checks": [
+          "Junior title may underuse senior experience; confirm degree equivalence, UiPath depth and onsite availability.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T22:54:17.510Z",
+      "lastSeenAt": "2026-09-26T22:54:17.510Z",
+      "lastVerifiedAt": "2026-10-11T08:51:01.354Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:01.354Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Job description survives, but the application area explicitly states that this job has expired.",
+      "statusChangedAt": "2026-10-11T08:51:01.354Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:54:17.510Z",
+          "status": "Newly found",
+          "reason": "Specific role and application route verified."
+        },
+        {
+          "at": "2026-10-11T08:51:01.354Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Job description survives, but the application area explicitly states that this job has expired."
+        }
+      ],
+      "requiredLanguages": [
+        "English: good written and spoken"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "pedidosya",
+      "company": "PedidosYa / Delivery Hero",
+      "title": "Automation Associate",
+      "country": "Argentina",
+      "region": "South America",
+      "location": "Buenos Aires",
+      "level": "Not specified",
+      "experience": "RPA experience or applied technical training",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "C#",
+        "SQL",
+        "Generative AI"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time",
+      "summary": "Support production bots, analyse processes and turn requirements into automation solutions.",
+      "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
+      "salary": null,
+      "postedAt": "2026-08-28",
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000146259978-automation-associate",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000146259978-automation-associate",
+      "sourceType": "Employer ATS",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "The Spanish application area explicitly says the job is no longer available.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "RPA production troubleshooting, C#/SQL, requirements analysis and generative-AI integration overlap."
+        ],
+        "checks": [
+          "Technical education is requested; confirm equivalent experience, required English level and Spanish working-language expectations.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T23:00:36.155Z",
+      "lastSeenAt": "2026-09-26T23:00:36.155Z",
+      "lastVerifiedAt": "2026-10-11T08:51:01.894Z",
+      "sourceLastCheckedAt": "2026-10-11T08:51:01.894Z",
+      "previousStatus": "Newly found",
+      "statusReason": "The Spanish application area explicitly says the job is no longer available.",
+      "statusChangedAt": "2026-10-11T08:51:01.894Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T23:00:36.155Z",
+          "status": "Newly found",
+          "reason": "Specific role and application route verified."
+        },
+        {
+          "at": "2026-10-11T08:51:01.894Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "The Spanish application area explicitly says the job is no longer available."
+        }
+      ],
+      "requiredLanguages": [
+        "English: intermediate or advanced"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "samurai-dev",
+      "company": "Office Samurai",
+      "title": "RPA Developer",
+      "country": "Poland",
+      "region": "Europe",
+      "location": "Kraków",
+      "level": "Mid-level",
+      "experience": "Practical UiPath development and ReFramework",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "Blue Prism",
+        "Power Automate",
+        ".NET",
+        "VBA",
+        "SQL",
+        "LLMs"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time / part-time / B2B",
+      "summary": "Develop bots, contribute to process analysis and mentor colleagues across automation projects.",
+      "notes": "Six office days per month. Full-time or 3/4–4/5 arrangements. Deadline imminent at check; exact timestamp not exposed.",
+      "salary": {
+        "currency": "PLN",
+        "min": 7000,
+        "max": 11000,
+        "period": "month",
+        "basis": "gross employment salary; other contract terms may differ"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://www.pracuj.pl/praca/rpa-developer-krakow-wojciecha-weissa-7,oferta,1005055515",
+      "evidenceUrl": "https://www.pracuj.pl/praca/rpa-developer-krakow-wojciecha-weissa-7,oferta,1005055515",
+      "sourceType": "Employer-linked local board — Pracuj",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "Pracuj explicitly says the advertisement expired 14 days ago; retrieved through web after direct access was blocked.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "RPA/.NET/VBA/SQL, LLM integration, shared-services experience and mentoring closely overlap."
+        ],
+        "checks": [
+          "Confirm UiPath ReFramework depth and English B2; the board showed only about one hour remaining at retrieval, so verify the hiring window immediately.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T23:02:25.029Z",
+      "lastSeenAt": "2026-09-26T23:02:25.029Z",
+      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
+      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Pracuj explicitly says the advertisement expired 14 days ago; retrieved through web after direct access was blocked.",
+      "statusChangedAt": "2026-10-11T09:05:26.929Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T23:02:25.029Z",
+          "status": "Newly found",
+          "reason": "Employer careers page links to Pracuj profile; specific ad has full requirements and Aplikuj links. Web retrieval succeeded after direct fetch was blocked."
+        },
+        {
+          "at": "2026-10-11T09:05:26.929Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Pracuj explicitly says the advertisement expired 14 days ago; retrieved through web after direct access was blocked."
+        }
+      ],
+      "requiredLanguages": [
+        "English: B2 minimum"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": null,
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "samurai-ba",
+      "company": "Office Samurai",
+      "title": "Automation Business Analyst",
+      "country": "Poland",
+      "region": "Europe",
+      "location": "Kraków",
+      "level": "Mid-level",
+      "experience": "Practical process analysis, coordination or corporate-client work",
+      "field": "Intelligent automation",
+      "tools": [
+        "RPA",
+        "Process mining",
+        "Process mapping",
+        "PDD"
+      ],
+      "mode": "Hybrid",
+      "employment": "Full-time / part-time / B2B",
+      "summary": "Run process workshops, define automation requirements and support business cases and testing.",
+      "notes": "Six office days per month; 10–15% travel. Part-time arrangements available.",
+      "salary": {
+        "currency": "PLN",
+        "min": 7000,
+        "max": 11000,
+        "period": "month",
+        "basis": "gross employment salary; other contract terms may differ"
+      },
+      "postedAt": null,
+      "checkedAt": "2026-10-11",
+      "sourceUrl": "https://www.pracuj.pl/praca/automation-business-analyst-krakow-wojciecha-weissa-7,oferta,1005067048",
+      "evidenceUrl": "https://www.pracuj.pl/praca/automation-business-analyst-krakow-wojciecha-weissa-7,oferta,1005067048",
+      "sourceType": "Employer-linked local board — Pracuj",
+      "status": "Closed/Expired/No longer accepting applications",
+      "verification": "Pracuj explicitly says the advertisement expired 8 days ago; retrieved through web after direct access was blocked.",
+      "fit": {
+        "band": "Lower priority",
+        "track": "Automation business analysis / process improvement",
+        "strengths": [
+          "Requirements translation, process improvement, workshops/training and delivery coordination overlap."
+        ],
+        "checks": [
+          "Polish and English C1 are mandatory; Polish is not evidenced. Confirm process-intelligence experience and travel availability.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "analyst",
+      "roleFamilies": [
+        "Automation business analysis / process improvement"
+      ],
+      "firstSeenAt": "2026-09-26T23:02:25.064Z",
+      "lastSeenAt": "2026-09-26T23:02:25.064Z",
+      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
+      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Pracuj explicitly says the advertisement expired 8 days ago; retrieved through web after direct access was blocked.",
+      "statusChangedAt": "2026-10-11T09:05:26.929Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T23:02:25.064Z",
+          "status": "Newly found",
+          "reason": "Employer-linked Pracuj role and Aplikuj application route reviewed through web retrieval."
+        },
+        {
+          "at": "2026-10-11T09:05:26.929Z",
+          "status": "Closed/Expired/No longer accepting applications",
+          "reason": "Pracuj explicitly says the advertisement expired 8 days ago; retrieved through web after direct access was blocked."
+        }
+      ],
+      "requiredLanguages": [
+        "Polish: C1 minimum",
+        "English: C1 minimum"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": "2026-10-02",
+      "requisitionId": null,
       "researchBatch": "2026-09-27-worldwide"
     }
   ],
@@ -2341,5 +3785,5 @@
       "latestReason": "No positive current role/application verification; retain as unfinished lead."
     }
   ],
-  "updatedAt": "2026-09-27"
+  "updatedAt": "2026-10-11T09:09:02.508Z"
 }
