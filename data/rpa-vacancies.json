@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "researchedAt": "2026-10-11",
+  "researchedAt": "2026-10-12",
   "scope": "Worldwide profile-led search. Current verified sample spans six world regions; geographic coverage is uneven and work eligibility is not implied.",
   "methodology": [
     "Purposive sample from employer careers pages and official ATS feeds, supplemented by named recruitment agencies. Not a census or statistically representative market estimate.",
@@ -48,12 +48,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://keskosenukailithuania.teamtailor.com/en/jobs/8244747-rpa-developer",
       "evidenceUrl": "https://keskosenukailithuania.teamtailor.com/en/jobs/8244747-rpa-developer",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -71,11 +71,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.488Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.488Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.488Z",
+      "lastSeenAt": "2026-10-12T10:50:22.827Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.827Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.827Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.273Z",
       "statusHistory": [
         {
@@ -97,6 +97,11 @@
           "at": "2026-10-11T08:50:58.488Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.827Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -129,12 +134,12 @@
       "notes": "Four hours of daily EST overlap. Several platforms are alternatives; remote/hybrid options are benefits, not worldwide eligibility.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://job-boards.eu.greenhouse.io/coherentsolutions/jobs/4969509101",
       "evidenceUrl": "https://job-boards.eu.greenhouse.io/coherentsolutions/jobs/4969509101",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "Senior RPA / automation engineering",
@@ -152,11 +157,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.522Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.522Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.522Z",
+      "lastSeenAt": "2026-10-12T10:50:22.861Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.861Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.861Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.080Z",
       "statusHistory": [
         {
@@ -178,6 +183,11 @@
           "at": "2026-10-11T08:50:58.522Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.861Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -206,12 +216,12 @@
       "notes": "German and English; travel within Switzerland. UiPath AI Center is an additional skill.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.adesso.ch/de_ch/jobs-karriere/unsere-stellenangebote/UiPath-Automation-Consultant-all-genders-de-j2959.html",
       "evidenceUrl": "https://www.adesso.ch/de_ch/jobs-karriere/unsere-stellenangebote/UiPath-Automation-Consultant-all-genders-de-j2959.html",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "Automation solution design / technical lead",
@@ -229,11 +239,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.523Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.523Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.523Z",
+      "lastSeenAt": "2026-10-12T10:50:22.862Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.862Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.862Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.172Z",
       "statusHistory": [
         {
@@ -255,6 +265,11 @@
           "at": "2026-10-11T08:50:58.523Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.862Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -289,12 +304,12 @@
       "notes": "Excellent German and good English. Travel within German-speaking Switzerland.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.isolutions.ch/en/career/senior-power-platform-consultant/",
       "evidenceUrl": "https://www.isolutions.ch/en/career/senior-power-platform-consultant/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -312,11 +327,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.524Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.524Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.524Z",
+      "lastSeenAt": "2026-10-12T10:50:22.863Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.863Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.863Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.117Z",
       "statusHistory": [
         {
@@ -338,6 +353,11 @@
           "at": "2026-10-11T08:50:58.524Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.863Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -368,12 +388,12 @@
       "notes": "Fluent Polish and English B2. Python is an additional skill.",
       "salary": null,
       "postedAt": "2026-07-13",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/InPost/744000137441230-rpa-developer-m-f-n-",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/InPost/postings/744000137441230",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/InPost/744000137441230-rpa-developer-m-f-n-",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Intelligent automation / AI integration",
@@ -391,11 +411,11 @@
         "Intelligent automation / AI integration"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.524Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.524Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.524Z",
+      "lastSeenAt": "2026-10-12T10:50:22.864Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.864Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.864Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.083Z",
       "statusHistory": [
         {
@@ -417,6 +437,11 @@
           "at": "2026-10-11T08:50:58.524Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.864Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -455,12 +480,12 @@
         "basis": "gross"
       },
       "postedAt": "2026-08-07",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Tieto2/744000142094669-microsoft-power-platform-developer-m-f-d-tieto-tech-consulting",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Tieto2/postings/744000142094669",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Tieto2/744000142094669-microsoft-power-platform-developer-m-f-d-tieto-tech-consulting",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -478,11 +503,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.525Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.525Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.525Z",
+      "lastSeenAt": "2026-10-12T10:50:22.864Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.864Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.864Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.126Z",
       "statusHistory": [
         {
@@ -504,6 +529,11 @@
           "at": "2026-10-11T08:50:58.525Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.864Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -534,12 +564,12 @@
       "notes": "Portuguese and English required; UiPath certification requested.",
       "salary": null,
       "postedAt": "2026-03-10",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000113688413-low-code-automation-unit-senior-rpa-consultant-uipath",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000113688413",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000113688413-low-code-automation-unit-senior-rpa-consultant-uipath",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation solution design / technical lead",
@@ -557,11 +587,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.526Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.526Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.526Z",
+      "lastSeenAt": "2026-10-12T10:50:22.865Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.865Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.865Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.048Z",
       "statusHistory": [
         {
@@ -583,6 +613,11 @@
           "at": "2026-10-11T08:50:58.526Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.865Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -615,12 +650,12 @@
       "notes": "Copilot Studio is an additional skill. Older advertisement still published at check.",
       "salary": null,
       "postedAt": "2025-11-26",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000095703193-developpeur-power-platform-f-h",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000095703193",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000095703193-developpeur-power-platform-f-h",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -638,11 +673,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.527Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.527Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.527Z",
+      "lastSeenAt": "2026-10-12T10:50:22.866Z",
+      "lastVerifiedAt": "2026-10-12T10:50:22.866Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:22.866Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.051Z",
       "statusHistory": [
         {
@@ -664,6 +699,11 @@
           "at": "2026-10-11T08:50:58.527Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:22.866Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -696,12 +736,12 @@
       "notes": "German C2 and good English. Remote option does not establish international work eligibility.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.conet.de/de/karriere/jobs/2024-196-software-developer-microsoft-dynamics-senior/",
       "evidenceUrl": "https://www.conet.de/de/karriere/jobs/2024-196-software-developer-microsoft-dynamics-senior/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -719,11 +759,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.730Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.730Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.730Z",
+      "lastSeenAt": "2026-10-12T10:50:23.116Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.116Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.116Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.458Z",
       "statusHistory": [
         {
@@ -745,6 +785,11 @@
           "at": "2026-10-11T08:50:58.730Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.116Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -779,12 +824,12 @@
       "notes": "Seniority normalized from 1–2 years required despite Senior in the title. Python is an additional skill.",
       "salary": null,
       "postedAt": "2026-09-22",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.bunge.com/job/Bhurai-In-Senior-Process-Associate-RPA-Development-PB-160059/1429042233/",
       "evidenceUrl": "https://jobs.bunge.com/job/Bhurai-In-Senior-Process-Associate-RPA-Development-PB-160059/1429042233/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "Senior RPA / automation engineering",
@@ -802,11 +847,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.768Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.768Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.768Z",
+      "lastSeenAt": "2026-10-12T10:50:23.197Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.197Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.197Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.528Z",
       "statusHistory": [
         {
@@ -828,6 +873,11 @@
           "at": "2026-10-11T08:50:58.768Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.197Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -859,12 +909,12 @@
       "notes": "UiPath is an alternative platform. Qualifications specify at least five years.",
       "salary": null,
       "postedAt": "2026-07-21",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000138889069-senior-hyper-automation-rpa-ai-ml-developer-engineer",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000138889069",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000138889069-senior-hyper-automation-rpa-ai-ml-developer-engineer",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Intelligent automation / AI integration",
@@ -882,11 +932,11 @@
         "Intelligent automation / AI integration"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.828Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.828Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.828Z",
+      "lastSeenAt": "2026-10-12T10:50:23.208Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.208Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.208Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.348Z",
       "statusHistory": [
         {
@@ -908,6 +958,11 @@
           "at": "2026-10-11T08:50:58.828Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.208Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -938,12 +993,12 @@
       "notes": "Page says 1+ years in the header and 2+ in skills. Two openings advertised; counted once. Power Automate Desktop is desirable.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.totalebizsolutions.com/job/rpa-developer/",
       "evidenceUrl": "https://www.totalebizsolutions.com/job/rpa-developer/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "Senior RPA / automation engineering",
@@ -961,11 +1016,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.847Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.847Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.847Z",
+      "lastSeenAt": "2026-10-12T10:50:23.216Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.216Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.216Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.864Z",
       "statusHistory": [
         {
@@ -987,6 +1042,11 @@
           "at": "2026-10-11T08:50:58.847Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.216Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1014,12 +1074,12 @@
       "notes": "Recruitment agency; client undisclosed. Strong Thai required. Title spans junior to senior; requirements specify 2–5 years.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://job-boards.greenhouse.io/recruitis/jobs/8527819002",
       "evidenceUrl": "https://job-boards.greenhouse.io/recruitis/jobs/8527819002",
       "sourceType": "Recruitment agency ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -1037,11 +1097,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.857Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.857Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.857Z",
+      "lastSeenAt": "2026-10-12T10:50:23.280Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.280Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.280Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.750Z",
       "statusHistory": [
         {
@@ -1063,6 +1123,11 @@
           "at": "2026-10-11T08:50:58.857Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.280Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1093,12 +1158,12 @@
       "notes": "Recruitment agency; client undisclosed. Remote options mentioned, eligibility unspecified.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.careers-page.com/dautom/job/L57RRY95",
       "evidenceUrl": "https://www.careers-page.com/dautom/job/L57RRY95",
       "sourceType": "Recruitment agency ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Senior RPA / automation engineering",
@@ -1116,11 +1181,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.936Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.936Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.936Z",
+      "lastSeenAt": "2026-10-12T10:50:23.288Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.288Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.288Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.795Z",
       "statusHistory": [
         {
@@ -1142,6 +1207,11 @@
           "at": "2026-10-11T08:50:58.936Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.288Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1171,12 +1241,12 @@
       "notes": "Adjacent role: RPA knowledge is beneficial, not a core platform requirement. Midshift.",
       "salary": null,
       "postedAt": "2026-05-15",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/ArchGlobalServicesPhilippinesInc/744000126730919-2026-7942-optimization-lead-managed-service-delivery-midshift-",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/ArchGlobalServicesPhilippinesInc/postings/744000126730919",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/ArchGlobalServicesPhilippinesInc/744000126730919-2026-7942-optimization-lead-managed-service-delivery-midshift-",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Agile delivery / automation transformation",
@@ -1194,11 +1264,11 @@
         "Agile delivery / automation transformation"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:58.996Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.996Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.996Z",
+      "lastSeenAt": "2026-10-12T10:50:23.308Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.308Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.308Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.649Z",
       "statusHistory": [
         {
@@ -1220,6 +1290,11 @@
           "at": "2026-10-11T08:50:58.996Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.308Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1250,12 +1325,12 @@
       "notes": "Very good English and IT-related higher education requested. UiPath Document Understanding is an advantage.",
       "salary": null,
       "postedAt": "2026-09-07",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-RPA-Senior-Automation-Developer-Blue-Prism-%26-UiPath/1111776601/",
       "evidenceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-RPA-Senior-Automation-Developer-Blue-Prism-%26-UiPath/1111776601/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "Automation solution design / technical lead",
@@ -1273,11 +1348,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.024Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.024Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.024Z",
+      "lastSeenAt": "2026-10-12T10:50:23.348Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.348Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.348Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.982Z",
       "statusHistory": [
         {
@@ -1299,6 +1374,11 @@
           "at": "2026-10-11T08:50:59.024Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.348Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1331,12 +1411,12 @@
       "notes": "English B2 minimum. CI/CD, testing and code-quality tooling feature in the stack.",
       "salary": null,
       "postedAt": "2026-04-30",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/NatixisInPortugal/744000123882109-senior-wpf-c-net-developer-it-cib",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/NatixisInPortugal/postings/744000123882109",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/NatixisInPortugal/744000123882109-senior-wpf-c-net-developer-it-cib",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "C#/.NET desktop and internal platforms",
@@ -1354,11 +1434,11 @@
         "C#/.NET desktop and internal platforms"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.040Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.040Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.040Z",
+      "lastSeenAt": "2026-10-12T10:50:23.363Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.363Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.363Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:31.766Z",
       "statusHistory": [
         {
@@ -1380,6 +1460,11 @@
           "at": "2026-10-11T08:50:59.040Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.363Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1410,12 +1495,12 @@
       "notes": "Vendor contracts, procurement and licence management are part of the role.",
       "salary": null,
       "postedAt": "2026-09-25",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://groupcareers.singtel.com/job/Business-and-Digital-Transformation-Mgr-Sing/1356769166/",
       "evidenceUrl": "https://groupcareers.singtel.com/job/Business-and-Digital-Transformation-Mgr-Sing/1356769166/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Agile delivery / automation transformation",
@@ -1433,11 +1518,11 @@
         "Agile delivery / automation transformation"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.127Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.127Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.127Z",
+      "lastSeenAt": "2026-10-12T10:50:23.455Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.455Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.455Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:33.394Z",
       "statusHistory": [
         {
@@ -1459,6 +1544,11 @@
           "at": "2026-10-11T08:50:59.127Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.455Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1489,12 +1579,12 @@
       "notes": "Requires technical-team or complex-workstream leadership and security/risk judgement. No particular programming language specified.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.eu.lever.co/sggc/fee02beb-cb97-454a-a439-4bc485cecf2a",
       "evidenceUrl": "https://jobs.eu.lever.co/sggc/fee02beb-cb97-454a-a439-4bc485cecf2a",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Automation solution design / technical lead",
@@ -1512,11 +1602,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.185Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.185Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.185Z",
+      "lastSeenAt": "2026-10-12T10:50:23.467Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.467Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.467Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.527Z",
       "statusHistory": [
         {
@@ -1538,6 +1628,11 @@
           "at": "2026-10-11T08:50:59.185Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.467Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1569,12 +1664,12 @@
       "notes": "Cloud-native architecture, evaluation, fine-tuning, MLOps and cross-functional leadership feature in the requirements.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://job-boards.greenhouse.io/temus/jobs/5428034008",
       "evidenceUrl": "https://job-boards.greenhouse.io/temus/jobs/5428034008",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Intelligent automation / AI integration",
@@ -1592,11 +1687,11 @@
         "Intelligent automation / AI integration"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.188Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.188Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.188Z",
+      "lastSeenAt": "2026-10-12T10:50:23.513Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.513Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.513Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.177Z",
       "statusHistory": [
         {
@@ -1618,6 +1713,11 @@
           "at": "2026-10-11T08:50:59.188Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.513Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1646,12 +1746,12 @@
       "notes": "Description says 2-year fixed-term and South West; page header says permanent and Fradley. Clarify both. Enhanced background-check eligibility required.",
       "salary": null,
       "postedAt": "2026-05-27",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://vacancies.datacareers.co.uk/job/53331/rpa-business-analyst",
       "evidenceUrl": "https://vacancies.datacareers.co.uk/job/53331/rpa-business-analyst",
       "sourceType": "Recruitment agency careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation business analysis / process improvement",
@@ -1669,11 +1769,11 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.236Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.236Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.236Z",
+      "lastSeenAt": "2026-10-12T10:50:23.539Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.539Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.539Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:33.374Z",
       "statusHistory": [
         {
@@ -1695,6 +1795,11 @@
           "at": "2026-10-11T08:50:59.236Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.539Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1727,12 +1832,12 @@
       "notes": "English required; role-specific UiPath depth, relevant degree and ERP integration requirements need checking. Blue Prism and Power Automate are additional platforms.",
       "salary": null,
       "postedAt": "2026-08-06",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://careers.te.com/job/AUTOMATION-DEVELOPER/156309-en_US/",
       "evidenceUrl": "https://careers.te.com/job/AUTOMATION-DEVELOPER/156309-en_US/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -1750,11 +1855,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.321Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.321Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.321Z",
+      "lastSeenAt": "2026-10-12T10:50:23.613Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.613Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.613Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.946Z",
       "statusHistory": [
         {
@@ -1776,6 +1881,11 @@
           "at": "2026-10-11T08:50:59.321Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.613Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1805,12 +1915,12 @@
       "notes": "English B2 and good French requested.",
       "salary": null,
       "postedAt": "2026-09-18",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Salomon/744000150300998-it-product-owner-ecom",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Salomon/postings/744000150300998",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Salomon/744000150300998-it-product-owner-ecom",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Stretch",
@@ -1829,11 +1939,11 @@
         "Product owner / technical product ownership"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.474Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.474Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.474Z",
+      "lastSeenAt": "2026-10-12T10:50:23.618Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.618Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.618Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.533Z",
       "statusHistory": [
         {
@@ -1855,6 +1965,11 @@
           "at": "2026-10-11T08:50:59.474Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.618Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1888,12 +2003,12 @@
       "notes": "Mandatory A360 Advanced/Master and PL-500 certifications; inconsistent tenure thresholds require clarification.",
       "salary": null,
       "postedAt": "2026-07-23",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000139262030-team-lead-hyper-automation-rpa-ai-ml-",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000139203214",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000139262030-team-lead-hyper-automation-rpa-ai-ml-",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Stretch",
@@ -1912,11 +2027,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.580Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.580Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.580Z",
+      "lastSeenAt": "2026-10-12T10:50:23.724Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.724Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.724Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.679Z",
       "statusHistory": [
         {
@@ -1938,6 +2053,11 @@
           "at": "2026-10-11T08:50:59.580Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.724Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -1968,12 +2088,12 @@
       "notes": "Three-year full-time contract with possible renewal; degree in any discipline accepted. Finance controls knowledge requested.",
       "salary": null,
       "postedAt": "2026-09-09",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.changiairport.com/cag/job/Assistant-Manager%2C-Digital-Finance-Business-Analyst-%28AI%2C-Automation%29/1367109166/",
       "evidenceUrl": "https://jobs.changiairport.com/cag/job/Assistant-Manager%2C-Digital-Finance-Business-Analyst-%28AI%2C-Automation%29/1367109166/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Potential fit",
@@ -1992,11 +2112,11 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.590Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.590Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.590Z",
+      "lastSeenAt": "2026-10-12T10:50:23.745Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.745Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.745Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:34.718Z",
       "statusHistory": [
         {
@@ -2018,6 +2138,11 @@
           "at": "2026-10-11T08:50:59.590Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.745Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2048,12 +2173,12 @@
       "notes": "Hybrid with 2–3 remote days/week. Optional mentoring, technical leadership and hiring duties depend on experience.",
       "salary": null,
       "postedAt": "2026-07-08",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000136415969-consultant-e-hyperautomation-rpa-engineer",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Devoteam/postings/744000042338610",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Devoteam/744000136415969-consultant-e-hyperautomation-rpa-engineer",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Strong technical fit",
@@ -2072,11 +2197,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:50:59.815Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.815Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.815Z",
+      "lastSeenAt": "2026-10-12T10:50:23.795Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.795Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.795Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:32.866Z",
       "statusHistory": [
         {
@@ -2098,6 +2223,11 @@
           "at": "2026-10-11T08:50:59.815Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.795Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2133,12 +2263,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.lever.co/oxylabs/101803b6-94a0-4347-9ff1-d89ebabc1b5f",
       "evidenceUrl": "https://jobs.lever.co/oxylabs/101803b6-94a0-4347-9ff1-d89ebabc1b5f",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Stretch",
@@ -2157,11 +2287,11 @@
         "Product owner / technical product ownership"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:51:00.072Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.072Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.072Z",
+      "lastSeenAt": "2026-10-12T10:50:23.892Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.892Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.892Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-23T16:31:35.080Z",
       "statusHistory": [
         {
@@ -2183,6 +2313,11 @@
           "at": "2026-10-11T08:51:00.072Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.892Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2215,12 +2350,12 @@
       "notes": "Formal direct-report management and the requested NQF Level 5 RPA qualification are unverified; cloud and enterprise-platform breadth require review. Work authorization and relocation suitability are not established.",
       "salary": null,
       "postedAt": "2026-04-24",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000122618974-deputy-manager-rpa",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/WNSGlobalServices144/postings/744000122618974",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/744000122618974-deputy-manager-rpa",
       "sourceType": "Official ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Automation leadership",
@@ -2241,9 +2376,9 @@
       "requisitionId": "REF100261K_2026247814",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:00.153Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.153Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.153Z",
+      "lastSeenAt": "2026-10-12T10:50:23.903Z",
+      "lastVerifiedAt": "2026-10-12T10:50:23.903Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:23.903Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -2259,6 +2394,11 @@
           "at": "2026-10-11T08:51:00.153Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:23.903Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2268,7 +2408,7 @@
       "applicationDeadline": null,
       "previousStatus": "Still open",
       "statusChangedAt": "2026-09-26T22:48:53.516Z",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "experian-ai",
@@ -2291,12 +2431,12 @@
       "notes": "Confirm product discovery, MVP prioritization and customer-facing consulting evidence; UK work rights and sponsorship are unspecified. Work authorization and relocation suitability are not established.",
       "salary": null,
       "postedAt": "2026-09-22",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Experian/744000151088864-ai-automation-solution-consultant",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/Experian/postings/744000138859709",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/Experian/744000151088864-ai-automation-solution-consultant",
       "sourceType": "Official ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "AI / automation",
@@ -2317,9 +2457,9 @@
       "requisitionId": "REF31723G",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:00.264Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.264Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.264Z",
+      "lastSeenAt": "2026-10-12T10:50:24.012Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.012Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.012Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -2335,6 +2475,11 @@
           "at": "2026-10-11T08:51:00.264Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.012Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2344,7 +2489,7 @@
       "applicationDeadline": null,
       "previousStatus": "Still open",
       "statusChangedAt": "2026-09-26T22:48:53.800Z",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "prosidian-us",
@@ -2367,12 +2512,12 @@
       "notes": "US citizenship is mandatory and visa sponsorship is unavailable; citizenship is unknown. Bachelor degree in IT requested differs from the documented degree. Confirm five years of RPA development. Work authorization and relocation suitability are not established.",
       "salary": null,
       "postedAt": "2026-04-07",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/prosidianconsulting/744000119029377-rpa-developer",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/prosidianconsulting/postings/744000119029377",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/prosidianconsulting/744000119029377-rpa-developer",
       "sourceType": "Official ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "RPA",
@@ -2393,9 +2538,9 @@
       "requisitionId": "REF3957M",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:00.470Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.470Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.470Z",
+      "lastSeenAt": "2026-10-12T10:50:24.057Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.057Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.057Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -2411,6 +2556,11 @@
           "at": "2026-10-11T08:51:00.470Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.057Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2420,7 +2570,7 @@
       "applicationDeadline": null,
       "previousStatus": "Still open",
       "statusChangedAt": "2026-09-26T22:48:54.036Z",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "act-rpa",
@@ -2444,12 +2594,12 @@
       "notes": "Confirm required AI-project depth and two years of RPA work; Lisbon attendance required, especially during onboarding. Older posting remains published with an application route. Work authorization and relocation suitability are not established.",
       "salary": null,
       "postedAt": "2025-04-15",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/AlterSolutions/744000053982207-rpa-analyst-developer",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/AlterSolutions/postings/744000053982207",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/AlterSolutions/744000053982207-rpa-analyst-developer",
       "sourceType": "Official ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "RPA",
@@ -2470,9 +2620,9 @@
       "requisitionId": "REF10511P",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:00.565Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.565Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.565Z",
+      "lastSeenAt": "2026-10-12T10:50:24.138Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.138Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.138Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -2488,6 +2638,11 @@
           "at": "2026-10-11T08:51:00.565Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.138Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2497,7 +2652,7 @@
       "applicationDeadline": null,
       "previousStatus": "Still open",
       "statusChangedAt": "2026-09-26T22:48:54.258Z",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "telekom-process",
@@ -2520,12 +2675,12 @@
       "notes": "Confirm business-continuity fundamentals, enterprise rollout ownership, degree equivalence and excellent English; formal people management is not assumed. Work authorization and relocation suitability are not established.",
       "salary": null,
       "postedAt": "2026-07-17",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/DeutscheTelekomITSolutions/744000138251095-technical-process-manager-ai-driven-bcm-security-process-optimization-automation-",
-      "evidenceUrl": "https://api.smartrecruiters.com/v1/companies/DeutscheTelekomITSolutions/postings/744000138251095",
+      "evidenceUrl": "https://jobs.smartrecruiters.com/DeutscheTelekomITSolutions/744000138251095-technical-process-manager-ai-driven-bcm-security-process-optimization-automation-",
       "sourceType": "Official ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Process management",
@@ -2546,9 +2701,9 @@
       "requisitionId": "REF5290O",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:00.605Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.605Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.605Z",
+      "lastSeenAt": "2026-10-12T10:50:24.226Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.226Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.226Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -2564,6 +2719,11 @@
           "at": "2026-10-11T08:51:00.605Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.226Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2573,7 +2733,7 @@
       "applicationDeadline": null,
       "previousStatus": "Still open",
       "statusChangedAt": "2026-09-26T22:48:54.325Z",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "scotia",
@@ -2598,12 +2758,12 @@
       "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
       "salary": null,
       "postedAt": "2026-09-05",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.scotiabank.com/job/Toronto-Senior-Developer-Uipath-ON-M1K5L1/604199117/",
       "evidenceUrl": "https://jobs.scotiabank.com/job/Toronto-Senior-Developer-Uipath-ON-M1K5L1/604199117/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -2622,11 +2782,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-09-26T22:51:27.383Z",
-      "lastSeenAt": "2026-10-11T08:51:00.733Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.733Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.733Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:24.266Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.266Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.266Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:00.733Z",
       "statusHistory": [
         {
@@ -2638,6 +2798,11 @@
           "at": "2026-10-11T08:51:00.733Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.266Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2669,12 +2834,12 @@
       "notes": "Gupy status is published. Registration end is 8 November; separate page-expiry metadata says 30 November. Use the earlier date and confirm with the employer.",
       "salary": null,
       "postedAt": "2026-09-15",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://stefanini.gupy.io/jobs/12450623",
       "evidenceUrl": "https://stefanini.gupy.io/jobs/12450623",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Gupy description and Candidatar-se route present; rendered job state is published (not frozen).",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "Senior RPA / automation engineering",
@@ -2693,11 +2858,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-09-26T22:51:27.144Z",
-      "lastSeenAt": "2026-10-11T08:51:00.736Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.736Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.736Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Gupy description and Candidatar-se route present; rendered job state is published (not frozen).",
+      "lastSeenAt": "2026-10-12T10:50:24.358Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.358Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.358Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:00.736Z",
       "statusHistory": [
         {
@@ -2709,6 +2874,11 @@
           "at": "2026-10-11T08:51:00.736Z",
           "status": "Still open",
           "reason": "Gupy description and Candidatar-se route present; rendered job state is published (not frozen)."
+        },
+        {
+          "at": "2026-10-12T10:50:24.358Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2747,12 +2917,12 @@
         "basis": "base; bonus/equity separate"
       },
       "postedAt": "2026-08-31",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.lever.co/elfbeauty/a750ff48-953c-4618-b39f-433431e5468d",
       "evidenceUrl": "https://jobs.lever.co/elfbeauty/a750ff48-953c-4618-b39f-433431e5468d",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Product owner / technical product ownership",
@@ -2771,11 +2941,11 @@
         "Product owner / technical product ownership"
       ],
       "firstSeenAt": "2026-09-26T22:51:26.997Z",
-      "lastSeenAt": "2026-10-11T08:51:00.742Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.742Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.742Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:24.745Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.745Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.745Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:00.742Z",
       "statusHistory": [
         {
@@ -2787,6 +2957,11 @@
           "at": "2026-10-11T08:51:00.742Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.745Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -2817,12 +2992,12 @@
       "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
       "salary": null,
       "postedAt": "2026-09-14",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-Automation-RPA-Developer-Blue-Prism/1010485801/",
       "evidenceUrl": "https://careers.capgemini.com/job/Krak%C3%B3w-Automation-RPA-Developer-Blue-Prism/1010485801/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "Senior RPA / automation engineering",
@@ -2841,11 +3016,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-09-26T22:51:27.232Z",
-      "lastSeenAt": "2026-10-11T08:51:00.745Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.745Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.745Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:24.767Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.767Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.767Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:00.745Z",
       "statusHistory": [
         {
@@ -2857,6 +3032,11 @@
           "at": "2026-10-11T08:51:00.745Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.767Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -2894,12 +3074,12 @@
       "notes": "Four days per week in office. This is infrastructure leadership rather than principally bot development.",
       "salary": null,
       "postedAt": "2026-08-10",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://japan-job-en.rakuten.careers/job/tokyo/rpa-server-architect-technical-lead-business-it-platform-section-corporate-it-service-department-ci/32045/99003853936",
       "evidenceUrl": "https://japan-job-en.rakuten.careers/job/tokyo/rpa-server-architect-technical-lead-business-it-platform-section-corporate-it-service-department-ci/32045/99003853936",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "Automation solution design / technical lead",
@@ -2918,11 +3098,11 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": "2026-09-26T22:54:17.858Z",
-      "lastSeenAt": "2026-10-11T08:51:01.246Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.246Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.246Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:24.859Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.859Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.859Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.246Z",
       "statusHistory": [
         {
@@ -2934,6 +3114,11 @@
           "at": "2026-10-11T08:51:01.246Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:24.859Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -2945,152 +3130,6 @@
       "sponsorship": "Unknown",
       "applicationDeadline": null,
       "requisitionId": "1036572",
-      "researchBatch": "2026-09-27-worldwide"
-    },
-    {
-      "id": "safran",
-      "company": "Safran Aircraft Engines",
-      "title": "RPA Developer-euse Analyst F/H",
-      "country": "France",
-      "region": "Europe",
-      "location": "Moissy-Cramayel",
-      "level": "Junior / early career",
-      "experience": "First professional experience",
-      "field": "Intelligent automation",
-      "tools": [
-        "UiPath",
-        "Automate Studio",
-        "Power BI"
-      ],
-      "mode": "Hybrid",
-      "employment": "Permanent full-time",
-      "summary": "Develop UiPath automation and support business-process analysis.",
-      "notes": "Up to two telework days. Automate Studio and Power BI are additional skills.",
-      "salary": null,
-      "postedAt": "2026-09-22",
-      "checkedAt": "2026-10-11",
-      "sourceUrl": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/rpa-developer-euse-analyst-fh-179607",
-      "evidenceUrl": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/rpa-developer-euse-analyst-fh-179607",
-      "sourceType": "Employer careers page",
-      "status": "Still open",
-      "verification": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application.",
-      "fit": {
-        "band": "Potential fit",
-        "track": "Senior RPA / automation engineering",
-        "strengths": [
-          "UiPath, process analysis and automation delivery overlap."
-        ],
-        "checks": [
-          "A technical master’s degree is requested; the supplied degree does not establish it. Confirm UiPath depth and French working-language expectations.",
-          "Work rights and any sponsorship remain unconfirmed."
-        ],
-        "assessedAt": "2026-09-27",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "developer",
-      "roleFamilies": [
-        "Senior RPA / automation engineering"
-      ],
-      "firstSeenAt": "2026-09-26T22:54:17.565Z",
-      "lastSeenAt": "2026-10-11T09:05:26.929Z",
-      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
-      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application.",
-      "statusChangedAt": "2026-10-11T09:05:26.929Z",
-      "statusHistory": [
-        {
-          "at": "2026-09-26T22:54:17.565Z",
-          "status": "Newly found",
-          "reason": "Full Safran vacancy and Apply links verified by web retrieval; direct server fetch was blocked."
-        },
-        {
-          "at": "2026-10-11T09:05:26.929Z",
-          "status": "Still open",
-          "reason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application."
-        }
-      ],
-      "requiredLanguages": [
-        "English: intermediate"
-      ],
-      "workAuthorization": "Unknown — confirm with employer",
-      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "requisitionId": "2026-179607",
-      "researchBatch": "2026-09-27-worldwide"
-    },
-    {
-      "id": "safran-ma",
-      "company": "Safran Engineering Services",
-      "title": "Ingénieur RPA F/H",
-      "country": "Morocco",
-      "region": "Africa",
-      "location": "Casablanca",
-      "level": "Junior / early career",
-      "experience": "First professional experience",
-      "field": "Intelligent automation",
-      "tools": [
-        "UiPath",
-        "Python",
-        ".NET",
-        "VBA",
-        "Power Automate"
-      ],
-      "mode": "Not stated",
-      "employment": "Permanent full-time",
-      "summary": "Develop UiPath robots with .NET, VBA and Power Automate integration.",
-      "notes": "Related ads 184840 and 168373 were discovered; not counted separately because the same-title hiring need may overlap.",
-      "salary": null,
-      "postedAt": "2026-09-25",
-      "checkedAt": "2026-10-11",
-      "sourceUrl": "https://www.safran-group.com/jobs/morocco/casablanca/ingenieur-rpa-fh-188616",
-      "evidenceUrl": "https://www.safran-group.com/jobs/morocco/casablanca/ingenieur-rpa-fh-188616",
-      "sourceType": "Employer careers page",
-      "status": "Still open",
-      "verification": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application.",
-      "fit": {
-        "band": "Potential fit",
-        "track": "Senior RPA / automation engineering",
-        "strengths": [
-          "UiPath, .NET, VBA and Power Automate are all supported by the profile."
-        ],
-        "checks": [
-          "Technical master’s degree and Python are not established. Confirm working languages and whether the nearly identical related requisitions are separate hires.",
-          "Work rights and any sponsorship remain unconfirmed."
-        ],
-        "assessedAt": "2026-09-27",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "developer",
-      "roleFamilies": [
-        "Senior RPA / automation engineering"
-      ],
-      "firstSeenAt": "2026-09-26T23:00:36.157Z",
-      "lastSeenAt": "2026-10-11T09:05:26.929Z",
-      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
-      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application.",
-      "statusChangedAt": "2026-10-11T09:05:26.929Z",
-      "statusHistory": [
-        {
-          "at": "2026-09-26T23:00:36.157Z",
-          "status": "Newly found",
-          "reason": "Safran role description, requirements and Apply links reviewed through web retrieval after direct fetch was blocked."
-        },
-        {
-          "at": "2026-10-11T09:05:26.929Z",
-          "status": "Still open",
-          "reason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application."
-        }
-      ],
-      "requiredLanguages": null,
-      "workAuthorization": "Unknown — confirm with employer",
-      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "requisitionId": "D2026R9-218452 / 188616",
       "researchBatch": "2026-09-27-worldwide"
     },
     {
@@ -3114,12 +3153,12 @@
       "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
       "salary": null,
       "postedAt": "2026-08-27",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://amethystasiapartners.com/jobs/2477_product-owner-insurance-technology-kuala-lumpur/",
       "evidenceUrl": "https://amethystasiapartners.com/jobs/2477_product-owner-insurance-technology-kuala-lumpur/",
       "sourceType": "Recruiter vacancy",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Product owner / technical product ownership",
@@ -3138,11 +3177,11 @@
         "Product owner / technical product ownership"
       ],
       "firstSeenAt": "2026-09-26T22:54:19.004Z",
-      "lastSeenAt": "2026-10-11T08:51:01.624Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.624Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.624Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.135Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.135Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.135Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.624Z",
       "statusHistory": [
         {
@@ -3154,6 +3193,11 @@
           "at": "2026-10-11T08:51:01.624Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.135Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -3193,12 +3237,12 @@
       "notes": "One requisition advertised in two countries. Counted once under the first visible location, Manila.",
       "salary": null,
       "postedAt": "2026-08-17",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.lever.co/spreetail/f9f06e90-b991-4cff-92b9-5fb28b8919e6",
       "evidenceUrl": "https://jobs.lever.co/spreetail/f9f06e90-b991-4cff-92b9-5fb28b8919e6",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Intelligent automation / AI integration",
@@ -3217,11 +3261,11 @@
         "Intelligent automation / AI integration"
       ],
       "firstSeenAt": "2026-09-26T23:00:36.118Z",
-      "lastSeenAt": "2026-10-11T08:51:01.628Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.628Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.628Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.162Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.162Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.162Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.628Z",
       "statusHistory": [
         {
@@ -3233,6 +3277,11 @@
           "at": "2026-10-11T08:51:01.628Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.162Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3270,12 +3319,12 @@
       "notes": "Flexible/remote options are mentioned, but permitted residence and office expectations are not specified.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.careers-page.com/dautom/job/L9V44RX4",
       "evidenceUrl": "https://www.careers-page.com/dautom/job/L9V44RX4",
       "sourceType": "Recruiter ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation business analysis / process improvement",
@@ -3294,11 +3343,11 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": "2026-09-26T23:00:36.153Z",
-      "lastSeenAt": "2026-10-11T08:51:01.735Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.735Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.735Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.248Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.248Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.248Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.735Z",
       "statusHistory": [
         {
@@ -3310,6 +3359,11 @@
           "at": "2026-10-11T08:51:01.735Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.248Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3350,12 +3404,12 @@
         "basis": "basis not stated"
       },
       "postedAt": "2026-05-20",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000127519159-automation-strategy-innovation-specialist",
       "evidenceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000127519159-automation-strategy-innovation-specialist",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation business analysis / process improvement",
@@ -3374,11 +3428,11 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": "2026-09-26T23:00:36.154Z",
-      "lastSeenAt": "2026-10-11T08:51:01.845Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.845Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.845Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.302Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.302Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.302Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.845Z",
       "statusHistory": [
         {
@@ -3390,6 +3444,11 @@
           "at": "2026-10-11T08:51:01.845Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.302Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3423,12 +3482,12 @@
       "notes": "Up to 20% travel. Candidate language profile does not establish Bahasa Malaysia.",
       "salary": null,
       "postedAt": "2026-08-17",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/SGS/744000143766570-ai-automation-solutions-manager",
       "evidenceUrl": "https://jobs.smartrecruiters.com/SGS/744000143766570-ai-automation-solutions-manager",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Lower priority",
         "track": "Engineering / automation manager",
@@ -3447,11 +3506,11 @@
         "Engineering / automation manager"
       ],
       "firstSeenAt": "2026-09-26T23:00:36.155Z",
-      "lastSeenAt": "2026-10-11T08:51:01.928Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.928Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.928Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.523Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.523Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.523Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.928Z",
       "statusHistory": [
         {
@@ -3463,6 +3522,11 @@
           "at": "2026-10-11T08:51:01.928Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.523Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -3500,12 +3564,12 @@
       "notes": "Description specifies at least three days in the Auckland office; this takes precedence over the generic onsite metadata.",
       "salary": null,
       "postedAt": "2026-09-21",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/AbanoHealthcare/6000000001425137-automation-ai-engineer-",
       "evidenceUrl": "https://jobs.smartrecruiters.com/AbanoHealthcare/6000000001425137-automation-ai-engineer-",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Power Platform / integration consulting",
@@ -3524,11 +3588,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": "2026-09-26T23:00:36.156Z",
-      "lastSeenAt": "2026-10-11T08:51:01.931Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.931Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.931Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "lastSeenAt": "2026-10-12T10:50:25.699Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.699Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.699Z",
+      "previousStatus": "Still open",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-10-11T08:51:01.931Z",
       "statusHistory": [
         {
@@ -3540,6 +3604,11 @@
           "at": "2026-10-11T08:51:01.931Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.699Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3575,12 +3644,12 @@
       "notes": "Older ad previously excluded only because Colombia was outside the original geographic scope. Current worldwide scope includes it; confirm the hiring window.",
       "salary": null,
       "postedAt": "2025-09-08",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000080646350-low-code-apps-developer",
       "evidenceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000080646350-low-code-apps-developer",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -3599,11 +3668,11 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:51:02.010Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.010Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.010Z",
+      "lastSeenAt": "2026-10-12T10:50:25.790Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.790Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.790Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-26T23:01:56.504Z",
       "statusHistory": [
         {
@@ -3620,6 +3689,11 @@
           "at": "2026-10-11T08:51:02.010Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.790Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3653,12 +3727,12 @@
       "notes": "Published in 2018. Included under the current protocol because the official role and application route remain available; age is prominently flagged.",
       "salary": null,
       "postedAt": "2018-10-04",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/EEUSoftware/743999677507297-rpa-developer",
       "evidenceUrl": "https://jobs.smartrecruiters.com/EEUSoftware/743999677507297-rpa-developer",
       "sourceType": "Employer ATS",
       "status": "Still open",
-      "verification": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -3677,11 +3751,11 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": null,
-      "lastSeenAt": "2026-10-11T08:51:02.040Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.040Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.040Z",
+      "lastSeenAt": "2026-10-12T10:50:25.984Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.984Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.984Z",
       "previousStatus": "Still open",
-      "statusReason": "Current role-specific description and application control are present on the source; no closure notice observed.",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "statusChangedAt": "2026-09-26T23:01:56.505Z",
       "statusHistory": [
         {
@@ -3698,6 +3772,11 @@
           "at": "2026-10-11T08:51:02.040Z",
           "status": "Still open",
           "reason": "Current role-specific description and application control are present on the source; no closure notice observed."
+        },
+        {
+          "at": "2026-10-12T10:50:25.984Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -3736,12 +3815,12 @@
       "notes": "Two office days weekly in Interlagos. Portuguese is the posting language, not a stated proficiency requirement; confirm working language and Brazilian eligibility.",
       "salary": null,
       "postedAt": "2026-07-24",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.innolevels.com.br/vagas-innolevels/desenvolvedor-de-automacao-rpa/",
       "evidenceUrl": "https://www.innolevels.com.br/vagas-innolevels/desenvolvedor-de-automacao-rpa/",
       "sourceType": "Employer careers page",
       "status": "Still open",
-      "verification": "Employer advert V2026-0193 has a complete role description, role-specific CV form and application-email instruction; restored after the prior retrieval failure.",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -3762,9 +3841,9 @@
       "requisitionId": "V2026-0193",
       "researchBatch": "2026-09-23-global",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
-      "lastSeenAt": "2026-10-11T08:51:02.617Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.617Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.617Z",
+      "lastSeenAt": "2026-10-12T10:50:26.059Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.059Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.059Z",
       "statusHistory": [
         {
           "at": "2026-09-23T16:39:18.865Z",
@@ -3780,6 +3859,11 @@
           "at": "2026-10-11T08:51:02.617Z",
           "status": "Still open",
           "reason": "Employer advert V2026-0193 has a complete role description, role-specific CV form and application-email instruction; restored after the prior retrieval failure."
+        },
+        {
+          "at": "2026-10-12T10:50:26.059Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3787,9 +3871,9 @@
       "remoteEligibility": "Not remote; two onsite days",
       "sponsorship": "Unknown",
       "applicationDeadline": null,
-      "previousStatus": "Unknown",
+      "previousStatus": "Still open",
       "statusChangedAt": "2026-10-11T08:51:02.617Z",
-      "statusReason": "Employer advert V2026-0193 has a complete role description, role-specific CV form and application-email instruction; restored after the prior retrieval failure."
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
     },
     {
       "id": "2026-10-11-worldwide-vodacom",
@@ -3817,12 +3901,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": "2026-10-09",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://opportunities.vodafone.com/Vodacom/job/Midrand-Senior-IA-Developer/1445909833/",
       "evidenceUrl": "https://opportunities.vodafone.com/Vodacom/job/Midrand-Senior-IA-Developer/1445909833/",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Current employer description, Apply now route and future 16 October application deadline checked.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -3841,17 +3925,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:55:14.688Z",
-      "lastSeenAt": "2026-10-11T08:55:14.688Z",
-      "lastVerifiedAt": "2026-10-11T08:55:14.688Z",
-      "sourceLastCheckedAt": "2026-10-11T08:55:14.688Z",
-      "previousStatus": null,
-      "statusReason": "Current employer description, Apply now route and future 16 October application deadline checked.",
-      "statusChangedAt": "2026-10-11T08:55:14.688Z",
+      "lastSeenAt": "2026-10-12T10:50:26.060Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.060Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.060Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.060Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:55:14.688Z",
           "status": "Newly found",
           "reason": "Current employer description, Apply now route and future 16 October application deadline checked."
+        },
+        {
+          "at": "2026-10-12T10:50:26.060Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3893,12 +3982,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://in-bigdata.com/en/job/rpa-automation-specialist/",
       "evidenceUrl": "https://in-bigdata.com/en/job/rpa-automation-specialist/",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Employer-specific job page contains duties, Vilnius/remote location and a Send CV mail link.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -3917,17 +4006,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:55:14.825Z",
-      "lastSeenAt": "2026-10-11T08:55:14.825Z",
-      "lastVerifiedAt": "2026-10-11T08:55:14.825Z",
-      "sourceLastCheckedAt": "2026-10-11T08:55:14.825Z",
-      "previousStatus": null,
-      "statusReason": "Employer-specific job page contains duties, Vilnius/remote location and a Send CV mail link.",
-      "statusChangedAt": "2026-10-11T08:55:14.825Z",
+      "lastSeenAt": "2026-10-12T10:50:26.181Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.181Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.181Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.181Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:55:14.825Z",
           "status": "Newly found",
           "reason": "Employer-specific job page contains duties, Vilnius/remote location and a Send CV mail link."
+        },
+        {
+          "at": "2026-10-12T10:50:26.181Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -3963,12 +4057,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.nazaret.sk/career/rpa-architect-developer",
       "evidenceUrl": "https://www.nazaret.sk/career/rpa-architect-developer",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Role-specific employer page has Bratislava/home-office details and a Respond to job opening / send CV control. Undated posting; current application invitation observed.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Strong technical fit",
         "track": "Senior RPA / automation engineering",
@@ -3987,17 +4081,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:56:46.360Z",
-      "lastSeenAt": "2026-10-11T08:56:46.360Z",
-      "lastVerifiedAt": "2026-10-11T08:56:46.360Z",
-      "sourceLastCheckedAt": "2026-10-11T08:56:46.360Z",
-      "previousStatus": null,
-      "statusReason": "Role-specific employer page has Bratislava/home-office details and a Respond to job opening / send CV control. Undated posting; current application invitation observed.",
-      "statusChangedAt": "2026-10-11T08:56:46.360Z",
+      "lastSeenAt": "2026-10-12T10:50:26.283Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.283Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.283Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.283Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:56:46.360Z",
           "status": "Newly found",
           "reason": "Role-specific employer page has Bratislava/home-office details and a Respond to job opening / send CV control. Undated posting; current application invitation observed."
+        },
+        {
+          "at": "2026-10-12T10:50:26.283Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -4039,12 +4138,12 @@
         "basis": "gross"
       },
       "postedAt": "2026-09-28",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.cv.lt/manager-intelligent-automation-vilnius-citco-mercator-uab-428803368",
       "evidenceUrl": "https://www.cv.lt/manager-intelligent-automation-vilnius-citco-mercator-uab-428803368",
       "sourceType": "Local job board — CV.lt; official Oracle ATS corroboration",
-      "status": "Newly found",
-      "verification": "CV.lt has an application redirect and a 30 October listing deadline; linked Oracle requisition 19537 independently returns the same title, Vilnius location and September posting date. Board deadline is not an independently confirmed employer deadline.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Engineering / automation manager",
@@ -4063,17 +4162,22 @@
         "Engineering / automation manager"
       ],
       "firstSeenAt": "2026-10-11T08:56:46.524Z",
-      "lastSeenAt": "2026-10-11T08:56:46.524Z",
-      "lastVerifiedAt": "2026-10-11T08:56:46.524Z",
-      "sourceLastCheckedAt": "2026-10-11T08:56:46.524Z",
-      "previousStatus": null,
-      "statusReason": "CV.lt has an application redirect and a 30 October listing deadline; linked Oracle requisition 19537 independently returns the same title, Vilnius location and September posting date. Board deadline is not an independently confirmed employer deadline.",
-      "statusChangedAt": "2026-10-11T08:56:46.524Z",
+      "lastSeenAt": "2026-10-12T10:50:26.597Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.597Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.597Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.597Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:56:46.524Z",
           "status": "Newly found",
           "reason": "CV.lt has an application redirect and a 30 October listing deadline; linked Oracle requisition 19537 independently returns the same title, Vilnius location and September posting date. Board deadline is not an independently confirmed employer deadline."
+        },
+        {
+          "at": "2026-10-12T10:50:26.597Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4112,12 +4216,12 @@
         "basis": "base; allowances extra"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://x-tech.pasona.co.jp/recruit/career/jobs/list/?p=2854",
       "evidenceUrl": "https://x-tech.pasona.co.jp/recruit/career/jobs/list/?p=2854",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Official role page lists locations, requirements and a role-prefilled application form.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -4136,17 +4240,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:56:47.798Z",
-      "lastSeenAt": "2026-10-11T08:56:47.798Z",
-      "lastVerifiedAt": "2026-10-11T08:56:47.798Z",
-      "sourceLastCheckedAt": "2026-10-11T08:56:47.798Z",
-      "previousStatus": null,
-      "statusReason": "Official role page lists locations, requirements and a role-prefilled application form.",
-      "statusChangedAt": "2026-10-11T08:56:47.798Z",
+      "lastSeenAt": "2026-10-12T10:50:26.648Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.648Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.648Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.648Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:56:47.798Z",
           "status": "Newly found",
           "reason": "Official role page lists locations, requirements and a role-prefilled application form."
+        },
+        {
+          "at": "2026-10-12T10:50:26.648Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4180,12 +4289,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://careers.virginaustralia.com/jobs/engineering-lead-automation-brisbane-qld-australia-sydney-nsw-australia-wide",
       "evidenceUrl": "https://careers.virginaustralia.com/jobs/engineering-lead-automation-brisbane-qld-australia-sydney-nsw-australia-wide",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Current employer jobs index links this exact role; full description and Apply now invitation remain present.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Automation solution design / technical lead",
@@ -4204,17 +4313,22 @@
         "Automation solution design / technical lead"
       ],
       "firstSeenAt": "2026-10-11T08:57:31.634Z",
-      "lastSeenAt": "2026-10-11T08:57:31.634Z",
-      "lastVerifiedAt": "2026-10-11T08:57:31.634Z",
-      "sourceLastCheckedAt": "2026-10-11T08:57:31.634Z",
-      "previousStatus": null,
-      "statusReason": "Current employer jobs index links this exact role; full description and Apply now invitation remain present.",
-      "statusChangedAt": "2026-10-11T08:57:31.634Z",
+      "lastSeenAt": "2026-10-12T10:50:26.650Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.650Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.650Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.650Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:57:31.634Z",
           "status": "Newly found",
           "reason": "Current employer jobs index links this exact role; full description and Apply now invitation remain present."
+        },
+        {
+          "at": "2026-10-12T10:50:26.650Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4251,12 +4365,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000129502124-rpa-automation-developer",
       "evidenceUrl": "https://jobs.smartrecruiters.com/Inetum2/744000129502124-rpa-automation-developer",
       "sourceType": "Official ATS — SmartRecruiters",
-      "status": "Newly found",
-      "verification": "Official Inetum careers page links this SmartRecruiters posting; current description and Interested controls present. Source structured location identifies Lisbon, Portugal and hybrid.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -4275,17 +4389,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:57:30.754Z",
-      "lastSeenAt": "2026-10-11T08:57:30.754Z",
-      "lastVerifiedAt": "2026-10-11T08:57:30.754Z",
-      "sourceLastCheckedAt": "2026-10-11T08:57:30.754Z",
-      "previousStatus": null,
-      "statusReason": "Official Inetum careers page links this SmartRecruiters posting; current description and Interested controls present. Source structured location identifies Lisbon, Portugal and hybrid.",
-      "statusChangedAt": "2026-10-11T08:57:30.754Z",
+      "lastSeenAt": "2026-10-12T10:50:26.761Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.761Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.761Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.761Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:57:30.754Z",
           "status": "Newly found",
           "reason": "Official Inetum careers page links this SmartRecruiters posting; current description and Interested controls present. Source structured location identifies Lisbon, Portugal and hybrid."
+        },
+        {
+          "at": "2026-10-12T10:50:26.761Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4297,231 +4416,6 @@
       "researchBatch": "2026-10-11-worldwide",
       "supportingSources": [
         "https://www.inetum.com/global/en/careers/041bfaed-66a8-4a44-9609-ace7363b67cc.html"
-      ]
-    },
-    {
-      "id": "2026-10-11-worldwide-cronos-architect",
-      "company": "cronos",
-      "title": "(Senior) Consultant & Architect | Automation (RPA & AI) (all genders)",
-      "country": "Germany",
-      "region": "Europe",
-      "location": "Multiple German offices",
-      "level": "Senior / experienced",
-      "experience": "Relevant experience; years not specified",
-      "field": "Automation architecture",
-      "tools": [
-        "UiPath",
-        "Blue Prism",
-        ".NET",
-        "JavaScript"
-      ],
-      "mode": "Hybrid",
-      "employment": "Permanent full-time",
-      "summary": "Design automation architecture, guide developers and establish quality standards.",
-      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
-      "salary": null,
-      "postedAt": null,
-      "checkedAt": "2026-10-11",
-      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Architect-Automation-RPA-AI-all-genders-de-j246.html",
-      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Architect-Automation-RPA-AI-all-genders-de-j246.html",
-      "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "fit": {
-        "band": "Stretch",
-        "track": "Automation solution design / technical lead",
-        "strengths": [
-          "Solution design, Blue Prism, .NET/JavaScript and code-quality mentoring align."
-        ],
-        "checks": [
-          "Very good German and a technical degree are requested; neither is established. Enterprise architecture and travel need review.",
-          "Work authorization, sponsorship and exact language proficiency are not established."
-        ],
-        "assessedAt": "2026-10-11",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "teamlead",
-      "roleFamilies": [
-        "Automation solution design / technical lead"
-      ],
-      "firstSeenAt": "2026-10-11T09:01:46.351Z",
-      "lastSeenAt": "2026-10-11T09:01:46.351Z",
-      "lastVerifiedAt": "2026-10-11T09:01:46.351Z",
-      "sourceLastCheckedAt": "2026-10-11T09:01:46.351Z",
-      "previousStatus": null,
-      "statusReason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "statusChangedAt": "2026-10-11T09:01:46.351Z",
-      "statusHistory": [
-        {
-          "at": "2026-10-11T09:01:46.351Z",
-          "status": "Newly found",
-          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
-        }
-      ],
-      "requiredLanguages": [
-        "German: very good, written and spoken"
-      ],
-      "workAuthorization": "Unknown — confirm with employer",
-      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "requisitionId": "246",
-      "researchBatch": "2026-10-11-worldwide",
-      "eligibleCountries": [
-        "Germany"
-      ],
-      "supportingSources": [
-        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003823062-S"
-      ]
-    },
-    {
-      "id": "2026-10-11-worldwide-cronos-dev",
-      "company": "cronos",
-      "title": "Senior Consultant / Developer | Automation - RPA & AI (all genders)",
-      "country": "Germany",
-      "region": "Europe",
-      "location": "Multiple German offices; Vienna also advertised",
-      "level": "Senior / experienced",
-      "experience": "Relevant experience; years not specified",
-      "field": "RPA",
-      "tools": [
-        "UiPath",
-        "Blue Prism",
-        "VBA",
-        "Python"
-      ],
-      "mode": "Hybrid",
-      "employment": "Permanent full-time",
-      "summary": "Develop RPA/AI solutions and guide client delivery from process modeling to operations.",
-      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
-      "salary": null,
-      "postedAt": null,
-      "checkedAt": "2026-10-11",
-      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Developer-Automation-RPA-AI-all-genders-de-j238.html",
-      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Developer-Automation-RPA-AI-all-genders-de-j238.html",
-      "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "fit": {
-        "band": "Stretch",
-        "track": "Senior RPA / automation engineering",
-        "strengths": [
-          "RPA implementation, VBA, process modeling and development guidance overlap."
-        ],
-        "checks": [
-          "Very good German, degree equivalence and multi-year project-management experience remain gaps.",
-          "Work authorization, sponsorship and exact language proficiency are not established."
-        ],
-        "assessedAt": "2026-10-11",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "developer",
-      "roleFamilies": [
-        "Senior RPA / automation engineering"
-      ],
-      "firstSeenAt": "2026-10-11T09:01:46.350Z",
-      "lastSeenAt": "2026-10-11T09:01:46.350Z",
-      "lastVerifiedAt": "2026-10-11T09:01:46.350Z",
-      "sourceLastCheckedAt": "2026-10-11T09:01:46.350Z",
-      "previousStatus": null,
-      "statusReason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "statusChangedAt": "2026-10-11T09:01:46.350Z",
-      "statusHistory": [
-        {
-          "at": "2026-10-11T09:01:46.350Z",
-          "status": "Newly found",
-          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
-        }
-      ],
-      "requiredLanguages": [
-        "German: very good, written and spoken"
-      ],
-      "workAuthorization": "Unknown — confirm with employer",
-      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "requisitionId": "238",
-      "researchBatch": "2026-10-11-worldwide",
-      "eligibleCountries": [
-        "Germany",
-        "Austria"
-      ],
-      "supportingSources": [
-        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003808250-S"
-      ]
-    },
-    {
-      "id": "2026-10-11-worldwide-cronos-lead",
-      "company": "cronos",
-      "title": "(Senior) Consultant & Project Lead | Automation (RPA & AI) (all genders)",
-      "country": "Germany",
-      "region": "Europe",
-      "location": "Multiple German offices; Vienna also advertised",
-      "level": "Senior / experienced",
-      "experience": "Relevant experience; years not specified",
-      "field": "Automation delivery",
-      "tools": [
-        "UiPath",
-        "Blue Prism"
-      ],
-      "mode": "Hybrid",
-      "employment": "Permanent full-time",
-      "summary": "Coordinate automation projects, resources, stakeholders and consultant development.",
-      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
-      "salary": null,
-      "postedAt": null,
-      "checkedAt": "2026-10-11",
-      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Project-Lead-Automation-RPA-AI-all-gende-de-j247.html",
-      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Project-Lead-Automation-RPA-AI-all-gende-de-j247.html",
-      "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "fit": {
-        "band": "Stretch",
-        "track": "Agile delivery / automation transformation",
-        "strengths": [
-          "Agile delivery, mentoring and automation stakeholder work overlap."
-        ],
-        "checks": [
-          "Very good German, a technical degree and project-leadership experience are requested; verify each rather than equating mentoring with management.",
-          "Work authorization, sponsorship and exact language proficiency are not established."
-        ],
-        "assessedAt": "2026-10-11",
-        "profileId": "kiril711"
-      },
-      "roleFocus": "manager",
-      "roleFamilies": [
-        "Agile delivery / automation transformation"
-      ],
-      "firstSeenAt": "2026-10-11T09:01:46.351Z",
-      "lastSeenAt": "2026-10-11T09:01:46.351Z",
-      "lastVerifiedAt": "2026-10-11T09:01:46.351Z",
-      "sourceLastCheckedAt": "2026-10-11T09:01:46.351Z",
-      "previousStatus": null,
-      "statusReason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location.",
-      "statusChangedAt": "2026-10-11T09:01:46.351Z",
-      "statusHistory": [
-        {
-          "at": "2026-10-11T09:01:46.351Z",
-          "status": "Newly found",
-          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
-        }
-      ],
-      "requiredLanguages": [
-        "German: very good, written and spoken"
-      ],
-      "workAuthorization": "Unknown — confirm with employer",
-      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
-      "sponsorship": "Unknown",
-      "applicationDeadline": null,
-      "requisitionId": "247",
-      "researchBatch": "2026-10-11-worldwide",
-      "eligibleCountries": [
-        "Germany",
-        "Austria"
-      ],
-      "supportingSources": [
-        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003823098-S"
       ]
     },
     {
@@ -4547,12 +4441,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003745585-S",
       "evidenceUrl": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003745585-S",
       "sourceType": "Public employment service — Bundesagentur für Arbeit",
-      "status": "Newly found",
-      "verification": "Role appears in current federal RPA search results with full employer description and application instructions; contact access requires the board security question. No application submitted.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Senior RPA / automation engineering",
@@ -4571,17 +4465,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:57:30.084Z",
-      "lastSeenAt": "2026-10-11T08:57:30.084Z",
-      "lastVerifiedAt": "2026-10-11T08:57:30.084Z",
-      "sourceLastCheckedAt": "2026-10-11T08:57:30.084Z",
-      "previousStatus": null,
-      "statusReason": "Role appears in current federal RPA search results with full employer description and application instructions; contact access requires the board security question. No application submitted.",
-      "statusChangedAt": "2026-10-11T08:57:30.084Z",
+      "lastSeenAt": "2026-10-12T10:50:26.941Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.941Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.941Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.941Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:57:30.084Z",
           "status": "Newly found",
           "reason": "Role appears in current federal RPA search results with full employer description and application instructions; contact access requires the board security question. No application submitted."
+        },
+        {
+          "at": "2026-10-12T10:50:26.941Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -4620,12 +4519,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778612-S",
       "evidenceUrl": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778612-S",
       "sourceType": "Public employment service — Bundesagentur für Arbeit",
-      "status": "Newly found",
-      "verification": "Current federal employment result has complete requirements, future 18 October deadline and instructions to apply via the employer portal. Employer careers overview also checked; application form not submitted.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -4644,17 +4543,22 @@
         "Senior RPA / automation engineering"
       ],
       "firstSeenAt": "2026-10-11T08:57:30.090Z",
-      "lastSeenAt": "2026-10-11T08:57:30.090Z",
-      "lastVerifiedAt": "2026-10-11T08:57:30.090Z",
-      "sourceLastCheckedAt": "2026-10-11T08:57:30.090Z",
-      "previousStatus": null,
-      "statusReason": "Current federal employment result has complete requirements, future 18 October deadline and instructions to apply via the employer portal. Employer careers overview also checked; application form not submitted.",
-      "statusChangedAt": "2026-10-11T08:57:30.090Z",
+      "lastSeenAt": "2026-10-12T10:50:26.942Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.942Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.942Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.942Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:57:30.090Z",
           "status": "Newly found",
           "reason": "Current federal employment result has complete requirements, future 18 October deadline and instructions to apply via the employer portal. Employer careers overview also checked; application form not submitted."
+        },
+        {
+          "at": "2026-10-12T10:50:26.942Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4689,12 +4593,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": "2026-09-08",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.hellowork.com/fr-fr/emplois/83141460.html",
       "evidenceUrl": "https://www.hellowork.com/fr-fr/emplois/83141460.html",
       "sourceType": "Local job board — HelloWork",
-      "status": "Newly found",
-      "verification": "Specific recruiter ad contains detailed requirements and Postuler controls with no closure notice. The related Veilos posting is explicitly unavailable and excluded.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Agile delivery / automation transformation",
@@ -4713,17 +4617,22 @@
         "Agile delivery / automation transformation"
       ],
       "firstSeenAt": "2026-10-11T08:58:28.681Z",
-      "lastSeenAt": "2026-10-11T08:58:28.681Z",
-      "lastVerifiedAt": "2026-10-11T08:58:28.681Z",
-      "sourceLastCheckedAt": "2026-10-11T08:58:28.681Z",
-      "previousStatus": null,
-      "statusReason": "Specific recruiter ad contains detailed requirements and Postuler controls with no closure notice. The related Veilos posting is explicitly unavailable and excluded.",
-      "statusChangedAt": "2026-10-11T08:58:28.681Z",
+      "lastSeenAt": "2026-10-12T10:50:26.949Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.949Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.949Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.949Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:58:28.681Z",
           "status": "Newly found",
           "reason": "Specific recruiter ad contains detailed requirements and Postuler controls with no closure notice. The related Veilos posting is explicitly unavailable and excluded."
+        },
+        {
+          "at": "2026-10-12T10:50:26.949Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4756,12 +4665,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": "2026-01-26",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.abnosoftwares.com/career-detail-ba.php",
       "evidenceUrl": "https://www.abnosoftwares.com/career-detail-ba.php",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Older official role page still provides full description, Nairobi location and a role-specific Apply Now email link. Availability verified as published, not recruiter-confirmed.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Automation business analysis / process improvement",
@@ -4780,17 +4689,22 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": "2026-10-11T08:59:38.145Z",
-      "lastSeenAt": "2026-10-11T08:59:38.145Z",
-      "lastVerifiedAt": "2026-10-11T08:59:38.145Z",
-      "sourceLastCheckedAt": "2026-10-11T08:59:38.145Z",
-      "previousStatus": null,
-      "statusReason": "Older official role page still provides full description, Nairobi location and a role-specific Apply Now email link. Availability verified as published, not recruiter-confirmed.",
-      "statusChangedAt": "2026-10-11T08:59:38.145Z",
+      "lastSeenAt": "2026-10-12T10:50:26.953Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.953Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.953Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:26.953Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:59:38.145Z",
           "status": "Newly found",
           "reason": "Older official role page still provides full description, Nairobi location and a role-specific Apply Now email link. Availability verified as published, not recruiter-confirmed."
+        },
+        {
+          "at": "2026-10-12T10:50:26.953Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4826,12 +4740,12 @@
       "notes": "Three office days weekly. Salary display R$5K–8K omits a period/basis, so it is not normalized into salary filters. Community post led to this specific source.",
       "salary": null,
       "postedAt": "2026-05-08",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://app.lovel.dev/jobs/analista-de-automacao-rpa-295",
       "evidenceUrl": "https://app.lovel.dev/jobs/analista-de-automacao-rpa-295",
       "sourceType": "Specialist job board — Lovel.dev",
-      "status": "Newly found",
-      "verification": "Specific Lovel vacancy has current full requirements and Apply control. Employer is explicitly anonymous; board publication is verified, not hiring confirmation.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation business analysis / process improvement",
@@ -4850,17 +4764,22 @@
         "Automation business analysis / process improvement"
       ],
       "firstSeenAt": "2026-10-11T08:59:43.450Z",
-      "lastSeenAt": "2026-10-11T08:59:43.450Z",
-      "lastVerifiedAt": "2026-10-11T08:59:43.450Z",
-      "sourceLastCheckedAt": "2026-10-11T08:59:43.450Z",
-      "previousStatus": null,
-      "statusReason": "Specific Lovel vacancy has current full requirements and Apply control. Employer is explicitly anonymous; board publication is verified, not hiring confirmation.",
-      "statusChangedAt": "2026-10-11T08:59:43.450Z",
+      "lastSeenAt": "2026-10-12T10:50:27.088Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.088Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.088Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:27.088Z",
       "statusHistory": [
         {
           "at": "2026-10-11T08:59:43.450Z",
           "status": "Newly found",
           "reason": "Specific Lovel vacancy has current full requirements and Apply control. Employer is explicitly anonymous; board publication is verified, not hiring confirmation."
+        },
+        {
+          "at": "2026-10-12T10:50:27.088Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4904,12 +4823,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.cvbankas.lt/net-programuotojas-a-vilniuje/1-14123216",
       "evidenceUrl": "https://www.cvbankas.lt/net-programuotojas-a-vilniuje/1-14123216",
       "sourceType": "Local job board — CVbankas",
-      "status": "Newly found",
-      "verification": "Current listing 14123216 shows full requirements, 19 days remaining and Send CV control. Old 14102639 redirects here; only this new listing is counted.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "C#/.NET desktop and internal platforms",
@@ -4928,17 +4847,22 @@
         "C#/.NET desktop and internal platforms"
       ],
       "firstSeenAt": "2026-10-11T09:01:46.474Z",
-      "lastSeenAt": "2026-10-11T09:01:46.474Z",
-      "lastVerifiedAt": "2026-10-11T09:01:46.474Z",
-      "sourceLastCheckedAt": "2026-10-11T09:01:46.474Z",
-      "previousStatus": null,
-      "statusReason": "Current listing 14123216 shows full requirements, 19 days remaining and Send CV control. Old 14102639 redirects here; only this new listing is counted.",
-      "statusChangedAt": "2026-10-11T09:01:46.474Z",
+      "lastSeenAt": "2026-10-12T10:50:27.175Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.175Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.175Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:27.175Z",
       "statusHistory": [
         {
           "at": "2026-10-11T09:01:46.474Z",
           "status": "Newly found",
           "reason": "Current listing 14123216 shows full requirements, 19 days remaining and Send CV control. Old 14102639 redirects here; only this new listing is counted."
+        },
+        {
+          "at": "2026-10-12T10:50:27.175Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -4974,12 +4898,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": "2026-10-10",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://careers.ey.com/ey/job/Alpharetta-Service-Delivery-Center%2C-Workflow-Platform-Engineer-%C2%A0Manager-GA-30009/1436334233/",
       "evidenceUrl": "https://careers.ey.com/ey/job/Alpharetta-Service-Delivery-Center%2C-Workflow-Platform-Engineer-%C2%A0Manager-GA-30009/1436334233/",
       "sourceType": "Employer careers page",
-      "status": "Newly found",
-      "verification": "Official description and Apply now route are present; employer states ongoing applications. Requirements are recorded as a substantial stretch.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Stretch",
         "track": "Engineering / automation manager",
@@ -4998,17 +4922,22 @@
         "Engineering / automation manager"
       ],
       "firstSeenAt": "2026-10-11T09:00:40.386Z",
-      "lastSeenAt": "2026-10-11T09:00:40.386Z",
-      "lastVerifiedAt": "2026-10-11T09:00:40.386Z",
-      "sourceLastCheckedAt": "2026-10-11T09:00:40.386Z",
-      "previousStatus": null,
-      "statusReason": "Official description and Apply now route are present; employer states ongoing applications. Requirements are recorded as a substantial stretch.",
-      "statusChangedAt": "2026-10-11T09:00:40.386Z",
+      "lastSeenAt": "2026-10-12T10:50:27.198Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.198Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.198Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:27.198Z",
       "statusHistory": [
         {
           "at": "2026-10-11T09:00:40.386Z",
           "status": "Newly found",
           "reason": "Official description and Apply now route are present; employer states ongoing applications. Requirements are recorded as a substantial stretch."
+        },
+        {
+          "at": "2026-10-12T10:50:27.198Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": null,
@@ -5041,12 +4970,12 @@
       "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://my.linkedin.com/jobs/view/product-manager-product-engineer-%E2%80%93-ai-assisted-development-remote-at-automation-consulting-4474220893",
       "evidenceUrl": "https://my.linkedin.com/jobs/view/product-manager-product-engineer-%E2%80%93-ai-assisted-development-remote-at-automation-consulting-4474220893",
       "sourceType": "Direct LinkedIn vacancy",
-      "status": "Newly found",
-      "verification": "Specific LinkedIn role retrieved through web includes full requirements and Mohon (Apply) buttons. Direct fetch rate-limited; employer-side application completion not tested.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Product owner / technical product ownership",
@@ -5065,17 +4994,22 @@
         "Product owner / technical product ownership"
       ],
       "firstSeenAt": "2026-10-11T09:01:46.744Z",
-      "lastSeenAt": "2026-10-11T09:01:46.744Z",
-      "lastVerifiedAt": "2026-10-11T09:01:46.744Z",
-      "sourceLastCheckedAt": "2026-10-11T09:01:46.744Z",
-      "previousStatus": null,
-      "statusReason": "Specific LinkedIn role retrieved through web includes full requirements and Mohon (Apply) buttons. Direct fetch rate-limited; employer-side application completion not tested.",
-      "statusChangedAt": "2026-10-11T09:01:46.744Z",
+      "lastSeenAt": "2026-10-12T10:50:27.215Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.215Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.215Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:27.215Z",
       "statusHistory": [
         {
           "at": "2026-10-11T09:01:46.744Z",
           "status": "Newly found",
           "reason": "Specific LinkedIn role retrieved through web includes full requirements and Mohon (Apply) buttons. Direct fetch rate-limited; employer-side application completion not tested."
+        },
+        {
+          "at": "2026-10-12T10:50:27.215Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -5121,12 +5055,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-siauliuose/1-14126606?from=archived_ad_redirect_404",
-      "evidenceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-klaipedoje/1-14108151",
+      "evidenceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-siauliuose/1-14126606?from=archived_ad_redirect_404",
       "sourceType": "Local job board — CVbankas",
-      "status": "Newly found",
-      "verification": "New CVbankas listing 14126606 shows Šiauliai, full requirements, 25 days remaining and Send CV control. Original Klaipėda listing redirects here; not counted as the same active record.",
+      "status": "Still open",
+      "verification": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
       "fit": {
         "band": "Potential fit",
         "track": "Power Platform / integration consulting",
@@ -5145,17 +5079,22 @@
         "Power Platform / integration consulting"
       ],
       "firstSeenAt": "2026-10-11T09:02:02.613Z",
-      "lastSeenAt": "2026-10-11T09:02:02.613Z",
-      "lastVerifiedAt": "2026-10-11T09:02:02.613Z",
-      "sourceLastCheckedAt": "2026-10-11T09:02:02.613Z",
-      "previousStatus": null,
-      "statusReason": "New CVbankas listing 14126606 shows Šiauliai, full requirements, 25 days remaining and Send CV control. Original Klaipėda listing redirects here; not counted as the same active record.",
-      "statusChangedAt": "2026-10-11T09:02:02.613Z",
+      "lastSeenAt": "2026-10-12T10:50:27.238Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.238Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.238Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed.",
+      "statusChangedAt": "2026-10-12T10:50:27.238Z",
       "statusHistory": [
         {
           "at": "2026-10-11T09:02:02.613Z",
           "status": "Newly found",
           "reason": "New CVbankas listing 14126606 shows Šiauliai, full requirements, 25 days remaining and Send CV control. Original Klaipėda listing redirects here; not counted as the same active record."
+        },
+        {
+          "at": "2026-10-12T10:50:27.238Z",
+          "status": "Still open",
+          "reason": "Role-specific description and application route rechecked during the library maintenance audit; no closure notice observed."
         }
       ],
       "requiredLanguages": [
@@ -5364,15 +5303,15 @@
     "targetRolesSource": "User-stated job-search preferences, 23 September 2026. Target roles express interest; they do not establish prior experience in every role."
   },
   "refresh": {
-    "id": "2026-10-11-worldwide",
-    "checkedAt": "2026-10-11",
-    "previousRecordsRechecked": 64,
-    "retainedRecords": 47,
-    "newRecords": 19,
-    "restoredRecords": 1,
-    "closedPreviousRecords": 10,
-    "unknownPreviousRecords": 7,
-    "summary": "Rechecked all 64 published vacancies and 26 unresolved historical records: 47 retained, 10 explicitly closed and 7 unresolved. Added 19 verified listings and restored 1; 67 active records remain.",
-    "limitations": "Partial worldwide refresh. Direct-source checks are complete for the previous active sample, but country discovery is uneven and unfinished. New local-language, public-employment, recruiter, specialist-board and employer leads were reviewed; search snippets alone were not accepted. Country/source gaps and blocked leads are preserved in the search-run ledger."
+    "id": "2026-10-12-library-audit",
+    "checkedAt": "2026-10-12",
+    "previousRecordsRechecked": 67,
+    "retainedRecords": 62,
+    "newRecords": 0,
+    "restoredRecords": 0,
+    "closedPreviousRecords": 0,
+    "unknownPreviousRecords": 5,
+    "summary": "Maintenance audit: rechecked all 67 active vacancies and 32 unresolved historical records. 62 active listings retained; five inaccessible listings moved to Unknown. No new discovery or historical restorations.",
+    "limitations": "This is a source-verification maintenance pass, not a new worldwide discovery search. Country, language, role-family and source-inventory gaps from the 11 October deep-search run remain unfinished and are carried forward in the ledger."
   }
 }

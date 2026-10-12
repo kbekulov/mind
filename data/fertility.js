@@ -1,11 +1,11 @@
-/* World Bank WDI SP.DYN.TFRT.IN; CC BY 4.0; retrieved 2026-09-23. */
+/* World Bank WDI SP.DYN.TFRT.IN; CC BY 4.0; retrieved 2026-10-12. */
 window.MindFertilityData = {
-  "reviewed": "2026-09-23",
+  "reviewed": "2026-10-12",
   "countries": [
     {
       "id": "EUU",
       "name": "European Union",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/EUU/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -62,7 +62,7 @@ window.MindFertilityData = {
         ],
         [
           1973,
-          2.15121217250223
+          2.15121217250224
         ],
         [
           1974,
@@ -106,7 +106,7 @@ window.MindFertilityData = {
         ],
         [
           1984,
-          1.72948024443597
+          1.72948024443598
         ],
         [
           1985,
@@ -130,7 +130,7 @@ window.MindFertilityData = {
         ],
         [
           1990,
-          1.63540106735697
+          1.63540106735698
         ],
         [
           1991,
@@ -242,7 +242,7 @@ window.MindFertilityData = {
         ],
         [
           2018,
-          1.54734162624575
+          1.54734162624576
         ],
         [
           2019,
@@ -273,7 +273,7 @@ window.MindFertilityData = {
     {
       "id": "USA",
       "name": "United States",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -541,7 +541,7 @@ window.MindFertilityData = {
     {
       "id": "RUS",
       "name": "Russia",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/RUS/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -809,7 +809,7 @@ window.MindFertilityData = {
     {
       "id": "CHN",
       "name": "China",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/CHN/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -1077,7 +1077,7 @@ window.MindFertilityData = {
     {
       "id": "JPN",
       "name": "Japan",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/JPN/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -1345,7 +1345,7 @@ window.MindFertilityData = {
     {
       "id": "KOR",
       "name": "South Korea",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/KOR/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -1613,7 +1613,7 @@ window.MindFertilityData = {
     {
       "id": "IND",
       "name": "India",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [
@@ -1881,7 +1881,7 @@ window.MindFertilityData = {
     {
       "id": "IRN",
       "name": "Iran",
-      "updated": "2026-07-13",
+      "updated": "2026-10-08",
       "source": "https://api.worldbank.org/v2/country/IRN/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
       "values": [
         [

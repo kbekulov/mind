@@ -27,7 +27,7 @@
     return `<article class="topic-page religion-page christian-page">
       <div class="eyebrow">RELIGION · COMPARATIVE GUIDE</div><h1>Orthodoxy vs Catholicism</h1>
       <p class="subtitle">A shared Christian foundation. Different answers about authority and doctrine.</p>
-      <div class="christian-legend"><span class="east">Eastern Orthodox</span><span class="west">Catholic</span><span>Qualitative charts · reviewed 29 September 2026</span></div>
+      <div class="christian-legend"><span class="east">Eastern Orthodox</span><span class="west">Catholic</span><span>Qualitative charts · sources and scope checked 12 October 2026</span></div>
       <nav class="religion-jump" aria-label="Comparison sections">${[['authority','Church authority'],['trinity','The Holy Spirit'],['comparison','Differences chart'],['history','How the divide developed']].map(([id,name])=>`<button data-religion-jump="christian-${id}">${name}</button>`).join('')}</nav>
       <aside class="religion-context"><h2>Start with what is shared</h2><p>Both confess the Trinity and Jesus Christ’s incarnation and resurrection. Both understand the Church through bishops, sacramental life and apostolic continuity. The central disagreement is not whether councils or primacy exist, but how primacy and synodality belong together.</p>${refs([2,3])}</aside>
       <section id="christian-authority" tabindex="-1" class="christian-section"><div class="eyebrow">01 · AUTHORITY</div><h2>How is the Church held together?</h2>

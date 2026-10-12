@@ -5,7 +5,7 @@
   const undp='https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf';
   const link=(url,label)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
   function render(){return `<section class="gender-research reproduction-study" aria-labelledby="reproduction-title">
-    <div class="eyebrow">JOURNAL ARTICLE · REVIEWED 30 SEP 2026</div>
+    <div class="eyebrow">JOURNAL ARTICLE · REVIEWED 12 OCT 2026</div>
     <h2 id="reproduction-title" tabindex="-1">Fertility, partnership and solo parenthood</h2>
     <p>${link(article,'Toward individualistic reproduction: Solving the fertility crisis could require a further marginalization of men')}<br>Mads Larsen, Leif Edward Ottesen Kennair & Maryanne L. Fisher · <em>Politics and the Life Sciences</em> · 24 April 2026.</p>
     <aside class="research-boundary"><strong>Argument and descriptive analysis, not a policy trial</strong><p>The authors hypothesize that economic independence changes partner selection, weakening pair formation. They propose testing financial support, communal housing and childcare for voluntary solo parenthood, alongside support for couples. They predict further exclusion of some men; reproductive technologies are speculative countermeasures.</p></aside>
@@ -21,7 +21,7 @@
     <p>${link(undp,'UNDP 2025 technical notes · GII, note 4')} · The methodological cautions above are this library’s analysis, not findings attributed to UNDP.</p>
     <aside class="research-boundary"><strong>Connect this to the rest of the section</strong><p>The article acknowledges that recent Nordic declines largely occurred within relationships. Partnership formation is therefore not a complete explanation.</p><p>Use the fertility timelines below to examine trends, not to validate a psychological mechanism. The earlier briefs propose interpersonal processes; they do not independently corroborate this article. Test these levels separately before connecting them.</p></aside>
     <p class="insight-note">Source: ${link(article,'Larsen, Kennair & Fisher (2026)')} · DOI 10.1017/pls.2026.10020 · ${link('https://creativecommons.org/licenses/by/4.0/','CC BY 4.0')}. Text condensed and diagram redrawn for this library; editorial assessment added. This note does not independently verify every study cited by the article or endorse its policy proposal.</p>
-    <nav class="gender-jumps" aria-label="Related gender research"><button data-gender-jump="relationship-models">Relationship hypotheses ↓</button><button data-gender-jump="fertility">Explore fertility data ↓</button></nav>
+    <aside class="research-boundary"><strong>Related publication · 10 August 2026</strong><p>${link("https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/but-what-of-women-a-look-at-some-of-the-implications-of-mens-unequal-outcomes/DA17213598DC1B9EDD182F1D43173B86","But what of women?")} by Fisher, Larsen and Kennair considers women’s caregiving and career burdens, mate competition and cooperation. It extends the same authors’ framework; it is not an independent replication or a tested estimate of the proposed fertility policy’s effect.</p></aside><nav class="gender-jumps" aria-label="Related gender research"><button data-gender-jump="relationship-models">Relationship hypotheses ↓</button><button data-gender-jump="fertility">Explore fertility data ↓</button></nav>
   </section>`;}
   window.MindReproductionStudy={render};
 })();

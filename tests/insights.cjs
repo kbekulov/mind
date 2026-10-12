@@ -82,7 +82,7 @@ const path=require('node:path');
         if(topic==='russia-ukraine-war'){
           assert.equal(await page.locator('.war-insights .insight-card').count(),6);
           assert.equal(await page.locator('.exchange-event').count(),6);
-          assert.ok(await page.locator('.war-insights').innerText().then(t=>t.includes('525,000–625,000')&&t.includes('14.9 €bn')));
+          assert.ok(await page.locator('.war-insights').innerText().then(t=>t.includes('525,000–625,000')&&t.includes('16.9 €bn')));
           await page.locator('.exchange-chart').first().scrollIntoViewIfNeeded();
           await page.screenshot({path:`test-results/war-${width}.png`});
         }

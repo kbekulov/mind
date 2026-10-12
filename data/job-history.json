@@ -21,12 +21,12 @@
       "notes": "Select this exact role on the careers page. General remote-first benefits do not confirm this role’s arrangement.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.symprio.com/careers/",
       "evidenceUrl": "https://www.symprio.com/careers/",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Careers request failed; a current role-specific description and application route remain unverified.",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "fit": {
         "band": "Potential fit",
         "track": "Senior RPA / automation engineering",
@@ -45,10 +45,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:32.148Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.044Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.044Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.334Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.334Z",
       "previousStatus": "Unknown",
-      "statusReason": "Careers request failed; a current role-specific description and application route remain unverified.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "statusChangedAt": "2026-09-23T16:31:32.148Z",
       "statusHistory": [
         {
@@ -70,6 +70,11 @@
           "at": "2026-10-11T08:51:02.044Z",
           "status": "Unknown",
           "reason": "Careers request failed; a current role-specific description and application route remain unverified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.334Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "requiredLanguages": null,
@@ -101,12 +106,12 @@
       "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
       "salary": null,
       "postedAt": "2025-11-18",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.digitalbricks.ai/careers",
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "fit": {
         "band": "Stretch",
         "track": "Power Platform / integration consulting",
@@ -125,10 +130,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:31.646Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.056Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.056Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.408Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.408Z",
       "previousStatus": "Unknown",
-      "statusReason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "statusChangedAt": "2026-09-23T16:31:31.646Z",
       "statusHistory": [
         {
@@ -150,6 +155,11 @@
           "at": "2026-10-11T08:51:02.056Z",
           "status": "Unknown",
           "reason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.408Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "requiredLanguages": null,
@@ -181,12 +191,12 @@
       "notes": "Older advertisement still listed under open positions. Select this exact role on the shared careers page.",
       "salary": null,
       "postedAt": "2025-11-17",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://www.digitalbricks.ai/careers",
       "evidenceUrl": "https://www.digitalbricks.ai/careers",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "fit": {
         "band": "Stretch",
         "track": "Automation solution design / technical lead",
@@ -205,10 +215,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-23T16:31:31.688Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.083Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.083Z",
+      "lastVerifiedAt": "2026-10-12T10:50:27.453Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.453Z",
       "previousStatus": "Unknown",
-      "statusReason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "statusChangedAt": "2026-09-23T16:31:31.688Z",
       "statusHistory": [
         {
@@ -230,6 +240,11 @@
           "at": "2026-10-11T08:51:02.083Z",
           "status": "Unknown",
           "reason": "General careers page contains job text but no stable direct URL for this exact vacancy was verified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.453Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "requiredLanguages": null,
@@ -244,9 +259,9 @@
       "title": "IC3 - RPA Developer",
       "sourceUrl": "https://job-boards.greenhouse.io/spin/jobs/4699003005",
       "status": "Unknown",
-      "statusReason": "Original Greenhouse job redirects to a general board; exact opening not verified.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.172Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.172Z",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.521Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.521Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -264,11 +279,16 @@
           "at": "2026-10-11T08:51:02.172Z",
           "status": "Unknown",
           "reason": "Original Greenhouse job redirects to a general board; exact opening not verified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.521Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Original Greenhouse job redirects to a general board; exact opening not verified."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "lead-4",
@@ -276,9 +296,9 @@
       "title": "C# Developer (Tools and Installers)",
       "sourceUrl": "https://job-boards.greenhouse.io/threatlocker/jobs/5853559004",
       "status": "Unknown",
-      "statusReason": "Original Greenhouse job redirects to a general board; exact opening not verified.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.183Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.183Z",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.537Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.537Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -296,11 +316,16 @@
           "at": "2026-10-11T08:51:02.183Z",
           "status": "Unknown",
           "reason": "Original Greenhouse job redirects to a general board; exact opening not verified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.537Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Original Greenhouse job redirects to a general board; exact opening not verified."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "lead-5",
@@ -358,9 +383,9 @@
       "title": "Senior RPA Developer",
       "sourceUrl": "https://international.nubank.com.br/job-opportunity/?id=6736797",
       "status": "Unknown",
-      "statusReason": "Original vacancy redirects to a general careers page; successor job not verified.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.207Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.207Z",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.682Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.682Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -378,11 +403,16 @@
           "at": "2026-10-11T08:51:02.207Z",
           "status": "Unknown",
           "reason": "Original vacancy redirects to a general careers page; successor job not verified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.682Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Original vacancy redirects to a general careers page; successor job not verified."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "lead-8",
@@ -390,9 +420,9 @@
       "title": "RPA Business Analyst - South Africa",
       "sourceUrl": "https://jobs.smartrecruiters.com/WNSGlobalServices144/743999907811731-rpa-business-analyst-south-africa",
       "status": "Unknown",
-      "statusReason": "SmartRecruiters page contains company information but not a complete current role description and application evidence.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.235Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.235Z",
+      "statusReason": "Application control is visible, but responsibilities and qualifications remain absent; substantive fit cannot be established.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.875Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.875Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -410,11 +440,16 @@
           "at": "2026-10-11T08:51:02.235Z",
           "status": "Unknown",
           "reason": "SmartRecruiters page contains company information but not a complete current role description and application evidence."
+        },
+        {
+          "at": "2026-10-12T10:50:27.875Z",
+          "status": "Unknown",
+          "reason": "Application control is visible, but responsibilities and qualifications remain absent; substantive fit cannot be established."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "SmartRecruiters page contains company information but not a complete current role description and application evidence."
+      "checkedAt": "2026-10-12",
+      "verification": "Application control is visible, but responsibilities and qualifications remain absent; substantive fit cannot be established."
     },
     {
       "id": "lead-9",
@@ -422,9 +457,9 @@
       "title": "Senior Automation Developer with Blue Prism",
       "sourceUrl": "https://www.jobs.ca/tata-consultancy-services/jobs/senior-automation-developer-with-blue-prism-toronto-on-a7e09cb55f65",
       "status": "Unknown",
-      "statusReason": "Jobs.ca returned HTTP 403; exact employer posting remains unverified.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.462Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.462Z",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.957Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.957Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -442,11 +477,16 @@
           "at": "2026-10-11T08:51:02.462Z",
           "status": "Unknown",
           "reason": "Jobs.ca returned HTTP 403; exact employer posting remains unverified."
+        },
+        {
+          "at": "2026-10-12T10:50:27.957Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Jobs.ca returned HTTP 403; exact employer posting remains unverified."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
     },
     {
       "id": "lead-10",
@@ -454,9 +494,9 @@
       "title": "Automation Team Lead",
       "sourceUrl": "https://ca.linkedin.com/jobs/view/automation-team-lead-at-zenatech-inc-4446196939",
       "status": "Unknown",
-      "statusReason": "LinkedIn redirects to a generic jobs page; no current role-specific application route.",
-      "lastVerifiedAt": "2026-10-11T08:51:02.522Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.522Z",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
+      "lastVerifiedAt": "2026-10-12T10:50:27.978Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:27.978Z",
       "firstSeenAt": "2026-09-23T16:39:18.865Z",
       "lastSeenAt": null,
       "statusHistory": [
@@ -474,11 +514,16 @@
           "at": "2026-10-11T08:51:02.522Z",
           "status": "Unknown",
           "reason": "LinkedIn redirects to a generic jobs page; no current role-specific application route."
+        },
+        {
+          "at": "2026-10-12T10:50:27.978Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "LinkedIn redirects to a generic jobs page; no current role-specific application route."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "registru",
@@ -1878,11 +1923,11 @@
       "title": "Página da Vaga | Desenvolvedor(a) de Automações RPA Pleno",
       "sourceUrl": "https://daycoval-tech.gupy.io/jobs/10878878?jobBoardSource=gupy_public_page",
       "status": "Unknown",
-      "statusReason": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored.",
+      "statusReason": "Visible Apply control and December deadline conflict with the Gupy vacancy status frozen, rechecked 12 October; remains unresolved.",
       "firstSeenAt": "2026-09-26T22:51:27.159Z",
       "lastSeenAt": "2026-09-26T22:51:27.159Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.631Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.631Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.013Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.013Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:27.159Z",
@@ -1893,19 +1938,24 @@
           "at": "2026-10-11T08:51:02.631Z",
           "status": "Unknown",
           "reason": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored."
+        },
+        {
+          "at": "2026-10-12T10:50:28.013Z",
+          "status": "Unknown",
+          "reason": "Visible Apply control and December deadline conflict with the Gupy vacancy status frozen, rechecked 12 October; remains unresolved."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Gupy renders an application button, but its embedded job state is frozen. Conflicting application evidence; not restored."
+      "checkedAt": "2026-10-12",
+      "verification": "Visible Apply control and December deadline conflict with the Gupy vacancy status frozen, rechecked 12 October; remains unresolved."
     },
     {
       "id": "2026-09-27-worldwide-sofrecom",
       "title": "sofrecom",
       "sourceUrl": "https://dimension.rekrute.com/en/offre-emploi-concepteur-developpeur-rpa-recrutement-sofrecom-maroc-casablanca-186566.html",
       "status": "Unknown",
-      "statusReason": "Source could not be retrieved; retain as Unknown.",
+      "statusReason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure.",
       "lastSeenAt": null,
       "statusHistory": [
         {
@@ -1917,23 +1967,28 @@
           "at": "2026-10-11T08:51:02.681Z",
           "status": "Unknown",
           "reason": "Source could not be retrieved; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.022Z",
+          "status": "Unknown",
+          "reason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:51:37.624Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.681Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.681Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.022Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.022Z",
       "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source could not be retrieved; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-afd-ma",
       "title": "afd-ma",
       "sourceUrl": "https://dimension.rekrute.com/fr/offre-emploi-developpeur-rpa-hf-recrutement-afd.tech-rabat-179806.html",
       "status": "Unknown",
-      "statusReason": "Source could not be retrieved; retain as Unknown.",
+      "statusReason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure.",
       "lastSeenAt": null,
       "statusHistory": [
         {
@@ -1945,27 +2000,32 @@
           "at": "2026-10-11T08:51:02.856Z",
           "status": "Unknown",
           "reason": "Source could not be retrieved; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.023Z",
+          "status": "Unknown",
+          "reason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:51:37.624Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.856Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.856Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.023Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.023Z",
       "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source could not be retrieved; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-sappi",
       "title": "Just a moment...",
       "sourceUrl": "https://www.sappi.com/en-gb/life-sappi/job-listings/rpa-developer-robotic-process-automation",
       "status": "Unknown",
-      "statusReason": "Source blocked access; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T22:51:27.529Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:02.888Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.888Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.048Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.048Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:27.529Z",
@@ -1976,23 +2036,28 @@
           "at": "2026-10-11T08:51:02.888Z",
           "status": "Unknown",
           "reason": "Source blocked access; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.048Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source blocked access; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-post-ch",
       "title": "Careers at Post",
       "sourceUrl": "https://job.post.ch/v2/job-vacancies/automation-business-analyst/9193983f-ea28-437f-a795-e319d30940d1",
       "status": "Unknown",
-      "statusReason": "Original URL now resolves to a generic Post careers page; cached search description is insufficient.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:51:28.249Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:02.973Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.973Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.152Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.152Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.249Z",
@@ -2003,23 +2068,28 @@
           "at": "2026-10-11T08:51:02.973Z",
           "status": "Unknown",
           "reason": "Original URL now resolves to a generic Post careers page; cached search description is insufficient."
+        },
+        {
+          "at": "2026-10-12T10:50:28.152Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Original URL now resolves to a generic Post careers page; cached search description is insufficient."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-cpva",
       "title": "Veiklos analitikas (-ė) (Automatizavimo specialistas) I Procesų valdymo skyrius &#8211; CPVA",
       "sourceUrl": "https://cpva.lt/darbo-pasiulymai/veiklos-analitikas-e-automatizavimo-specialistas-i-procesu-valdymo-skyrius",
       "status": "Unknown",
-      "statusReason": "Old April 2026 deadline remains in the role description. A new application window was not verified.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:51:28.391Z",
       "lastSeenAt": "2026-09-26T22:51:28.391Z",
-      "lastVerifiedAt": "2026-10-11T08:51:02.975Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:02.975Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.173Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.173Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.391Z",
@@ -2030,23 +2100,28 @@
           "at": "2026-10-11T08:51:02.975Z",
           "status": "Unknown",
           "reason": "Old April 2026 deadline remains in the role description. A new application window was not verified."
+        },
+        {
+          "at": "2026-10-12T10:50:28.173Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Old April 2026 deadline remains in the role description. A new application window was not verified."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-ardent",
       "title": "Careers - Ardent MC",
       "sourceUrl": "https://job-boards.greenhouse.io/ardentmc/jobs/6790860?gh_jid=6790860",
       "status": "Unknown",
-      "statusReason": "Source did not provide independently confirmed current application evidence; retain as Unknown.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:51:28.399Z",
       "lastSeenAt": "2026-09-26T22:51:28.399Z",
-      "lastVerifiedAt": "2026-10-11T08:51:03.094Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.094Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.232Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.232Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:51:28.399Z",
@@ -2057,23 +2132,28 @@
           "at": "2026-10-11T08:51:03.094Z",
           "status": "Unknown",
           "reason": "Source did not provide independently confirmed current application evidence; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.232Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source did not provide independently confirmed current application evidence; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-stedin",
       "title": "Algemene vacature fout",
       "sourceUrl": "https://werkenbij.stedin.net/banen/delft/product-owner-robotic-proces-automation/3297/44213770496",
       "status": "Unknown",
-      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T22:54:17.477Z",
       "lastSeenAt": "2026-09-26T22:54:17.477Z",
-      "lastVerifiedAt": "2026-10-11T08:51:03.174Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.174Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.233Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.233Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.477Z",
@@ -2084,23 +2164,28 @@
           "at": "2026-10-11T08:51:03.174Z",
           "status": "Unknown",
           "reason": "Source is unavailable without explicit role closure; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.233Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-cognizant-admin",
       "title": "Just a moment...",
       "sourceUrl": "https://careers.cognizant.com/global-en/jobs/00070176703/blue-prism-admin/",
       "status": "Unknown",
-      "statusReason": "Source blocked access; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T22:54:17.524Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:03.236Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.236Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.330Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.330Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.524Z",
@@ -2111,23 +2196,28 @@
           "at": "2026-10-11T08:51:03.236Z",
           "status": "Unknown",
           "reason": "Source blocked access; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.330Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source blocked access; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-uipath-mx",
       "title": "Jobs",
       "sourceUrl": "https://jobs.ashbyhq.com/uipath/ecc2ad54-e259-4fe3-a1a7-a0acd484717e/",
       "status": "Unknown",
-      "statusReason": "Ashby returned a JavaScript shell without a verifiable current job description or application state.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:54:17.718Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:03.283Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.283Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.343Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.343Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.718Z",
@@ -2138,23 +2228,28 @@
           "at": "2026-10-11T08:51:03.283Z",
           "status": "Unknown",
           "reason": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
+        },
+        {
+          "at": "2026-10-12T10:50:28.343Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-uipath-mx-jr",
       "title": "Jobs",
       "sourceUrl": "https://jobs.ashbyhq.com/uipath/827f7c46-2b82-4703-a1cb-4f29b017811f",
       "status": "Unknown",
-      "statusReason": "Ashby returned a JavaScript shell without a verifiable current job description or application state.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:54:17.740Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:03.425Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.425Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.396Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.396Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.740Z",
@@ -2165,23 +2260,28 @@
           "at": "2026-10-11T08:51:03.425Z",
           "status": "Unknown",
           "reason": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
+        },
+        {
+          "at": "2026-10-12T10:50:28.396Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Ashby returned a JavaScript shell without a verifiable current job description or application state."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-interstellar",
       "title": "Page not found - Interstellar",
       "sourceUrl": "https://www.interstellar.nl/careers/finance/microsoft-365-product-owner/",
       "status": "Unknown",
-      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T22:54:17.872Z",
       "lastSeenAt": "2026-09-26T22:54:17.872Z",
-      "lastVerifiedAt": "2026-10-11T08:51:03.471Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.471Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.448Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.448Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:17.872Z",
@@ -2192,23 +2292,28 @@
           "at": "2026-10-11T08:51:03.471Z",
           "status": "Unknown",
           "reason": "Source is unavailable without explicit role closure; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.448Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-keysight",
       "title": "Engrg Prog/Proj Manager 4 in Gurgaon, India | Keysight Technologies, Inc.",
       "sourceUrl": "https://jobs.keysight.com/external/jobs/53824",
       "status": "Unknown",
-      "statusReason": "Source returned a JavaScript shell; role and application state not verified.",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "firstSeenAt": "2026-09-26T22:54:18.196Z",
       "lastSeenAt": "2026-09-26T22:54:18.196Z",
-      "lastVerifiedAt": "2026-10-11T08:51:03.477Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.477Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.542Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.542Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:18.196Z",
@@ -2219,23 +2324,28 @@
           "at": "2026-10-11T08:51:03.477Z",
           "status": "Unknown",
           "reason": "Source returned a JavaScript shell; role and application state not verified."
+        },
+        {
+          "at": "2026-10-12T10:50:28.542Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source returned a JavaScript shell; role and application state not verified."
+      "checkedAt": "2026-10-12",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
     },
     {
       "id": "2026-09-27-worldwide-boels",
       "title": "Boels Careers",
       "sourceUrl": "https://careers.boels.com/nl-nl/vacatures/product-owner-data-science-ai-17467",
       "status": "Unknown",
-      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 410; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T22:54:18.205Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:03.656Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.656Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.557Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.557Z",
       "statusHistory": [
         {
           "at": "2026-09-26T22:54:18.205Z",
@@ -2246,19 +2356,24 @@
           "at": "2026-10-11T08:51:03.656Z",
           "status": "Unknown",
           "reason": "Source is unavailable without explicit role closure; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.557Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 410; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 410; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-fidel",
       "title": "fidel",
       "sourceUrl": "https://www.fidelconsulting.com/en/index.php/jobs/viewDetails/10257/uipath-engineer-or-lead",
       "status": "Unknown",
-      "statusReason": "Source could not be retrieved; retain as Unknown.",
+      "statusReason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure.",
       "lastSeenAt": null,
       "statusHistory": [
         {
@@ -2270,27 +2385,32 @@
           "at": "2026-10-11T08:51:03.809Z",
           "status": "Unknown",
           "reason": "Source could not be retrieved; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.609Z",
+          "status": "Unknown",
+          "reason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T22:54:19.005Z",
-      "lastVerifiedAt": "2026-10-11T08:51:03.809Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:03.809Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.609Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.609Z",
       "timingNote": "Failed-request batch completion time; exact request timestamp was not retained.",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source could not be retrieved; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-ati",
       "title": "Not found – 404 error",
       "sourceUrl": "https://jobs.lever.co/atibusinessgroup/f9fb0f53-23b0-40b0-bdf4-546d229afb97",
       "status": "Unknown",
-      "statusReason": "Source is unavailable without explicit role closure; retain as Unknown.",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "firstSeenAt": "2026-09-26T23:00:36.152Z",
       "lastSeenAt": null,
-      "lastVerifiedAt": "2026-10-11T08:51:04.041Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:04.041Z",
+      "lastVerifiedAt": "2026-10-12T10:50:28.621Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.621Z",
       "statusHistory": [
         {
           "at": "2026-09-26T23:00:36.152Z",
@@ -2301,12 +2421,17 @@
           "at": "2026-10-11T08:51:04.041Z",
           "status": "Unknown",
           "reason": "Source is unavailable without explicit role closure; retain as Unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:28.621Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "researchBatch": "2026-09-27-worldwide",
       "previousStatus": "Unknown",
-      "checkedAt": "2026-10-11",
-      "verification": "Source is unavailable without explicit role closure; retain as Unknown."
+      "checkedAt": "2026-10-12",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
     },
     {
       "id": "2026-09-27-worldwide-inetum-rpa",
@@ -2368,12 +2493,12 @@
       "notes": "Average two days per week in an HPE office. WorkFusion is the preferred RPA platform.",
       "salary": null,
       "postedAt": "2026-08-04",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
       "evidenceUrl": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/job/Agentic-AI---RPA-Developer_1209935",
       "sourceType": "Employer ATS",
       "status": "Unknown",
-      "verification": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified.",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "fit": {
         "band": "Potential fit",
         "track": "Intelligent automation / AI integration",
@@ -2392,10 +2517,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-26T22:52:57.736Z",
-      "lastVerifiedAt": "2026-10-11T08:50:58.777Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:58.777Z",
-      "previousStatus": "Still open",
-      "statusReason": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified.",
+      "lastVerifiedAt": "2026-10-12T10:50:28.877Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:28.877Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "statusChangedAt": "2026-10-11T08:50:58.777Z",
       "statusHistory": [
         {
@@ -2417,6 +2542,11 @@
           "at": "2026-10-11T08:50:58.777Z",
           "status": "Unknown",
           "reason": "Workday returned an empty page through direct, browser and web retrieval; current description and application state could not be verified."
+        },
+        {
+          "at": "2026-10-12T10:50:28.877Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "requiredLanguages": null,
@@ -2695,12 +2825,12 @@
         "basis": "basis not stated"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
       "evidenceUrl": "https://sebgroup.com/career/find-your-new-job/our-vacant-positions/senior-c-developer-for-interest-rate-service-irs-solution--seb-vilnius-aad38443-cf1d-4e2b-9a1d-83a4ed4a7c1b",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown.",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Potential fit",
@@ -2720,10 +2850,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-26T22:48:53.108Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.672Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.672Z",
-      "previousStatus": "Still open",
-      "statusReason": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown.",
+      "lastVerifiedAt": "2026-10-12T10:50:29.069Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.069Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "statusChangedAt": "2026-10-11T08:50:59.672Z",
       "statusHistory": [
         {
@@ -2745,6 +2875,11 @@
           "at": "2026-10-11T08:50:59.672Z",
           "status": "Unknown",
           "reason": "Original vacancy returned HTTP 404 without an explicit closure message. Current application state unknown."
+        },
+        {
+          "at": "2026-10-12T10:50:29.069Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "requiredLanguages": [
@@ -2782,12 +2917,12 @@
         "basis": "gross"
       },
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
       "evidenceUrl": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e",
       "sourceType": "Employer ATS",
       "status": "Unknown",
-      "verification": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor.",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "researchBatch": "2026-09-23-expanded-roles",
       "fit": {
         "band": "Stretch",
@@ -2807,10 +2942,10 @@
       ],
       "firstSeenAt": null,
       "lastSeenAt": "2026-09-26T22:48:54.817Z",
-      "lastVerifiedAt": "2026-10-11T08:50:59.832Z",
-      "sourceLastCheckedAt": "2026-10-11T08:50:59.832Z",
-      "previousStatus": "Still open",
-      "statusReason": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor.",
+      "lastVerifiedAt": "2026-10-12T10:50:29.072Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.072Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "statusChangedAt": "2026-10-11T08:50:59.832Z",
       "statusHistory": [
         {
@@ -2832,6 +2967,11 @@
           "at": "2026-10-11T08:50:59.832Z",
           "status": "Unknown",
           "reason": "Original Lever vacancy returned HTTP 404. No explicit closure evidence or verified successor."
+        },
+        {
+          "at": "2026-10-12T10:50:29.072Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "requiredLanguages": null,
@@ -3097,12 +3237,12 @@
         "basis": "gross"
       },
       "postedAt": "2026-09-04",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-klaipedoje/1-14108151",
       "evidenceUrl": "https://ua.cvbankas.lt/automatizavimo-sprendimu-programuotojas-a-klaipedoje/1-14108151",
       "sourceType": "Local job board — CVbankas",
       "status": "Unknown",
-      "verification": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID.",
+      "verification": "Original URL resolves to the successor requisition already published as 2026-10-11-worldwide-atea-new; no duplicate restored.",
       "fit": {
         "band": "Potential fit",
         "track": "Power Platform / integration consulting",
@@ -3122,10 +3262,10 @@
       ],
       "firstSeenAt": "2026-09-26T22:51:27.556Z",
       "lastSeenAt": "2026-09-26T22:51:27.556Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.874Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.874Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID.",
+      "lastVerifiedAt": "2026-10-12T10:50:29.260Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.260Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Original URL resolves to the successor requisition already published as 2026-10-11-worldwide-atea-new; no duplicate restored.",
       "statusChangedAt": "2026-10-11T08:51:00.874Z",
       "statusHistory": [
         {
@@ -3137,6 +3277,11 @@
           "at": "2026-10-11T08:51:00.874Z",
           "status": "Unknown",
           "reason": "Original CVbankas advertisement redirects to a different listing ID and a different city. Preserve the old record as unresolved; publish the separately verified successor under a new ID."
+        },
+        {
+          "at": "2026-10-12T10:50:29.260Z",
+          "status": "Unknown",
+          "reason": "Original URL resolves to the successor requisition already published as 2026-10-11-worldwide-atea-new; no duplicate restored."
         }
       ],
       "requiredLanguages": [
@@ -3172,12 +3317,12 @@
       "notes": "Older published page remains accessible with a recruitment email application route. Reconfirm the hiring window before investing in an application.",
       "salary": null,
       "postedAt": "2025-10-30",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://emergent.africa/careers/business-process-analyst/",
       "evidenceUrl": "https://emergent.africa/careers/business-process-analyst/",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Original source returned HTTP 404; no explicit closure evidence.",
+      "verification": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "fit": {
         "band": "Potential fit",
         "track": "Automation business analysis / process improvement",
@@ -3197,10 +3342,10 @@
       ],
       "firstSeenAt": "2026-09-26T22:51:30.579Z",
       "lastSeenAt": "2026-09-26T22:51:30.579Z",
-      "lastVerifiedAt": "2026-10-11T08:51:00.883Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:00.883Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Original source returned HTTP 404; no explicit closure evidence.",
+      "lastVerifiedAt": "2026-10-12T10:50:29.350Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.350Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure.",
       "statusChangedAt": "2026-10-11T08:51:00.883Z",
       "statusHistory": [
         {
@@ -3212,6 +3357,11 @@
           "at": "2026-10-11T08:51:00.883Z",
           "status": "Unknown",
           "reason": "Original source returned HTTP 404; no explicit closure evidence."
+        },
+        {
+          "at": "2026-10-12T10:50:29.350Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 404; current application status could not be established. This does not prove closure."
         }
       ],
       "requiredLanguages": null,
@@ -3243,12 +3393,12 @@
       "notes": "Confirm work authorization, sponsorship and any language requirements with the employer.",
       "salary": null,
       "postedAt": null,
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://au.linkedin.com/jobs/view/team-lead-rpa-at-hub24-limited-4460461807",
       "evidenceUrl": "https://au.linkedin.com/jobs/view/team-lead-rpa-at-hub24-limited-4460461807",
       "sourceType": "Direct LinkedIn vacancy",
       "status": "Unknown",
-      "verification": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation.",
+      "verification": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "fit": {
         "band": "Stretch",
         "track": "Automation solution design / technical lead",
@@ -3268,10 +3418,10 @@
       ],
       "firstSeenAt": "2026-09-26T22:51:27.694Z",
       "lastSeenAt": "2026-09-26T22:51:27.694Z",
-      "lastVerifiedAt": "2026-10-11T08:51:01.165Z",
-      "sourceLastCheckedAt": "2026-10-11T08:51:01.165Z",
-      "previousStatus": "Newly found",
-      "statusReason": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation.",
+      "lastVerifiedAt": "2026-10-12T10:50:29.354Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.354Z",
+      "previousStatus": "Unknown",
+      "statusReason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains.",
       "statusChangedAt": "2026-10-11T08:51:01.165Z",
       "statusHistory": [
         {
@@ -3283,6 +3433,11 @@
           "at": "2026-10-11T08:51:01.165Z",
           "status": "Unknown",
           "reason": "Role description remains visible on LinkedIn, but no usable application control or current official employer listing was verified. Withheld pending direct ATS confirmation."
+        },
+        {
+          "at": "2026-10-12T10:50:29.354Z",
+          "status": "Unknown",
+          "reason": "Public source rechecked, but a complete current role description and unambiguous application route were not established; prior uncertainty remains."
         }
       ],
       "requiredLanguages": null,
@@ -3320,12 +3475,12 @@
         "basis": "includes 4% superannuation"
       },
       "postedAt": "2026-09-10",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "sourceUrl": "https://jobs.govt.nz/jobs/NZ-DF-2609020",
       "evidenceUrl": "https://jobs.govt.nz/jobs/NZ-DF-2609020",
       "sourceType": "Employer careers page",
       "status": "Unknown",
-      "verification": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved.",
+      "verification": "Source check failed: fetch failed; current application status could not be established. This does not prove closure.",
       "fit": {
         "band": "Lower priority",
         "track": "C#/.NET desktop and internal platforms",
@@ -3343,8 +3498,8 @@
       "roleFamilies": [
         "C#/.NET desktop and internal platforms"
       ],
-      "previousStatus": "Newly found",
-      "statusReason": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved.",
+      "previousStatus": "Unknown",
+      "statusReason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure.",
       "statusHistory": [
         {
           "status": "Newly found",
@@ -3355,6 +3510,11 @@
           "at": "2026-10-11T09:05:26.929Z",
           "status": "Unknown",
           "reason": "Direct/browser requests timed out; public employment page says the requested job cannot be displayed and may have closed or been removed. Availability unresolved."
+        },
+        {
+          "at": "2026-10-12T10:50:29.409Z",
+          "status": "Unknown",
+          "reason": "Source check failed: fetch failed; current application status could not be established. This does not prove closure."
         }
       ],
       "requiredLanguages": null,
@@ -3366,8 +3526,8 @@
       "researchBatch": "2026-09-27-worldwide",
       "firstSeenAt": "2026-09-26T23:10:07.554Z",
       "lastSeenAt": "2026-09-26T23:10:07.554Z",
-      "lastVerifiedAt": "2026-10-11T09:05:26.929Z",
-      "sourceLastCheckedAt": "2026-10-11T09:05:26.929Z",
+      "lastVerifiedAt": "2026-10-12T10:50:29.409Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:29.409Z",
       "statusChangedAt": "2026-10-11T09:05:26.929Z"
     },
     {
@@ -3679,6 +3839,402 @@
       "applicationDeadline": "2026-10-02",
       "requisitionId": null,
       "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "safran",
+      "company": "Safran Aircraft Engines",
+      "title": "RPA Developer-euse Analyst F/H",
+      "country": "France",
+      "region": "Europe",
+      "location": "Moissy-Cramayel",
+      "level": "Junior / early career",
+      "experience": "First professional experience",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "Automate Studio",
+        "Power BI"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent full-time",
+      "summary": "Develop UiPath automation and support business-process analysis.",
+      "notes": "Up to two telework days. Automate Studio and Power BI are additional skills.",
+      "salary": null,
+      "postedAt": "2026-09-22",
+      "checkedAt": "2026-10-12",
+      "sourceUrl": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/rpa-developer-euse-analyst-fh-179607",
+      "evidenceUrl": "https://www.safran-group.com/de/stellenangebote/france/moissy-cramayel/rpa-developer-euse-analyst-fh-179607",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath, process analysis and automation delivery overlap."
+        ],
+        "checks": [
+          "A technical master’s degree is requested; the supplied degree does not establish it. Confirm UiPath depth and French working-language expectations.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T22:54:17.565Z",
+      "lastSeenAt": "2026-10-11T09:05:26.929Z",
+      "lastVerifiedAt": "2026-10-12T10:50:24.955Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:24.955Z",
+      "previousStatus": "Still open",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "statusChangedAt": "2026-10-12T10:50:24.955Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T22:54:17.565Z",
+          "status": "Newly found",
+          "reason": "Full Safran vacancy and Apply links verified by web retrieval; direct server fetch was blocked."
+        },
+        {
+          "at": "2026-10-11T09:05:26.929Z",
+          "status": "Still open",
+          "reason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application."
+        },
+        {
+          "at": "2026-10-12T10:50:24.955Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
+        }
+      ],
+      "requiredLanguages": [
+        "English: intermediate"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "2026-179607",
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "safran-ma",
+      "company": "Safran Engineering Services",
+      "title": "Ingénieur RPA F/H",
+      "country": "Morocco",
+      "region": "Africa",
+      "location": "Casablanca",
+      "level": "Junior / early career",
+      "experience": "First professional experience",
+      "field": "Intelligent automation",
+      "tools": [
+        "UiPath",
+        "Python",
+        ".NET",
+        "VBA",
+        "Power Automate"
+      ],
+      "mode": "Not stated",
+      "employment": "Permanent full-time",
+      "summary": "Develop UiPath robots with .NET, VBA and Power Automate integration.",
+      "notes": "Related ads 184840 and 168373 were discovered; not counted separately because the same-title hiring need may overlap.",
+      "salary": null,
+      "postedAt": "2026-09-25",
+      "checkedAt": "2026-10-12",
+      "sourceUrl": "https://www.safran-group.com/jobs/morocco/casablanca/ingenieur-rpa-fh-188616",
+      "evidenceUrl": "https://www.safran-group.com/jobs/morocco/casablanca/ingenieur-rpa-fh-188616",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "fit": {
+        "band": "Potential fit",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "UiPath, .NET, VBA and Power Automate are all supported by the profile."
+        ],
+        "checks": [
+          "Technical master’s degree and Python are not established. Confirm working languages and whether the nearly identical related requisitions are separate hires.",
+          "Work rights and any sponsorship remain unconfirmed."
+        ],
+        "assessedAt": "2026-09-27",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-09-26T23:00:36.157Z",
+      "lastSeenAt": "2026-10-11T09:05:26.929Z",
+      "lastVerifiedAt": "2026-10-12T10:50:25.106Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:25.106Z",
+      "previousStatus": "Still open",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "statusChangedAt": "2026-10-12T10:50:25.106Z",
+      "statusHistory": [
+        {
+          "at": "2026-09-26T23:00:36.157Z",
+          "status": "Newly found",
+          "reason": "Safran role description, requirements and Apply links reviewed through web retrieval after direct fetch was blocked."
+        },
+        {
+          "at": "2026-10-11T09:05:26.929Z",
+          "status": "Still open",
+          "reason": "Employer role description and Apply link retrieved through web; direct request was blocked. Candidate-area route checked without submitting an application."
+        },
+        {
+          "at": "2026-10-12T10:50:25.106Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
+        }
+      ],
+      "requiredLanguages": null,
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "D2026R9-218452 / 188616",
+      "researchBatch": "2026-09-27-worldwide"
+    },
+    {
+      "id": "2026-10-11-worldwide-cronos-architect",
+      "company": "cronos",
+      "title": "(Senior) Consultant & Architect | Automation (RPA & AI) (all genders)",
+      "country": "Germany",
+      "region": "Europe",
+      "location": "Multiple German offices",
+      "level": "Senior / experienced",
+      "experience": "Relevant experience; years not specified",
+      "field": "Automation architecture",
+      "tools": [
+        "UiPath",
+        "Blue Prism",
+        ".NET",
+        "JavaScript"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent full-time",
+      "summary": "Design automation architecture, guide developers and establish quality standards.",
+      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-10-12",
+      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Architect-Automation-RPA-AI-all-genders-de-j246.html",
+      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Architect-Automation-RPA-AI-all-genders-de-j246.html",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Automation solution design / technical lead",
+        "strengths": [
+          "Solution design, Blue Prism, .NET/JavaScript and code-quality mentoring align."
+        ],
+        "checks": [
+          "Very good German and a technical degree are requested; neither is established. Enterprise architecture and travel need review.",
+          "Work authorization, sponsorship and exact language proficiency are not established."
+        ],
+        "assessedAt": "2026-10-11",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "teamlead",
+      "roleFamilies": [
+        "Automation solution design / technical lead"
+      ],
+      "firstSeenAt": "2026-10-11T09:01:46.351Z",
+      "lastSeenAt": "2026-10-11T09:01:46.351Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.767Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.767Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "statusChangedAt": "2026-10-12T10:50:26.767Z",
+      "statusHistory": [
+        {
+          "at": "2026-10-11T09:01:46.351Z",
+          "status": "Newly found",
+          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
+        },
+        {
+          "at": "2026-10-12T10:50:26.767Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
+        }
+      ],
+      "requiredLanguages": [
+        "German: very good, written and spoken"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "246",
+      "researchBatch": "2026-10-11-worldwide",
+      "eligibleCountries": [
+        "Germany"
+      ],
+      "supportingSources": [
+        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003823062-S"
+      ]
+    },
+    {
+      "id": "2026-10-11-worldwide-cronos-dev",
+      "company": "cronos",
+      "title": "Senior Consultant / Developer | Automation - RPA & AI (all genders)",
+      "country": "Germany",
+      "region": "Europe",
+      "location": "Multiple German offices; Vienna also advertised",
+      "level": "Senior / experienced",
+      "experience": "Relevant experience; years not specified",
+      "field": "RPA",
+      "tools": [
+        "UiPath",
+        "Blue Prism",
+        "VBA",
+        "Python"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent full-time",
+      "summary": "Develop RPA/AI solutions and guide client delivery from process modeling to operations.",
+      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-10-12",
+      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Developer-Automation-RPA-AI-all-genders-de-j238.html",
+      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Developer-Automation-RPA-AI-all-genders-de-j238.html",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Senior RPA / automation engineering",
+        "strengths": [
+          "RPA implementation, VBA, process modeling and development guidance overlap."
+        ],
+        "checks": [
+          "Very good German, degree equivalence and multi-year project-management experience remain gaps.",
+          "Work authorization, sponsorship and exact language proficiency are not established."
+        ],
+        "assessedAt": "2026-10-11",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "developer",
+      "roleFamilies": [
+        "Senior RPA / automation engineering"
+      ],
+      "firstSeenAt": "2026-10-11T09:01:46.350Z",
+      "lastSeenAt": "2026-10-11T09:01:46.350Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.808Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.808Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "statusChangedAt": "2026-10-12T10:50:26.808Z",
+      "statusHistory": [
+        {
+          "at": "2026-10-11T09:01:46.350Z",
+          "status": "Newly found",
+          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
+        },
+        {
+          "at": "2026-10-12T10:50:26.808Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
+        }
+      ],
+      "requiredLanguages": [
+        "German: very good, written and spoken"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "238",
+      "researchBatch": "2026-10-11-worldwide",
+      "eligibleCountries": [
+        "Germany",
+        "Austria"
+      ],
+      "supportingSources": [
+        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003808250-S"
+      ]
+    },
+    {
+      "id": "2026-10-11-worldwide-cronos-lead",
+      "company": "cronos",
+      "title": "(Senior) Consultant & Project Lead | Automation (RPA & AI) (all genders)",
+      "country": "Germany",
+      "region": "Europe",
+      "location": "Multiple German offices; Vienna also advertised",
+      "level": "Senior / experienced",
+      "experience": "Relevant experience; years not specified",
+      "field": "Automation delivery",
+      "tools": [
+        "UiPath",
+        "Blue Prism"
+      ],
+      "mode": "Hybrid",
+      "employment": "Permanent full-time",
+      "summary": "Coordinate automation projects, resources, stakeholders and consultant development.",
+      "notes": "Confirm local work rights and sponsorship. Posting language alone does not establish a language requirement.",
+      "salary": null,
+      "postedAt": null,
+      "checkedAt": "2026-10-12",
+      "sourceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Project-Lead-Automation-RPA-AI-all-gende-de-j247.html",
+      "evidenceUrl": "https://www.cronos.de/jobs/Senior-Consultant-Project-Lead-Automation-RPA-AI-all-gende-de-j247.html",
+      "sourceType": "Employer careers page",
+      "status": "Unknown",
+      "verification": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "fit": {
+        "band": "Stretch",
+        "track": "Agile delivery / automation transformation",
+        "strengths": [
+          "Agile delivery, mentoring and automation stakeholder work overlap."
+        ],
+        "checks": [
+          "Very good German, a technical degree and project-leadership experience are requested; verify each rather than equating mentoring with management.",
+          "Work authorization, sponsorship and exact language proficiency are not established."
+        ],
+        "assessedAt": "2026-10-11",
+        "profileId": "kiril711"
+      },
+      "roleFocus": "manager",
+      "roleFamilies": [
+        "Agile delivery / automation transformation"
+      ],
+      "firstSeenAt": "2026-10-11T09:01:46.351Z",
+      "lastSeenAt": "2026-10-11T09:01:46.351Z",
+      "lastVerifiedAt": "2026-10-12T10:50:26.895Z",
+      "sourceLastCheckedAt": "2026-10-12T10:50:26.895Z",
+      "previousStatus": "Newly found",
+      "statusReason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure.",
+      "statusChangedAt": "2026-10-12T10:50:26.895Z",
+      "statusHistory": [
+        {
+          "at": "2026-10-11T09:01:46.351Z",
+          "status": "Newly found",
+          "reason": "Official employer vacancy and current job index reviewed through web after direct access was blocked; Jetzt bewerben application control present. Matching federal employment listing corroborates location."
+        },
+        {
+          "at": "2026-10-12T10:50:26.895Z",
+          "status": "Unknown",
+          "reason": "Source check returned HTTP 403; current application status could not be established. This does not prove closure."
+        }
+      ],
+      "requiredLanguages": [
+        "German: very good, written and spoken"
+      ],
+      "workAuthorization": "Unknown — confirm with employer",
+      "remoteEligibility": "Unknown — remote does not imply worldwide eligibility",
+      "sponsorship": "Unknown",
+      "applicationDeadline": null,
+      "requisitionId": "247",
+      "researchBatch": "2026-10-11-worldwide",
+      "eligibleCountries": [
+        "Germany",
+        "Austria"
+      ],
+      "supportingSources": [
+        "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003823098-S"
+      ]
     }
   ],
   "legacyExclusions": [
@@ -3785,5 +4341,5 @@
       "latestReason": "No positive current role/application verification; retain as unfinished lead."
     }
   ],
-  "updatedAt": "2026-10-11T09:09:02.508Z"
+  "updatedAt": "2026-10-12"
 }
