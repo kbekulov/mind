@@ -31,6 +31,7 @@ const path=require('node:path');
     assert.match(await root.locator('tbody').innerText(),/UNSUPPORTED AS FRAMED/);
     await root.locator('.na-reset').click();
     assert.equal(await root.locator('.na-operation-row').count(),6);
+    await root.locator('.na-operation-details>summary').click();
     for(const op of data.operations){
       const b=root.locator(`[data-na-operation="${op.id}"]`).first();
       await b.focus();await page.keyboard.press('Enter');

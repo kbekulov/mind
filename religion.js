@@ -1,6 +1,7 @@
 /* Published comparative notes. Sources describe traditions, not proven metaphysical facts. */
 (() => {
   'use strict';
+  const V=window.MindVisuals;
   const questions = ['What is God, or what are gods?', 'What is a human being?', 'What are a man and a woman?', 'What is humanity’s purpose?', 'How should a person live?', 'What is the ultimate horizon?'];
   const oca = 'https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/';
   const cat = 'https://www.vatican.va/content/catechism/en/part_one/section_two/';
@@ -92,10 +93,7 @@
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const route = id => '#view=religion&topic='+id;
   const refs = (t, ids) => `<div class="religion-refs">${ids.map(i=>`<a href="${esc(t.sources[i][1])}" target="_blank" rel="noopener noreferrer">${esc(t.sources[i][0])} ↗</a>`).join('')}</div>`;
-  function diagram(t, path) {
-    const nodes = path?t.path:t.map;
-    return `<figure class="religion-diagram"><figcaption><span class="eyebrow">${path?'PRACTICE & PURPOSE':'CONCEPT MAP'}</span><h2>${path?'The shape of religious life':'The sacred and the human'}</h2></figcaption><ol class="religion-nodes ${path?'religion-flow':''}">${nodes.map((n,i)=>`<li><span class="node-index">${path?String(i+1).padStart(2,'0'):'◇'}</span><strong>${esc(n)}</strong></li>`).join('')}</ol><p>${esc(path?t.pathCaption:t.mapCaption)}</p>${refs(t,path?t.pathRefs:t.mapRefs)}</figure>`;
-  }
+  function diagram(t,path){const nodes=path?t.path:t.map;return `<figure class="religion-diagram"><figcaption><span class="eyebrow">CONCEPTUAL OVERVIEW · ${path?'HUMAN VOCATION':'WORLDVIEW'}</span><h2>${path?'Human life, practice and ultimate purpose':'How the tradition understands the sacred'}</h2></figcaption><div class="${path?'religion-purpose':'religion-worldview'}">${V.flow(nodes,path?(t.id==='shinto'?['Preparation','Community practice','Renewal']:t.id==='buddhism'?['The problem','The path','The goal']:['The human starting point','Religious life','Ultimate orientation']):[])}</div><p class="visual-caption">${esc(path?t.pathCaption:t.mapCaption)}</p>${V.detail('Teaching and source context',refs(t,path?t.pathRefs:t.mapRefs))}</figure>`;}
   function overview() {
     return `<section class="topic-page religion-page"><div class="eyebrow">RELIGION · COMPARATIVE RESEARCH</div><h1>Religion</h1><p class="subtitle">Five traditions. Shared questions. A closer look at Christian differences.</p><div class="topic-grid"><a class="topic-card" href="${route('orthodoxy-vs-catholicism')}"><h2>Orthodoxy vs Catholicism</h2><span>Authority, theology and shared foundations →</span></a>${traditions.map(t=>`<a class="topic-card" style="--tradition:${t.color}" href="${route(t.id)}"><h2>${t.name}</h2><span>${esc(t.subtitle)} →</span></a>`).join('')}</div><section class="religion-comparison"><h2>Compare a question</h2><label for="religion-question">Explore across all five traditions</label><select id="religion-question">${questions.map((q,i)=>`<option value="${i}">${esc(q)}</option>`).join('')}</select><p class="religion-note">These are descriptive summaries, not rankings. The same question may not occupy the same place in every tradition.</p><div id="religion-comparison-results" aria-live="polite">${comparison(0)}</div></section></section>`;
   }

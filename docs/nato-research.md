@@ -18,3 +18,7 @@ The second chart covers six selected documented NATO operations or support missi
 Sources include the North Atlantic Treaty, NATO's operation records and 8 October Ukraine relationship page, UN Resolution 1973, Fondation Napoléon's campaign timeline and CSIS's July 2026 analysis. Links are stored with the data and rendered alongside the claims they support. Sources establish their specific records, not blanket legal approval of all actions.
 
 `tests/nato-research.cjs` checks the transcription arithmetic, interactive filtering, modal keyboard/focus behavior, mobile containment and independent table scrolling.
+
+## Overview-first presentation
+
+The main visualization is a composition bar for 61 pre-1949 claims and one modern claim. Selected operation types are summarized before the expandable timeline. The 62-row register is collapsed by default and opens when a century is selected. Counts and source limitations are unchanged.

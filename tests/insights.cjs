@@ -25,7 +25,7 @@ const path=require('node:path');
       assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth+1));
       await page.screenshot({path:`test-results/reproduction-study-${width}.png`});
     }
-    await page.getByRole('button',{name:'Explore fertility data ↓',exact:true}).click();
+    await page.getByRole('button',{name:'Explore fertility data ↑',exact:true}).click();
     assert.ok(await page.evaluate(()=>document.activeElement.classList.contains('fertility')));
     await page.setViewportSize({width:1440,height:1000});
     const derived=require('../data/gender-research.json');
@@ -54,7 +54,7 @@ const path=require('node:path');
       assert.ok(await page.locator('.gender-research').last().evaluate(el=>el.scrollWidth<=el.clientWidth+1));
       await page.screenshot({path:`test-results/gender-models-${width}.png`});
     }
-    await page.getByRole('button',{name:'Fertility timelines ↓',exact:true}).click();
+    await page.getByRole('button',{name:'Fertility timelines ↑',exact:true}).click();
     assert.ok(await page.evaluate(()=>document.activeElement.classList.contains('fertility')));
     await page.setViewportSize({width:1440,height:1000});
     assert.equal(await page.locator('.fertility-card').count(),8);
@@ -82,7 +82,7 @@ const path=require('node:path');
         if(topic==='russia-ukraine-war'){
           assert.equal(await page.locator('.war-insights .insight-card').count(),6);
           assert.equal(await page.locator('.exchange-event').count(),6);
-          assert.ok(await page.locator('.war-insights').innerText().then(t=>t.includes('525,000–625,000')&&t.includes('16.9 €bn')));
+          assert.ok(await page.locator('.war-insights').innerText().then(t=>t.includes('525,000–625,000')&&t.includes('€16.9bn')));
           await page.locator('.exchange-chart').first().scrollIntoViewIfNeeded();
           await page.screenshot({path:`test-results/war-${width}.png`});
         }

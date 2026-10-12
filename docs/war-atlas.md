@@ -28,3 +28,7 @@ All other estimates, outcomes and approximate boundaries remain reference-only p
 ## Validation
 
 `tests/war-atlas.cjs` checks data integrity, duration bands, evidence/participation/outcome/search filters, modal and keyboard navigation, timeline zoom/pan and era overlap, responsive containment and scroll reachability. It also verifies that the pages make no browser-storage writes and preserve reference limitations. The workspace suite covers both channels in category navigation and reloads. Ignored screenshots support visual review.
+
+## Overview-first presentation
+
+The default duration graph now summarizes counts by duration band and the median. The default outcome view shows overall composition and a mutually exclusive breakdown by each conflict's starting era. These starting-era groups differ from the overlapping interval filters used by the navigation. Individual-point charts and the zoomable timeline remain in expandable detail panels. See [visual design](visual-overviews.md) for the common presentation rules and aggregate checks.

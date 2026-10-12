@@ -98,6 +98,7 @@ const data=require('../data/rpa-vacancies.json');
     assert.equal(exported.profile.id,data.profile.id);
     await page.getByRole('button',{name:'Reset filters',exact:true}).click();
     await page.getByRole('tab',{name:'Overview',exact:true}).click();
+    await page.locator('.market-matrix-detail>summary').click();
     const cell=page.locator('[data-market-country]').first(),country=await cell.getAttribute('data-market-country'),tool=await cell.getAttribute('data-market-tool');
     await cell.click();
     assert.equal(await page.locator('.vacancy-card').count(),data.jobs.filter(j=>j.country===country&&j.tools.includes(tool)).length);
