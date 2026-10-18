@@ -1,0 +1,794 @@
+{
+  "Job observatory": [
+    "Job observatory",
+    "Observatoire de l’emploi",
+    "求人情報",
+    "Обзор вакансий"
+  ],
+  "Jobs": [
+    "Jobs",
+    "Emploi",
+    "仕事",
+    "Работа"
+  ],
+  "Politics": [
+    "Politics",
+    "Politique",
+    "政治",
+    "Политика"
+  ],
+  "Religion": [
+    "Religion",
+    "Religion",
+    "宗教",
+    "Религия"
+  ],
+  "Philosophy": [
+    "Philosophy",
+    "Philosophie",
+    "哲学",
+    "Философия"
+  ],
+  "RPA jobs": [
+    "RPA jobs",
+    "Emplois en RPA",
+    "RPA関連の求人",
+    "Вакансии в сфере RPA"
+  ],
+  "My political profile": [
+    "My political profile",
+    "Mon profil politique",
+    "私の政治的傾向",
+    "Мои политические взгляды"
+  ],
+  "Russia vs Ukraine war": [
+    "Russia vs Ukraine war",
+    "Guerre entre la Russie et l’Ukraine",
+    "ロシア・ウクライナ戦争",
+    "Война России и Украины"
+  ],
+  "Wars by duration": [
+    "Wars by duration",
+    "Guerres selon leur durée",
+    "戦争の期間を比較",
+    "Продолжительность войн"
+  ],
+  "Wars by outcome": [
+    "Wars by outcome",
+    "Guerres selon leur issue",
+    "戦争の結果を比較",
+    "Исходы войн"
+  ],
+  "NATO & historical invasions": [
+    "NATO & historical invasions",
+    "OTAN et invasions historiques",
+    "NATOと歴史上の侵攻",
+    "НАТО и вторжения в истории"
+  ],
+  "Gender war": [
+    "Gender war",
+    "Guerre des sexes",
+    "ジェンダー対立",
+    "Война полов"
+  ],
+  "Eastern Orthodoxy": [
+    "Eastern Orthodoxy",
+    "Christianisme orthodoxe",
+    "東方正教会",
+    "Православие"
+  ],
+  "Catholicism": [
+    "Catholicism",
+    "Catholicisme",
+    "カトリック",
+    "Католицизм"
+  ],
+  "Orthodoxy vs Catholicism": [
+    "Orthodoxy vs Catholicism",
+    "Orthodoxie et catholicisme",
+    "正教会とカトリックの比較",
+    "Православие и католицизм"
+  ],
+  "Islam": [
+    "Islam",
+    "Islam",
+    "イスラム教",
+    "Ислам"
+  ],
+  "Buddhism": [
+    "Buddhism",
+    "Bouddhisme",
+    "仏教",
+    "Буддизм"
+  ],
+  "Shinto": [
+    "Shinto",
+    "Shintoïsme",
+    "神道",
+    "Синтоизм"
+  ],
+  "Realism (international relations)": [
+    "Realism (international relations)",
+    "Réalisme en relations internationales",
+    "国際関係論のリアリズム",
+    "Реализм в международных отношениях"
+  ],
+  "Idealism (international relations)": [
+    "Idealism (international relations)",
+    "Idéalisme en relations internationales",
+    "国際関係論の理想主義",
+    "Идеализм в международных отношениях"
+  ],
+  "Речь о знакомствах (RU)": [
+    "Dating speech",
+    "Conférence sur les rencontres",
+    "恋愛・出会いについての講演",
+    "Выступление о знакомствах"
+  ],
+  "речь-о-знакомствах-ru": [
+    "dating-speech",
+    "conférence-sur-les-rencontres",
+    "恋愛・出会いについての講演",
+    "выступление-о-знакомствах"
+  ],
+  "Paternalistic Conservatism": [
+    "Paternalistic Conservatism",
+    "Conservatisme paternaliste",
+    "パターナリズム的保守主義",
+    "Патерналистский консерватизм"
+  ],
+  "National Conservatism": [
+    "National Conservatism",
+    "Conservatisme national",
+    "国民保守主義",
+    "Национальный консерватизм"
+  ],
+  "Cultural Nationalism": [
+    "Cultural Nationalism",
+    "Nationalisme culturel",
+    "文化的ナショナリズム",
+    "Культурный национализм"
+  ],
+  "Pragmatic Conservatism": [
+    "Pragmatic Conservatism",
+    "Conservatisme pragmatique",
+    "実用主義的保守主義",
+    "Прагматический консерватизм"
+  ],
+  "Progressive Libertarianism": [
+    "Progressive Libertarianism",
+    "Libertarianisme progressiste",
+    "進歩的リバタリアニズム",
+    "Прогрессивное либертарианство"
+  ],
+  "Balanced": [
+    "Balanced",
+    "Position équilibrée",
+    "中間的",
+    "Умеренная позиция"
+  ],
+  "Structure": [
+    "Structure",
+    "Organisation de l’État",
+    "国家の構造",
+    "Устройство государства"
+  ],
+  "Economy": [
+    "Economy",
+    "Économie",
+    "経済",
+    "Экономика"
+  ],
+  "Representation": [
+    "Representation",
+    "Représentation politique",
+    "政治体制",
+    "Политическое представительство"
+  ],
+  "Control": [
+    "Control",
+    "Organisation économique",
+    "経済の統制",
+    "Регулирование экономики"
+  ],
+  "Power": [
+    "Power",
+    "Pouvoir et libertés",
+    "権力と自由",
+    "Власть и свобода"
+  ],
+  "Trade": [
+    "Trade",
+    "Commerce",
+    "貿易",
+    "Торговля"
+  ],
+  "Immigration": [
+    "Immigration",
+    "Immigration",
+    "移民",
+    "Иммиграция"
+  ],
+  "Diplomacy": [
+    "Diplomacy",
+    "Diplomatie",
+    "外交",
+    "Дипломатия"
+  ],
+  "Morality": [
+    "Morality",
+    "Valeurs morales",
+    "道徳観",
+    "Моральные ценности"
+  ],
+  "Intervention": [
+    "Intervention",
+    "Intervention extérieure",
+    "対外介入",
+    "Вмешательство"
+  ],
+  "Technology": [
+    "Technology",
+    "Technologie",
+    "技術",
+    "Технологии"
+  ],
+  "60% Planning": [
+    "60% Planning",
+    "60 % · Planification",
+    "計画経済寄り 60%",
+    "60% — планирование"
+  ],
+  "63% Assimilation": [
+    "63% Assimilation",
+    "63 % · Assimilation",
+    "同化寄り 63%",
+    "63% — ассимиляция"
+  ],
+  "71% Religious": [
+    "71% Religious",
+    "71 % · Religion",
+    "宗教重視 71%",
+    "71% — религиозность"
+  ],
+  "80% Traditionalist": [
+    "80% Traditionalist",
+    "80 % · Traditionalisme",
+    "伝統重視 80%",
+    "80% — традиционализм"
+  ],
+  "59% Nationalist": [
+    "59% Nationalist",
+    "59 % · Nationalisme",
+    "国家重視 59%",
+    "59% — национализм"
+  ],
+  "Center-right": [
+    "Center-right",
+    "Centre droit",
+    "中道右派",
+    "Правоцентристы"
+  ],
+  "Strongly traditionalist": [
+    "Strongly traditionalist",
+    "Nettement traditionaliste",
+    "伝統を強く重視",
+    "Выраженный традиционализм"
+  ],
+  "Federal": [
+    "Federal",
+    "Fédéral",
+    "連邦制",
+    "Федерализм"
+  ],
+  "Unitary": [
+    "Unitary",
+    "Unitaire",
+    "単一国家制",
+    "Унитаризм"
+  ],
+  "Public": [
+    "Public",
+    "Public",
+    "公的部門",
+    "Государственный сектор"
+  ],
+  "Private": [
+    "Private",
+    "Privé",
+    "民間部門",
+    "Частный сектор"
+  ],
+  "Democracy": [
+    "Democracy",
+    "Démocratie",
+    "民主主義",
+    "Демократия"
+  ],
+  "Autocracy": [
+    "Autocracy",
+    "Autocratie",
+    "専制政治",
+    "Автократия"
+  ],
+  "Planning": [
+    "Planning",
+    "Planification",
+    "計画経済",
+    "Планирование"
+  ],
+  "Free market": [
+    "Free market",
+    "Marché libre",
+    "自由市場",
+    "Свободный рынок"
+  ],
+  "Irreligious": [
+    "Irreligious",
+    "Non religieux",
+    "非宗教的",
+    "Нерелигиозность"
+  ],
+  "Religious": [
+    "Religious",
+    "Religieux",
+    "宗教的",
+    "Религиозность"
+  ],
+  "Traditionalist": [
+    "Traditionalist",
+    "Traditionaliste",
+    "伝統重視",
+    "Традиционализм"
+  ],
+  "Strong technical fit": [
+    "Strong technical fit",
+    "Forte adéquation technique",
+    "技術面で高い適合性",
+    "Высокое соответствие техническим требованиям"
+  ],
+  "Potential fit": [
+    "Potential fit",
+    "Adéquation possible",
+    "適合の可能性あり",
+    "Потенциально подходящая вакансия"
+  ],
+  "Stretch": [
+    "Stretch",
+    "Profil à renforcer",
+    "追加の経験・スキルが必要",
+    "Потребуется дополнительный опыт"
+  ],
+  "Lower priority": [
+    "Lower priority",
+    "Priorité moindre",
+    "優先度は低め",
+    "Низкий приоритет"
+  ],
+  "Recommended review": [
+    "Recommended review",
+    "À examiner en priorité",
+    "優先的に検討",
+    "Рассмотреть в первую очередь"
+  ],
+  "Profile fit": [
+    "Profile fit",
+    "Adéquation au profil",
+    "経歴との適合性",
+    "Соответствие профилю"
+  ],
+  "Career fit": [
+    "Career fit",
+    "Analyse du profil",
+    "経歴の分析",
+    "Анализ профессионального профиля"
+  ],
+  "Role focus": [
+    "Role focus",
+    "Type de poste",
+    "職種",
+    "Направление работы"
+  ],
+  "Career tracks": [
+    "Career tracks",
+    "Parcours professionnels",
+    "キャリア分野",
+    "Карьерные направления"
+  ],
+  "Work authorization": [
+    "Work authorization",
+    "Autorisation de travail",
+    "就労資格",
+    "Право на работу"
+  ],
+  "Sponsorship": [
+    "Sponsorship",
+    "Prise en charge du visa",
+    "就労ビザの支援",
+    "Визовая поддержка работодателя"
+  ],
+  "Remote eligibility": [
+    "Remote eligibility",
+    "Conditions de télétravail",
+    "リモート勤務の条件",
+    "Условия удалённой работы"
+  ],
+  "Salary not disclosed": [
+    "Salary not disclosed",
+    "Salaire non précisé",
+    "給与非公開",
+    "Зарплата не указана"
+  ],
+  "Collected ads": [
+    "Collected ads",
+    "Offres recensées",
+    "収集した求人",
+    "Собранные вакансии"
+  ],
+  "No collected ads": [
+    "No collected ads",
+    "Aucune offre recensée",
+    "収集した求人なし",
+    "Собранных вакансий нет"
+  ],
+  "Listed": [
+    "Listed",
+    "Annonce publiée",
+    "掲載中",
+    "Объявление опубликовано"
+  ],
+  "Newly found": [
+    "Newly found",
+    "Nouvelle offre repérée",
+    "今回見つかった求人",
+    "Найдена впервые"
+  ],
+  "Still open": [
+    "Still open",
+    "Toujours ouverte",
+    "引き続き募集中",
+    "Набор продолжается"
+  ],
+  "Unknown": [
+    "Unknown",
+    "Non précisé",
+    "不明",
+    "Неизвестно"
+  ],
+  "Sources & method": [
+    "Sources & method",
+    "Sources et méthode",
+    "出典と調査方法",
+    "Источники и методика"
+  ],
+  "Requirements & verification": [
+    "Requirements & verification",
+    "Exigences et vérification",
+    "応募条件と確認情報",
+    "Требования и проверка"
+  ],
+  "View source & apply ↗": [
+    "View source & apply ↗",
+    "Voir l’offre et postuler ↗",
+    "募集元で詳細・応募方法を確認 ↗",
+    "Открыть вакансию и откликнуться ↗"
+  ],
+  "Why it fits:": [
+    "Why it fits:",
+    "Points de correspondance :",
+    "適合する点：",
+    "Почему подходит:"
+  ],
+  "Check first:": [
+    "Check first:",
+    "À vérifier en priorité :",
+    "先に確認したい点：",
+    "Что проверить прежде всего:"
+  ],
+  "Original report ↗": [
+    "Original report (EN) ↗",
+    "Rapport original (anglais) ↗",
+    "原本（英語）↗",
+    "Исходный отчёт (EN) ↗"
+  ],
+  "Download the eight-page report ↓": [
+    "Download the eight-page report ↓",
+    "Télécharger le rapport original de huit pages (anglais) ↓",
+    "元の8ページのレポートを保存（英語）↓",
+    "Скачать исходный отчёт из восьми страниц (EN) ↓"
+  ],
+  "ВЫСТУПЛЕНИЕ · РУССКИЙ ПЕРЕВОД": [
+    "SPEECH TRANSCRIPT · ENGLISH VERSION",
+    "TRANSCRIPTION · VERSION FRANÇAISE",
+    "講演記録 · 日本語版",
+    "ВЫСТУПЛЕНИЕ · РУССКИЙ ПЕРЕВОД"
+  ],
+  "Скачать русский текст ↓": [
+    "Download the English text ↓",
+    "Télécharger le texte français ↓",
+    "日本語の全文をダウンロード ↓",
+    "Скачать русский текст ↓"
+  ],
+  "Со знакомствами всё хреново. Вот единственный способ это исправить": [
+    "Dating is a mess. Here’s the only way to fix it",
+    "Les rencontres vont mal. Voici la seule façon d’y remédier",
+    "出会いがうまくいかない。本当に変えるための、たった一つの方法",
+    "Со знакомствами всё хреново. Вот единственный способ это исправить"
+  ],
+  "← Гендерные отношения": [
+    "← Gender relations",
+    "← Relations entre les sexes",
+    "← 男女関係",
+    "← Гендерные отношения"
+  ],
+  "Полный перевод предоставленной расшифровки · 30 сентября 2026": [
+    "Full version of the supplied transcript · 30 September 2026",
+    "Version intégrale de la transcription fournie · 30 septembre 2026",
+    "提供された講演記録の全文訳 · 2026年9月30日",
+    "Полный перевод предоставленной расшифровки · 30 сентября 2026"
+  ],
+  "Continuation War": [
+    "Continuation War",
+    "Guerre de Continuation",
+    "継続戦争",
+    "Война-продолжение"
+  ],
+  "Winter War": [
+    "Winter War",
+    "Guerre d’Hiver",
+    "冬戦争",
+    "Зимняя война"
+  ],
+  "Seven Years’ War": [
+    "Seven Years’ War",
+    "Guerre de Sept Ans",
+    "七年戦争",
+    "Семилетняя война"
+  ],
+  "Victory": [
+    "Victory",
+    "Victoire",
+    "勝利",
+    "Победа"
+  ],
+  "Defeat": [
+    "Defeat",
+    "Défaite",
+    "敗北",
+    "Поражение"
+  ],
+  "Mixed / inconclusive": [
+    "Mixed / inconclusive",
+    "Résultat mitigé ou indécis",
+    "結果が混在・決着せず",
+    "Неоднозначный исход"
+  ],
+  "Ongoing": [
+    "Ongoing",
+    "En cours",
+    "継続中",
+    "Продолжается"
+  ],
+  "Reference entry": [
+    "Reference entry",
+    "Entrée issue du document fourni",
+    "提供資料の記載",
+    "Запись из исходного материала"
+  ],
+  "Context checked": [
+    "Context checked",
+    "Contexte vérifié",
+    "背景情報を確認済み",
+    "Контекст проверен"
+  ],
+  "Duration checked": [
+    "Duration checked",
+    "Durée vérifiée",
+    "期間を確認済み",
+    "Продолжительность проверена"
+  ],
+  "Scope needs review": [
+    "Scope needs review",
+    "Périmètre à vérifier",
+    "対象範囲の確認が必要",
+    "Границы периода требуют проверки"
+  ],
+  "Conceptual overview": [
+    "Conceptual overview",
+    "Vue d’ensemble conceptuelle",
+    "概念の全体像",
+    "Общая концептуальная схема"
+  ],
+  "CONCEPT DIAGRAM": [
+    "CONCEPT DIAGRAM",
+    "SCHÉMA CONCEPTUEL",
+    "概念図",
+    "КОНЦЕПТУАЛЬНАЯ СХЕМА"
+  ],
+  "Research sections": [
+    "Research sections",
+    "Rubriques de recherche",
+    "調査の分野",
+    "Разделы исследований"
+  ],
+  "Open navigation": [
+    "Open navigation",
+    "Ouvrir le menu",
+    "メニューを開く",
+    "Открыть меню"
+  ],
+  "Close navigation": [
+    "Close navigation",
+    "Fermer le menu",
+    "メニューを閉じる",
+    "Закрыть меню"
+  ],
+  "Right": [
+    "Right",
+    "Droite",
+    "右派",
+    "Правые"
+  ],
+  "Left": [
+    "Left",
+    "Gauche",
+    "左派",
+    "Левые"
+  ],
+  "Center-left": [
+    "Center-left",
+    "Centre gauche",
+    "中道左派",
+    "Левоцентристы"
+  ],
+  "Right · closest ideology": [
+    "Right · closest ideology",
+    "Droite · idéologie la plus proche",
+    "右派 · 最も近い思想",
+    "Правые взгляды · ближайшая идеология"
+  ],
+  "report compatibility": [
+    "report compatibility",
+    "correspondance selon le rapport",
+    "レポート上の一致度",
+    "совпадение по отчёту"
+  ],
+  "closest ideology": [
+    "closest ideology",
+    "idéologie la plus proche",
+    "最も近い思想",
+    "ближайшая идеология"
+  ],
+  "Globalism": [
+    "Globalism",
+    "Mondialisme",
+    "グローバリズム",
+    "Глобализм"
+  ],
+  "Progressive": [
+    "Progressive",
+    "Progressiste",
+    "進歩主義",
+    "Прогрессивные взгляды"
+  ],
+  "Figures": [
+    "Figures",
+    "Personnalités",
+    "人物",
+    "Личности"
+  ],
+  "Figure ranking": [
+    "Figure ranking",
+    "Classement des personnalités",
+    "人物の一致度ランキング",
+    "Рейтинг личностей"
+  ],
+  "Parties & groups": [
+    "Parties & groups",
+    "Partis et groupes",
+    "政党・団体",
+    "Партии и группы"
+  ],
+  "Political compass": [
+    "Political compass",
+    "Boussole politique",
+    "政治的立ち位置",
+    "Политический компас"
+  ],
+  "Your 12 axes": [
+    "Your 12 axes",
+    "Vos 12 axes",
+    "12の評価軸",
+    "Ваши 12 осей"
+  ],
+  "What sets you apart": [
+    "What sets you apart",
+    "Ce qui vous distingue",
+    "際立つ特徴",
+    "Отличительные черты"
+  ],
+  "The shape of the profile": [
+    "The shape of the profile",
+    "Les grandes lignes du profil",
+    "政治的傾向の全体像",
+    "Общая картина взглядов"
+  ],
+  "Countries closest to you": [
+    "Countries closest to you",
+    "Les pays les plus proches de vos positions",
+    "考え方が近い国",
+    "Наиболее близкие страны"
+  ],
+  "Figures closest to you": [
+    "Figures closest to you",
+    "Les personnalités les plus proches de vos positions",
+    "考え方が近い人物",
+    "Наиболее близкие личности"
+  ],
+  "The closest figures to your results": [
+    "The closest figures to your results",
+    "Les personnalités les plus proches de vos résultats",
+    "回答に近い人物のランキング",
+    "Личности, наиболее близкие к вашим результатам"
+  ],
+  "Parties & groups closest to you": [
+    "Parties & groups closest to you",
+    "Les partis et groupes les plus proches de vos positions",
+    "考え方が近い政党・団体",
+    "Наиболее близкие партии и группы"
+  ],
+  "Your ideological timeline": [
+    "Your ideological timeline",
+    "Votre parcours idéologique à travers l’histoire",
+    "歴史上の思想とのつながり",
+    "Исторические параллели ваших взглядов"
+  ],
+  "Further reading": [
+    "Further reading",
+    "Pour aller plus loin",
+    "関連書籍",
+    "Что почитать"
+  ],
+  "match": [
+    "match",
+    "correspondance",
+    "一致度",
+    "совпадение"
+  ],
+  "Centre-left": [
+    "Centre-left",
+    "Centre gauche",
+    "中道左派",
+    "Левый центр"
+  ],
+  "Centre-right": [
+    "Centre-right",
+    "Centre droit",
+    "中道右派",
+    "Правый центр"
+  ],
+  "↓ Export results": [
+    "↓ Export results",
+    "↓ Exporter les données source",
+    "↓ 検索結果の元データを保存",
+    "↓ Скачать исходные данные результатов"
+  ],
+  "Download complete research JSON ↓": [
+    "Download complete research JSON ↓",
+    "Télécharger les données source complètes (anglais, JSON) ↓",
+    "調査の元データを保存（英語・JSON）↓",
+    "Скачать исходные данные исследования (EN, JSON) ↓"
+  ],
+  "Download search coverage ledger ↓": [
+    "Download search coverage ledger ↓",
+    "Télécharger le journal de recherche original (anglais) ↓",
+    "調査範囲の元の記録を保存（英語）↓",
+    "Скачать исходный журнал поиска (EN) ↓"
+  ],
+  "Read the worldwide search protocol ↗": [
+    "Read the worldwide search protocol ↗",
+    "Lire le protocole de recherche mondial (anglais) ↗",
+    "世界各国の求人調査手順を読む（英語）↗",
+    "Прочитать правила глобального поиска (EN) ↗"
+  ]
+}

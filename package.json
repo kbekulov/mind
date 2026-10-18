@@ -5,8 +5,11 @@
   "description": "A published research library hosted on GitHub Pages.",
   "scripts": {
     "start": "node scripts/serve.cjs",
-    "test": "node tests/workspace.cjs && node tests/market.cjs && node tests/world-map.cjs && node tests/insights.cjs && node tests/war-comparison.cjs && node tests/nato-research.cjs && node tests/war-atlas.cjs && node tests/transcript.cjs && node tests/visual-overviews.cjs && node tests/political-profile.cjs",
-    "build:map": "node scripts/build-world-map.mjs"
+    "test": "node tests/workspace.cjs && node tests/market.cjs && node tests/world-map.cjs && node tests/insights.cjs && node tests/war-comparison.cjs && node tests/nato-research.cjs && node tests/war-atlas.cjs && node tests/transcript.cjs && node tests/visual-overviews.cjs && node tests/political-profile.cjs && node tests/localization.cjs",
+    "build:map": "node scripts/build-world-map.mjs",
+    "i18n:collect": "node scripts/collect-localization.cjs",
+    "i18n:finalize": "node scripts/finalize-locales.cjs",
+    "test:i18n": "node tests/localization.cjs"
   },
   "devDependencies": {
     "d3-geo": "3.1.1",

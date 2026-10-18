@@ -38,7 +38,13 @@ The Gender war section includes two source-derived conceptual briefings: implici
 
 Pending local `backlog/*.txt` inputs take priority under `AGENTS.md`. The entire directory is ignored. After integration and verification, originals are preserved in local `backlog/archive/` with a Europe/Vilnius timestamp. Only derived site content and project rules are committed.
 
-## Development
+## Languages
+
+The header's EN / FR / JP / RU slider switches the complete published library between English, French, Japanese and Russian. Language is stored in the URL, so links can be shared and reloaded in the selected language. Switching preserves the current page, filters and chart state. Transcript downloads follow the selected language; original source PDFs and research datasets remain unaltered.
+
+Publish all four versions together for every new or revised document. Follow [the translation workflow](docs/localization.md), including editorial review and `npm run test:i18n`. Dictionaries are self-hosted; visitors do not send content to a translation service. Translation coverage is tested separately from linguistic quality.
+
+## Development commands
 
 ```sh
 npm install

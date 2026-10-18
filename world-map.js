@@ -30,7 +30,7 @@
       this.resize=new ResizeObserver(()=>this.schedule());this.resize.observe(this.canvas);
       const options={signal:this.abort.signal};
       document.addEventListener('pointerdown',e=>{
-        if(this.popup&&!this.popup.contains(e.target)&&!e.target.closest('[data-map-country]'))this.closeJobs();
+        if(this.popup&&!this.popup.contains(e.target)&&!e.target.closest('[data-map-country],.language-switch'))this.closeJobs();
       },options);
       document.addEventListener('keydown',e=>{if(e.key==='Escape'&&this.popup){e.preventDefault();this.closeJobs(true);}},options);
       this.svg.addEventListener('wheel',e=>{

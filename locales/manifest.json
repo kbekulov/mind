@@ -1,0 +1,38 @@
+{
+  "languages": [
+    "en",
+    "fr",
+    "ja",
+    "ru"
+  ],
+  "sourceCount": 4766,
+  "sources": {
+    "app.js": "5398db088843418cf1864f2535eb6f033eaadb5e0caccd05e3be530f4e2d8961",
+    "christian-comparison.js": "9b21fdf05d9dfbaf6138af7f34cc31446b7453aedad3a237f28464aa321132d3",
+    "gender-research.js": "eaccb6c4e37830b44b2d6dbe3624503e9236983b148ee174231f3fa6b69c7f17",
+    "i18n.js": "2a515df51861704b797517ba4f150aa103f1c4fdddc7356ebca3e2a570ec9813",
+    "index.html": "b6bc310835a4d11c4a9596d2a62cd267926988644e684813dfb2f9bda175800b",
+    "insights.js": "92c4bafee451570d2f21a4b5225b9e738faa23e971bae0f3bceb9b23d7a2db16",
+    "market.js": "11b1219327d00b0caef53e8a07aad2ba3ffc5e051a761828b2735131cfb01858",
+    "nato-research.js": "246faeac6d04139c2b031046fc5947d651b2a033ce238f1b5bca4b9ac7813f0b",
+    "political-profile.js": "ea786fe0dc20dfd599255347d23ea86db997d9b62354a1652524ab9423f4d1ef",
+    "religion.js": "80e72b5246d54d6eaf784d83014f4a1de104206ad19a0ba5e4c17309087fcdb6",
+    "reproduction-study.js": "458a12959948610ddea1936e38ff102c8789ca0a4b123490929726831bd02732",
+    "research.js": "3448ac7b24fa0cd3743867f89845632c64197eaa160b8906940a0f1c814ce750",
+    "transcript.js": "7b0b6b96b502b75441502fefd36b637826e171b61588a7aa972a84d6a663b018",
+    "visuals.js": "61d42d83095a3b45cba24f620a4424e590c4b74083a7b565e81a7996a691829b",
+    "war-atlas.js": "792affba974454fe01f3923d4301a4bc75b647c079f19ae92c3509db2ecc2181",
+    "war-comparison.js": "be5a115022599d142d4e9981764c9e29e0f3ce1c1a8c34e333868bea09f4ccdb",
+    "world-map.js": "5f2ff4d456f2b754e7f30d0a6175391101dc0b727aff07c01fe924e880727c41",
+    "data/dating-speech-ru.js": "9b8e1ddbae2b5f53586f25fde42d36c6cf4750981c29448a7f2ae6643199b647",
+    "data/fertility.js": "1cd04aa66e7d8c7c1ba055ab117b35c03ac86deeb31556aede527d889206d1e1",
+    "data/gender-research.js": "159af655653e7b3656db91005e96aa3818a8d65c0f581593512c5aaf99644e95",
+    "data/nato-research.js": "45ccce48c98d0184a13e0cf5a7fcd2d06bcab33f4223eb15fc503bbed0a484bf",
+    "data/political-profile.js": "604910b92bc94939b07b8cc8fd0af0c2859b513ce455269d0a7a6a76a6eddee6",
+    "data/war-atlas.js": "664875c9a9a3b42d1a632f63e7a7008716ee97ac50aaa69e103ae5ab2dc2ab15",
+    "data/rpa-vacancies.json": "b8f676babeaaf9a74ae1d69c2402adcf05c3d1aef0941596b0a06bfb07888028",
+    "data/dating-speech-ru.txt": "51039a9e5b579ecbb44f37b3cfdbaf56782dd1b395cb99ad71f073364ebda31b"
+  },
+  "method": "Static automated drafts with editorial terminology corrections; no claim of independent native-speaker review.",
+  "reviewedTerminology": 132
+}

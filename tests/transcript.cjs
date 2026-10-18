@@ -9,20 +9,20 @@ const browser=await chromium.launch();
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:4178/#view=politics&topic=gender-war');
+ await page.goto('http://127.0.0.1:4178/?lang=ru#view=politics&topic=gender-war');
  await page.locator('.transcript-entry').click();
- await page.locator('.transcript-page').waitFor();
+ await page.locator('.transcript-page').waitFor();await page.waitForFunction(()=>document.documentElement.dataset.languageReady==='ru');
  assert.equal(await page.locator('.transcript-page').getAttribute('lang'),'ru');
- const child=page.locator('.topic-children[aria-label="Gender war — subchannels"] a');
+ const child=page.locator('.topic-children a');
  assert.equal(await child.getAttribute('aria-current'),'page');
- await page.reload();await page.locator('.transcript-page').waitFor();
- const text=fs.readFileSync('data/dating-speech-ru.txt','utf8').replace(/^\uFEFF/,'').trim();
+ await page.reload();await page.locator('.transcript-page').waitFor();await page.waitForFunction(()=>document.documentElement.dataset.languageReady==='ru');
+ const text=fs.readFileSync('data/transcripts/dating-speech-ru.txt','utf8').replace(/^\uFEFF/,'').trim();
  assert.equal(await page.evaluate(()=>window.MindDatingSpeechRu),text);
  const paragraphs=text.split(/\r?\n\s*\r?\n/).filter(p=>!p.startsWith('#'));
  assert.deepEqual(await page.locator('.transcript-body>p').allTextContents(),paragraphs,'Every translated paragraph is published in order');
  assert.equal(await page.locator('.transcript-body h2').count(),8);
  assert.ok(paragraphs.some(p=>p.includes('illegal')),'Uncertain transcription is preserved and marked');
- assert.equal(await page.locator('.transcript-page a[download]').getAttribute('href'),'data/dating-speech-ru.txt');
+ assert.equal(await page.locator('.transcript-page a[download]').getAttribute('href'),'data/transcripts/dating-speech-ru.txt');
  for(const width of [1440,390]){
  await page.setViewportSize({width,height:1000});
  await page.locator('.content-scroll').evaluate(e=>e.scrollTop=0);
