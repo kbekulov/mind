@@ -17,6 +17,7 @@
     wilson:['US Office of the Historian · Fourteen Points','https://history.state.gov/milestones/1914-1920/fourteen-points']
   };
   const pages={
+    'my-political-profile':{section:'politics',name:'My political profile',subtitle:'My 12 Axes results: values, ideology matches and historical comparisons'},
     'nato-and-invasions':{section:'politics',name:'NATO & historical invasions',subtitle:'62 image claims, historical context and documented NATO operations'},
     'wars-by-duration':{section:'politics',name:'Wars by duration',subtitle:'127 reference conflicts, duration bands and a logarithmic chart'},
     'wars-by-outcome':{section:'politics',name:'Wars by outcome',subtitle:'55 selected conflicts, outcome classifications and an interactive timeline'},
@@ -79,6 +80,7 @@
   function chart(c){let visual,headline;if(c.refs.includes('resolution')){headline='A large majority supported the resolution';visual=V.stack(c.rows,c.max,'member states');}else if(c.refs.includes('ipuMonthly')){headline='Women hold a little over one quarter of parliamentary seats';visual=V.stack([['Women · '+c.rows.at(-1)[0],c.rows.at(-1)[1]],['Remaining seats',100-c.rows.at(-1)[1],'#454b61']],100,'%')+V.detail('Earlier snapshots',V.bars(c.rows,100,'%'));}else if(c.refs.includes('health')){headline='The estimated male rate is about twice the female rate';visual=V.bars(c.rows,c.max,'deaths per 100,000');}else{headline='Civilian harm remains substantial in both reported months';visual=V.bars([['July · all casualties',c.rows[0][1]+c.rows[2][1]],['August · all casualties',c.rows[1][1]+c.rows[3][1]]],3500,'killed or injured')+V.detail('Separate fatal and nonfatal counts',V.bars(c.rows,c.max,'people'));}return `<figure class="research-chart"><figcaption><div class="eyebrow">${esc(c.period)}</div><h2>${esc(c.title)}</h2></figcaption>${V.headline(headline)}${visual}<p class="research-note">${esc(c.note)}</p>${refs(c.refs)}</figure>`;}
   function comparison(){return `<section class="research-panel"><h2>Two lenses, one case</h2><p>Use both sets of questions when reading the Politics channels. This is an editorial comparison, not a ranking.</p><div class="research-contrast"><div><h3>Realism</h3><p>Who has the capacity and incentive to act? Which commitments remain credible under pressure?</p><a href="#view=philosophy&topic=realism-ir">Explore realism →</a></div><div><h3>Idealism & institutions</h3><p>Which rules and shared interests could support cooperation? How would commitments be implemented?</p><a href="#view=philosophy&topic=idealism-ir">Explore idealism →</a></div></div></section>`;}
   function render(section,id){
+    if(section.id==='politics'&&id==='my-political-profile')return window.MindPoliticalProfile.render();
     if(section.id==='politics'&&id==='nato-and-invasions')return window.MindNatoResearch.render();
     if(section.id==='politics'&&['wars-by-duration','wars-by-outcome'].includes(id))return window.MindWarAtlas.render(id);
     const p=pages[id];

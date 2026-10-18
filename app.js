@@ -3,7 +3,7 @@
   'use strict';
   const sections=[
     {id:'market',name:'Jobs',description:'RPA jobs'},
-    {id:'politics',name:'Politics',description:'Political research',topics:[{id:'russia-ukraine-war',name:'Russia vs Ukraine war'},{id:'wars-by-duration',name:'Wars by duration'},{id:'wars-by-outcome',name:'Wars by outcome'},{id:'nato-and-invasions',name:'NATO & historical invasions'},{id:'gender-war',name:'Gender war',children:[{id:'dating-speech-ru',name:'Речь о знакомствах (RU)'}]}]},
+    {id:'politics',name:'Politics',description:'Political research',topics:[{id:'my-political-profile',name:'My political profile'},{id:'russia-ukraine-war',name:'Russia vs Ukraine war'},{id:'wars-by-duration',name:'Wars by duration'},{id:'wars-by-outcome',name:'Wars by outcome'},{id:'nato-and-invasions',name:'NATO & historical invasions'},{id:'gender-war',name:'Gender war',children:[{id:'dating-speech-ru',name:'Речь о знакомствах (RU)'}]}]},
     {id:'philosophy',name:'Philosophy',description:'Philosophical research',topics:[{id:'realism-ir',name:'Realism (international relations)'},{id:'idealism-ir',name:'Idealism (international relations)'}]},
     {id:'religion',name:'Religion',description:'Religious research',topics:[{id:'eastern-orthodoxy',name:'Eastern Orthodoxy'},{id:'catholicism',name:'Catholicism'},{id:'orthodoxy-vs-catholicism',name:'Orthodoxy vs Catholicism'},{id:'islam',name:'Islam'},{id:'buddhism',name:'Buddhism'},{id:'shinto',name:'Shinto'}]}
   ];
@@ -31,6 +31,9 @@
     });
     document.querySelector('.menu-toggle').onclick=()=>{menuOpen=!menuOpen;render();};
     document.querySelector('.menu-scrim').onclick=()=>{menuOpen=false;render();};
+    document.querySelectorAll('.sidebar a').forEach(link=>link.onclick=e=>{
+      if(menuOpen&&link.hash===location.hash){e.preventDefault();menuOpen=false;render();}
+    });
   }
   window.addEventListener('hashchange',()=>{menuOpen=false;render();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menuOpen){menuOpen=false;render();document.querySelector('.menu-toggle').focus();}});

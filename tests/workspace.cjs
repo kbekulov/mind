@@ -23,7 +23,7 @@ const path=require('node:path');
       await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
       assert.equal(await page.locator('.sidebar').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
     }
-    for(const [parent,names] of Object.entries({Politics:['Russia vs Ukraine war','Wars by duration','Wars by outcome','NATO & historical invasions','Gender war'],Religion:['Eastern Orthodoxy','Catholicism','Orthodoxy vs Catholicism','Islam','Buddhism','Shinto'],Philosophy:['Realism (international relations)','Idealism (international relations)']})){
+    for(const [parent,names] of Object.entries({Politics:['My political profile','Russia vs Ukraine war','Wars by duration','Wars by outcome','NATO & historical invasions','Gender war'],Religion:['Eastern Orthodoxy','Catholicism','Orthodoxy vs Catholicism','Islam','Buddhism','Shinto'],Philosophy:['Realism (international relations)','Idealism (international relations)']})){
       await page.locator('.sidebar').getByRole('link',{name:parent,exact:true}).click();
       await page.getByRole('heading',{name:parent,exact:true}).waitFor();
       assert.equal(await page.locator('.topic-card').count(),names.length);
