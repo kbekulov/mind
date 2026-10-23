@@ -1,0 +1,117 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const {spawn}=require('node:child_process');
+const {chromium}=require('playwright');
+const {collectCV}=require('../scripts/cv-locales.cjs');
+const {cv,map}=collectCV(),D=cv.MindCVData,C=cv.MindCV;
+const langs=['en','fr','ja','ru'];
+assert.equal(D.profiles.length,8);
+for(const p of D.profiles)for(const lang of langs){
+ const s=C.getState();s.profile=p.id;s.order=[...p.order];s.selected=[...p.order];
+ const text=C.markdown(s,lang,'2026-10-23'),future=C.markdown(s,lang,'2027-10-23');
+ assert.ok(text.includes(D.education[lang]));assert.ok(text.includes(D.roles[0].title[lang]));
+ assert.ok(text.includes(p.summary[lang]));assert.ok(future.includes('(2027)'));
+ assert.ok(!text.includes('undefined'));assert.ok(!text.includes(D.safe[lang]));
+ assert.ok(!text.includes('25-person'));assert.ok(!text.includes('Codex'));
+ assert.ok(text.includes('99'));assert.ok(text.includes('50'));
+ const oldRole=text.slice(text.indexOf('### '+D.roles[1].title[lang]));
+ assert.equal(oldRole,future.slice(future.indexOf('### '+D.roles[1].title[lang])),'Historical dates must not advance');
+ s.current=false;s.end='2026-10';assert.equal(C.markdown(s,lang,'2027-10-23'),C.markdown(s,lang,'2028-10-23'));
+ s.safe=true;assert.ok(C.markdown(s,lang,'2027-10-23').includes(D.safe[lang]));
+ s.current=false;s.end='2020-01';assert.throws(()=>C.markdown(s,lang,'2027-10-23'));
+ s.end='2028-01';assert.throws(()=>C.markdown(s,lang,'2027-10-23'));
+ s.end='2026-13';assert.throws(()=>C.markdown(s,lang,'2027-10-23'));
+}
+assert.equal(C.years('2019-05','2026-04-30'),6);assert.equal(C.years('2019-05','2026-05-01'),7);assert.equal(C.years('2019-05','2027-05-01'),8);
+const sample=C.getState();sample.selected=['design','platform'];sample.order=['design','platform'];
+assert.ok(C.markdown(sample,'en','2026-10-23').indexOf(D.bullets[1].text.en)<C.markdown(sample,'en','2026-10-23').indexOf(D.bullets[0].text.en));
+assert.deepEqual(Array.from(C.analyse('Blue Prism C# Azure Python .NET Blazor').supported),['Blue Prism','C#','.NET','Blazor']);
+assert.deepEqual(Array.from(C.analyse('Blue Prism C# Azure Python .NET Blazor').unknown),['Python','Azure']);
+for(const [key,values]of map)for(const lang of langs)assert.equal(JSON.parse(fs.readFileSync('locales/'+lang+'.json'))[key],values[lang],'CV corpus parity '+lang+' '+key);
+assert.equal(new Set(cv.MindCVMarket.map(j=>j.url)).size,cv.MindCVMarket.length);
+assert.ok(cv.MindCVMarket.every(j=>new URL(j.url).protocol==='https:'));
+(async()=>{
+ fs.mkdirSync('test-results/cv',{recursive:true});
+ const server=spawn(process.execPath,['scripts/serve.cjs'],{env:{...process.env,PORT:'4192'},windowsHide:true});
+ await new Promise((r,j)=>{server.stdout.once('data',r);server.once('error',j)});
+ const browser=await chromium.launch();
+ try{
+  const context=await browser.newContext({viewport:{width:1536,height:1080},acceptDownloads:true,permissions:['clipboard-read','clipboard-write']});
+  const page=await context.newPage(),errors=[],external=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('request',r=>{const url=new URL(r.url());if(url.origin!=='http://127.0.0.1:4192'&&!['fonts.googleapis.com','fonts.gstatic.com'].includes(url.hostname))external.push(r.url())});
+  await page.addInitScript(()=>{Storage.prototype.setItem=()=>{throw Error('CV must not persist draft')};Storage.prototype.removeItem=()=>{throw Error('No storage changes')};});
+  await page.goto('http://127.0.0.1:4192/?lang=en#view=market&topic=cv');
+  await page.waitForFunction(()=>document.documentElement.dataset.languageReady==='en');
+  assert.equal(await page.locator('#channels-market a').count(),2);
+  assert.equal(await page.locator('#channels-market a[aria-current=page]').getAttribute('href'),'#view=market&topic=cv');
+  await page.locator('#cv-target').fill('Senior platform role');
+  await page.locator('[data-cv-field=email]').fill('test@example.invalid');
+  await page.locator('#cv-jd').fill('C# Blazor Python Azure <img src=x onerror=alert(1)>');
+  assert.equal(await page.locator('#cv-analysis img').count(),0);
+  assert.ok((await page.locator('#cv-analysis').innerText()).includes('Python'));
+  await page.locator('[data-cv-bullet=platform]').uncheck();
+  const before=await page.locator('#cv-markdown').inputValue();
+  assert.ok(!before.includes(D.bullets[0].text.en));
+  await page.locator('[data-cv-action=copy]').click();
+  assert.equal((await page.evaluate(()=>navigator.clipboard.readText())).replace(/\r\n/g,'\n'),before);
+  const downloaded=page.waitForEvent('download');await page.locator('[data-cv-action=download]').click();
+  const file=await downloaded;assert.equal(fs.readFileSync(await file.path(),'utf8'),before);
+  await page.locator('#cv-summary').fill('My edited English summary.');
+  for(const lang of ['fr','ja','ru','en']){
+   await page.locator('[data-language='+lang+']').click();
+   await page.waitForFunction(l=>document.getElementById('cv-studio').lang===l,lang);
+   assert.equal(await page.locator('#cv-target').inputValue(),'Senior platform role');
+   assert.equal(await page.locator('[data-cv-field=email]').inputValue(),'test@example.invalid');
+   assert.equal(await page.locator('[data-cv-bullet=platform]').isChecked(),false);
+   assert.equal(await page.locator('#cv-jd').inputValue(),'C# Blazor Python Azure <img src=x onerror=alert(1)>');
+   assert.ok((await page.locator('#cv-markdown').inputValue()).includes(D.education[lang]));
+   assert.equal(await page.locator('[data-language='+lang+']').evaluate(el=>el===document.activeElement),true,'Language keyboard focus retained');
+   for(const tab of ['build','matrix','market','credentials']){
+    await page.locator('[data-cv-tab='+tab+']').click();
+    assert.equal(await page.locator('[data-cv-tab='+tab+']').getAttribute('aria-pressed'),'true');
+    for(const width of [1536,390,320]){
+     await page.setViewportSize({width,height:1080});
+     assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth+1),'Overflow '+lang+' '+tab+' '+width);
+     if(width!==320)await page.screenshot({path:'test-results/cv/'+lang+'-'+tab+'-'+width+'.png'});
+    }
+    await page.setViewportSize({width:1536,height:1080});
+   }
+   await page.locator('[data-cv-tab=build]').click();
+  }
+  assert.equal(await page.locator('#cv-summary').inputValue(),'My edited English summary.');
+  await page.locator('#cv-profile').selectOption('software');
+  assert.ok((await page.locator('#cv-profile').evaluate(el=>getComputedStyle(el).backgroundImage)).includes('chevron-down.svg'));
+  await page.setViewportSize({width:390,height:844});await page.locator('[data-cv-action=preview]').click();
+  assert.equal(await page.locator('#cv-markdown').evaluate(el=>el===document.activeElement),true);
+  assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollTop>0));
+  await page.setViewportSize({width:1536,height:1080});
+  assert.equal(await page.locator('[data-cv-bullet=platform]').isChecked(),true);
+  assert.notEqual(await page.locator('#cv-summary').inputValue(),'My edited English summary.');
+  await page.locator('[data-cv-up=tools]').click();
+  assert.equal(await page.locator('[data-cv-bullet]').first().getAttribute('data-cv-bullet'),'tools');
+  await page.locator('[data-cv-field=current]').uncheck();
+  await page.locator('[data-cv-field=end]').fill('2020-01');
+  assert.ok(await page.locator('[data-cv-action=copy]').isDisabled());
+  await page.locator('[data-language=fr]').click();await page.waitForFunction(()=>document.getElementById('cv-studio').lang==='fr');
+  assert.ok(!(await page.locator('#cv-summary').inputValue()).includes('NaN'));
+  await page.locator('[data-language=en]').click();await page.waitForFunction(()=>document.getElementById('cv-studio').lang==='en');
+  await page.locator('[data-cv-field=end]').fill('2026-09');
+  assert.ok(await page.locator('[data-cv-action=copy]').isEnabled());
+  assert.ok(!(await page.locator('#cv-markdown').inputValue()).includes('Present'));
+  await page.locator('[data-cv-tab=matrix]').click();await page.locator('[data-cv-preset=manager]').last().click();
+  assert.equal(await page.locator('#cv-profile').inputValue(),'manager');
+  await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw Error('denied')}}}));
+  await page.locator('[data-cv-action=copy]').click();
+  await page.waitForFunction(()=>document.getElementById('cv-status').textContent.includes('manually'));
+  assert.equal(await page.locator('#cv-markdown').evaluate(el=>el.selectionEnd-el.selectionStart),(await page.locator('#cv-markdown').inputValue()).length);
+  await page.locator('.sidebar a[href="#view=market"]').last().click();
+  await page.locator('.market-kpis').waitFor();
+  await page.locator('.sidebar a[href="#view=market&topic=cv"]').click();
+  assert.equal(await page.locator('#cv-profile').inputValue(),'manager');
+  await page.reload();await page.locator('#cv-profile').waitFor();
+  assert.equal(await page.locator('[data-cv-field=email]').inputValue(),'');
+  assert.equal(await page.locator('#cv-profile').inputValue(),'rpa');
+  assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
+  console.log('CV: 8 profiles × 4 languages; future dates, evidence, privacy, editing, export and responsive checks passed.');
+ }finally{await browser.close();server.kill()}
+})().catch(e=>{console.error(e);process.exitCode=1});

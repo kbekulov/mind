@@ -3,7 +3,7 @@ const {chromium}=require('playwright');
 const {spawn}=require('node:child_process');
 const fs=require('node:fs');
 const path=require('node:path');
-const routes=['market','politics','philosophy','religion',...['my-political-profile','russia-ukraine-war','wars-by-duration','wars-by-outcome','nato-and-invasions','gender-war','dating-speech-ru'].map(t=>'politics&topic='+t),...['realism-ir','idealism-ir'].map(t=>'philosophy&topic='+t),...['eastern-orthodoxy','catholicism','orthodoxy-vs-catholicism','islam','buddhism','shinto'].map(t=>'religion&topic='+t)];
+const routes=['market','market&topic=cv','politics','philosophy','religion',...['my-political-profile','russia-ukraine-war','wars-by-duration','wars-by-outcome','nato-and-invasions','gender-war','dating-speech-ru'].map(t=>'politics&topic='+t),...['realism-ir','idealism-ir'].map(t=>'philosophy&topic='+t),...['eastern-orthodoxy','catholicism','orthodoxy-vs-catholicism','islam','buddhism','shinto'].map(t=>'religion&topic='+t)];
 (async()=>{
  const server=spawn(process.execPath,[path.join(__dirname,'serve.cjs')],{env:{...process.env,PORT:'4190'},windowsHide:true});
  await new Promise((r,j)=>{server.stdout.once('data',r);server.once('error',j)});
@@ -18,7 +18,7 @@ const routes=['market','politics','philosophy','religion',...['my-political-prof
     if(!document.body)return;
     const walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
     while(walk.nextNode())if(!walk.currentNode.parentElement.closest('script,style,[data-no-translate]'))add(window.MindI18n?.original(walk.currentNode)||walk.currentNode.nodeValue);
-    for(const el of document.querySelectorAll('[aria-label],[title],[placeholder],[alt]'))for(const a of ['aria-label','title','placeholder','alt'])add(window.MindI18n?.originalAttribute(el,a)||el.getAttribute(a));
+    for(const el of document.querySelectorAll('[aria-label],[title],[placeholder],[alt]'))if(!el.closest('[data-no-translate]'))for(const a of ['aria-label','title','placeholder','alt'])add(window.MindI18n?.originalAttribute(el,a)||el.getAttribute(a));
     add(document.title);
    };
    document.addEventListener('DOMContentLoaded',()=>new MutationObserver(()=>window.__capture()).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','placeholder']}));
@@ -66,6 +66,7 @@ const routes=['market','politics','philosophy','religion',...['my-political-prof
   await page.locator('.world-map-loading button').waitFor();await save();
   fs.mkdirSync('locales',{recursive:true});
   fs.writeFileSync('locales/source.json',JSON.stringify([...corpus].sort(),null,2)+'\n');
+  require('node:child_process').execFileSync(process.execPath,['scripts/cv-locales.cjs'],{stdio:'inherit',windowsHide:true});
   console.log('Collected '+corpus.size+' strings / '+[...corpus].join('').length+' characters');
  }finally{await browser.close();server.kill()}
 })().catch(e=>{console.error(e);process.exitCode=1});

@@ -32797,6 +32797,25 @@
       "stoppingReason": "Completed verification maintenance within the whole-library audit. Country-by-country discovery was not rerun and remains pending.",
       "sourceSearchChecks": [],
       "independentRoleCoverage": "Maintenance checks span all five desired role focuses; no new role discovery performed."
+    },
+    {
+      "id": "2026-10-23-cv-tailoring",
+      "startedAt": "2026-10-23T17:58:08Z",
+      "completedAt": "2026-10-23T18:17:25Z",
+      "mode": "Targeted CV requirements study; not a vacancy catalogue refresh",
+      "scope": "All five desired role focuses informed eight CV presets. Selected source discovery in six world regions, with major gaps. No country considered complete.",
+      "summary": "Added an eight-profile CV matrix informed by a separate dated market study. Existing vacancy inventory and verification dates preserved.",
+      "existingRechecked": 0,
+      "newlyAddedToObservatory": 0,
+      "requirementsExamples": 10,
+      "details": "data/cv-market-audit.json",
+      "remainingCoverage": [
+        "Every listed country is partial. All other countries, including Japan, remain unsearched in this study; inherit the earlier country/source ledgers without advancing coverage.",
+        "English plus a limited Portuguese lane only. Local-language searches, public employment services, communities, recruiters and specialist sources need systematic expansion.",
+        "Existing active and historical observatory records were not reverified or modified. No saturation claim; independent searches still yield leads.",
+        "Continue Cognizant Hyderabad Blue Prism/agentic AI, Daycoval Gupy, Sopra Steria Madrid Blazor, Momentum automation BA, Standard Bank process automation and Scotiabank Colombia QA automation primary checks. These discovery leads are not active recommendations."
+      ],
+      "stoppingReason": "Completed a bounded requirements study for the requested CV generator. Deep country-by-country vacancy refresh remains a separate unfinished research lane."
     }
   ]
 }

@@ -1,6 +1,7 @@
 /* Apply reviewed terminology, build complete transcript downloads and record source fingerprints. */
 const fs=require('node:fs');
 const crypto=require('node:crypto');
+require('node:child_process').execFileSync(process.execPath,['scripts/cv-locales.cjs'],{stdio:'inherit',windowsHide:true});
 const languages=['en','fr','ja','ru'];
 const source=JSON.parse(fs.readFileSync('locales/source.json','utf8'));
 const overrides=JSON.parse(fs.readFileSync('locales/overrides.json','utf8'));

@@ -12,7 +12,7 @@ for(const lang of langs){
  assert.equal(transcript.trim().split(/\n\s*\n/).length,91);
  assert.equal((transcript.match(/^## /gm)||[]).length,8);
 }
-const routes=['market','politics','philosophy','religion',...['my-political-profile','russia-ukraine-war','wars-by-duration','wars-by-outcome','nato-and-invasions','gender-war','dating-speech-ru'].map(t=>'politics&topic='+t),...['realism-ir','idealism-ir'].map(t=>'philosophy&topic='+t),...['eastern-orthodoxy','catholicism','orthodoxy-vs-catholicism','islam','buddhism','shinto'].map(t=>'religion&topic='+t)];
+const routes=['market','market&topic=cv','politics','philosophy','religion',...['my-political-profile','russia-ukraine-war','wars-by-duration','wars-by-outcome','nato-and-invasions','gender-war','dating-speech-ru'].map(t=>'politics&topic='+t),...['realism-ir','idealism-ir'].map(t=>'philosophy&topic='+t),...['eastern-orthodoxy','catholicism','orthodoxy-vs-catholicism','islam','buddhism','shinto'].map(t=>'religion&topic='+t)];
 (async()=>{
  fs.mkdirSync('test-results/localization',{recursive:true});
  const server=spawn(process.execPath,['scripts/serve.cjs'],{env:{...process.env,PORT:'4191'},windowsHide:true});
@@ -107,6 +107,6 @@ const routes=['market','politics','philosophy','religion',...['my-political-prof
   fs.writeFileSync('test-results/localization/missing.json',JSON.stringify(Object.fromEntries(Object.entries(missing).map(([l,s])=>[l,[...s]])),null,2));
   assert.deepEqual(errors,[]);
   assert.deepEqual(Object.fromEntries(Object.entries(missing).map(([l,s])=>[l,[...s]])),{en:[],fr:[],ja:[],ru:[]},'Every route has translated prose and labels');
-  console.log('PASS: four-language corpus, 76 route views, full transcripts, desktop/mobile layout, URL persistence, keyboard switching, preserved filters and failed-load recovery.');
+  console.log('PASS: four-language corpus, '+routes.length*langs.length+' route views, full transcripts, desktop/mobile layout, URL persistence, keyboard switching, preserved filters and failed-load recovery.');
  }finally{await browser.close();server.kill()}
 })().catch(e=>{console.error(e);process.exitCode=1});
