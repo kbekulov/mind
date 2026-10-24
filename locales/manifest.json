@@ -5,11 +5,11 @@
     "ja",
     "ru"
   ],
-  "sourceCount": 4907,
+  "sourceCount": 4911,
   "sources": {
     "app.js": "5190dad2f980bd04f64e623125a2191e03dbbb07b98048f0db3c642e6143b353",
     "christian-comparison.js": "9b21fdf05d9dfbaf6138af7f34cc31446b7453aedad3a237f28464aa321132d3",
-    "cv.js": "bcaf61573c18083e37c0b575185eb09417d17c9e50077e073e83bca9d4058877",
+    "cv.js": "00041764388fb7bbe38ebe8fa7fceb61eeb29233a58cae47fcaf325602443ad2",
     "gender-research.js": "eaccb6c4e37830b44b2d6dbe3624503e9236983b148ee174231f3fa6b69c7f17",
     "i18n.js": "2a515df51861704b797517ba4f150aa103f1c4fdddc7356ebca3e2a570ec9813",
     "index.html": "06419cca6c94d4cf74d443bf0a835e1ab746b2a979f53666956a9e0021d89c9d",

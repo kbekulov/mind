@@ -2,6 +2,8 @@
 
 Route: `#view=market&topic=cv`. This is the explicitly requested session-only draft/export exception to the read-only research library. It has no server write, browser storage, analytics or external translation/AI call. Optional contact fields and pasted job descriptions exist only in memory. The supplied PDF is not published; its email and phone are not embedded in code or metadata.
 
+The CV heading and download filename contain no personal name. Name, email and phone default to localized placeholders in the form and Markdown export. Optional replacements stay in the current tab, survive profile/language changes, and disappear on reload; empty fields restore the placeholders. Do not hardcode personal details into these defaults.
+
 ## Evidence and boundaries
 
 `data/cv.js` is the curated four-language evidence bank, reviewed 23 October 2026 against the two-page Automation Developer CV, the supplied LinkedIn screenshots and direct user clarifications. The exact degree is **BScEcon in Politics and International Relations**, Cardiff University, 2014–2017. Preserve the BScEcon award in all translations. Credentials are self-reported, not independently authenticated.
