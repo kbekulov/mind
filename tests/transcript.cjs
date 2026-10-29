@@ -35,7 +35,7 @@ try{
  assert.ok(await page.locator('.content-scroll').evaluate(e=>Math.abs(e.scrollHeight-e.clientHeight-e.scrollTop)<2));
  }
  await page.getByRole('link',{name:'← Вернуться к гендерному разделу',exact:true}).click();
- await page.locator('.reproduction-study').waitFor();
+ await page.locator('#gender-argument').waitFor();
  assert.deepEqual(errors,[]);
  console.log(`PASS: Russian transcript, ${paragraphs.length} complete paragraphs, nested channel, direct links, download parity, mobile and desktop scrolling.`);
 }finally{await browser.close();server.kill()}

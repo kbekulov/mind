@@ -9,7 +9,7 @@ const path=require('node:path');
   try{
     const page=await browser.newPage({viewport:{width:1536,height:1080}}),errors=[];
     page.on('pageerror',e=>errors.push(e.message));
-    const go=async hash=>{await page.goto('http://127.0.0.1:4185/#'+hash);await page.locator('.visual-takeaway,.visual-flow').first().waitFor()};
+    const go=async hash=>{await page.goto('http://127.0.0.1:4185/#'+hash);await page.locator('.visual-takeaway,.visual-flow,.ga-page').first().waitFor()};
     await go('view=politics&topic=wars-by-duration');
     const data=await page.evaluate(()=>window.MindWarAtlasData);
     assert.equal((await page.locator('.wa-overview-bars .visual-bar>strong').allTextContents()).reduce((n,v)=>n+Number(v),0),data.durations.length);
@@ -22,13 +22,8 @@ const path=require('node:path');
     await page.locator('.wa-result').selectOption('defeat');
     assert.equal((await page.locator('.wa-era-overview .visual-legend b').allTextContents()).reduce((n,v)=>n+Number(v),0),data.outcomes.filter(d=>d.result==='defeat').length);
     await go('view=politics&topic=gender-war');
-    assert.equal(await page.locator('.insights').first().evaluate(e=>e.classList.contains('fertility')),true,'Long-term data leads the page');
-    assert.equal(await page.locator('.fertility-end-label').count(),8);
-    assert.equal(await page.locator('.delayed-rupture svg').count(),0,'Conceptual model does not imitate a measured curve');
-    const fertility=await page.evaluate(()=>window.MindFertilityData.countries);
-    const labels=await page.locator('.fertility-end-label').allTextContents();
-    assert.deepEqual(labels,fertility.map(c=>c.values.at(-1)[1].toFixed(2)));
-    assert.equal(await page.locator('.research-chart').first().locator('.visual-stack').getAttribute('aria-label'),'Women · Aug 2026: 27.4 %; Remaining seats: 72.6 %');
+    await page.locator('mind-gender-diagram[data-ready=true]').first().waitFor();
+    assert.equal(await page.locator('.fertility,.reproduction-study').count(),0);
     await go('view=politics&topic=russia-ukraine-war');
     assert.deepEqual(await page.locator('.exchange-chart').first().locator('.visual-bar>strong').allTextContents(),['445','445']);
     assert.deepEqual(await page.locator('.exchange-chart').nth(1).locator('.visual-bar>strong').allTextContents(),['1,014','78']);
@@ -43,7 +38,7 @@ const path=require('node:path');
     // Zero-count segments keep the same color in the bar and its legend.
     const colors=await page.evaluate(()=>{const d=document.createElement('div');d.innerHTML=MindVisuals.stack([['Zero',0],['Present',1]],1);return [d.querySelector('.visual-stack span').style.getPropertyValue('--visual-color'),d.querySelectorAll('.visual-legend i')[1].style.background]});
     assert.deepEqual(colors,['#75d6b0','rgb(117, 214, 176)']);
-    const routes=[['jobs','view=jobs','.world-map-section'],['gender','view=politics&topic=gender-war','.fertility'],['war','view=politics&topic=russia-ukraine-war','.war-insights'],['durations','view=politics&topic=wars-by-duration','.wa-aggregate'],['outcomes','view=politics&topic=wars-by-outcome','.wa-era-overview'],['nato','view=politics&topic=nato-and-invasions','.na-panel'],['orthodoxy','view=religion&topic=eastern-orthodoxy','.religion-visuals'],['catholicism','view=religion&topic=catholicism','.religion-visuals'],['islam','view=religion&topic=islam','.religion-visuals'],['buddhism','view=religion&topic=buddhism','.religion-visuals'],['shinto','view=religion&topic=shinto','.religion-visuals'],['christian','view=religion&topic=orthodoxy-vs-catholicism','.christian-diagram'],['realism','view=philosophy&topic=realism-ir','.research-diagram'],['idealism','view=philosophy&topic=idealism-ir','.research-diagram']];
+    const routes=[['jobs','view=jobs','.world-map-section'],['gender','view=politics&topic=gender-war','.ga-figure'],['war','view=politics&topic=russia-ukraine-war','.war-insights'],['durations','view=politics&topic=wars-by-duration','.wa-aggregate'],['outcomes','view=politics&topic=wars-by-outcome','.wa-era-overview'],['nato','view=politics&topic=nato-and-invasions','.na-panel'],['orthodoxy','view=religion&topic=eastern-orthodoxy','.religion-visuals'],['catholicism','view=religion&topic=catholicism','.religion-visuals'],['islam','view=religion&topic=islam','.religion-visuals'],['buddhism','view=religion&topic=buddhism','.religion-visuals'],['shinto','view=religion&topic=shinto','.religion-visuals'],['christian','view=religion&topic=orthodoxy-vs-catholicism','.christian-diagram'],['realism','view=philosophy&topic=realism-ir','.research-diagram'],['idealism','view=philosophy&topic=idealism-ir','.research-diagram']];
     for(const [name,hash,selector] of routes){
       await go(hash);
       for(const width of [1536,320]){

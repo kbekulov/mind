@@ -17,7 +17,7 @@ const routes=['market','market&topic=cv','politics','philosophy','religion',...[
     const add=s=>{s=s?.replace(/\s+/g,' ').trim();if(s&&/[\p{L}]/u.test(s)&&!/^https?:|^[\d.,%\s–—+−-]+$/u.test(s))window.__corpus.add(s)};
     if(!document.body)return;
     const walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
-    while(walk.nextNode())if(!walk.currentNode.parentElement.closest('script,style,[data-no-translate]'))add(window.MindI18n?.original(walk.currentNode)||walk.currentNode.nodeValue);
+    while(walk.nextNode())if(!walk.currentNode.parentElement.closest('script,style,[data-no-translate],#js-plotly-tester'))add(window.MindI18n?.original(walk.currentNode)||walk.currentNode.nodeValue);
     for(const el of document.querySelectorAll('[aria-label],[title],[placeholder],[alt]'))if(!el.closest('[data-no-translate]'))for(const a of ['aria-label','title','placeholder','alt'])add(window.MindI18n?.originalAttribute(el,a)||el.getAttribute(a));
     add(document.title);
    };
@@ -67,6 +67,7 @@ const routes=['market','market&topic=cv','politics','philosophy','religion',...[
   fs.mkdirSync('locales',{recursive:true});
   fs.writeFileSync('locales/source.json',JSON.stringify([...corpus].sort(),null,2)+'\n');
   require('node:child_process').execFileSync(process.execPath,['scripts/cv-locales.cjs'],{stdio:'inherit',windowsHide:true});
+  require('node:child_process').execFileSync(process.execPath,['scripts/gender-locales.cjs'],{stdio:'inherit',windowsHide:true});
   console.log('Collected '+corpus.size+' strings / '+[...corpus].join('').length+' characters');
  }finally{await browser.close();server.kill()}
 })().catch(e=>{console.error(e);process.exitCode=1});

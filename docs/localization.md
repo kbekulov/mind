@@ -24,6 +24,10 @@ The initial library-wide versions were produced from automated drafts. Editorial
 
 Original employers' names, software/tool names, source titles and quotations may legitimately retain their original spelling. Names and technical terms are not evidence of a missing translation by themselves. Keep the Japanese language code `ja`; `JP` is only the user's requested visible selector label.
 
+## Gender argument
+
+The gender parent channel also owns its localized subtree. Its author-supplied argument and all Plotly labels/scenarios are authored in `data/gender-argument.js`; `scripts/gender-locales.cjs` validates and registers every unit during collection/finalization. The speech is a separate, unchanged channel. See `docs/gender-argument.md` for the conceptual-model boundaries.
+
 ## CV generator
 
 The CV channel owns its localized subtree with explicit four-language objects in `data/cv.js`, `data/cv-market.js` and `cv.js`. Its `data-no-translate` marker prevents a second DOM translation pass; it is not a translation exemption. `scripts/cv-locales.cjs` registers and validates these units during collection and finalization. `tests/cv.cjs` verifies generated text, date templates and state retention across all four languages. User-edited summaries are separate per language and remain user text; employer source titles retain their original wording. These new translations were directly authored, without a claim of independent native-speaker review.

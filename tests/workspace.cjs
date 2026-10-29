@@ -29,9 +29,10 @@ const path=require('node:path');
       assert.equal(await page.locator('.topic-card').count(),names.length);
       for(const name of names){
         await page.locator('.topic-nav').getByRole('link',{name,exact:true}).click();
-        await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
+        const title=name==='Gender war'?'Same behavior. Different reputations.':name;
+        await page.getByRole('heading',{name:title,exact:true,level:1}).waitFor();
         await page.reload();
-        await page.getByRole('heading',{name,exact:true,level:1}).waitFor();
+        await page.getByRole('heading',{name:title,exact:true,level:1}).waitFor();
         assert.equal(await page.locator('.topic-nav').getByRole('link',{name,exact:true}).getAttribute('aria-current'),'page');
       }
     }
@@ -40,9 +41,11 @@ const path=require('node:path');
       await page.goto('http://127.0.0.1:4174/#view='+section+'&topic='+topic);
       await page.locator('.research-page').waitFor();
       assert.equal(await page.locator('.topic-empty').count(),0);
+      if(topic==='gender-war'){assert.equal(await page.locator('mind-gender-diagram').count(),2);}else{
       assert.equal(await page.locator('.research-diagram').count(),1);
       assert.ok(await page.locator('.research-sources a').count()>=2);
       if(section==='politics')assert.equal(await page.locator('.research-chart').count(),2);
+      }
       await page.screenshot({path:'test-results/research-'+topic+'.png'});
       await page.setViewportSize({width:390,height:844});
       assert.ok(await page.locator('.content-scroll').evaluate(el=>el.scrollWidth<=el.clientWidth));

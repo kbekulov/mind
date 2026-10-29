@@ -33,7 +33,8 @@
   }
   return raw.slice(0,raw.length-raw.trimStart().length)+result+raw.slice(raw.trimEnd().length);
  }
- const excluded=el=>!el||el.closest('script,style,code,pre,[data-no-translate],.language-switch');
+ // Ignore discarded mutation records and Plotly's already-localized measurement SVG.
+ const excluded=el=>!el||!el.isConnected||el.closest('script,style,code,pre,[data-no-translate],.language-switch,#js-plotly-tester');
  function textNode(node){
   if(excluded(node.parentElement))return;
   let record=nodes.get(node);

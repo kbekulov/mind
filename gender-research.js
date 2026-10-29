@@ -1,30 +1,82 @@
-/* Conceptual models derived from supplied briefs, not measured population patterns. */
+/* Author's qualitative argument. Plotly coordinates are layout only, never measurements. */
 (() => {
   'use strict';
-  const V=window.MindVisuals;
-  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const broadFlows={
-'From a missed cue to a broken relationship':['Different expectations','Different interpretations','Conflict or withdrawal'],
-'The monitoring loop':['Uncertainty','Increased vigilance','More uncertain interpretations'],
-'When visibility is mistaken for prevalence':['Salient example','Amplification','Group generalization'],
-'A proposed backlash loop':['Perceived favoritism','Distrust','Defensive solidarity'],
-'Trust can spread across domains':['Judgment about an event','Generalization','Wider distrust'],
-'Advocacy can be read in different ways':['An advocacy message','Audience interpretation','Different reactions']};
-  const flow=(title,steps,note,loop=false)=>`<figure class="insight-card mechanism-diagram"><figcaption><span class="concept-label">CONCEPTUAL MODEL · NOT MEASURED</span><h3>${esc(title)}</h3></figcaption>${V.flow(broadFlows[title]||steps)}${loop?'<p class="loop-return">↺ Proposed feedback into the first step</p>':''}${V.detail('Mechanism, alternatives and source context',`<ol>${steps.map(s=>'<li>'+esc(s)+'</li>').join('')}</ol><p>${esc(note)}</p>`)}</figure>`;
-  const table=(caption,heads,rows)=>`<div class="concept-table" tabindex="0" role="region" aria-label="${esc(caption)}"><table><caption>${esc(caption)}</caption><thead><tr>${heads.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((c,i)=>i?`<td>${esc(c)}</td>`:`<th scope="row">${esc(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  function catalogue(source){const d=window.MindGenderData,rows=d.mechanisms.filter(m=>m.sourceId===source.id);return `<details class="mechanism-catalogue"><summary>${rows.length} mechanisms · ${esc(source.title)}</summary><div class="mechanism-list">${rows.map(m=>`<article class="mechanism-entry"><span class="concept-label">${esc(m.id)} · HYPOTHESIS</span><h4>${esc(m.name)}</h4><p>${esc(m.claim)}</p><dl><dt>Alternative explanation</dt><dd>${esc(m.alternative)}</dd><dt>How to investigate</dt><dd>${esc(m.researchNeeded)}</dd><dt>Source locator</dt><dd>Supplied brief ${esc(source.id)} · ${esc(m.sourceLocation.heading)} · line ${m.sourceLocation.line}</dd></dl></article>`).join('')}</div></details>`;}
-  function render(){const d=window.MindGenderData;return `<section class="gender-research" aria-labelledby="gender-model-title"><div class="eyebrow">SOURCE NOTES · REVIEWED 29 SEP 2026</div><h2 id="gender-model-title">How interpersonal conflict can become group distrust</h2><p>Two supplied briefs explore hidden expectations within relationships and the spread of moral disagreement into gender polarization. Their proposed mechanisms are organized here for comparison and future research.</p><nav class="gender-jumps" aria-label="Gender research sections"><button data-gender-jump="reproduction-title">Fertility & solo parenthood ↑</button><button data-gender-jump="relationship-models">Relationships</button><button data-gender-jump="trust-models">Trust & polarization</button><button data-gender-jump="mechanism-register">All 40 mechanisms</button><button data-gender-jump="verification-queue">Evidence & sources</button><button data-gender-jump="fertility">Fertility timelines ↑</button></nav><aside class="research-boundary"><strong>What these sources establish</strong><p>These are analytical briefs about podcasts, not the original recordings or transcripts. Speaker identities, recording dates and usable original citations were not supplied. The diagrams describe hypotheses; they do not establish how often a behavior occurs, which sex exhibits it more, or that the proposed causes are correct.</p><p>The first brief describes an autistic speaker’s experience. We focus on the broader communication questions while preserving that context. Extending the account to most women would require evidence. The second brief discusses reactions attributed to the Lindsay Clancy case; its factual case claims remain unverified here.</p></aside>
-<h2 id="relationship-models" tabindex="-1">01 · Expectations, conflict and belonging</h2><p>Within the first brief’s model, people can interpret the same interaction through different assumptions about reciprocity and affiliation.</p><div class="insight-grid">${flow('From a missed cue to a broken relationship',['Unspoken expectation','Gesture interpreted differently','Missing response read as intentional','Resentment or withdrawal','Unexplained rupture'],'Brief 1: relational contracts, covert reciprocity and opaque sanctions. A benign misunderstanding, boundary or unrelated event could produce similar observations.')}${flow('The monitoring loop',['Unexpected rejection','Reason remains unclear','Search for possible mistakes','More monitoring of future encounters','Ambiguous signals feel more consequential'],'Brief 1: proposed uncertainty and vigilance loop. This does not establish a diagnosis or a causal effect.',true)}</div>
-<figure class="insight-card delayed-rupture"><figcaption><span class="concept-label">CONCEPTUAL RELATIONSHIP · NO MEASURED TREND</span><h3>Outward interaction may hide different private experiences</h3></figcaption>${V.flow(['Unspoken differences','Diverging experiences','Possible rupture'])}<p>The supplied brief proposes a disconnect between visible friendliness and private grievance. Its timing, intensity and prevalence are not established; both participants’ accounts would be needed.</p></figure>
-${table('Expectation clarity × access to social cues',['Cue access','Expectation left implicit','Expectation clearly discussed'],[['Limited','Ambiguity; a missed signal may be misread as rejection.','An expectation can be learned, questioned or declined.'],['High','Tacit coordination may work, but misunderstandings remain possible.','Shared wording can support negotiation and repair.']])}
-${table('Comparing two proposed relationship patterns',['Dimension','Hidden-obligation pattern','Explicit, autonomy-respecting pattern'],[['Needs','Give first and expect an unstated return.','Ask directly; allow a genuine refusal.'],['Difference','Treat a new interest as a comparison or threat.','Ask about the interest without requiring similarity.'],['Conflict','Maintain a friendly surface while withholding the grievance.','Name the concern and allow clarification.'],['Interpretation','Assign a motive without checking.','Distinguish intent, ability, preference and misunderstanding.'],['Repair','Withdraw or recruit allies without explanation.','Offer feedback and negotiate boundaries where appropriate.']])}
-<h2 id="trust-models" tabindex="-1">02 · Moral judgment, identity and polarization</h2><p>The second brief proposes a chain from a salient event to perceived unequal accountability and wider distrust. Each arrow is a question for research, not an established outcome of the case.</p><div class="insight-grid">${flow('When visibility is mistaken for prevalence',['A striking example or comment','Repeated exposure and amplification','A larger perceived pattern','A claim about an entire group'],'Brief 2: symbolic representative error and availability cascade. Repeated posts can be the same small sample; visibility cannot supply a population denominator.')}${flow('A proposed backlash loop',['Perceived group favoritism','Distrust toward the other group','Defensive solidarity','Defense interpreted as confirmation'],'Brief 2: backlash and moral delegitimation. This mechanism could involve many identities; the supplied material does not establish a female-specific effect.',true)}${flow('Trust can spread across domains',['Disagreement about an event','Judgment about the individuals involved','Generalization to relationships or institutions','Reduced credibility granted to a whole group'],'Brief 2: institutional spillover and cross-domain generalization. A disputed judgment does not establish a demographic group’s civic competence.')}${flow('Advocacy can be read in different ways',['Message intended to explain suffering','Audience interpretation shaped by prior beliefs','Greater understanding — or greater perceived threat','Support — or stigma and distrust'],'Brief 2: advocacy backfire is a prediction. Actual effects require audience research; no clinical risk inference is drawn from the case.')}</div>
-${table('Empathy × accountability: distinct dimensions',['Empathy','Lower attributed responsibility','Higher attributed responsibility'],[['Higher','Compassion with mitigation or exoneration; these still need distinguishing.','Compassion alongside responsibility and consequences.'],['Lower','Detachment or limited concern; not necessarily approval.','Condemnation with little identification or sympathy.']])}
-${table('Keep these judgments separate',['Concept','What it describes','What it does not establish'],[['Compassion','Recognition of someone’s suffering.','Agreement, innocence or absence of concern for victims.'],['Explanation','A proposed cause or contributing factor.','That the explanation is true or removes responsibility.'],['Mitigation','A reduction in attributed culpability.','Complete exoneration.'],['Exoneration','Removal of culpability.','That all expressions of empathy seek this outcome.'],['Identification','A perceived similarity between observer and actor.','Automatic bias or a population-wide pattern.'],['Advocacy','An effort to influence judgment or policy.','Its motives, representativeness or effects without evidence.']])}
-<h2 id="mechanism-register" tabindex="-1">03 · Explore all 40 mechanisms</h2><p>Each entry preserves the proposed explanation alongside alternatives and a testable research question. These names are organizing labels from the briefs, not validated scales or established named theories.</p>${d.sources.map(catalogue).join('')}
-<h2 id="verification-queue" tabindex="-1">04 · Evidence, provenance and next research</h2><div class="insight-grid">${d.sources.map(s=>`<article class="insight-card"><span class="concept-label">${esc(s.id)} · SUPPLIED ANALYTICAL BRIEF</span><h3>${esc(s.title)}</h3><p>${esc(s.summary)}</p><p>${esc(s.limitations)}</p><p>Original speaker: not supplied. Original recording: not supplied. Received 29 September 2026.</p></article>`).join('')}</div>
-${table('Verification queue',['Claim area','Evidence still needed','Status'],d.verificationQueue.map(q=>[q.topic,q.needed,q.status]))}
-<p>Comparative studies should separate gender from culture, communication style, prior beliefs, relationship type and source selection. Test the proposed mechanisms against counterexamples and matched comparisons; do not assume a new negative belief is more accurate than the stereotype it replaces.</p><p><a href="data/gender-research.json" download>Download the conceptual dataset ↓</a> · Includes source locators, alternatives and verification fields. Missing measurements are null, never zero. Raw backlog files remain private and are not published.</p></section>`;}
-  document.addEventListener('click',e=>{const button=e.target.closest('[data-gender-jump]');if(!button)return;const id=button.dataset.genderJump,target=id==='fertility'?document.querySelector('.fertility'):document.getElementById(id);if(target){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({behavior:'auto',block:'start'});}});
-  window.MindGenderResearch={render};
+  const D=window.MindGenderArgument;
+  const lang=()=>window.MindI18n?.language||'en';
+  const t=v=>v[lang()];
+  const w=k=>t(D.words[k]);
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let scenario='original',plotlyPromise;
+  const scenarios=['original','equal','reversed'];
+  function paths(kind='flow'){
+    if(kind==='analogy')return [['consumption','drinking','restraint'],['opportunity','enterprise','achievement']];
+    if(scenario==='equal')return [['sameAccess','sameEffort','sameJudgment'],['sameAccess','sameEffort','sameJudgment']];
+    const rows=[['easy','restraint','stigma'],['hard','achievement','credit']];
+    return scenario==='reversed'?rows.reverse():rows;
+  }
+  function textPaths(kind){return `<ul class="ga-text-paths">${paths(kind).map((row,i)=>`<li>${kind==='flow'?`<strong>${w(i?'men':'women')}</strong>: `:''}${row.map(k=>esc(w(k))).join(' → ')}</li>`).join('')}</ul>`;}
+  function figure(kind,title){return `<figure class="ga-figure"><figcaption><span class="ga-kicker">${w('conceptual')}</span><h2>${w(title)}</h2></figcaption>${kind==='flow'?`<p>${w('flowIntro')}</p><div class="ga-scenarios" role="group" aria-label="${w('scenarioLabel')}">${scenarios.map(id=>`<button type="button" data-ga-scenario="${id}" aria-pressed="${scenario===id}">${w(id)}</button>`).join('')}</div><p class="ga-scenario-note" aria-live="polite">${w(scenario+'Note')}</p>`:`<p>${w('analogyIntro')}</p>`}<mind-gender-diagram kind="${kind}" role="img" aria-label="${w(title)}"></mind-gender-diagram><p class="ga-figure-note">${w('graphNote')}</p><details class="ga-text-version" data-ga-detail="${kind}"><summary>${w('accessible')}</summary><div data-ga-text-paths="${kind}">${textPaths(kind)}</div></details></figure>`;}
+  function render(){return `<article id="gender-argument" class="topic-page research-page ga-page" data-no-translate lang="${lang()}"><header class="ga-hero"><span class="ga-kicker">${w('eyebrow')}</span><h1>${w('title')}</h1><p class="ga-subtitle">${w('subtitle')}</p><span class="ga-status">${w('status')}</span></header><section class="ga-thesis"><h2>${w('thesis')}</h2><p>${w('thesisText')}</p></section><section class="ga-premise"><h2>${w('premiseTitle')}</h2><p>${w('premiseText')}</p></section>${figure('flow','flowTitle')}<section class="ga-comparison"><h2>${w('tableTitle')}</h2><div class="ga-table-wrap" tabindex="0" role="region" aria-label="${w('tableTitle')}"><table><caption>${w('status')}</caption><thead><tr><th scope="col">${w('dimension')}</th><th scope="col">${w('women')}</th><th scope="col">${w('men')}</th></tr></thead><tbody>${D.rows.map(row=>`<tr><th scope="row">${esc(t(row[0]))}</th>${row.slice(1).map(cell=>`<td>${esc(t(cell))}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>${figure('analogy','analogyTitle')}<p class="ga-analogy-limit">${w('analogyLimit')}</p><details class="ga-evidence" data-ga-detail="evidence"><summary>${w('evidenceTitle')}</summary><p>${w('evidenceText')}</p><p>${w('limits')}</p><p>${w('test')}</p></details><a class="transcript-entry" href="#view=politics&topic=dating-speech-ru"><strong>${w('speech')}</strong><span>${w('speechLink')}</span></a></article>`;}
+  function loadPlotly(){
+    if(window.Plotly)return Promise.resolve(window.Plotly);
+    if(!plotlyPromise)plotlyPromise=new Promise((resolve,reject)=>{
+      const s=document.createElement('script');s.src='vendor/plotly-basic-4.1.2.min.js';s.onload=()=>resolve(window.Plotly);s.onerror=()=>{s.remove();plotlyPromise=null;reject(Error('Plotly unavailable'));};document.head.append(s);
+    });
+    return plotlyPromise;
+  }
+  function wrap(text,width){
+    const chars=[...text],lines=[];
+    if(lang()==='ja'){for(let i=0;i<chars.length;i+=width)lines.push(chars.slice(i,i+width).join(''));}
+    else{let line='';for(const word of text.split(' ')){if(line.length&&line.length+word.length+1>width){lines.push(line);line=word;}else line+=(line?' ':'')+word;}if(line)lines.push(line);}
+    return lines.map(esc).join('<br>');
+  }
+  class GenderDiagram extends HTMLElement{
+    connectedCallback(){
+      this.drawSerial=0;this.width=0;this.observer=new ResizeObserver(entries=>{const width=Math.round(entries[0].contentRect.width);if(width&&width!==this.width){this.width=width;clearTimeout(this.timer);this.timer=setTimeout(()=>this.draw(),60);}});this.observer.observe(this);
+      this.draw();
+    }
+    disconnectedCallback(){this.drawSerial++;this.observer?.disconnect();clearTimeout(this.timer);if(window.Plotly&&this.plot)window.Plotly.purge(this.plot);}
+    async draw(){
+      const ticket=++this.drawSerial;
+      try{
+        const P=await loadPlotly();if(!this.isConnected||ticket!==this.drawSerial)return;
+        const kind=this.getAttribute('kind'),mobile=this.clientWidth<650,rows=paths(kind),colors=['#a5acff','#75d6b0'];
+        const height=mobile?690:330,annotations=[],shapes=[],x=[],y=[],labels=[];
+        rows.forEach((row,r)=>{
+          if(kind==='flow')annotations.push({xref:'paper',yref:'paper',x:mobile?.5:0,y:mobile?(r?0.47:1):r?.47:1,text:'<b>'+esc(w(r?'men':'women'))+'</b>',showarrow:false,xanchor:mobile?'center':'left',yanchor:'top',font:{size:14,color:colors[r]}});
+          row.forEach((key,c)=>{
+            const nx=mobile?.5:[.16,.5,.84][c],ny=mobile?(.88-r*.51-c*.145):(r?.24:.77),halfW=mobile?.47:.145,halfH=mobile?.053:.14;
+            x.push(nx);y.push(ny);labels.push(w(key));
+            shapes.push({type:'rect',xref:'paper',yref:'paper',x0:nx-halfW,x1:nx+halfW,y0:ny-halfH,y1:ny+halfH,fillcolor:'#232428',line:{color:colors[r],width:1.4}});
+            annotations.push({xref:'paper',yref:'paper',x:nx,y:ny,text:wrap(w(key),lang()==='ja'?(mobile?17:12):(mobile?27:23)),showarrow:false,xanchor:'center',yanchor:'middle',align:'center',font:{size:mobile?14:15,color:'#f2f3f5'}});
+            if(c<2)annotations.push({xref:'x',yref:'y',axref:'x',ayref:'y',x:mobile?nx:nx+.34-halfW-.012,y:mobile?ny-.145+halfH+.012:ny,ax:mobile?nx:nx+halfW+.012,ay:mobile?ny-halfH-.012:ny,text:'',showarrow:true,arrowhead:2,arrowsize:1,arrowwidth:2,arrowcolor:colors[r]});
+          });
+        });
+        if(!this.plot){this.plot=document.createElement('div');this.append(this.plot);}
+        const data=[{type:'scatter',mode:'markers',x,y,customdata:labels,marker:{size:10,color:'#939bff',opacity:0},hoverinfo:'skip'}];
+        const layout={height,autosize:true,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',margin:{l:8,r:8,t:14,b:12},font:{family:'Arial, sans-serif',color:'#dbdee1'},xaxis:{range:[0,1],visible:false,fixedrange:true},yaxis:{range:[0,1],visible:false,fixedrange:true},annotations,shapes,showlegend:false,hovermode:false,dragmode:false};
+        await P.react(this.plot,data,layout,{displayModeBar:false,scrollZoom:false,responsive:false,displaylogo:false});
+        if(!this.isConnected||ticket!==this.drawSerial)return;
+        this.dataset.ready='true';this.dataset.scenario=scenario;this.dataset.plotLocale=lang();
+      }catch{
+        if(!this.isConnected||ticket!==this.drawSerial)return;
+        this.textContent=w('fallback');this.classList.add('ga-load-error');this.closest('figure').querySelector('details').open=true;
+      }
+    }
+  }
+  customElements.define('mind-gender-diagram',GenderDiagram);
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('[data-ga-scenario]');if(!b||!scenarios.includes(b.dataset.gaScenario))return;
+    scenario=b.dataset.gaScenario;
+    document.querySelectorAll('[data-ga-scenario]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.gaScenario===scenario)));
+    document.querySelector('.ga-scenario-note').textContent=w(scenario+'Note');
+    document.querySelector('[data-ga-text-paths="flow"]').innerHTML=textPaths('flow');
+    document.querySelector('mind-gender-diagram[kind="flow"]').draw();
+  });
+  document.addEventListener('mind-language-change',()=>{
+    const root=document.getElementById('gender-argument');if(!root)return;
+    const open=[...root.querySelectorAll('details[open]')].map(el=>el.dataset.gaDetail),scroll=document.querySelector('.content-scroll'),top=scroll.scrollTop;
+    root.outerHTML=render();for(const id of open)document.querySelector(`[data-ga-detail="${id}"]`).open=true;scroll.scrollTop=top;
+  });
+  window.MindGenderResearch={render,paths,get scenario(){return scenario}};
 })();

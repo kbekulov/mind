@@ -1,0 +1,34 @@
+.ga-page{max-width:1180px;margin:auto;color:#dbdee1;min-width:0}
+.ga-hero{padding:12px 0 28px;border-bottom:1px solid #41434a;margin-bottom:30px}
+.ga-kicker{display:block;font-size:11px;font-weight:650;letter-spacing:.09em;color:#adb4ff;line-height:1.6}
+.ga-hero h1{font-size:clamp(32px,4vw,52px);line-height:1.15;max-width:22ch;margin:20px 0 14px;letter-spacing:-.025em;text-wrap:balance}
+.ga-subtitle{font-size:18px;line-height:1.6;color:#b5bac1;margin:0 0 20px}
+.ga-status{display:inline-block;padding:8px 12px;background:#2b2d31;border:1px solid #41434a;border-radius:6px;color:#b5bac1;font-size:12px;line-height:1.6}
+.ga-page h2{font-size:22px;line-height:1.35;margin:0 0 14px;text-wrap:balance}
+.ga-page p{line-height:1.8;max-width:94ch;margin:0 0 16px}
+.ga-thesis{border-left:3px solid #939bff;padding:6px 0 6px 24px;margin:30px 0}
+.ga-thesis p{font-size:17px;margin-bottom:0;color:#e3e5e8}
+.ga-premise{margin:30px 0 36px}.ga-premise p{color:#b5bac1;font-size:15px}
+.ga-figure{margin:32px 0 24px;padding:26px;background:#2b2d31;border:1px solid #41434a;border-radius:12px;min-width:0}
+.ga-figure h2{margin:10px 0 14px}.ga-figure p{font-size:14px;color:#b5bac1}
+.ga-scenarios{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px}
+.ga-scenarios button{border:1px solid #4b4d55;border-radius:6px;background:#383a40;color:#dbdee1;font:inherit;font-size:14px;line-height:1.4;padding:10px 16px;cursor:pointer}
+.ga-scenarios button:hover{background:#45474f}.ga-scenarios button[aria-pressed=true]{background:#5865f2;border-color:#5865f2;color:white}
+.ga-scenario-note{min-height:5.4em;border-left:2px solid #5865f2;padding-left:14px}
+mind-gender-diagram{display:block;width:100%;min-width:0;min-height:330px;overflow:hidden}
+mind-gender-diagram>div{width:100%;min-width:0}
+.ga-figure .ga-figure-note{font-size:12px;color:#949ba4;margin:8px 0 14px}
+.ga-text-version{border-top:1px solid #41434a;padding-top:14px;font-size:13px;line-height:1.7}
+.ga-page summary{cursor:pointer;color:#dbdee1;line-height:1.6}.ga-text-paths{padding-left:20px;color:#b5bac1}.ga-text-paths li+li{margin-top:12px}
+.ga-comparison{margin:36px 0}.ga-table-wrap{overflow-x:auto;border:1px solid #41434a;border-radius:10px;margin-top:20px;max-width:100%}
+.ga-comparison table{border-collapse:collapse;width:100%;min-width:630px;font-size:14px;line-height:1.6}
+.ga-comparison caption{padding:14px 18px;text-align:left;background:#232428;color:#b5bac1;font-size:12px}
+.ga-comparison th,.ga-comparison td{padding:17px 18px;text-align:left;vertical-align:top;border-top:1px solid #41434a}
+.ga-comparison thead{background:#232428}.ga-comparison thead th:nth-child(2){color:#a5acff}.ga-comparison thead th:nth-child(3){color:#75d6b0}
+.ga-comparison tbody th{width:25%;font-weight:550;background:#2b2d31}.ga-comparison td{width:37.5%;color:#b5bac1}
+.ga-page .ga-analogy-limit{font-size:13px;color:#b5bac1;padding:0 8px}
+.ga-evidence{margin:30px 0;background:#2b2d31;border:1px solid #41434a;border-radius:10px;padding:20px}
+.ga-evidence summary{font-weight:600}.ga-evidence p{font-size:14px;color:#b5bac1;margin:20px 0 0}
+.ga-page .transcript-entry{margin:30px 0 8px}.ga-load-error{padding:20px;min-height:0;color:#edbd8b;font-size:14px;line-height:1.6}
+.ga-page :focus-visible{outline:2px solid #adb4ff;outline-offset:4px}
+@media(max-width:700px){.ga-figure{padding:18px 12px}.ga-hero h1{font-size:34px}.ga-page h2{font-size:20px}.ga-thesis{padding-left:16px}.ga-thesis p{font-size:16px}.ga-scenarios button{flex:1 1 auto;font-size:13px;padding:10px}.ga-scenario-note{min-height:0}.ga-evidence{padding:16px}}

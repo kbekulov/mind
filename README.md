@@ -32,9 +32,9 @@ The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrol
 
 ## Gender research and local backlog
 
-The Gender war section includes two source-derived conceptual briefings: implicit expectations and relational conflict, and moral judgment and gendered trust. Six process diagrams, a qualitative timeline, comparison matrices and an expandable catalogue cover 40 proposed mechanisms. These are hypotheses from supplied analytical briefs, not verified podcast transcripts or population statistics. Legal, clinical and population claims remain in a visible verification queue. Existing fertility timelines retain their separate statistical sources.
+The Gender war parent channel presents the author’s argument about sexual reputation, perceived access and effort, supplied on 29 October 2026. A comparison table and two Plotly concept diagrams separate the author’s premises from established findings. Original, equal-access and reversed-access scenarios explore what the explanation predicts without inventing measurements. The separate dating speech is unchanged.
 
-`data/gender-research.json` is the reusable derived dataset; `data/gender-research.js` supplies the same data to the static page. Keep them identical (checked by the browser tests). `gender-research.js` renders the research. No raw backlog content is published.
+`data/gender-argument.js` holds all four language versions; `gender-research.js` renders the argument and loads the self-hosted Plotly bundle only when needed. `docs/gender-argument.md` records provenance and behavior. The previous starter material is retained in Git history; no raw backlog content is published.
 
 Pending local `backlog/*.txt` inputs take priority under `AGENTS.md`. The entire directory is ignored. After integration and verification, originals are preserved in local `backlog/archive/` with a Europe/Vilnius timestamp. Only derived site content and project rules are committed.
 

@@ -1,0 +1,11 @@
+# Gender parent channel
+
+The parent `#view=politics&topic=gender-war` now presents the user's argument supplied on 29 October 2026. The former starter statistics, fertility panels, reproduction article summary and brief-derived mechanism catalogue were removed at the user's request. Their earlier versions remain in Git history. The dating speech, its source, navigation and all four downloads remain unchanged.
+
+`data/gender-argument.js` contains directly authored EN/FR/JA/RU versions. The contradictory opening sentence was interpreted using the rest of the supplied argument: easier access for women, harder access for men. The attraction distribution and access difference are attributed premises, not verified population claims. Reputation labels and the alcohol/entrepreneurship analogy describe the author's explanatory model, not established moral differences between sexes. No percentages, effect sizes or prevalence figures are invented.
+
+The first Plotly diagram holds partner count constant and compares the original, equal-access and reversed-access premises. The latter two are thought experiments, not empirical results. The second diagram shows the analogy's proposed reasoning. Positions and arrow lengths are layout coordinates only; neither diagram has quantitative axes. Complete text equivalents and a semantic comparison table provide nonvisual access.
+
+Plotly basic 4.1.2 is pinned, vendored with its MIT license, and loaded only when this channel is visited. Package provenance: https://github.com/plotly/plotly.js/tree/v4.1.2 and https://cdn.plot.ly/plotly-basic-4.1.2.min.js. Diagram controls are session-only, make no external requests and preserve the scenario and open disclosures on language changes. Ordinary wheel scrolling stays with the page. If Plotly fails to load, the text equivalents open automatically.
+
+`scripts/gender-locales.cjs` registers all diagram labels, alternate scenarios and prose during collection/finalization. `tests/gender.cjs` checks translation parity, removal of legacy panels, scenarios, keyboard access, responsive diagrams, scrolling, text fallback and speech navigation. Run the full localization workflow and project suite before publishing. No independent native-speaker review is claimed.
