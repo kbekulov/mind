@@ -32,7 +32,7 @@ The reusable `<mind-world-map>` component uses self-hosted geometry. Wheel scrol
 
 ## Gender research and local backlog
 
-The Gender war parent channel presents the author’s argument about sexual reputation, perceived access and effort, supplied on 29 October 2026. A comparison table and two Plotly concept diagrams separate the author’s premises from established findings. Original, equal-access and reversed-access scenarios explore what the explanation predicts without inventing measurements. The separate dating speech is unchanged.
+The Gender war parent channel presents direct notes about sexual reputation, perceived access and effort, supplied on 29 October 2026 and revised on 30 October. A comparison table and two Plotly concept diagrams develop the explanatory model, including the substance-abuse/entrepreneurship analogy. Original, equal-access and reversed-access scenarios explore what the explanation predicts without inventing measurements. Evidence limits remain in a secondary disclosure. The separate dating speech is unchanged.
 
 `data/gender-argument.js` holds all four language versions; `gender-research.js` renders the argument and loads the self-hosted Plotly bundle only when needed. `docs/gender-argument.md` records provenance and behavior. The previous starter material is retained in Git history; no raw backlog content is published.
 
